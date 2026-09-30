@@ -1,0 +1,1467 @@
+[
+  {
+    "date": "2026-02-04",
+    "account_tokens": 8234972,
+    "allocation": {
+      "EKO-3": 8234972
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-08",
+    "account_tokens": 3535775,
+    "allocation": {
+      "EKO-4": 1515332,
+      "EKO-5": 2020443
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-09",
+    "account_tokens": 8388466,
+    "allocation": {
+      "EKO-6": 8388466
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-10",
+    "account_tokens": 65011440,
+    "allocation": {
+      "EKO-6": 12039155,
+      "EKO-7": 21889376,
+      "EKO-8": 21889373,
+      "EKO-9": 9193536
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-11",
+    "account_tokens": 1012166,
+    "allocation": {
+      "EKO-9": 1012166
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-14",
+    "account_tokens": 2028352,
+    "allocation": {
+      "MSC-1": 865337,
+      "EKO-9": 1163015
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-20",
+    "account_tokens": 41761350,
+    "allocation": {
+      "MSC-2": 18178470,
+      "EKO-10": 23582880
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-21",
+    "account_tokens": 75046649,
+    "allocation": {
+      "MSC-2": 75046649
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-22",
+    "account_tokens": 12661433,
+    "allocation": {
+      "MSC-2": 12661433
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-23",
+    "account_tokens": 79475957,
+    "allocation": {
+      "MSC-2": 79475957
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-24",
+    "account_tokens": 32698622,
+    "allocation": {
+      "MSC-3": 32698622
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-25",
+    "account_tokens": 180598260,
+    "allocation": {
+      "MSC-3": 180598260
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-26",
+    "account_tokens": 76188094,
+    "allocation": {
+      "MSC-4": 76188094
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-27",
+    "account_tokens": 104478195,
+    "allocation": {
+      "MSC-4": 104478195
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-02-28",
+    "account_tokens": 66567769,
+    "allocation": {
+      "MSC-4": 66567769
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-01",
+    "account_tokens": 107012868,
+    "allocation": {
+      "MSC-5": 107012868
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-06",
+    "account_tokens": 41486293,
+    "allocation": {
+      "MSC-6": 41486293
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-07",
+    "account_tokens": 40892512,
+    "allocation": {
+      "MSC-6": 40892512
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-08",
+    "account_tokens": 163287679,
+    "allocation": {
+      "UNASSIGNED": 163287679
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-03-09",
+    "account_tokens": 156038827,
+    "allocation": {
+      "UNASSIGNED": 156038827
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-03-14",
+    "account_tokens": 345345,
+    "allocation": {
+      "MSC-7": 345345
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-15",
+    "account_tokens": 65750191,
+    "allocation": {
+      "MSC-7": 65750191
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-16",
+    "account_tokens": 69512939,
+    "allocation": {
+      "MSC-7": 69512939
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-21",
+    "account_tokens": 13389634,
+    "allocation": {
+      "MSC-7": 13389634
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-22",
+    "account_tokens": 52334656,
+    "allocation": {
+      "MSC-7": 52334656
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-03-28",
+    "account_tokens": 83120819,
+    "allocation": {
+      "UNASSIGNED": 83120819
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-03-29",
+    "account_tokens": 161561850,
+    "allocation": {
+      "UNASSIGNED": 161561850
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-03-30",
+    "account_tokens": 30213954,
+    "allocation": {
+      "MSC-9": 30213954
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-11",
+    "account_tokens": 50378814,
+    "allocation": {
+      "MSC-11": 50378814
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-12",
+    "account_tokens": 31948214,
+    "allocation": {
+      "MSC-11": 31948214
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-19",
+    "account_tokens": 58583599,
+    "allocation": {
+      "MSC-13": 58583599
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-20",
+    "account_tokens": 58115075,
+    "allocation": {
+      "MSC-13": 58115075
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-21",
+    "account_tokens": 61543824,
+    "allocation": {
+      "MSC-13": 61543824
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-22",
+    "account_tokens": 109631314,
+    "allocation": {
+      "MSC-14": 109631314
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-23",
+    "account_tokens": 41352665,
+    "allocation": {
+      "MSC-14": 41352665
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-26",
+    "account_tokens": 13888422,
+    "allocation": {
+      "MSC-15": 13888422
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-27",
+    "account_tokens": 255082019,
+    "allocation": {
+      "MSC-15": 255082019
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-28",
+    "account_tokens": 178189295,
+    "allocation": {
+      "MSC-15": 178189295
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-29",
+    "account_tokens": 168117466,
+    "allocation": {
+      "MSC-16": 168117466
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-04-30",
+    "account_tokens": 242218024,
+    "allocation": {
+      "MSC-16": 242218024
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-01",
+    "account_tokens": 235655788,
+    "allocation": {
+      "MSC-17": 235655788
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-02",
+    "account_tokens": 118749011,
+    "allocation": {
+      "MSC-17": 118749011
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-04",
+    "account_tokens": 269702567,
+    "allocation": {
+      "MSC-18": 269702567
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-05",
+    "account_tokens": 245603673,
+    "allocation": {
+      "MSC-18": 245603673
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-06",
+    "account_tokens": 145605854,
+    "allocation": {
+      "MSC-18": 145605854
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-07",
+    "account_tokens": 57780380,
+    "allocation": {
+      "MSC-19": 57780380
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-08",
+    "account_tokens": 218160324,
+    "allocation": {
+      "MSC-19": 218160324
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-09",
+    "account_tokens": 231997135,
+    "allocation": {
+      "MSC-19": 231997135
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-10",
+    "account_tokens": 93855415,
+    "allocation": {
+      "MSC-19": 93855415
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-11",
+    "account_tokens": 152627967,
+    "allocation": {
+      "MSC-20": 152627967
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-12",
+    "account_tokens": 222452031,
+    "allocation": {
+      "MSC-20": 222452031
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-13",
+    "account_tokens": 93068092,
+    "allocation": {
+      "MSC-20": 93068092
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-21",
+    "account_tokens": 117632247,
+    "allocation": {
+      "UNASSIGNED": 117632247
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-05-22",
+    "account_tokens": 441916726,
+    "allocation": {
+      "MSC-21": 299604560,
+      "MSC-22": 142312166
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-23",
+    "account_tokens": 419522360,
+    "allocation": {
+      "MSC-21": 88076517,
+      "MSC-22": 331445843
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-24",
+    "account_tokens": 448870079,
+    "allocation": {
+      "MSC-21": 94237917,
+      "MSC-22": 354632162
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-25",
+    "account_tokens": 280472545,
+    "allocation": {
+      "MSC-23": 280472545
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-26",
+    "account_tokens": 385203649,
+    "allocation": {
+      "MSC-23": 385203649
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-27",
+    "account_tokens": 23824054,
+    "allocation": {
+      "MSC-23": 23824054
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-05-31",
+    "account_tokens": 382419454,
+    "allocation": {
+      "MSC-24": 355103779,
+      "EKO-12": 27315675
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-01",
+    "account_tokens": 414453856,
+    "allocation": {
+      "MSC-25": 324842212,
+      "MSC-26": 44805822,
+      "EKO-12": 44805822
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-02",
+    "account_tokens": 287486445,
+    "allocation": {
+      "MSC-25": 42590584,
+      "MSC-26": 244895861
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-03",
+    "account_tokens": 114468154,
+    "allocation": {
+      "MSC-27": 114468154
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-04",
+    "account_tokens": 317038255,
+    "allocation": {
+      "MSC-27": 141447836,
+      "MSC-28": 175590419
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-05",
+    "account_tokens": 242043267,
+    "allocation": {
+      "MSC-28": 242043267
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-06",
+    "account_tokens": 11376466,
+    "allocation": {
+      "MSC-28": 11376466
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-07",
+    "account_tokens": 149673019,
+    "allocation": {
+      "MSC-29": 149673019
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-09",
+    "account_tokens": 1351822,
+    "allocation": {
+      "MSC-29": 1351822
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-10",
+    "account_tokens": 108145295,
+    "allocation": {
+      "MSC-29": 108145295
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-11",
+    "account_tokens": 237390981,
+    "allocation": {
+      "MSC-29": 237390981
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-12",
+    "account_tokens": 235553864,
+    "allocation": {
+      "MSC-29": 235553864
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-13",
+    "account_tokens": 204160790,
+    "allocation": {
+      "MSC-29": 122960476,
+      "MSC-30": 81200314
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-14",
+    "account_tokens": 373024138,
+    "allocation": {
+      "MSC-29": 149209655,
+      "MSC-30": 223814483
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-15",
+    "account_tokens": 152065319,
+    "allocation": {
+      "MSC-29": 60826127,
+      "MSC-30": 91239192
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-16",
+    "account_tokens": 86852613,
+    "allocation": {
+      "MSC-30": 55163147,
+      "MSC-31": 31689466
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-17",
+    "account_tokens": 42123809,
+    "allocation": {
+      "MSC-30": 15164571,
+      "MSC-31": 26959238
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-18",
+    "account_tokens": 197673072,
+    "allocation": {
+      "MSC-30": 71162305,
+      "MSC-31": 126510767
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-19",
+    "account_tokens": 233951387,
+    "allocation": {
+      "MSC-32": 233951387
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-20",
+    "account_tokens": 128336959,
+    "allocation": {
+      "MSC-32": 128336959
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-21",
+    "account_tokens": 33461093,
+    "allocation": {
+      "MSC-32": 33461093
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-22",
+    "account_tokens": 253037666,
+    "allocation": {
+      "MSC-32": 253037666
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-23",
+    "account_tokens": 237494017,
+    "allocation": {
+      "MSC-32": 237494017
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-24",
+    "account_tokens": 299414401,
+    "allocation": {
+      "MSC-33": 299414401
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-25",
+    "account_tokens": 144395414,
+    "allocation": {
+      "MSC-33": 144395414
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-26",
+    "account_tokens": 201137745,
+    "allocation": {
+      "MSC-34": 201137745
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-27",
+    "account_tokens": 367363359,
+    "allocation": {
+      "MSC-34": 367363359
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-28",
+    "account_tokens": 248321064,
+    "allocation": {
+      "MSC-34": 248321064
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-29",
+    "account_tokens": 191311526,
+    "allocation": {
+      "MSC-35": 191311526
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-06-30",
+    "account_tokens": 71657291,
+    "allocation": {
+      "MSC-35": 71657291
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-01",
+    "account_tokens": 277777461,
+    "allocation": {
+      "MSC-36": 277777461
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-02",
+    "account_tokens": 294556773,
+    "allocation": {
+      "MSC-36": 294556773
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-03",
+    "account_tokens": 233772960,
+    "allocation": {
+      "MSC-37": 233772960
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-04",
+    "account_tokens": 156658656,
+    "allocation": {
+      "MSC-37": 156658656
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-05",
+    "account_tokens": 444334617,
+    "allocation": {
+      "MSC-37": 444334617
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-06",
+    "account_tokens": 261459427,
+    "allocation": {
+      "MSC-38": 52126404,
+      "MSC-39": 43852372,
+      "EKO-13": 165480651
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-07",
+    "account_tokens": 229209661,
+    "allocation": {
+      "MSC-38": 124484558,
+      "MSC-39": 104725103
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-08",
+    "account_tokens": 151790847,
+    "allocation": {
+      "MSC-38": 75895424,
+      "MSC-39": 75895423
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-09",
+    "account_tokens": 411365361,
+    "allocation": {
+      "MSC-38": 97549727,
+      "MSC-39": 313815634
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-10",
+    "account_tokens": 66767177,
+    "allocation": {
+      "MSC-38": 15832932,
+      "MSC-39": 50934245
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-13",
+    "account_tokens": 11315833,
+    "allocation": {
+      "MSC-40": 8435440,
+      "MSC-41": 2880393
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-20",
+    "account_tokens": 515865464,
+    "allocation": {
+      "MSC-40": 58956053,
+      "MSC-41": 456909411
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-21",
+    "account_tokens": 331645631,
+    "allocation": {
+      "MSC-40": 37902357,
+      "MSC-41": 293743274
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-07-22",
+    "account_tokens": 401125850,
+    "allocation": {
+      "MSC-42": 158890137,
+      "MSC-43": 242235713
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-23",
+    "account_tokens": 365787555,
+    "allocation": {
+      "MSC-42": 343682477,
+      "MSC-43": 22105078
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-24",
+    "account_tokens": 458889765,
+    "allocation": {
+      "MSC-42": 457583147,
+      "MSC-43": 1306618
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-25",
+    "account_tokens": 222352231,
+    "allocation": {
+      "MSC-42": 173840080,
+      "MSC-43": 48512151
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-26",
+    "account_tokens": 33796289,
+    "allocation": {
+      "MSC-44": 33796289
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-27",
+    "account_tokens": 270913090,
+    "allocation": {
+      "MSC-45": 270913090
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-28",
+    "account_tokens": 1279407407,
+    "allocation": {
+      "MSC-46": 1279407407
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-29",
+    "account_tokens": 2421372721,
+    "allocation": {
+      "MSC-46": 2407347218,
+      "MSC-47": 14025503
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-30",
+    "account_tokens": 1053870398,
+    "allocation": {
+      "MSC-49": 767675021,
+      "MSC-48": 201163539,
+      "MSC-47": 32977647,
+      "EKO-14": 52054191
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-07-31",
+    "account_tokens": 344465145,
+    "allocation": {
+      "MSC-49": 340976462,
+      "MSC-48": 3488683
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-01",
+    "account_tokens": 353928099,
+    "allocation": {
+      "MATH-1": 160722512,
+      "MATH-2": 26780230,
+      "MATH-3": 71944832,
+      "MATH-4": 94480525
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-02",
+    "account_tokens": 566107212,
+    "allocation": {
+      "MATH-5": 359541069,
+      "MATH-6": 3595085,
+      "MATH-4": 30851869,
+      "MATH-9": 63093895,
+      "MATH-10": 75946113,
+      "MATH-11": 33079181
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-03",
+    "account_tokens": 47165279,
+    "allocation": {
+      "MSC-50": 45211919,
+      "MSC-48": 1694896,
+      "MATH-11": 258464
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-04",
+    "account_tokens": 619112709,
+    "allocation": {
+      "MSC-53": 464619678,
+      "MSC-52": 20807140,
+      "MATH-12": 111660960,
+      "MSC-51": 22024931
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-05",
+    "account_tokens": 395819671,
+    "allocation": {
+      "MSC-53": 89771404,
+      "MSC-52": 195580539,
+      "MATH-15": 38445893,
+      "MATH-16": 29488849,
+      "MSC-51": 42532986
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-06",
+    "account_tokens": 453523446,
+    "allocation": {
+      "MSC-53": 406428034,
+      "MSC-52": 21264629,
+      "MSC-55": 25830783
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-07",
+    "account_tokens": 377046878,
+    "allocation": {
+      "MSC-57": 94378374,
+      "MATH-13": 33952820,
+      "MSC-55": 47271027,
+      "MSC-56": 201444657
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-08",
+    "account_tokens": 351468858,
+    "allocation": {
+      "MSC-57": 83889096,
+      "MATH-13": 41999085,
+      "MSC-56": 196578317,
+      "MSC-58": 29002360
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-09",
+    "account_tokens": 468735351,
+    "allocation": {
+      "MATH-13": 49398471,
+      "MSC-56": 366276576,
+      "MSC-58": 53060304
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-10",
+    "account_tokens": 265916317,
+    "allocation": {
+      "MSC-57": 11696642,
+      "MSC-58": 254219675
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-08-11",
+    "account_tokens": 134528315,
+    "allocation": {
+      "MSC-57": 31748217,
+      "MATH-13": 805396,
+      "MSC-58": 101974702
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-12",
+    "account_tokens": 459020776,
+    "allocation": {
+      "MSC-59": 259763656,
+      "MSC-57": 17837835,
+      "MATH-13": 118292,
+      "MSC-58": 63585680,
+      "MSC-60": 117715313
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-13",
+    "account_tokens": 375260206,
+    "allocation": {
+      "MSC-57": 344411618,
+      "MSC-61": 13574256,
+      "MSC-60": 16987098,
+      "MSC-58": 287234
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-14",
+    "account_tokens": 425631558,
+    "allocation": {
+      "MSC-57": 293196656,
+      "MSC-62": 109613997,
+      "MSC-63": 22820905
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-15",
+    "account_tokens": 394676348,
+    "allocation": {
+      "MSC-64": 344144271,
+      "MSC-65": 34878117,
+      "MSC-63": 15653960
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-16",
+    "account_tokens": 211866537,
+    "allocation": {
+      "MSC-65": 211559908,
+      "MSC-63": 306629
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-17",
+    "account_tokens": 132686691,
+    "allocation": {
+      "MSC-65": 132686691
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-18",
+    "account_tokens": 11557518,
+    "allocation": {
+      "MSC-67": 11557518
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-19",
+    "account_tokens": 31778922,
+    "allocation": {
+      "MSC-67": 20373591,
+      "MSC-65": 1094781,
+      "UNASSIGNED": 9961813,
+      "MSC-61": 348737
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-20",
+    "account_tokens": 51375355,
+    "allocation": {
+      "MSC-65": 1964732,
+      "MSC-67": 2154869,
+      "MSC-66": 1964732,
+      "MSC-61": 289730,
+      "MSC-68": 45001292
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-08-25",
+    "account_tokens": 71394827,
+    "allocation": {
+      "MSC-65": 71394827
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-27",
+    "account_tokens": 2700589,
+    "allocation": {
+      "MSC-61": 10761,
+      "MSC-69": 2689828
+    },
+    "basis": "Daily account total / commit-weighted estimate"
+  },
+  {
+    "date": "2026-08-29",
+    "account_tokens": 19890204,
+    "allocation": {
+      "MSC-61": 19890204
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-30",
+    "account_tokens": 335423902,
+    "allocation": {
+      "MSC-70": 335423902
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-08-31",
+    "account_tokens": 300731661,
+    "allocation": {
+      "MSC-71": 300731661
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-01",
+    "account_tokens": 196911004,
+    "allocation": {
+      "MSC-72": 196911004
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-02",
+    "account_tokens": 264004475,
+    "allocation": {
+      "MSC-72": 262128613,
+      "MSC-61": 1875862
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-03",
+    "account_tokens": 408290439,
+    "allocation": {
+      "MSC-73": 408290439
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-04",
+    "account_tokens": 293036862,
+    "allocation": {
+      "MSC-73": 293036862
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-05",
+    "account_tokens": 507611968,
+    "allocation": {
+      "MSC-75": 474269901,
+      "MSC-74": 33342067
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-06",
+    "account_tokens": 401758660,
+    "allocation": {
+      "MSC-75": 393899731,
+      "MSC-74": 7858929
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-07",
+    "account_tokens": 507404936,
+    "allocation": {
+      "MSC-76": 506446449,
+      "MSC-77": 958487
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-08",
+    "account_tokens": 303387808,
+    "allocation": {
+      "MSC-76": 293310767,
+      "MSC-47": 2222275,
+      "MATH-13": 7854766
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-09",
+    "account_tokens": 104585400,
+    "allocation": {
+      "UNASSIGNED": 553096,
+      "MSC-78": 5052533,
+      "MSC-79": 98979771
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-09-10",
+    "account_tokens": 152703443,
+    "allocation": {
+      "UNASSIGNED": 1573716,
+      "MSC-79": 151129727
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-09-11",
+    "account_tokens": 184188798,
+    "allocation": {
+      "UNASSIGNED": 1191270,
+      "MSC-80": 182997528
+    },
+    "basis": "Unassigned account activity"
+  },
+  {
+    "date": "2026-09-12",
+    "account_tokens": 146847214,
+    "allocation": {
+      "MSC-47": 24956699,
+      "MSC-83": 20745,
+      "MSC-80": 59406296,
+      "MSC-82": 55695608,
+      "MSC-81": 6767866
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-13",
+    "account_tokens": 3450313,
+    "allocation": {
+      "MSC-47": 3450313
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-14",
+    "account_tokens": 420307277,
+    "allocation": {
+      "MSC-83": 415548606,
+      "MSC-84": 4758671
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-15",
+    "account_tokens": 188544723,
+    "allocation": {
+      "MSC-83": 159838569,
+      "MSC-84": 7240619,
+      "MSC-47": 21465535
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-16",
+    "account_tokens": 465522054,
+    "allocation": {
+      "MSC-86": 457641358,
+      "MSC-83": 4113954,
+      "MSC-84": 3766742
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-17",
+    "account_tokens": 175752829,
+    "allocation": {
+      "MSC-86": 174674373,
+      "MSC-47": 849027,
+      "MSC-87": 229429
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-18",
+    "account_tokens": 118048756,
+    "allocation": {
+      "MSC-87": 105909988,
+      "MSC-88": 11038887,
+      "MSC-47": 1099881
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-19",
+    "account_tokens": 356990735,
+    "allocation": {
+      "MSC-89": 348855653,
+      "MSC-88": 4290531,
+      "MSC-90": 3844551
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-20",
+    "account_tokens": 38734633,
+    "allocation": {
+      "MSC-89": 37823641,
+      "MSC-91": 910992
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-21",
+    "account_tokens": 419526268,
+    "allocation": {
+      "MSC-92": 417483530,
+      "MSC-88": 1051511,
+      "MSC-47": 991227
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-22",
+    "account_tokens": 199657385,
+    "allocation": {
+      "MSC-93": 191648473,
+      "MSC-94": 6710266,
+      "MSC-92": 694125,
+      "MSC-88": 604521
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-23",
+    "account_tokens": 353685184,
+    "allocation": {
+      "MSC-95": 328341965,
+      "MSC-94": 10768954,
+      "MSC-92": 12699669,
+      "MSC-96": 1256118,
+      "MSC-97": 618478
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-24",
+    "account_tokens": 409291491,
+    "allocation": {
+      "MSC-97": 367232810,
+      "MSC-92": 14766051,
+      "MSC-98": 27292630
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-25",
+    "account_tokens": 46378314,
+    "allocation": {
+      "MSC-98": 46378314
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-26",
+    "account_tokens": 391023558,
+    "allocation": {
+      "MSC-100": 381645117,
+      "MSC-99": 3005233,
+      "MSC-101": 6373208
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-27",
+    "account_tokens": 502968509,
+    "allocation": {
+      "MSC-102": 502968509
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-28",
+    "account_tokens": 346049342,
+    "allocation": {
+      "MSC-103": 346049342
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-29",
+    "account_tokens": 78601654,
+    "allocation": {
+      "MSC-105": 78601654
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  },
+  {
+    "date": "2026-09-30",
+    "account_tokens": 225338462,
+    "allocation": {
+      "MSC-107": 203638592,
+      "MSC-108": 19139990,
+      "MSC-109": 2559880
+    },
+    "basis": "Daily account total / session-weighted estimate"
+  }
+]
