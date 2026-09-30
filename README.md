@@ -5,13 +5,13 @@ Four separate Projects preserve distinct work. MyScoutee system repositories sha
 | Project | Tasks | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: |
 | [MyScoutee](https://github.com/users/fssrepository/projects/2) | 108 | 36,249.2 | 889.2 | $26,809 |
-| [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 5 | 2.7 | 0.2 AI; manual unknown | $4 |
-| [e-kozig](https://github.com/users/fssrepository/projects/4) | 15 | 456.3 | 9.4 | $258 |
-| [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 17 | 1,285.7 | 43.4 | $727 |
+| [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 3.4 | 0.2 AI; manual unknown | $5 |
+| [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 457.8 | 9.5 | $260 |
+| [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 1,286.0 | 43.5 | $728 |
 
-Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Estimated allocation across listed AI work: **37,993,843,589**; remaining unassigned: **494,172,689**. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
+Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Estimated allocation across listed AI work: **37,996,385,327**; remaining unassigned: **491,630,951**. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
 
-11 source repositories, 226 consolidated source commits, and 145 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
+11 source repositories, 226 consolidated source commits, and 148 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
 
 ## Restore from Git
 
