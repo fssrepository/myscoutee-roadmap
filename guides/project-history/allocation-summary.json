@@ -1,10 +1,10 @@
 {
-  "tasks": 141,
+  "tasks": 148,
   "commits": 226,
   "account_tokens": 38488016278,
-  "allocated_tokens_estimate": 37993843589,
-  "unassigned_tokens": 494172689,
-  "api_standard_usd_estimate": 27797.65,
+  "allocated_tokens_estimate": 37996385327,
+  "unassigned_tokens": 491630951,
+  "api_standard_usd_estimate": 27802.08,
   "note": "Task allocation and USD are estimates. The account total is measured. USD uses 2026-10-01 Standard short-context API rates, not a subscription invoice.",
   "observed_token_mix": {
     "input_tokens": 0.9963307585649178,

@@ -1,0 +1,21 @@
+{
+  "start_utc": "2026-09-30T23:34:24.557000+00:00",
+  "cutoff_utc": "2026-09-30T23:44:47.957000+00:00",
+  "tokens": 2541738,
+  "hours": 0.1731666666931576,
+  "models": {
+    "gpt-6-astra|high": {
+      "input_tokens": 2523313,
+      "cached_input_tokens": 2414080,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 18425,
+      "reasoning_output_tokens": 6375,
+      "total_tokens": 2541738
+    }
+  },
+  "shares": {
+    "e-kozig": 0.6,
+    "myscoutee-old": 0.3,
+    "math": 0.1
+  }
+}

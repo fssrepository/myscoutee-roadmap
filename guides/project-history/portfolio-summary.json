@@ -44,10 +44,10 @@
     }
   },
   "myscoutee-old": {
-    "tasks": 5,
-    "tokens_estimate": 2665582,
-    "api_standard_usd_estimate": 4.1,
-    "allocated_hours_estimate": 0.16639174074596827,
+    "tasks": 6,
+    "tokens_estimate": 3428103,
+    "api_standard_usd_estimate": 5.43,
+    "allocated_hours_estimate": 0.21834174075391555,
     "manual_effort_unknown": true,
     "workstreams": {
       "Legacy manual": {
@@ -59,14 +59,19 @@
         "tokens": 2665582,
         "api_equivalent_usd": 4.1,
         "hours": 0.16639174074596827
+      },
+      "Documentation (AI-assisted)": {
+        "tokens": 762521,
+        "api_equivalent_usd": 1.33,
+        "hours": 0.051950000007947285
       }
     }
   },
   "e-kozig": {
-    "tasks": 15,
-    "tokens_estimate": 456250030,
-    "api_standard_usd_estimate": 257.62,
-    "allocated_hours_estimate": 9.362066046271059,
+    "tasks": 16,
+    "tokens_estimate": 457775073,
+    "api_standard_usd_estimate": 260.28,
+    "allocated_hours_estimate": 9.465966046286953,
     "manual_effort_unknown": false,
     "workstreams": {
       "Administration portal": {
@@ -78,14 +83,19 @@
         "tokens": 2665582,
         "api_equivalent_usd": 4.1,
         "hours": 0.16639174074596827
+      },
+      "Documentation (AI-assisted)": {
+        "tokens": 1525043,
+        "api_equivalent_usd": 2.66,
+        "hours": 0.10390000001589457
       }
     }
   },
   "math": {
-    "tasks": 17,
-    "tokens_estimate": 1285697303,
-    "api_standard_usd_estimate": 727.24,
-    "allocated_hours_estimate": 43.4383168334718,
+    "tasks": 18,
+    "tokens_estimate": 1285951477,
+    "api_standard_usd_estimate": 727.68,
+    "allocated_hours_estimate": 43.45563350014112,
     "manual_effort_unknown": false,
     "workstreams": {
       "Mathematical research": {
@@ -102,6 +112,11 @@
         "tokens": 2665583,
         "api_equivalent_usd": 4.1,
         "hours": 0.16639174074596827
+      },
+      "Documentation (AI-assisted)": {
+        "tokens": 254174,
+        "api_equivalent_usd": 0.44,
+        "hours": 0.01731666666931576
       }
     }
   }
