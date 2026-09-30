@@ -1,0 +1,57 @@
+[
+  {
+    "task_id": "EKO-1",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "EKO-2",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "EKO-11",
+    "tokens": 12999395,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MSC-10",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MSC-12",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MATH-7",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MATH-8",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MATH-14",
+    "tokens": 9013413,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MSC-85",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MSC-104",
+    "tokens": 20000000,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  },
+  {
+    "task_id": "MSC-106",
+    "tokens": 7217466,
+    "basis": "Analogy estimate from comparable tasks; reserved from unassigned account balance, daily attribution unavailable"
+  }
+]

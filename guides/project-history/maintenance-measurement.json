@@ -1,0 +1,25 @@
+{
+  "cutoff_utc": "2026-09-30T23:16:07.594000+00:00",
+  "measured_tokens": 19991868,
+  "measured_active_hours": 1.2479380555947621,
+  "project_weights": {
+    "myscoutee": 0.6,
+    "myscoutee-old": 0.13333333333333333,
+    "e-kozig": 0.13333333333333333,
+    "math": 0.13333333333333333
+  },
+  "previous_msc108_tokens_removed": 8473514,
+  "previous_msc108_hours_removed": 0.46417527781592477,
+  "net_additional_account_allocation": 11518354,
+  "daily_attribution": "Not individually reconciled; allocated against remaining account allowance",
+  "models": {
+    "gpt-6-astra|high": {
+      "input_tokens": 19872308,
+      "cached_input_tokens": 19324288,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 119560,
+      "reasoning_output_tokens": 36432,
+      "total_tokens": 19991868
+    }
+  }
+}

@@ -15,10 +15,10 @@ Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Es
 
 ## Restore from Git
 
-- [myscoutee backup](guides/project-history/myscoutee/README.md)
-- [myscoutee-old backup](guides/project-history/myscoutee-old/README.md)
-- [e-kozig backup](guides/project-history/e-kozig/README.md)
-- [math backup](guides/project-history/math/README.md)
+- [myscoutee backup](myscoutee/README.md)
+- [myscoutee-old backup](myscoutee-old/README.md)
+- [e-kozig backup](e-kozig/README.md)
+- [math backup](math/README.md)
 
 Each source repository also has a `guides/project-history/` snapshot. Complete per-Project snapshots here and compact repository-specific copies preserve issue bodies, fields, values, view definitions, token/model/time ledgers, attribution assumptions and commit mappings. No chat history is needed. Git records versions; no date-named folder is used.
 

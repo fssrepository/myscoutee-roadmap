@@ -1,0 +1,108 @@
+{
+  "myscoutee": {
+    "tasks": 108,
+    "tokens_estimate": 36249230674,
+    "api_standard_usd_estimate": 26808.69,
+    "allocated_hours_estimate": 889.1878287147725,
+    "manual_effort_unknown": false,
+    "workstreams": {
+      "Product": {
+        "tokens": 23857343152,
+        "api_equivalent_usd": 15993.219999999996,
+        "hours": 525.6860546780293
+      },
+      "QA and release": {
+        "tokens": 8574348656,
+        "api_equivalent_usd": 7729.869999999999,
+        "hours": 235.944212038528
+      },
+      "Operations": {
+        "tokens": 1311954555,
+        "api_equivalent_usd": 1070.1199999999997,
+        "hours": 29.692205694251587
+      },
+      "Marketing": {
+        "tokens": 245448393,
+        "api_equivalent_usd": 210.41,
+        "hours": 8.829473657056138
+      },
+      "Creative": {
+        "tokens": 2185293586,
+        "api_equivalent_usd": 1727.1499999999996,
+        "hours": 86.59408009130647
+      },
+      "Tooling": {
+        "tokens": 62847211,
+        "api_equivalent_usd": 59.45,
+        "hours": 1.6930397222439448
+      },
+      "Project administration (AI-assisted)": {
+        "tokens": 11995121,
+        "api_equivalent_usd": 18.47,
+        "hours": 0.7487628333568572
+      }
+    }
+  },
+  "myscoutee-old": {
+    "tasks": 5,
+    "tokens_estimate": 2665582,
+    "api_standard_usd_estimate": 4.1,
+    "allocated_hours_estimate": 0.16639174074596827,
+    "manual_effort_unknown": true,
+    "workstreams": {
+      "Legacy manual": {
+        "tokens": 0,
+        "api_equivalent_usd": 0,
+        "hours": 0
+      },
+      "Project administration (AI-assisted)": {
+        "tokens": 2665582,
+        "api_equivalent_usd": 4.1,
+        "hours": 0.16639174074596827
+      }
+    }
+  },
+  "e-kozig": {
+    "tasks": 15,
+    "tokens_estimate": 456250030,
+    "api_standard_usd_estimate": 257.62,
+    "allocated_hours_estimate": 9.362066046271059,
+    "manual_effort_unknown": false,
+    "workstreams": {
+      "Administration portal": {
+        "tokens": 453584448,
+        "api_equivalent_usd": 253.52,
+        "hours": 9.19567430552509
+      },
+      "Project administration (AI-assisted)": {
+        "tokens": 2665582,
+        "api_equivalent_usd": 4.1,
+        "hours": 0.16639174074596827
+      }
+    }
+  },
+  "math": {
+    "tasks": 17,
+    "tokens_estimate": 1285697303,
+    "api_standard_usd_estimate": 727.24,
+    "allocated_hours_estimate": 43.4383168334718,
+    "manual_effort_unknown": false,
+    "workstreams": {
+      "Mathematical research": {
+        "tokens": 969307188,
+        "api_equivalent_usd": 515.9499999999999,
+        "hours": 33.91097666660944
+      },
+      "Research communication": {
+        "tokens": 313724532,
+        "api_equivalent_usd": 207.19,
+        "hours": 9.360948426116396
+      },
+      "Project administration (AI-assisted)": {
+        "tokens": 2665583,
+        "api_equivalent_usd": 4.1,
+        "hours": 0.16639174074596827
+      }
+    }
+  }
+}

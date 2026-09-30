@@ -1,28 +1,4 @@
-# Delivery history and project backups
-
-Four separate Projects preserve distinct work. MyScoutee system repositories share one Project; the legacy archive, e-kozig and math each have their own.
-
-| Project | Tasks | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
-| --- | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 108 | 36,249.2 | 889.2 | $26,809 |
-| [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 5 | 2.7 | 0.2 AI; manual unknown | $4 |
-| [e-kozig](https://github.com/users/fssrepository/projects/4) | 15 | 456.3 | 9.4 | $258 |
-| [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 17 | 1,285.7 | 43.4 | $727 |
-
-Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Estimated allocation across listed AI work: **37,993,843,589**; remaining unassigned: **494,172,689**. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
-
-11 source repositories, 226 consolidated source commits, and 145 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
-
-## Restore from Git
-
-- [myscoutee backup](guides/project-history/myscoutee/README.md)
-- [myscoutee-old backup](guides/project-history/myscoutee-old/README.md)
-- [e-kozig backup](guides/project-history/e-kozig/README.md)
-- [math backup](guides/project-history/math/README.md)
-
-Each source repository also has a `guides/project-history/` snapshot. Complete per-Project snapshots here and compact repository-specific copies preserve issue bodies, fields, values, view definitions, token/model/time ledgers, attribution assumptions and commit mappings. No chat history is needed. Git records versions; no date-named folder is used.
-
-## Measurement method
+# Measurement method
 
 
 - Local active and archived `.codex` histories are the primary execution evidence. All 649 JSONL files were inventoried, including split conversations; the history database was checked for additional coverage. Local retained conversations start on July 22, while account daily records reach February 4.
@@ -39,7 +15,3 @@ Model date sources: [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3
 
 - Four independent Projects separate MyScoutee, the manually developed legacy archive, e-kozig and mathematical research. Shared account tokens are allocated once across all four; a Project total is never an additional account total. Historical legacy AI usage is unverified and left blank. The current AI-assisted Project-administration task is measured separately. A final shared maintenance-run measurement is apportioned by snapshot ownership; its overlap with MSC-108 is removed and its net allocation uses the unassigned account allowance, without exact daily billing reconciliation.
 - Mathematical experiments and videos do not establish a solution of the continuous Navier–Stokes problem. The claim withdrawal is a first-class task.
-
-## Task identifiers
-
-MSC, OLD, EKO and MATH IDs are stable task identifiers. Commit bodies link their actual issue numbers; task ID numbers need not equal GitHub issue numbers. Mixed commits retain their contents and can refer to several tasks. Release/archive tags retain their original targets.

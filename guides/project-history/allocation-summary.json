@@ -1,0 +1,77 @@
+{
+  "tasks": 141,
+  "commits": 226,
+  "account_tokens": 38488016278,
+  "allocated_tokens_estimate": 37993843589,
+  "unassigned_tokens": 494172689,
+  "api_standard_usd_estimate": 27797.65,
+  "note": "Task allocation and USD are estimates. The account total is measured. USD uses 2026-10-01 Standard short-context API rates, not a subscription invoice.",
+  "observed_token_mix": {
+    "input_tokens": 0.9963307585649178,
+    "cached_input_tokens": 0.9617906844276427,
+    "cache_write_input_tokens": 0.0,
+    "output_tokens": 0.0031954733323304777,
+    "reasoning_output_tokens": 0.0010898946512413721,
+    "total_tokens": 1.0
+  },
+  "rates_per_million": {
+    "gpt-5.2": [
+      1.75,
+      0.175,
+      14,
+      0
+    ],
+    "gpt-5.4": [
+      2.5,
+      0.25,
+      15,
+      0
+    ],
+    "gpt-5.5": [
+      5,
+      0.5,
+      30,
+      0
+    ],
+    "gpt-5.3-codex": [
+      1.75,
+      0.175,
+      14,
+      0
+    ],
+    "gpt-5.6-sol": [
+      4,
+      0.4,
+      20,
+      5
+    ],
+    "gpt-5.6-terra": [
+      2,
+      0.2,
+      12,
+      2.5
+    ],
+    "gpt-6-astra": [
+      10,
+      1,
+      50,
+      12.5
+    ],
+    "gpt-6-sol": [
+      2,
+      0.2,
+      10,
+      2.5
+    ],
+    "gpt-6-luna": [
+      0.1,
+      0.01,
+      0.5,
+      0.125
+    ]
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "model_calendar_source": "https://developers.openai.com/api/docs/changelog",
+  "frozen_production_audit_tokens": 2294907583,
+  "analogy_tokens": 189230274
+}

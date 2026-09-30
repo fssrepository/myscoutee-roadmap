@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Delivery history",
+    "layout": "TABLE_LAYOUT",
+    "visibleFields": [
+      "Task ID",
+      "Title",
+      "Workstream",
+      "Status",
+      "Started",
+      "Finished",
+      "Evidence"
+    ]
+  },
+  {
+    "name": "AI usage and effort",
+    "layout": "TABLE_LAYOUT",
+    "visibleFields": [
+      "Task ID",
+      "Title",
+      "Tokens M",
+      "API equiv USD",
+      "Active h",
+      "Allocated h",
+      "Models",
+      "Reasoning",
+      "Evidence"
+    ]
+  }
+]
