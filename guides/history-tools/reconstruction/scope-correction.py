@@ -26,7 +26,7 @@ for t in ordered:
  k=t['key']
  t['project_scope']='myscoutee-old' if k.startswith('OLD') else 'e-kozig' if re.fullmatch(r'E\\d+',k) else 'math' if k=='RESEARCHVIDEO' or k=='MCOMM' or re.fullmatch(r'M\\d+',k) else 'myscoutee'
  t['provisional_id']=previous.get(k) or ('EKO-'+k[1:] if k.startswith('E') else 'MATH-'+('13' if k=='MCOMM' else '14' if k=='M15' else k[1:]) if k.startswith('M') else 'OLD-'+k[3:])
- if k=='OLD':t['provisional_id']='OLD-1'
+ if k=='OLD':t['provisional_id']='MSC-OLD-1'
  if k=='RESEARCHVIDEO':t['provisional_id']='MATH-12'
  if k.startswith('OLD'):
   t['activity_hours_estimate']=0;t['activity_seconds']=0;t['token_basis']='Primarily manual legacy work, confirmed by the creator; no attributable AI usage retained';t['duration_basis']='Unknown manual effort; commit spacing is not used as a time estimate';t['manual_time_unknown']=True
