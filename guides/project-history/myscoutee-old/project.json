@@ -128,9 +128,9 @@
   ],
   "items": [
     {
-      "task_id": "OLD-1",
-      "title": "OLD-1: Import the archived MyScoutee frontend prototype",
-      "body": "Historical record: **Import the archived MyScoutee frontend prototype**.\n\nArchive/import dates: 2026-03-11 \u2192 2026-03-11; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [feat: import the archived MyScoutee frontend prototype](https://github.com/fssrepository/myscoutee-old/commit/89dd6576eb3d8bc59e01e6e750d01de34bb9f04d)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
+      "task_id": "MSC-OLD-1",
+      "title": "MSC-OLD-1: Import the archived MyScoutee frontend prototype",
+      "body": "Historical record: **Import the archived MyScoutee frontend prototype**.\n\nArchive/import dates: 2026-03-11 \u2192 2026-03-11; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [feat: import the archived MyScoutee frontend prototype](https://github.com/fssrepository/myscoutee-old/commit/90f1e05a8f7f5f031fa66f84ee6879881d5dbabc)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
       "state": "CLOSED",
       "state_reason": "completed",
       "issue": {
@@ -140,7 +140,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQAiyA"
       },
       "values": {
-        "Task ID": "OLD-1",
+        "Task ID": "MSC-OLD-1",
         "Workstream": "Legacy manual",
         "Started": "2026-03-11",
         "Finished": "2026-03-11",
@@ -149,9 +149,9 @@
       }
     },
     {
-      "task_id": "OLD-2",
-      "title": "OLD-2: fix: complete demo data and development cache handling",
-      "body": "Historical record: **fix: complete demo data and development cache handling**.\n\nArchive/import dates: 2026-03-11 \u2192 2026-03-11; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [fix: complete demo data and development cache handling](https://github.com/fssrepository/myscoutee-old/commit/1cd61a92de25702ae2dd57c164f3331460e67c19)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
+      "task_id": "MSC-OLD-2",
+      "title": "MSC-OLD-2: fix: complete demo data and development cache handling",
+      "body": "Historical record: **fix: complete demo data and development cache handling**.\n\nArchive/import dates: 2026-03-11 \u2192 2026-03-11; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [fix: complete demo data and development cache handling](https://github.com/fssrepository/myscoutee-old/commit/3dc1500199a59719572be8bc6f959a780912fc0d)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
       "state": "CLOSED",
       "state_reason": "completed",
       "issue": {
@@ -161,7 +161,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQMO-A"
       },
       "values": {
-        "Task ID": "OLD-2",
+        "Task ID": "MSC-OLD-2",
         "Workstream": "Legacy manual",
         "Started": "2026-03-11",
         "Finished": "2026-03-11",
@@ -170,9 +170,9 @@
       }
     },
     {
-      "task_id": "OLD-3",
-      "title": "OLD-3: chore: archive campaign drafts and promotional videos",
-      "body": "Historical record: **chore: archive campaign drafts and promotional videos**.\n\nArchive/import dates: 2026-03-23 \u2192 2026-03-24; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [chore: archive campaign drafts and promotional videos](https://github.com/fssrepository/myscoutee-old/commit/1f5841ec0e0a14e8cfe117426caaccdc318ff0e6)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
+      "task_id": "MSC-OLD-3",
+      "title": "MSC-OLD-3: chore: archive campaign drafts and promotional videos",
+      "body": "Historical record: **chore: archive campaign drafts and promotional videos**.\n\nArchive/import dates: 2026-03-23 \u2192 2026-03-24; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [chore: archive campaign drafts and promotional videos](https://github.com/fssrepository/myscoutee-old/commit/c5339676cdce2fb53fdaa12fc6c24663dc385257)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
       "state": "CLOSED",
       "state_reason": "completed",
       "issue": {
@@ -182,7 +182,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQMPWA"
       },
       "values": {
-        "Task ID": "OLD-3",
+        "Task ID": "MSC-OLD-3",
         "Workstream": "Legacy manual",
         "Started": "2026-03-23",
         "Finished": "2026-03-24",
@@ -191,9 +191,9 @@
       }
     },
     {
-      "task_id": "OLD-4",
-      "title": "OLD-4: docs: update the UI prototype link",
-      "body": "Historical record: **docs: update the UI prototype link**.\n\nArchive/import dates: 2026-03-31 \u2192 2026-03-31; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [docs: update the UI prototype link](https://github.com/fssrepository/myscoutee-old/commit/706e0cbff7196cadb663336f99ad4df35bdf7cd6)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
+      "task_id": "MSC-OLD-4",
+      "title": "MSC-OLD-4: docs: update the UI prototype link",
+      "body": "Historical record: **docs: update the UI prototype link**.\n\nArchive/import dates: 2026-03-31 \u2192 2026-03-31; these do not establish the original development period.\n\nThe creator confirms that this is primarily manual legacy development. Historical effort is unknown and is deliberately left blank. Git commit spacing does not establish working hours. Minor AI help with GitHub may have occurred, but no task-level record supports assigning tokens, models or costs to this work.\n\nDelivery evidence:\n- myscoutee-old: [docs: update the UI prototype link](https://github.com/fssrepository/myscoutee-old/commit/8eb01e86d95edb8ae29dbaafed0c8637965e3349)\n\nThe commits record delivered work. This retrospective does not claim a fresh test run. Some consolidated commits cover several tasks; the references preserve that relationship without splitting their code changes. Private source repositories retain their access restrictions.\n\nProject: https://github.com/users/fssrepository/projects/3\n",
       "state": "CLOSED",
       "state_reason": "completed",
       "issue": {
@@ -203,7 +203,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQMPsA"
       },
       "values": {
-        "Task ID": "OLD-4",
+        "Task ID": "MSC-OLD-4",
         "Workstream": "Legacy manual",
         "Started": "2026-03-31",
         "Finished": "2026-03-31",
@@ -212,8 +212,8 @@
       }
     },
     {
-      "task_id": "OLD-5",
-      "title": "OLD-5: Reconstruct the Project and preserve restorable Git records",
+      "task_id": "MSC-OLD-5",
+      "title": "MSC-OLD-5: Reconstruct the Project and preserve restorable Git records",
       "body": "Reconstruct and organize the **myscoutee-old** Project, recover historical tasks and model/token/time evidence, add task references to commit messages, and preserve a restorable Git snapshot under `guides/project-history/`. This is current AI-assisted administration, separate from the original development.\n\nExecution: September 30\u2013October 1, 2026 (Europe/Bratislava). Measurement closes at **2026-09-30T23:16:07.594000+00:00**. The final publication/accounting tail after that cutoff is deliberately excluded to avoid recursive self-accounting.\n\n| Metric | Value |\n| --- | --- |\n| Tokens allocated to this Project | 2.666 M |\n| Active/allocated task time | 0.166 h |\n| Standard API equivalent | $4.10 USD |\n| Model | gpt-6-astra |\n| Reasoning | high |\n\nThe complete shared maintenance run recorded 19,991,868 local tokens and 1.248 active hours. These totals are partitioned once by the 15 retained backup snapshots: nine MyScoutee snapshots and two for each other Project. The per-Project split is an estimate, not four independent measurements. The model and whole-run token count come from the session log. Previously assigned overlap was removed from MSC-108; the remaining allocation uses the previously unassigned account allowance and has no exact daily billing reconciliation. USD is an API list-price equivalent, not credits paid or a subscription invoice.\n\nValidation: offline snapshot/checksum restoration checks, source-tree comparison and preservation of release-tag targets. Application code was not rebuilt or retested.\n\n[Restorable snapshot](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee-old)\n\nRelated administration tasks with separately allocated effort:\n- [MSC-110](https://github.com/fssrepository/myscoutee-roadmap/issues/142)\n- [EKO-15](https://github.com/fssrepository/myscoutee-roadmap/issues/144)\n- [MATH-17](https://github.com/fssrepository/myscoutee-roadmap/issues/145)\n\nProject: https://github.com/users/fssrepository/projects/3\n",
       "state": "CLOSED",
       "state_reason": "completed",
@@ -224,7 +224,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQVXAw"
       },
       "values": {
-        "Task ID": "OLD-5",
+        "Task ID": "MSC-OLD-5",
         "Workstream": "Project administration (AI-assisted)",
         "Started": "2026-09-30",
         "Finished": "2026-10-01",
@@ -239,9 +239,9 @@
       }
     },
     {
-      "task_id": "OLD-6",
-      "title": "OLD-6: Document the original project and its evolution into MyScoutee",
-      "body": "Expand the README with the creator-reported 2016 origin, approximately 1.5 years of research/development and a later half-year refactor. Explain the recalled backend clone and subsequent AI-assisted rewrite, preserve uncertainty about the lost standalone backend, and display project-specific metrics without inventing historical human hours.\n\n| Metric | Value |\n| --- | ---: |\n| Allocated tokens | 0.763 M |\n| Allocated activity | 0.052 h |\n| Standard API equivalent | $1.33 USD |\n| Model / reasoning | gpt-6-astra / high |\n\nThe shared documentation window recorded 2,541,738 tokens from 2026-09-30T23:34:24.557000+00:00 to 2026-09-30T23:44:47.957000+00:00. Its effort is split once across EKO-16 (60%), OLD-6 (30%) and MATH-18 (10%); these are estimated shares of one measured session, not independent measurements. The bounded cutoff excludes the final publishing/accounting tail. Token components, model and reasoning come from the local session records. The allocation reserves part of the portfolio's previously unassigned allowance, without claiming exact reconciliation to the earlier account-wide daily snapshot. API equivalent is a list-price comparison, not an invoice or credits paid.\n\nValidation: documentation links, original Hungarian asset preservation, SVG text positions and PNG preview, and offline restore/checksum checks. No application behavior changed.\n\nProject: https://github.com/users/fssrepository/projects/3\n\nRelated documentation tasks (separately allocated effort):\n- [EKO-16](https://github.com/fssrepository/myscoutee-roadmap/issues/146)\n- [MATH-18](https://github.com/fssrepository/myscoutee-roadmap/issues/148)\n",
+      "task_id": "MSC-OLD-6",
+      "title": "MSC-OLD-6: Document the original project and its evolution into MyScoutee",
+      "body": "Expand the README with the creator-reported 2016 origin, approximately 1.5 years of research/development and a later half-year refactor. Explain the recalled backend clone and subsequent AI-assisted rewrite, preserve uncertainty about the lost standalone backend, and display project-specific metrics without inventing historical human hours.\n\n| Metric | Value |\n| --- | ---: |\n| Allocated tokens | 0.763 M |\n| Allocated activity | 0.052 h |\n| Standard API equivalent | $1.33 USD |\n| Model / reasoning | gpt-6-astra / high |\n\nThe shared documentation window recorded 2,541,738 tokens from 2026-09-30T23:34:24.557000+00:00 to 2026-09-30T23:44:47.957000+00:00. Its effort is split once across EKO-16 (60%), MSC-OLD-6 (30%) and MATH-18 (10%); these are estimated shares of one measured session, not independent measurements. The bounded cutoff excludes the final publishing/accounting tail. Token components, model and reasoning come from the local session records. The allocation reserves part of the portfolio's previously unassigned allowance, without claiming exact reconciliation to the earlier account-wide daily snapshot. API equivalent is a list-price comparison, not an invoice or credits paid.\n\nValidation: documentation links, original Hungarian asset preservation, SVG text positions and PNG preview, and offline restore/checksum checks. No application behavior changed.\n\nProject: https://github.com/users/fssrepository/projects/3\n\nRelated documentation tasks (separately allocated effort):\n- [EKO-16](https://github.com/fssrepository/myscoutee-roadmap/issues/146)\n- [MATH-18](https://github.com/fssrepository/myscoutee-roadmap/issues/148)\n",
       "state": "CLOSED",
       "state_reason": "completed",
       "issue": {
@@ -251,7 +251,7 @@
         "node_id": "I_kwDOU1_9-s8AAAABUQlPDA"
       },
       "values": {
-        "Task ID": "OLD-6",
+        "Task ID": "MSC-OLD-6",
         "Workstream": "Documentation (AI-assisted)",
         "Started": "2026-10-01",
         "Finished": "2026-10-01",

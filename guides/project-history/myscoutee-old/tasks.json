@@ -1,6 +1,6 @@
 [
   {
-    "task_id": "OLD-1",
+    "task_id": "MSC-OLD-1",
     "title": "Import the archived MyScoutee frontend prototype",
     "workstream": "Legacy manual",
     "started": "2026-03-11",
@@ -14,7 +14,7 @@
     "evidence": "Primarily manual legacy work, confirmed by the creator; no attributable AI usage retained"
   },
   {
-    "task_id": "OLD-2",
+    "task_id": "MSC-OLD-2",
     "title": "fix: complete demo data and development cache handling",
     "workstream": "Legacy manual",
     "started": "2026-03-11",
@@ -28,7 +28,7 @@
     "evidence": "Primarily manual legacy work, confirmed by the creator; no attributable AI usage retained"
   },
   {
-    "task_id": "OLD-3",
+    "task_id": "MSC-OLD-3",
     "title": "chore: archive campaign drafts and promotional videos",
     "workstream": "Legacy manual",
     "started": "2026-03-23",
@@ -42,7 +42,7 @@
     "evidence": "Primarily manual legacy work, confirmed by the creator; no attributable AI usage retained"
   },
   {
-    "task_id": "OLD-4",
+    "task_id": "MSC-OLD-4",
     "title": "docs: update the UI prototype link",
     "workstream": "Legacy manual",
     "started": "2026-03-31",
@@ -56,7 +56,7 @@
     "evidence": "Primarily manual legacy work, confirmed by the creator; no attributable AI usage retained"
   },
   {
-    "task_id": "OLD-5",
+    "task_id": "MSC-OLD-5",
     "title": "Reconstruct the Project and preserve restorable Git records",
     "workstream": "Project administration (AI-assisted)",
     "started": "2026-09-30",
@@ -70,7 +70,7 @@
     "evidence": "Measured maintenance-session tokens; estimated allocation by backup snapshot ownership (9:2:2:2 across four Projects)"
   },
   {
-    "task_id": "OLD-6",
+    "task_id": "MSC-OLD-6",
     "title": "Document the original project and its evolution into MyScoutee",
     "workstream": "Documentation (AI-assisted)",
     "started": "2026-10-01",

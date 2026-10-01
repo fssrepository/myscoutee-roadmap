@@ -270,7 +270,7 @@ for t in ordered:
  k=t['key']
  t['project_scope']='myscoutee-old' if k.startswith('OLD') else 'e-kozig' if re.fullmatch(r'E\d+',k) else 'math' if k=='RESEARCHVIDEO' or k=='MCOMM' or re.fullmatch(r'M\d+',k) else 'myscoutee'
  t['provisional_id']=previous.get(k) or ('EKO-'+k[1:] if k.startswith('E') else 'MATH-'+('13' if k=='MCOMM' else '14' if k=='M15' else k[1:]) if k.startswith('M') else 'OLD-'+k[3:])
- if k=='OLD':t['provisional_id']='OLD-1'
+ if k=='OLD':t['provisional_id']='MSC-OLD-1'
  if k=='RESEARCHVIDEO':t['provisional_id']='MATH-12'
  if k=='M16':t['provisional_id']='MATH-15'
  if k=='M17':t['provisional_id']='MATH-16'

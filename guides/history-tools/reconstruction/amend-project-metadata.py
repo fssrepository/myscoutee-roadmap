@@ -10,7 +10,7 @@ for repo in repos:
  git(repo,'add','--','guides/project-history')
  if repo=='myscoutee-backend':git(repo,'add','--','frontend')
  if repo=='myscoutee-roadmap':git(repo,'add','--','README.md')
- git(repo,'diff','--cached','--check');git(repo,'commit','--amend','--no-edit');head=git(repo,'rev-parse','HEAD');assert not git(repo,'status','--porcelain');assert git(repo,'show','-s','--format=%s').startswith(('[MSC-110]','[OLD-5]','[EKO-15]','[MATH-17]'))
+ git(repo,'diff','--cached','--check');git(repo,'commit','--amend','--no-edit');head=git(repo,'rev-parse','HEAD');assert not git(repo,'status','--porcelain');assert git(repo,'show','-s','--format=%s').startswith(('[MSC-110]','[MSC-OLD-5]','[EKO-15]','[MATH-17]'))
  for r in rows:
   if r['repo']==repo:r['backup_head']=head
  print('Updated task-linked snapshot commit:',repo,head[:12],flush=True)

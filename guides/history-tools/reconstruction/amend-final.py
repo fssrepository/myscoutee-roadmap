@@ -14,7 +14,7 @@ for r in rows:
  git(repo,'add','--','guides/project-history')
  if repo=='millennium-math-problems':git(repo,'add','-f','--','guides/project-history/tasks.csv')
  if repo=='myscoutee-backend':git(repo,'add','--','frontend')
- key='OLDMAINT' if repo=='myscoutee-old' else 'EKOMAINT' if repo=='e-kozig' else 'MATHMAINT' if repo=='millennium-math-problems' else 'MAINT';tid={'MAINT':'MSC-110','OLDMAINT':'OLD-5','EKOMAINT':'EKO-15','MATHMAINT':'MATH-17'}[key]
+ key='OLDMAINT' if repo=='myscoutee-old' else 'EKOMAINT' if repo=='e-kozig' else 'MATHMAINT' if repo=='millennium-math-problems' else 'MAINT';tid={'MAINT':'MSC-110','OLDMAINT':'MSC-OLD-5','EKOMAINT':'EKO-15','MATHMAINT':'MATH-17'}[key]
  git(repo,'diff','--cached','--check');git(repo,'commit','--amend','-m','['+tid+'] docs: preserve restorable Project history and effort records','-m','Task: '+S['issues'][key]['url'])
  r['backup_head']=git(repo,'rev-parse','HEAD');assert not git(repo,'status','--porcelain');assert git(repo,'show-ref','--tags')==pre[repo]['tags']
  changed=git(repo,'diff','--name-only',r['remote_original_head'],'HEAD').splitlines();assert all(x.startswith('guides/project-history/') or (repo=='myscoutee-backend' and x=='frontend') for x in changed)
