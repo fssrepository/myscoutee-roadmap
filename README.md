@@ -4,14 +4,27 @@ Four separate Projects preserve distinct work. MyScoutee system repositories sha
 
 | Project | Tasks | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 110 | 36,256.3 | 889.5 | $26,820 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 111 | 36,285.0 | 890.9 | $26,863 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 3.4 | 0.2 AI; manual unknown | $5 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 457.8 | 9.5 | $260 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 1,286.0 | 43.5 | $728 |
 
-Estimated token allocation across listed AI work: **38,003,492,490**. The measured usage inventory below is a separate control total, not an amount to add to project budgets. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
+Estimated token allocation across listed AI work: **38,032,141,411**. The measured usage inventory below is a separate control total, not an amount to add to project budgets. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
 
-11 source repositories, 226 consolidated source commits, and 150 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
+The original reconstruction covered 11 source repositories and 226 consolidated source commits. The tracker now contains 151 tasks, including subsequent work. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
+
+## Latest completed work
+
+[MSC-113: Granular profile ratings, fractional affinity and v1.3.3 release](https://github.com/fssrepository/myscoutee-roadmap/issues/151)
+is complete. Home/Activities UI and rate sync/save/reload are verified. Two
+images are deployed to Netcup; migration011 uses the shared DEB migration chain.
+No DEB was built. All eight containers are healthy; six retained their identity.
+Measured work through 2026-10-01T02:49:50.004Z: **28,648,921 tokens**, **1.369555 h**,
+**$42.63 estimated Standard API equivalent**, gpt-6-astra / xhigh and high.
+Includes implementation, QA, commits, migration, packaging, deployment and the
+verifier follow-up (3/3 regressions and13/13 public checks). Final
+accounting writes after cutoff cannot be self-counted. The October-1 task is
+counted once; the historical account control and September-30 heatmap stay frozen.
 
 ## Measured token activity
 
