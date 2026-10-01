@@ -72,3 +72,7 @@ The [history helper archive](guides/history-tools/README.md) preserves the sourc
 ## Task identifiers
 
 MSC, OLD, EKO and MATH IDs are stable task identifiers. Commit bodies link their actual issue numbers; task ID numbers need not equal GitHub issue numbers. Mixed commits retain their contents and can refer to several tasks. Release/archive tags retain their original targets.
+
+## License
+
+This repository is licensed under the [GNU Affero General Public License v3.0](LICENSE).
