@@ -1,0 +1,26 @@
+# Outputs from the archived scripts remain local.
+__pycache__/
+*.pyc
+*.bundle
+*.tar
+*.tar.gz
+*.zip
+*.log
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.txt
+*.sqlite*
+*.db
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+*token*
+!catalog.json
+/public/
+/protocol-schema/

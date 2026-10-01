@@ -1510,5 +1510,19 @@
     "models": "gpt-6-astra",
     "reasoning": "high",
     "evidence": "Measured maintenance-session tokens; estimated allocation by backup snapshot ownership (9:2:2:2 across four Projects)"
+  },
+  {
+    "task_id": "MSC-111",
+    "title": "Preserve the history reconstruction helper scripts",
+    "workstream": "Documentation (AI-assisted)",
+    "started": "2026-10-01",
+    "finished": "2026-10-01",
+    "tokens_million": 0.58,
+    "api_equivalent_usd_estimate": 0.9,
+    "active_hours": 0.03538472228580051,
+    "allocated_hours": 0.04,
+    "models": "gpt-6-astra",
+    "reasoning": "high",
+    "evidence": "Recorded local session usage for the source-archive task; bounded cutoff excludes final publishing work"
   }
 ]

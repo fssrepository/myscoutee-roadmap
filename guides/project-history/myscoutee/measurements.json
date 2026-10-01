@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "project_totals": {
-    "tasks": 108,
-    "tokens_estimate": 36249230674,
-    "api_standard_usd_estimate": 26808.69,
-    "allocated_hours_estimate": 889.1878287147725,
+    "tasks": 109,
+    "tokens_estimate": 36249808852,
+    "api_standard_usd_estimate": 26809.59,
+    "allocated_hours_estimate": 889.2232134370583,
     "manual_effort_unknown": false,
     "workstreams": {
       "Product": {
@@ -41,13 +41,18 @@
         "tokens": 11995121,
         "api_equivalent_usd": 18.47,
         "hours": 0.7487628333568572
+      },
+      "Documentation (AI-assisted)": {
+        "tokens": 578178,
+        "api_equivalent_usd": 0.9,
+        "hours": 0.03538472228580051
       }
     }
   },
   "account_control": {
     "account_tokens": 38488016278,
-    "allocated_tokens_estimate": 37996385327,
-    "unassigned_tokens": 491630951
+    "allocated_tokens_estimate": 37996963505,
+    "unassigned_tokens": 491052773
   },
   "valuation_date": "2026-10-01",
   "rates_per_million": {
@@ -4262,6 +4267,40 @@
           "tokens": 1499390.125,
           "api_equivalent_usd": 2.30875
         }
+      }
+    },
+    {
+      "task_id": "MSC-111",
+      "tokens": 578178,
+      "api_standard_usd_estimate": 0.9,
+      "active_hours": 0.03538472228580051,
+      "allocated_hours": 0.03538472228580051,
+      "manual_effort_unknown": false,
+      "token_basis": "Recorded local session usage for the source-archive task; bounded cutoff excludes final publishing work",
+      "duration_basis": "Observed active task window including tool waits; not human working time",
+      "allocated_time_basis": "Observed active task window including tool waits; not human working time",
+      "models": {
+        "gpt-6-astra|high": {
+          "input_tokens": 574276,
+          "cached_input_tokens": 559744,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3902,
+          "reasoning_output_tokens": 1188,
+          "total_tokens": 578178
+        }
+      },
+      "repository_allocations": {
+        "myscoutee-roadmap": {
+          "hours": 0.03538472228580051,
+          "tokens": 578178,
+          "api_equivalent_usd": 0.9
+        }
+      },
+      "frozen_phase": {
+        "start_utc": "2026-09-30T23:56:54.972000+00:00",
+        "cutoff_utc": "2026-09-30T23:59:02.357000+00:00",
+        "tokens": 578178,
+        "hours": 0.03538472228580051
       }
     }
   ],
