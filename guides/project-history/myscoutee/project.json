@@ -17,8 +17,8 @@
     "title": "MyScoutee",
     "url": "https://github.com/users/fssrepository/projects/2",
     "public": true,
-    "shortDescription": "108 tasks \u00b7 36,249.2M tokens \u00b7 889.2h AI activity \u00b7 API equivalent $26,809 (estimates)",
-    "readme": "# MyScoutee\n\n108 retrospective tasks. This Project is separate from the other portfolio Projects.\n\n[Complete Git backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee) \u00b7 [Measurement method](https://github.com/fssrepository/myscoutee-roadmap#measurement-method)\n\nEstimated task allocation: 36.249 B tokens, 889.2 h of activity after removing observed overlap, approximately $26,809 at Standard API rates. These are estimates, not human hours or an invoice.\n\n## Budget by workstream\n\n| Workstream | Tokens (M) | Allocated activity (h) | API equivalent (USD) |\n| --- | ---: | ---: | ---: |\n| Product | 23,857.34 | 525.69 | $15,993.22 |\n| QA and release | 8,574.35 | 235.94 | $7,729.87 |\n| Operations | 1,311.95 | 29.69 | $1,070.12 |\n| Marketing | 245.45 | 8.83 | $210.41 |\n| Creative | 2,185.29 | 86.59 | $1,727.15 |\n| Tooling | 62.85 | 1.69 | $59.45 |\n| Project administration (AI-assisted) | 12.00 | 0.75 | $18.47 |\n\n## Repositories\n\n- [myscoutee-backend](https://github.com/fssrepository/myscoutee-backend)\n- [myscoutee](https://github.com/fssrepository/myscoutee)\n- [myscoutee-registry](https://github.com/fssrepository/myscoutee-registry)\n- [myscoutee-payment-simulator](https://github.com/fssrepository/myscoutee-payment-simulator)\n- [myscoutee-client](https://github.com/fssrepository/myscoutee-client)\n- [myscoutee-client-admin](https://github.com/fssrepository/myscoutee-client-admin)\n- [myscoutee-mcp](https://github.com/fssrepository/myscoutee-mcp)\n- [myscoutee-agent](https://github.com/fssrepository/myscoutee-agent)\n- [myscoutee-roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n"
+    "shortDescription": "109 tasks \u00b7 36,249.8M tokens \u00b7 889.2h AI activity \u00b7 API equivalent $26,810 (estimates)",
+    "readme": "# MyScoutee\n\n109 retrospective tasks. This Project is separate from the other portfolio Projects.\n\n[Complete Git backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee) \u00b7 [Measurement method](https://github.com/fssrepository/myscoutee-roadmap#measurement-method)\n\nEstimated task allocation: 36.250 B tokens, 889.2 h of activity after removing observed overlap, approximately $26,810 at Standard API rates. These are estimates, not human hours or an invoice.\n\n## Budget by workstream\n\n| Workstream | Tokens (M) | Allocated activity (h) | API equivalent (USD) |\n| --- | ---: | ---: | ---: |\n| Product | 23,857.34 | 525.69 | $15,993.22 |\n| QA and release | 8,574.35 | 235.94 | $7,729.87 |\n| Operations | 1,311.95 | 29.69 | $1,070.12 |\n| Marketing | 245.45 | 8.83 | $210.41 |\n| Creative | 2,185.29 | 86.59 | $1,727.15 |\n| Tooling | 62.85 | 1.69 | $59.45 |\n| Project administration (AI-assisted) | 12.00 | 0.75 | $18.47 |\n| Documentation (AI-assisted) | 0.58 | 0.04 | $0.90 |\n\n## Repositories\n\n- [myscoutee-backend](https://github.com/fssrepository/myscoutee-backend)\n- [myscoutee](https://github.com/fssrepository/myscoutee)\n- [myscoutee-registry](https://github.com/fssrepository/myscoutee-registry)\n- [myscoutee-payment-simulator](https://github.com/fssrepository/myscoutee-payment-simulator)\n- [myscoutee-client](https://github.com/fssrepository/myscoutee-client)\n- [myscoutee-client-admin](https://github.com/fssrepository/myscoutee-client-admin)\n- [myscoutee-mcp](https://github.com/fssrepository/myscoutee-mcp)\n- [myscoutee-agent](https://github.com/fssrepository/myscoutee-agent)\n- [myscoutee-roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n"
   },
   "fields": [
     {
@@ -3047,6 +3047,33 @@
         "Models": "gpt-6-astra",
         "Reasoning": "high",
         "Evidence": "Measured run; estimated project split",
+        "Status": "Done"
+      }
+    },
+    {
+      "task_id": "MSC-111",
+      "title": "MSC-111: Preserve the history reconstruction helper scripts",
+      "body": "Preserve the history-cleanup and Project-reconstruction helper source code under `guides/history-tools/`, grouped by the original workflows. Include a source/hash catalog and explain the historical paths, input dependencies, final workflow references and one-time correction scripts.\n\nThe archive contains 49 Python scripts and workflow documentation. Git bundles, compressed worktree backups, generated reports, credentials and raw conversation/session extracts are excluded. The original workspace folders remain intact. Credential patterns and high-entropy literals were checked without printing sensitive values.\n\n| Metric | Value |\n| --- | ---: |\n| Recorded tokens | 0.578 M |\n| Activity | 0.035 h |\n| Standard API equivalent | $0.90 USD |\n| Model / reasoning | gpt-6-astra / high |\n\nMeasurement window: 2026-09-30T23:56:54.972000+00:00 to 2026-09-30T23:59:02.357000+00:00. The final publication/accounting tail is excluded to avoid recursive self-accounting. This task is attributed once to the MyScoutee Project. The tokens are allocated from the remaining portfolio allowance without claiming exact reconciliation to the older daily account snapshot. USD is a list-price comparison, not actual spending.\n\nValidation: Python AST parsing without executing the archived scripts, source/checksum comparison, secret-pattern/literal review, and the existing Project snapshot restore checks.\n\n[Archived sources and workflow notes](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/history-tools)\n\nProject: https://github.com/users/fssrepository/projects/2\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 149,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/149",
+        "node_id": "I_kwDOU1_9-s8AAAABUQsCmA"
+      },
+      "values": {
+        "Task ID": "MSC-111",
+        "Workstream": "Documentation (AI-assisted)",
+        "Started": "2026-10-01",
+        "Finished": "2026-10-01",
+        "Tokens M": 0.578,
+        "API equiv USD": 0.9,
+        "Active h": 0.035,
+        "Allocated h": 0.035,
+        "Models": "gpt-6-astra",
+        "Reasoning": "high",
+        "Evidence": "Recorded session; bounded cutoff",
         "Status": "Done"
       }
     }

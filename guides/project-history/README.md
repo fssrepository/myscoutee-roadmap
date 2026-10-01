@@ -4,14 +4,14 @@ Four separate Projects preserve distinct work. MyScoutee system repositories sha
 
 | Project | Tasks | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 108 | 36,249.2 | 889.2 | $26,809 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 109 | 36,249.8 | 889.2 | $26,810 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 3.4 | 0.2 AI; manual unknown | $5 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 457.8 | 9.5 | $260 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 1,286.0 | 43.5 | $728 |
 
-Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Estimated allocation across listed AI work: **37,996,385,327**; remaining unassigned: **491,630,951**. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
+Account-wide measured tokens: **38,488,016,278**, through September 30, 2026. Estimated allocation across listed AI work: **37,996,963,505**; remaining unassigned: **491,052,773**. Activity time includes tool/network waits; it is not human labor time. Legacy manual effort is unknown and excluded from numeric totals. USD is a standardized API list-price comparison, not a subscription invoice or amount paid.
 
-11 source repositories, 226 consolidated source commits, and 148 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
+11 source repositories, 226 consolidated source commits, and 149 retrospective tasks. The task issue records share this public tracker for stable references, while their Project boards and totals are separate. Source repository visibility is unchanged.
 
 ## Restore from Git
 
@@ -39,6 +39,10 @@ Model date sources: [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3
 
 - Four independent Projects separate MyScoutee, the manually developed legacy archive, e-kozig and mathematical research. Shared account tokens are allocated once across all four; a Project total is never an additional account total. Historical legacy AI usage is unverified and left blank. The current AI-assisted Project-administration task is measured separately. A final shared maintenance-run measurement is apportioned by snapshot ownership; its overlap with MSC-108 is removed and its net allocation uses the unassigned account allowance, without exact daily billing reconciliation.
 - Mathematical experiments and videos do not establish a solution of the continuous Navier–Stokes problem. The claim withdrawal is a first-class task.
+
+## Reconstruction tools
+
+The [history helper archive](../history-tools/README.md) preserves the source scripts and workflow notes used for the reconstruction. It excludes backup bundles, credentials and private conversation extracts.
 
 ## Task identifiers
 

@@ -1,0 +1,348 @@
+{
+  "purpose": "Source-only archive of history cleanup and Project reconstruction helpers. Personal home paths are anonymized; generated data and backups are excluded.",
+  "files": [
+    {
+      "file": "cleanup-small/prepare.py",
+      "source": "history-cleanup-20260930-small-repos/prepare.py",
+      "role": "historical cleanup helper",
+      "bytes": 4873,
+      "sha256": "495929ad53373467bca09f1cbeff5ce0fa18ac7c6f8f59aa6430ef41ea8c3f2c"
+    },
+    {
+      "file": "cleanup-small/publish.py",
+      "source": "history-cleanup-20260930-small-repos/publish.py",
+      "role": "historical cleanup helper",
+      "bytes": 2697,
+      "sha256": "15f710481cca97e4776f4eb1420f145ad396bbd3616fc838b4a610be7268faec"
+    },
+    {
+      "file": "cleanup-main/audit.py",
+      "source": "history-cleanup-20260930-main-repos/audit.py",
+      "role": "historical cleanup helper",
+      "bytes": 1727,
+      "sha256": "415072b00705c1fbecbc8a1efc2ebc3b93f1ba4eefa94b60c06e9c32971458fd"
+    },
+    {
+      "file": "cleanup-main/backup.py",
+      "source": "history-cleanup-20260930-main-repos/backup.py",
+      "role": "historical cleanup helper",
+      "bytes": 1788,
+      "sha256": "68b248ddda3d04ad93f01c398d3794e44609fc9e91f4758dfcc590b0035de0be"
+    },
+    {
+      "file": "cleanup-main/build_plan.py",
+      "source": "history-cleanup-20260930-main-repos/build_plan.py",
+      "role": "historical cleanup helper",
+      "bytes": 2105,
+      "sha256": "cbb71de4a4215878e9e9d8e8088dd794b87cd3532775aeb607e5c9f212bd87e8"
+    },
+    {
+      "file": "cleanup-main/prepare.py",
+      "source": "history-cleanup-20260930-main-repos/prepare.py",
+      "role": "historical cleanup helper",
+      "bytes": 5016,
+      "sha256": "c91bb846e0e6ba08ac0c04d8abc2f6957c96c1481e0225bca78cc7155638132b"
+    },
+    {
+      "file": "cleanup-main/publish.py",
+      "source": "history-cleanup-20260930-main-repos/publish.py",
+      "role": "historical cleanup helper",
+      "bytes": 4172,
+      "sha256": "297eaacc071bf0075d5e638a7b880d6ae5aa5c673065fae2c89c694ebb5e24cc"
+    },
+    {
+      "file": "cleanup-main/verify.py",
+      "source": "history-cleanup-20260930-main-repos/verify.py",
+      "role": "historical cleanup helper",
+      "bytes": 6873,
+      "sha256": "d9d2e9245e789253a5e75547d69d0a7f69a1e185cf44c61c0790a13a90f52e1e"
+    },
+    {
+      "file": "cleanup-extra/archive_backups.py",
+      "source": "history-cleanup-20260930-extra-repos/archive_backups.py",
+      "role": "historical cleanup helper",
+      "bytes": 3576,
+      "sha256": "05cdebaf9ab9d3c8e3e98d4f324307c3c54417388ed34c16a43816a90a8c9e3e"
+    },
+    {
+      "file": "cleanup-extra/build_plan.py",
+      "source": "history-cleanup-20260930-extra-repos/build_plan.py",
+      "role": "historical cleanup helper",
+      "bytes": 8201,
+      "sha256": "c53256c9aef2a244c12dd4ced14569cfd0e735681cf9cf9366837caf531bd1c8"
+    },
+    {
+      "file": "cleanup-extra/download.py",
+      "source": "history-cleanup-20260930-extra-repos/download.py",
+      "role": "historical cleanup helper",
+      "bytes": 1758,
+      "sha256": "1eb4adbf311f35b0d5736328f764f2ec638ac052f080def241e398dbf89643cb"
+    },
+    {
+      "file": "cleanup-extra/prepare.py",
+      "source": "history-cleanup-20260930-extra-repos/prepare.py",
+      "role": "historical cleanup helper",
+      "bytes": 5539,
+      "sha256": "14662010afb6409bdc96e09980790e785a5d90db0b047316c8cfaed5f15b0f0c"
+    },
+    {
+      "file": "cleanup-extra/publish.py",
+      "source": "history-cleanup-20260930-extra-repos/publish.py",
+      "role": "historical cleanup helper",
+      "bytes": 3134,
+      "sha256": "778449277834329e3034edee2bb4fea6e8108c13fdd7d1bf822e3fa8cc35d30b"
+    },
+    {
+      "file": "cleanup-extra/verify.py",
+      "source": "history-cleanup-20260930-extra-repos/verify.py",
+      "role": "historical cleanup helper",
+      "bytes": 4291,
+      "sha256": "8152ae19f4ed4c12b1e98a6d0b0050fdfe76ebcef92584b92184e6575d2fc429"
+    },
+    {
+      "file": "reconstruction/add-documentation.py",
+      "source": "myscoutee-project-reconstruction-20261001/add-documentation.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 6873,
+      "sha256": "eb6db76ca187239fb63dc08e60eca359d3f630bedc035645aceabbf35e6285ab"
+    },
+    {
+      "file": "reconstruction/add-maintenance.py",
+      "source": "myscoutee-project-reconstruction-20261001/add-maintenance.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 9344,
+      "sha256": "67fb74348a9600411d798f945fa25c62d1a471524b2d096603d011025d985d0b"
+    },
+    {
+      "file": "reconstruction/amend-final.py",
+      "source": "myscoutee-project-reconstruction-20261001/amend-final.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 3566,
+      "sha256": "bf7f15e872b7f14af3b9f9fcfeb4182105498b725fb06b11a672343ec132eb44"
+    },
+    {
+      "file": "reconstruction/amend-project-metadata.py",
+      "source": "myscoutee-project-reconstruction-20261001/amend-project-metadata.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 2145,
+      "sha256": "07d65feffc66e84b530ac37030ee57ad07da2af27c88637cc94b3de32d4bff73"
+    },
+    {
+      "file": "reconstruction/apply-rewrite.py",
+      "source": "myscoutee-project-reconstruction-20261001/apply-rewrite.py",
+      "role": "historical intermediate helper",
+      "bytes": 1027,
+      "sha256": "ae11c5f6f9c49247c000049191a98070edcf2c8a16151a4392164066c895ce24"
+    },
+    {
+      "file": "reconstruction/backup-portfolio.py",
+      "source": "myscoutee-project-reconstruction-20261001/backup-portfolio.py",
+      "role": "workflow reference",
+      "bytes": 17833,
+      "sha256": "c8e0666ccbd68a9ceede7acb7e08465feb5ec0e6bab233834413ab34df0626e8"
+    },
+    {
+      "file": "reconstruction/build-tasks.py",
+      "source": "myscoutee-project-reconstruction-20261001/build-tasks.py",
+      "role": "workflow reference",
+      "bytes": 21000,
+      "sha256": "ec8f3a9b0115524d70d2d5b59ea4b8216514ce9339525aa276e6388f15e75112"
+    },
+    {
+      "file": "reconstruction/commit-backups.py",
+      "source": "myscoutee-project-reconstruction-20261001/commit-backups.py",
+      "role": "historical intermediate helper",
+      "bytes": 2303,
+      "sha256": "bdb50091cdb831e8cc69ee68306d471eaf17f7a6b16dc097b453983210eb5cf3"
+    },
+    {
+      "file": "reconstruction/configure-project.py",
+      "source": "myscoutee-project-reconstruction-20261001/configure-project.py",
+      "role": "historical intermediate helper",
+      "bytes": 1616,
+      "sha256": "ef1938ae49bc01371b84f9f88452299ff6740866413489903815b3d55062741b"
+    },
+    {
+      "file": "reconstruction/extend-inventory.py",
+      "source": "myscoutee-project-reconstruction-20261001/extend-inventory.py",
+      "role": "historical intermediate helper",
+      "bytes": 1222,
+      "sha256": "8b254a0c96d952e3efb07ba06171376c4790a52c97d827689899918a779b0365"
+    },
+    {
+      "file": "reconstruction/extract-additional.py",
+      "source": "myscoutee-project-reconstruction-20261001/extract-additional.py",
+      "role": "workflow reference",
+      "bytes": 6529,
+      "sha256": "bbda230e39b7afb9f04eb262af793aa4f2ced10f293f0563ef9c0d717b36a4f0"
+    },
+    {
+      "file": "reconstruction/extract-maintenance.py",
+      "source": "myscoutee-project-reconstruction-20261001/extract-maintenance.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 6410,
+      "sha256": "f0efaca2193cf43e92683438dbc726fa69188124ca001773bebee20db80f0376"
+    },
+    {
+      "file": "reconstruction/extract-usage.py",
+      "source": "myscoutee-project-reconstruction-20261001/extract-usage.py",
+      "role": "workflow reference",
+      "bytes": 6628,
+      "sha256": "b2bf28b42dc1b4649184db6167437dccda10037c07c0e83a278f1bac4915e1d2"
+    },
+    {
+      "file": "reconstruction/extract.py",
+      "source": "myscoutee-project-reconstruction-20261001/extract.py",
+      "role": "historical intermediate helper",
+      "bytes": 6119,
+      "sha256": "4fa174fa6173ffaa6215f7445ea2cd1968106f89eeaa897ddd6104eaff8785f5"
+    },
+    {
+      "file": "reconstruction/finalize-maintenance.py",
+      "source": "myscoutee-project-reconstruction-20261001/finalize-maintenance.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 1996,
+      "sha256": "9fed70542dfaf509f3438c6f5f8f9658fd96745ec13e469ba8f747fb13b94537"
+    },
+    {
+      "file": "reconstruction/finalize-portfolio-data.py",
+      "source": "myscoutee-project-reconstruction-20261001/finalize-portfolio-data.py",
+      "role": "historical intermediate helper",
+      "bytes": 2470,
+      "sha256": "5efdc6e550eb16a2fe4a1c790051e74abc84849e244f3d4bbfec22d26223edfa"
+    },
+    {
+      "file": "reconstruction/finalize-project.py",
+      "source": "myscoutee-project-reconstruction-20261001/finalize-project.py",
+      "role": "historical intermediate helper",
+      "bytes": 3055,
+      "sha256": "087da3589d64b856272f1b8ff7213101f75f1a729cacdb83cae18e7cde635e05"
+    },
+    {
+      "file": "reconstruction/finalize-views.py",
+      "source": "myscoutee-project-reconstruction-20261001/finalize-views.py",
+      "role": "workflow reference",
+      "bytes": 3393,
+      "sha256": "ef2fe343c4962206fa237ff2c85d586db49b4d3cd897d66045b230bcebd4bb07"
+    },
+    {
+      "file": "reconstruction/github_api.py",
+      "source": "myscoutee-project-reconstruction-20261001/github_api.py",
+      "role": "workflow reference",
+      "bytes": 1658,
+      "sha256": "e2555890008e885018aa84cfa68b7ee684fce4935f43da5ddcdc4b5fea32bfed"
+    },
+    {
+      "file": "reconstruction/link-projects.py",
+      "source": "myscoutee-project-reconstruction-20261001/link-projects.py",
+      "role": "workflow reference",
+      "bytes": 1421,
+      "sha256": "da93fc858430a6219d2b84401e512312a8831faebf1787067fbbc33b6a408c22"
+    },
+    {
+      "file": "reconstruction/merge-history.py",
+      "source": "myscoutee-project-reconstruction-20261001/merge-history.py",
+      "role": "workflow reference",
+      "bytes": 1258,
+      "sha256": "6b11661f23f872165898049517f35a4fc8015afd66e54e3bcc5c21acd939b3e9"
+    },
+    {
+      "file": "reconstruction/prepare-public.py",
+      "source": "myscoutee-project-reconstruction-20261001/prepare-public.py",
+      "role": "workflow reference",
+      "bytes": 13426,
+      "sha256": "cc716bbea8f1caa22a152c2dbc351a5fb0839dce1346f80e316a9ef0c1e385f2"
+    },
+    {
+      "file": "reconstruction/prepare-rewrite.py",
+      "source": "myscoutee-project-reconstruction-20261001/prepare-rewrite.py",
+      "role": "historical intermediate helper",
+      "bytes": 2901,
+      "sha256": "c58df27622c62e52d9d22351f9928fe9c68890e504d54478edb0e387b5e6e129"
+    },
+    {
+      "file": "reconstruction/publish-portfolio.py",
+      "source": "myscoutee-project-reconstruction-20261001/publish-portfolio.py",
+      "role": "workflow reference",
+      "bytes": 4882,
+      "sha256": "290167ce0488132093be45adf2fb742aa7e5e21f85019ef43090ee5cfcee8945"
+    },
+    {
+      "file": "reconstruction/publish.py",
+      "source": "myscoutee-project-reconstruction-20261001/publish.py",
+      "role": "historical intermediate helper",
+      "bytes": 4881,
+      "sha256": "cf5ddd5f4fb4a6a98106bf5a0f060d5bbb72f4ca649aaf62ba7332d22bc9e44f"
+    },
+    {
+      "file": "reconstruction/push-final.py",
+      "source": "myscoutee-project-reconstruction-20261001/push-final.py",
+      "role": "historical intermediate helper",
+      "bytes": 1658,
+      "sha256": "543736e9f71b8be477a4d1b7a7e2dfed457f684fa03b0977b1267584d84e8265"
+    },
+    {
+      "file": "reconstruction/push-verified.py",
+      "source": "myscoutee-project-reconstruction-20261001/push-verified.py",
+      "role": "historical intermediate helper",
+      "bytes": 1360,
+      "sha256": "c37eb50e3f3eedf2f55d8d7f837454e4de23a82aabf5a7a93189486d13a0960b"
+    },
+    {
+      "file": "reconstruction/read-account-usage.py",
+      "source": "myscoutee-project-reconstruction-20261001/read-account-usage.py",
+      "role": "workflow reference",
+      "bytes": 1454,
+      "sha256": "d8bb7f121e788333fc6bc71bff7afcb2ea63f53894a355efde7ab7e88aaecbeb"
+    },
+    {
+      "file": "reconstruction/read-thread-usage.py",
+      "source": "myscoutee-project-reconstruction-20261001/read-thread-usage.py",
+      "role": "historical intermediate helper",
+      "bytes": 1521,
+      "sha256": "73397fe91ef765d6c62edb6e2346a9334d35a8fc8e6387152d7a95145aad052b"
+    },
+    {
+      "file": "reconstruction/refine-builder.py",
+      "source": "myscoutee-project-reconstruction-20261001/refine-builder.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 6911,
+      "sha256": "f3c3d3afb7293a7b0d63398dd9644735226cc031edd37f69ddc61b6f1b677930"
+    },
+    {
+      "file": "reconstruction/rename-projects.py",
+      "source": "myscoutee-project-reconstruction-20261001/rename-projects.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 1524,
+      "sha256": "6c2f91d616007a3eb2ed265c6c1558628361ce43be522549092b733abc4f7896"
+    },
+    {
+      "file": "reconstruction/rewrite-extra.py",
+      "source": "myscoutee-project-reconstruction-20261001/rewrite-extra.py",
+      "role": "historical intermediate helper",
+      "bytes": 2385,
+      "sha256": "caefe730a3847003ad31fc33bbde80717f9ebf332d77ef1949d157d29cb723de"
+    },
+    {
+      "file": "reconstruction/scope-correction.py",
+      "source": "myscoutee-project-reconstruction-20261001/scope-correction.py",
+      "role": "one-time correction or accounting step",
+      "bytes": 5034,
+      "sha256": "683e79a6755b6fd1f36dc187a8f4c795d0e6c60783156b95c82925957f016f6f"
+    },
+    {
+      "file": "reconstruction/time-totals.py",
+      "source": "myscoutee-project-reconstruction-20261001/time-totals.py",
+      "role": "workflow reference",
+      "bytes": 2749,
+      "sha256": "de842e6560e8a37154af17029b16714aa90542305634cd49c489568853268eef"
+    },
+    {
+      "file": "reconstruction/write-backups.py",
+      "source": "myscoutee-project-reconstruction-20261001/write-backups.py",
+      "role": "historical intermediate helper",
+      "bytes": 10257,
+      "sha256": "af555c7dc5ec2f1b225e9f304769cc580f15c10d6252eb7d63b460d8c3fb26df"
+    }
+  ]
+}
