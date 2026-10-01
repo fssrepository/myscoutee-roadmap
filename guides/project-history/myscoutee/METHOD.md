@@ -17,3 +17,19 @@ Model date sources: [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3
 - Mathematical experiments and videos do not establish a solution of the continuous Navier–Stokes problem. The claim withdrawal is a first-class task.
 
 - Combined daily usage is published as anonymous totals only. The original task calibration remains separate: additional measurements may overlap existing task evidence and are not automatically added to task tokens, hours or costs.
+
+## MSC-113 measurement boundary
+
+All MSC-113 work through 2026-10-01T02:49:50.004Z is included: implementation, QA, commits,
+Project/roadmap administration, migration, packaging and v1.3.3 Netcup release.
+28,648,921 tokens from 227 unique response IDs; 1.369555 active task hours,
+including tool waits but excluding the gap between turns; estimated $42.63
+using the frozen 2026-10-01 Standard rate card. Cached input is inside input;
+reasoning is inside output. Final accounting writes after the stated cutoff
+cannot be self-counted. These are not human hours or an invoice.
+
+Backend/frontend snapshots share one task; no measured repository split is
+claimed. The historical account control and September-30 heatmap remain frozen.
+October-1 usage is recorded in `post_control_task_usage` and counted once in task
+totals, without consuming the historical unassigned-account allowance. Canonical
+commit mappings are in the roadmap backup to avoid self-referential source SHAs.
