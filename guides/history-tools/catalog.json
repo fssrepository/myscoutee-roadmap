@@ -138,8 +138,8 @@
       "file": "reconstruction/backup-portfolio.py",
       "source": "myscoutee-project-reconstruction-20261001/backup-portfolio.py",
       "role": "workflow reference",
-      "bytes": 17833,
-      "sha256": "c8e0666ccbd68a9ceede7acb7e08465feb5ec0e6bab233834413ab34df0626e8"
+      "bytes": 19908,
+      "sha256": "a879b13d8a8255d06794f16c84ae41d857ebf1ce6ef4fa29bee5e3eeb9ccea55"
     },
     {
       "file": "reconstruction/build-tasks.py",

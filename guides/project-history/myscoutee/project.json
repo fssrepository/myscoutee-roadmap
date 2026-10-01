@@ -17,8 +17,8 @@
     "title": "MyScoutee",
     "url": "https://github.com/users/fssrepository/projects/2",
     "public": true,
-    "shortDescription": "109 tasks \u00b7 36,249.8M tokens \u00b7 889.2h AI activity \u00b7 API equivalent $26,810 (estimates)",
-    "readme": "# MyScoutee\n\n109 retrospective tasks. This Project is separate from the other portfolio Projects.\n\n[Complete Git backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee) \u00b7 [Measurement method](https://github.com/fssrepository/myscoutee-roadmap#measurement-method)\n\nEstimated task allocation: 36.250 B tokens, 889.2 h of activity after removing observed overlap, approximately $26,810 at Standard API rates. These are estimates, not human hours or an invoice.\n\n## Budget by workstream\n\n| Workstream | Tokens (M) | Allocated activity (h) | API equivalent (USD) |\n| --- | ---: | ---: | ---: |\n| Product | 23,857.34 | 525.69 | $15,993.22 |\n| QA and release | 8,574.35 | 235.94 | $7,729.87 |\n| Operations | 1,311.95 | 29.69 | $1,070.12 |\n| Marketing | 245.45 | 8.83 | $210.41 |\n| Creative | 2,185.29 | 86.59 | $1,727.15 |\n| Tooling | 62.85 | 1.69 | $59.45 |\n| Project administration (AI-assisted) | 12.00 | 0.75 | $18.47 |\n| Documentation (AI-assisted) | 0.58 | 0.04 | $0.90 |\n\n## Repositories\n\n- [myscoutee-backend](https://github.com/fssrepository/myscoutee-backend)\n- [myscoutee](https://github.com/fssrepository/myscoutee)\n- [myscoutee-registry](https://github.com/fssrepository/myscoutee-registry)\n- [myscoutee-payment-simulator](https://github.com/fssrepository/myscoutee-payment-simulator)\n- [myscoutee-client](https://github.com/fssrepository/myscoutee-client)\n- [myscoutee-client-admin](https://github.com/fssrepository/myscoutee-client-admin)\n- [myscoutee-mcp](https://github.com/fssrepository/myscoutee-mcp)\n- [myscoutee-agent](https://github.com/fssrepository/myscoutee-agent)\n- [myscoutee-roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n"
+    "shortDescription": "110 tasks \u00b7 36,256.3M tokens \u00b7 889.5h AI activity \u00b7 API equivalent $26,820 (estimates)",
+    "readme": "# MyScoutee\n\n110 retrospective tasks. This Project is separate from the other portfolio Projects.\n\n[Complete Git backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee) \u00b7 [Measurement method](https://github.com/fssrepository/myscoutee-roadmap#measurement-method)\n\nEstimated task allocation: 36.256 B tokens, 889.5 h of activity after removing observed overlap, approximately $26,820 at Standard API rates. These are estimates, not human hours or an invoice.\n\n## Budget by workstream\n\n| Workstream | Tokens (M) | Allocated activity (h) | API equivalent (USD) |\n| --- | ---: | ---: | ---: |\n| Product | 23,857.34 | 525.69 | $15,993.22 |\n| QA and release | 8,574.35 | 235.94 | $7,729.87 |\n| Operations | 1,311.95 | 29.69 | $1,070.12 |\n| Marketing | 245.45 | 8.83 | $210.41 |\n| Creative | 2,185.29 | 86.59 | $1,727.15 |\n| Tooling | 62.85 | 1.69 | $59.45 |\n| Project administration (AI-assisted) | 18.52 | 1.07 | $29.25 |\n| Documentation (AI-assisted) | 0.58 | 0.04 | $0.90 |\n\n## Repositories\n\n- [myscoutee-backend](https://github.com/fssrepository/myscoutee-backend)\n- [myscoutee](https://github.com/fssrepository/myscoutee)\n- [myscoutee-registry](https://github.com/fssrepository/myscoutee-registry)\n- [myscoutee-payment-simulator](https://github.com/fssrepository/myscoutee-payment-simulator)\n- [myscoutee-client](https://github.com/fssrepository/myscoutee-client)\n- [myscoutee-client-admin](https://github.com/fssrepository/myscoutee-client-admin)\n- [myscoutee-mcp](https://github.com/fssrepository/myscoutee-mcp)\n- [myscoutee-agent](https://github.com/fssrepository/myscoutee-agent)\n- [myscoutee-roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n"
   },
   "fields": [
     {
@@ -3074,6 +3074,33 @@
         "Models": "gpt-6-astra",
         "Reasoning": "high",
         "Evidence": "Recorded session; bounded cutoff",
+        "Status": "Done"
+      }
+    },
+    {
+      "task_id": "MSC-112",
+      "title": "MSC-112: Preserve combined usage and render the token activity heatmap",
+      "body": "Preserve the combined historical daily token measurements and generate a blue calendar heatmap for the roadmap README. Reproducible SVG and double-resolution PNG outputs use the same verified ledger: **40,781,240,381 tokens across 185 active dates**, February 4\u2013September 30, 2026.\n\nThe README shows only the combined series. The supporting JSON retains daily input series under account-name initials only, as requested; full account identifiers, authentication payloads and private conversation text are excluded. Personal home paths in the archived helper sources are anonymized, including the reachable historical commit that introduced them.\n\nThese historical measurements are not extra task effort. Session evidence may already include the same usage. Keep existing task allocations unchanged and avoid adding the measured inventory on top of project budgets.\n\n| This collection, visualization and cleanup task | Recorded value |\n| --- | ---: |\n| Session tokens | 6.529 M |\n| Active task time | 0.319 h |\n| Standard API equivalent | $10.78 USD |\n| Model / reasoning | gpt-6-astra / high |\n\nThe measurement runs from 2026-10-01T00:09:19.171000+00:00 to 2026-10-01T00:32:15.204000+00:00, using unique response records and the union of active root-task intervals. It excludes the final publication/accounting tail and inter-turn idle time; active tool waits are included. It is not human labor time. This administration effort is allocated once from the existing calibration allowance, without claiming exact daily reconciliation to the older usage snapshot. API equivalent is a standardized comparison, not an invoice.\n\nValidation: input-series and combined totals; SVG cells match the ledger; PNG dimensions and visual inspection; no changes to other task metrics; source privacy scan; offline Project restore validation. The existing MSC-112 commit is replaced, without introducing another task or duplicate commit.\n\n[Daily ledger](https://github.com/fssrepository/myscoutee-roadmap/blob/master/guides/project-history/account-coverage.json) \u00b7 [Heatmap and regeneration](https://github.com/fssrepository/myscoutee-roadmap/blob/master/guides/project-history/HEATMAP.md)\n\nProject: https://github.com/users/fssrepository/projects/2\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 150,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/150",
+        "node_id": "I_kwDOU1_9-s8AAAABUQ2fKQ"
+      },
+      "values": {
+        "Task ID": "MSC-112",
+        "Workstream": "Project administration (AI-assisted)",
+        "Started": "2026-10-01",
+        "Finished": "2026-10-01",
+        "Tokens M": 6.529,
+        "API equiv USD": 10.78,
+        "Active h": 0.319,
+        "Allocated h": 0.319,
+        "Models": "gpt-6-astra",
+        "Reasoning": "high",
+        "Evidence": "Recorded collection, chart and privacy work; bounded publication cutoff",
         "Status": "Done"
       }
     }

@@ -1,9 +1,9 @@
 {
   "myscoutee": {
-    "tasks": 109,
-    "tokens_estimate": 36249808852,
-    "api_standard_usd_estimate": 26809.59,
-    "allocated_hours_estimate": 889.2232134370583,
+    "tasks": 110,
+    "tokens_estimate": 36256337837,
+    "api_standard_usd_estimate": 26820.37,
+    "allocated_hours_estimate": 889.5424095482209,
     "manual_effort_unknown": false,
     "workstreams": {
       "Product": {
@@ -37,9 +37,9 @@
         "hours": 1.6930397222439448
       },
       "Project administration (AI-assisted)": {
-        "tokens": 11995121,
-        "api_equivalent_usd": 18.47,
-        "hours": 0.7487628333568572
+        "tokens": 18524106,
+        "api_equivalent_usd": 29.25,
+        "hours": 1.0679589445193607
       },
       "Documentation (AI-assisted)": {
         "tokens": 578178,

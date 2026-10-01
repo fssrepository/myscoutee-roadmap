@@ -1,10 +1,10 @@
 {
-  "tasks": 149,
+  "tasks": 150,
   "commits": 226,
   "account_tokens": 38488016278,
-  "allocated_tokens_estimate": 37996963505,
-  "unassigned_tokens": 491052773,
-  "api_standard_usd_estimate": 27802.98,
+  "allocated_tokens_estimate": 38003492490,
+  "unassigned_tokens": 484523788,
+  "api_standard_usd_estimate": 27813.76,
   "note": "Task allocation and USD are estimates. The account total is measured. USD uses 2026-10-01 Standard short-context API rates, not a subscription invoice.",
   "observed_token_mix": {
     "input_tokens": 0.9963307585649178,
@@ -73,5 +73,9 @@
   "pricing_source": "https://developers.openai.com/api/docs/pricing",
   "model_calendar_source": "https://developers.openai.com/api/docs/changelog",
   "frozen_production_audit_tokens": 2294907583,
-  "analogy_tokens": 189230274
+  "analogy_tokens": 189230274,
+  "account_scope": "Original primary-account snapshot used for task calibration",
+  "additional_accounts_measured_tokens": 2293224103,
+  "all_accounts_measured_tokens": 40781240381,
+  "additional_account_task_attribution": "Unresolved; not added to existing task/project metrics"
 }
