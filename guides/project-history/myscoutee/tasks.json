@@ -1524,5 +1524,19 @@
     "models": "gpt-6-astra",
     "reasoning": "high",
     "evidence": "Recorded local session usage for the source-archive task; bounded cutoff excludes final publishing work"
+  },
+  {
+    "task_id": "MSC-112",
+    "title": "Preserve combined usage and render the token activity heatmap",
+    "workstream": "Project administration (AI-assisted)",
+    "started": "2026-10-01",
+    "finished": "2026-10-01",
+    "tokens_million": 6.53,
+    "api_equivalent_usd_estimate": 10.78,
+    "active_hours": 0.31919611116250357,
+    "allocated_hours": 0.32,
+    "models": "gpt-6-astra",
+    "reasoning": "high",
+    "evidence": "Recorded session usage for collection, heatmap and privacy cleanup; excludes final publication tail"
   }
 ]
