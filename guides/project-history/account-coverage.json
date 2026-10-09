@@ -1672,5 +1672,14 @@
       "later_reported_tokens": 271990364
     },
     "task_usage": "Local MSC-120/121 session totals overlap account usage; never add them to this ledger. October 9 has no account daily bucket yet."
+  },
+  "latest_reported_account": {
+    "label": "r",
+    "reported_lifetime_tokens": 39775199956,
+    "retrieved_date": "2026-10-09",
+    "daily_usage_through": "2026-10-08",
+    "note": "Latest account-reported lifetime, separate from the historical task allocation and combined multi-account chart. Includes the later September-30 revision excluded from the preserved chart baseline.",
+    "last_checked_at_utc": "2026-10-09T04:03:58.552995+00:00",
+    "refresh_result": "Account lifetime and daily series unchanged; latest reported day remains 2026-10-08. October-9 local task usage is not added to provider daily buckets."
   }
 }

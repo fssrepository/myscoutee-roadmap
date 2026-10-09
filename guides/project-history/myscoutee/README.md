@@ -29,3 +29,7 @@ The October 9 MSC-120/121 token update is retained in the existing
 The 111-task restoration snapshot and its calibration totals remain historical;
 they do not claim to include the later task bodies or statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
+The current README summary uses `current_project_totals`, merging measurements by
+stable task ID. It includes MSC-120/121 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 113 have
+measurements. MSC-114–119 and MSC-122 remain unmeasured, not zero-cost tasks.
