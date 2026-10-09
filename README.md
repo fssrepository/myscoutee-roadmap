@@ -28,13 +28,13 @@ counted once; the historical account control and September-30 heatmap stay froze
 
 ## Measured token activity
 
-**40,781,240,381 tokens** in the combined daily record, through September 30, 2026. Darker blues indicate higher daily usage.
+**42,021,772,157 tokens** in the combined daily record, through October 8, 2026. Darker blues indicate higher daily usage.
 
 ![Combined daily AI token usage, shown as a blue calendar heatmap](guides/project-history/media/token-activity.png)
 
 [SVG](guides/project-history/media/token-activity.svg) · [PNG](guides/project-history/media/token-activity.png) · [Anonymous daily totals](guides/project-history/account-coverage.json) · [Regenerate the chart](guides/project-history/HEATMAP.md)
 
-This measured usage total is separate from the estimated task allocation above. Additional measurements may already overlap local task evidence, so they are not added again to task budgets, activity hours or API-equivalent costs. The chart uses combined daily totals. Supporting JSON preserves the input series using account-name initials only; full account identifiers are not published.
+This measured usage total is separate from the estimated task allocation above. Additional measurements may already overlap local task evidence, so they are not added again to task budgets, activity hours or API-equivalent costs. The chart preserves every recorded value through September 30 and appends October 1–8 from the available account `r` record; newer records for the other two accounts are unavailable. October 9 is not yet reported. The chart uses combined daily totals. Supporting JSON preserves the input series using account-name initials only; full account identifiers are not published.
 
 ## Restore from Git
 

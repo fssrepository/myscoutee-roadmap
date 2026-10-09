@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Complete Project; 111 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Historical Project snapshot: 111 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -21,3 +21,11 @@ Set `GITHUB_PROJECT_TOKEN` in your local shell to a credential with Projects wri
 If issues were deleted too, set `GITHUB_REPOSITORY_TOKEN` to an issue-write credential and add `--recreate-missing-issues`. The tracker repository must exist. Recreated issues may receive new issue numbers; stable task IDs remain. Historical execution dates remain in fields, while GitHub creation/closure timestamps reflect restoration.
 
 Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_TOKEN` (or a suitable `GITHUB_TOKEN`) during restoration to reconnect them automatically. Separate Project-write and repository credentials are supported. Comments, automations and permission grants are outside this reconstruction. Read [METHOD.md](METHOD.md) for estimates, unknown values and measurement boundaries. Git versions these files; no dated folder is needed.
+
+## Subsequent task measurements
+
+The October 9 MSC-120/121 token update is retained in the existing
+`measurements.json` `post_control_task_usage` ledger and in the live Project.
+The 111-task restoration snapshot and its calibration totals remain historical;
+they do not claim to include the later task bodies or statuses. Mixed-session
+attribution and exact measurement cutoffs are recorded beside each total.

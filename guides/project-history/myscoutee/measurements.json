@@ -4410,6 +4410,44 @@
       "start_utc": "2026-10-01T01:27:06.471Z",
       "cutoff_utc": "2026-10-01T02:49:50.004Z",
       "note": "Supplemental measured task usage after the historical daily control cutoff; account_control remains the frozen calibration."
+    },
+    {
+      "task_id": "MSC-120",
+      "tokens": 193714624,
+      "cutoff_utc": "2026-10-07T17:19:32.904Z",
+      "unique_response_ids": 1291,
+      "token_components": {
+        "input_tokens": 192752450,
+        "cached_input_tokens": 188280960,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 962174,
+        "reasoning_output_tokens": 274361,
+        "total_tokens": 193714624
+      },
+      "models": [
+        "gpt-6-astra",
+        "gpt-6.1-sol"
+      ],
+      "note": "Unique response_id token_usage_record, matching thread_id; no cumulative-counter duplicates. Primary-task thread attribution; cross-task work in the mixed MSC-121 thread is not split or counted twice. Task allocation remains an estimate. Cached input is included in input; reasoning output is included in output. Supplemental update; historical project_totals and account_control are unchanged."
+    },
+    {
+      "task_id": "MSC-121",
+      "tokens": 484218616,
+      "cutoff_utc": "2026-10-09T03:06:03.726Z",
+      "unique_response_ids": 3202,
+      "token_components": {
+        "input_tokens": 481921764,
+        "cached_input_tokens": 471763456,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2296852,
+        "reasoning_output_tokens": 681327,
+        "total_tokens": 484218616
+      },
+      "models": [
+        "gpt-6-astra",
+        "gpt-6.1-sol"
+      ],
+      "note": "Unique response_id token_usage_record, matching thread_id; no cumulative-counter duplicates. Primary-task thread attribution; cross-task work in the mixed MSC-121 thread is not split or counted twice. Task allocation remains an estimate. Cached input is included in input; reasoning output is included in output. Supplemental update; historical project_totals and account_control are unchanged."
     }
   ]
 }

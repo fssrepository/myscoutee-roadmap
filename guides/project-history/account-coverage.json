@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "source": "Combined recorded daily token usage",
-  "usage_through": "2026-09-30",
-  "combined_measured_tokens": 40781240381,
+  "usage_through": "2026-10-08",
+  "combined_measured_tokens": 42021772157,
   "combinedDailyUsageBuckets": [
     {
       "startDate": "2026-02-04",
@@ -743,13 +743,45 @@
     {
       "startDate": "2026-09-30",
       "tokens": 225338462
+    },
+    {
+      "startDate": "2026-10-01",
+      "tokens": 97701511
+    },
+    {
+      "startDate": "2026-10-02",
+      "tokens": 26402355
+    },
+    {
+      "startDate": "2026-10-03",
+      "tokens": 12447838
+    },
+    {
+      "startDate": "2026-10-04",
+      "tokens": 31810242
+    },
+    {
+      "startDate": "2026-10-05",
+      "tokens": 222070922
+    },
+    {
+      "startDate": "2026-10-06",
+      "tokens": 314506612
+    },
+    {
+      "startDate": "2026-10-07",
+      "tokens": 314799259
+    },
+    {
+      "startDate": "2026-10-08",
+      "tokens": 220793037
     }
   ],
   "allocation_policy": "Independent measured aggregate; do not add on top of existing task allocations. Missing dates do not establish zero usage.",
   "accounts": [
     {
       "label": "r",
-      "total_tokens": 38488016278,
+      "total_tokens": 39728548054,
       "dailyUsageBuckets": [
         {
           "startDate": "2026-02-04",
@@ -1418,6 +1450,38 @@
         {
           "startDate": "2026-09-30",
           "tokens": 225338462
+        },
+        {
+          "startDate": "2026-10-01",
+          "tokens": 97701511
+        },
+        {
+          "startDate": "2026-10-02",
+          "tokens": 26402355
+        },
+        {
+          "startDate": "2026-10-03",
+          "tokens": 12447838
+        },
+        {
+          "startDate": "2026-10-04",
+          "tokens": 31810242
+        },
+        {
+          "startDate": "2026-10-05",
+          "tokens": 222070922
+        },
+        {
+          "startDate": "2026-10-06",
+          "tokens": 314506612
+        },
+        {
+          "startDate": "2026-10-07",
+          "tokens": 314799259
+        },
+        {
+          "startDate": "2026-10-08",
+          "tokens": 220793037
         }
       ]
     },
@@ -1597,5 +1661,16 @@
         }
       ]
     }
-  ]
+  ],
+  "coverage_notes": {
+    "historical_cutoff_preserved": "2026-09-30",
+    "extension": "2026-10-01 through 2026-10-08: newly available account r daily records only; no fresh m/s records are available. Missing data is not zero usage.",
+    "late_revision_excluded": {
+      "date": "2026-09-30",
+      "account": "r",
+      "retained_tokens": 225338462,
+      "later_reported_tokens": 271990364
+    },
+    "task_usage": "Local MSC-120/121 session totals overlap account usage; never add them to this ledger. October 9 has no account daily bucket yet."
+  }
 }

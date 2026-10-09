@@ -1,7 +1,7 @@
 # Combined token activity
 
 The README chart is generated from `account-coverage.json`. It shows combined
-daily tokens, including cached input, from February through September 2026.
+daily tokens, including cached input, from February through October 8, 2026.
 It does not split the presentation by account or allocate usage to projects.
 
 The same JSON preserves the daily input series under the account-name initials
@@ -23,5 +23,11 @@ missing records do not establish that no work occurred.
 
 The chart is a measured usage inventory, independent of task estimates. Do not
 add its total on top of task budgets: session-derived task estimates may
-already include the same usage. New work is recorded separately in its task;
-it does not silently alter this frozen daily snapshot.
+already include the same usage. Task usage is recorded separately and is never summed into this daily ledger.
+
+The October 9 refresh preserves all original account and combined rows through
+September 30 byte-for-value, then appends the available account `r` daily rows
+for October 1–8. No fresh rows for `m` or `s` are available; missing coverage is
+not zero usage. A later account report revised September 30, but that revision
+is explicitly recorded as excluded in `coverage_notes` to preserve the requested
+historical baseline. October 9 has no account daily bucket yet.

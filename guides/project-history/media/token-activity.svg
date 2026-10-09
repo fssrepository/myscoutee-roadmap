@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="882" height="412" viewBox="0 0 882 412" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="412" viewBox="0 0 970 412" role="img" aria-labelledby="title description">
 <title id="title">Combined daily AI token usage</title>
-<desc id="description">40,781,240,381 tokens across 185 active dates. 2026-02-04 to 2026-09-30. Darker blue means more tokens. Gray means no recorded usage; it does not establish zero usage. Calendar weeks start on Monday.</desc>
-<rect width="882" height="412" rx="16" fill="#ffffff"/>
+<desc id="description">42,021,772,157 tokens across 193 active dates. 2026-02-04 to 2026-10-08. Darker blue means more tokens. Gray means no recorded usage; it does not establish zero usage. Calendar weeks start on Monday.</desc>
+<rect width="970" height="412" rx="16" fill="#ffffff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#0f172a">
 <text x="28" y="36" font-size="22" font-weight="700" fill="#0f172a">AI token activity</text>
 <text x="28" y="59" font-size="13" font-weight="400" fill="#64748b">Combined daily usage</text>
-<text x="28" y="100" font-size="25" font-weight="700" fill="#1d4ed8">40.78B tokens</text>
-<text x="295" y="99" font-size="16" font-weight="600" fill="#334155">185 active days</text>
-<text x="535" y="99" font-size="13" font-weight="400" fill="#64748b">04 Feb 2026 – 30 Sep 2026</text>
+<text x="28" y="100" font-size="25" font-weight="700" fill="#1d4ed8">42.02B tokens</text>
+<text x="295" y="99" font-size="16" font-weight="600" fill="#334155">193 active days</text>
+<text x="535" y="99" font-size="13" font-weight="400" fill="#64748b">04 Feb 2026 – 08 Oct 2026</text>
 <text x="60" y="138" font-size="12" font-weight="400" fill="#64748b">Feb</text>
 <text x="148" y="138" font-size="12" font-weight="400" fill="#64748b">Mar</text>
 <text x="258" y="138" font-size="12" font-weight="400" fill="#64748b">Apr</text>
@@ -16,6 +16,7 @@
 <text x="544" y="138" font-size="12" font-weight="400" fill="#64748b">Jul</text>
 <text x="632" y="138" font-size="12" font-weight="400" fill="#64748b">Aug</text>
 <text x="742" y="138" font-size="12" font-weight="400" fill="#64748b">Sep</text>
+<text x="830" y="138" font-size="12" font-weight="400" fill="#64748b">Oct</text>
 <text x="28" y="163" font-size="10" font-weight="400" fill="#64748b">Mon</text>
 <text x="28" y="207" font-size="10" font-weight="400" fill="#64748b">Wed</text>
 <text x="28" y="251" font-size="10" font-weight="400" fill="#64748b">Fri</text>
@@ -261,6 +262,37 @@
 <rect x="830" y="150" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-09-28" data-tokens="346049342"><title>2026-09-28: 346,049,342 tokens</title></rect>
 <rect x="830" y="172" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-09-29" data-tokens="234652511"><title>2026-09-29: 234,652,511 tokens</title></rect>
 <rect x="830" y="194" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-09-30" data-tokens="225338462"><title>2026-09-30: 225,338,462 tokens</title></rect>
+<rect x="830" y="216" width="17" height="17" rx="4" fill="#93c5fd" data-date="2026-10-01" data-tokens="97701511"><title>2026-10-01: 97,701,511 tokens</title></rect>
+<rect x="830" y="238" width="17" height="17" rx="4" fill="#93c5fd" data-date="2026-10-02" data-tokens="26402355"><title>2026-10-02: 26,402,355 tokens</title></rect>
+<rect x="830" y="260" width="17" height="17" rx="4" fill="#93c5fd" data-date="2026-10-03" data-tokens="12447838"><title>2026-10-03: 12,447,838 tokens</title></rect>
+<rect x="830" y="282" width="17" height="17" rx="4" fill="#93c5fd" data-date="2026-10-04" data-tokens="31810242"><title>2026-10-04: 31,810,242 tokens</title></rect>
+<rect x="852" y="150" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-05" data-tokens="222070922"><title>2026-10-05: 222,070,922 tokens</title></rect>
+<rect x="852" y="172" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-06" data-tokens="314506612"><title>2026-10-06: 314,506,612 tokens</title></rect>
+<rect x="852" y="194" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-07" data-tokens="314799259"><title>2026-10-07: 314,799,259 tokens</title></rect>
+<rect x="852" y="216" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-08" data-tokens="220793037"><title>2026-10-08: 220,793,037 tokens</title></rect>
+<rect x="852" y="238" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-09" data-tokens=""><title>2026-10-09: no recorded usage</title></rect>
+<rect x="852" y="260" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-10" data-tokens=""><title>2026-10-10: no recorded usage</title></rect>
+<rect x="852" y="282" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-11" data-tokens=""><title>2026-10-11: no recorded usage</title></rect>
+<rect x="874" y="150" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-12" data-tokens=""><title>2026-10-12: no recorded usage</title></rect>
+<rect x="874" y="172" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-13" data-tokens=""><title>2026-10-13: no recorded usage</title></rect>
+<rect x="874" y="194" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-14" data-tokens=""><title>2026-10-14: no recorded usage</title></rect>
+<rect x="874" y="216" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-15" data-tokens=""><title>2026-10-15: no recorded usage</title></rect>
+<rect x="874" y="238" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-16" data-tokens=""><title>2026-10-16: no recorded usage</title></rect>
+<rect x="874" y="260" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-17" data-tokens=""><title>2026-10-17: no recorded usage</title></rect>
+<rect x="874" y="282" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-18" data-tokens=""><title>2026-10-18: no recorded usage</title></rect>
+<rect x="896" y="150" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-19" data-tokens=""><title>2026-10-19: no recorded usage</title></rect>
+<rect x="896" y="172" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-20" data-tokens=""><title>2026-10-20: no recorded usage</title></rect>
+<rect x="896" y="194" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-21" data-tokens=""><title>2026-10-21: no recorded usage</title></rect>
+<rect x="896" y="216" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-22" data-tokens=""><title>2026-10-22: no recorded usage</title></rect>
+<rect x="896" y="238" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-23" data-tokens=""><title>2026-10-23: no recorded usage</title></rect>
+<rect x="896" y="260" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-24" data-tokens=""><title>2026-10-24: no recorded usage</title></rect>
+<rect x="896" y="282" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-25" data-tokens=""><title>2026-10-25: no recorded usage</title></rect>
+<rect x="918" y="150" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-26" data-tokens=""><title>2026-10-26: no recorded usage</title></rect>
+<rect x="918" y="172" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-27" data-tokens=""><title>2026-10-27: no recorded usage</title></rect>
+<rect x="918" y="194" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-28" data-tokens=""><title>2026-10-28: no recorded usage</title></rect>
+<rect x="918" y="216" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-29" data-tokens=""><title>2026-10-29: no recorded usage</title></rect>
+<rect x="918" y="238" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-30" data-tokens=""><title>2026-10-30: no recorded usage</title></rect>
+<rect x="918" y="260" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-31" data-tokens=""><title>2026-10-31: no recorded usage</title></rect>
 <text x="28" y="331" font-size="10" font-weight="700" fill="#475569">DAILY TOKENS</text>
 <rect x="28" y="345" width="14" height="14" rx="3" fill="#f1f5f9"/>
 <text x="48" y="357" font-size="11" font-weight="400" fill="#64748b">No record / 0</text>
