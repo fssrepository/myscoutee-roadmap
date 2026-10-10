@@ -4530,16 +4530,16 @@
     },
     {
       "task_id": "MSC-121",
-      "tokens": 506711353,
-      "cutoff_utc": "2026-10-09T04:01:59.138Z",
-      "unique_response_ids": 3341,
+      "tokens": 634373124,
+      "cutoff_utc": "2026-10-09T15:12:03.126Z",
+      "unique_response_ids": 4272,
       "token_components": {
-        "input_tokens": 504327320,
-        "cached_input_tokens": 493778432,
+        "input_tokens": 631426124,
+        "cached_input_tokens": 618657664,
         "cache_write_input_tokens": 0,
-        "output_tokens": 2384033,
-        "reasoning_output_tokens": 706395,
-        "total_tokens": 506711353
+        "output_tokens": 2947000,
+        "reasoning_output_tokens": 895229,
+        "total_tokens": 634373124
       },
       "models": {
         "gpt-6.1-sol|high": {
@@ -4559,18 +4559,18 @@
           "total_tokens": 59705038
         },
         "gpt-6-astra|high": {
-          "input_tokens": 442949151,
-          "cached_input_tokens": 434248832,
+          "input_tokens": 570047955,
+          "cached_input_tokens": 559128064,
           "cache_write_input_tokens": 0,
-          "output_tokens": 1975728,
-          "reasoning_output_tokens": 565500,
-          "total_tokens": 444924879
+          "output_tokens": 2538695,
+          "reasoning_output_tokens": 754334,
+          "total_tokens": 572586650
         }
       },
       "started": "2026-10-07",
       "finished": "2026-10-09",
-      "active_hours": 24.95519333322843,
-      "allocated_hours": 24.909184583259954,
+      "active_hours": 30.466665277777782,
+      "allocated_hours": 30.420656527777783,
       "active_intervals_utc": [
         [
           "2026-10-07T11:05:10.006000+00:00",
@@ -4738,11 +4738,115 @@
         ],
         [
           "2026-10-09T03:59:10.564000+00:00",
-          "2026-10-09T04:01:59.138000+00:00"
+          "2026-10-09T04:04:59.144000+00:00"
+        ],
+        [
+          "2026-10-09T05:50:07.020000+00:00",
+          "2026-10-09T05:52:44.686000+00:00"
+        ],
+        [
+          "2026-10-09T05:53:17.957000+00:00",
+          "2026-10-09T05:54:40.382000+00:00"
+        ],
+        [
+          "2026-10-09T05:55:00.958000+00:00",
+          "2026-10-09T06:37:03.771000+00:00"
+        ],
+        [
+          "2026-10-09T06:37:15.733000+00:00",
+          "2026-10-09T08:55:59.177000+00:00"
+        ],
+        [
+          "2026-10-09T08:56:14.846000+00:00",
+          "2026-10-09T09:09:00.905000+00:00"
+        ],
+        [
+          "2026-10-09T09:10:12.620000+00:00",
+          "2026-10-09T09:18:48.255000+00:00"
+        ],
+        [
+          "2026-10-09T11:09:31.306000+00:00",
+          "2026-10-09T11:09:46.011000+00:00"
+        ],
+        [
+          "2026-10-09T11:10:11.243000+00:00",
+          "2026-10-09T11:30:20.014000+00:00"
+        ],
+        [
+          "2026-10-09T11:49:24.499000+00:00",
+          "2026-10-09T11:49:32.673000+00:00"
+        ],
+        [
+          "2026-10-09T12:42:12.546000+00:00",
+          "2026-10-09T12:52:05.205000+00:00"
+        ],
+        [
+          "2026-10-09T12:53:41.606000+00:00",
+          "2026-10-09T12:54:01.536000+00:00"
+        ],
+        [
+          "2026-10-09T12:57:52.106000+00:00",
+          "2026-10-09T13:01:06.903000+00:00"
+        ],
+        [
+          "2026-10-09T13:24:43.410000+00:00",
+          "2026-10-09T13:25:13.953000+00:00"
+        ],
+        [
+          "2026-10-09T13:27:49.147000+00:00",
+          "2026-10-09T13:46:21.048000+00:00"
+        ],
+        [
+          "2026-10-09T13:46:44.557000+00:00",
+          "2026-10-09T13:50:36.847000+00:00"
+        ],
+        [
+          "2026-10-09T13:51:08.901000+00:00",
+          "2026-10-09T13:52:55.456000+00:00"
+        ],
+        [
+          "2026-10-09T13:54:05.423000+00:00",
+          "2026-10-09T13:54:32.984000+00:00"
+        ],
+        [
+          "2026-10-09T13:55:27.932000+00:00",
+          "2026-10-09T13:55:35.036000+00:00"
+        ],
+        [
+          "2026-10-09T13:55:56.136000+00:00",
+          "2026-10-09T13:56:04.934000+00:00"
+        ],
+        [
+          "2026-10-09T13:57:22.183000+00:00",
+          "2026-10-09T13:58:24.184000+00:00"
+        ],
+        [
+          "2026-10-09T13:58:51.008000+00:00",
+          "2026-10-09T13:59:09.449000+00:00"
+        ],
+        [
+          "2026-10-09T13:59:50.983000+00:00",
+          "2026-10-09T14:13:07.563000+00:00"
+        ],
+        [
+          "2026-10-09T14:13:08.980000+00:00",
+          "2026-10-09T14:42:35.269000+00:00"
+        ],
+        [
+          "2026-10-09T14:53:18.077000+00:00",
+          "2026-10-09T14:55:16.592000+00:00"
+        ],
+        [
+          "2026-10-09T14:55:32.672000+00:00",
+          "2026-10-09T14:55:42.744000+00:00"
+        ],
+        [
+          "2026-10-09T14:56:05.577000+00:00",
+          "2026-10-09T15:12:03.142000+00:00"
         ]
       ],
-      "api_standard_usd_estimate": 714.21,
-      "valuation_date": "2026-10-09",
+      "api_standard_usd_estimate": 889.43,
+      "valuation_date": "2026-10-10",
       "rates_per_million": {
         "gpt-6-astra": [
           10,
@@ -4759,11 +4863,19 @@
       },
       "pricing_source": "https://developers.openai.com/api/docs/pricing",
       "rate_basis": "Standard short-context API equivalent, matching the existing task calibration; excludes Fast/Ultrafast, long-context and regional uplifts, subscription billing and non-token tool/media charges.",
-      "note": "Unique response_id records matching thread_id. Primary-task conversation attribution; mixed MSC-121 work is assigned once, not also added to MSC-120. Cached input is within input; reasoning within output. Recorded root task interval union includes tool/network waits, excludes idle gaps between turns; unfinished turn clipped at final usage timestamp. Task attribution is estimated. Primary conversation ownership; measured usage, estimated mixed-task attribution. Active interval overlap is divided equally between these two tasks; no claim of complete portfolio-wide overlap reconciliation. Historical project_totals and account_control remain unchanged."
+      "note": "Unique response_id records matching thread_id. Primary-task conversation attribution; mixed MSC-121 work is assigned once, not also added to MSC-120. Cached input is within input; reasoning within output. Recorded root task interval union includes tool/network waits, excludes idle gaps between turns; unfinished turn clipped at final usage timestamp. Task attribution is estimated. Primary conversation ownership; measured usage, estimated mixed-task attribution. Active interval overlap is divided equally between these two tasks; no claim of complete portfolio-wide overlap reconciliation. Historical project_totals and account_control remain unchanged.",
+      "closeout_scope": {
+        "original_checkpoint_verified": "2026-10-09T04:01:59.138Z",
+        "continuation_start_utc": "2026-10-09T05:50:07.126Z",
+        "excluded_preceding_template_licensing_and_components_tokens": 6886194,
+        "continuation_tokens": 126732945,
+        "original_conversation_final_tokens": 507640179,
+        "note": "Original checkpoint reproduced exactly; remaining original-task records and the subsequent CPU/runtime follow-up are included once. Earlier template/licensing/components turns and this October-10 accounting/publication turn are excluded. No child threads found for these two conversations. No private text or identifiers published."
+      }
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-09T04:03:58.552995+00:00",
+    "updated_at_utc": "2026-10-10T00:52:02.506119+00:00",
     "tracked_tasks": 120,
     "measured_tasks": 113,
     "tracked_task_ids": [
@@ -4897,9 +5009,9 @@
       "MSC-119",
       "MSC-122"
     ],
-    "tokens_estimate": 36985412735,
-    "api_standard_usd_estimate": 27829.84,
-    "allocated_hours_estimate": 926.4095689925794,
+    "tokens_estimate": 37113074506,
+    "api_standard_usd_estimate": 28005.06,
+    "allocated_hours_estimate": 931.9210409370971,
     "method": "Historical tasks merged with post_control_task_usage by task_id, never appended twice. MSC-113 is already in the historical total. MSC-120/121 replace their previous checkpoint. Missing task measurements are excluded, not zero. Time allocation retains each measurement boundary; not a new portfolio-wide overlap audit."
   }
 }

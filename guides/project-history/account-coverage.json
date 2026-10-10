@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "source": "Combined recorded daily token usage",
-  "usage_through": "2026-10-08",
-  "combined_measured_tokens": 42021772157,
+  "usage_through": "2026-10-09",
+  "combined_measured_tokens": 42358256064,
   "combinedDailyUsageBuckets": [
     {
       "startDate": "2026-02-04",
@@ -774,14 +774,18 @@
     },
     {
       "startDate": "2026-10-08",
-      "tokens": 220793037
+      "tokens": 416565655
+    },
+    {
+      "startDate": "2026-10-09",
+      "tokens": 140711289
     }
   ],
   "allocation_policy": "Independent measured aggregate; do not add on top of existing task allocations. Missing dates do not establish zero usage.",
   "accounts": [
     {
       "label": "r",
-      "total_tokens": 39728548054,
+      "total_tokens": 40065031961,
       "dailyUsageBuckets": [
         {
           "startDate": "2026-02-04",
@@ -1481,7 +1485,11 @@
         },
         {
           "startDate": "2026-10-08",
-          "tokens": 220793037
+          "tokens": 416565655
+        },
+        {
+          "startDate": "2026-10-09",
+          "tokens": 140711289
         }
       ]
     },
@@ -1664,22 +1672,27 @@
   ],
   "coverage_notes": {
     "historical_cutoff_preserved": "2026-09-30",
-    "extension": "2026-10-01 through 2026-10-08: newly available account r daily records only; no fresh m/s records are available. Missing data is not zero usage.",
+    "extension": "2026-10-01 through 2026-10-09: newly available account r daily records only; no fresh m/s records are available. Missing data is not zero usage.",
     "late_revision_excluded": {
       "date": "2026-09-30",
       "account": "r",
       "retained_tokens": 225338462,
       "later_reported_tokens": 271990364
     },
-    "task_usage": "Local MSC-120/121 session totals overlap account usage; never add them to this ledger. October 9 has no account daily bucket yet."
+    "task_usage": "Local task measurements overlap account usage; never add them to this ledger. October 9 is included from the newly available provider bucket, as requested on October 10.",
+    "october_8_revision": {
+      "retrieved_date": "2026-10-10",
+      "previous_tokens": 220793037,
+      "revised_tokens": 416565655
+    }
   },
   "latest_reported_account": {
     "label": "r",
-    "reported_lifetime_tokens": 39775199956,
-    "retrieved_date": "2026-10-09",
-    "daily_usage_through": "2026-10-08",
+    "reported_lifetime_tokens": 40111683863,
+    "retrieved_date": "2026-10-10",
+    "daily_usage_through": "2026-10-09",
     "note": "Latest account-reported lifetime, separate from the historical task allocation and combined multi-account chart. Includes the later September-30 revision excluded from the preserved chart baseline.",
-    "last_checked_at_utc": "2026-10-09T04:03:58.552995+00:00",
-    "refresh_result": "Account lifetime and daily series unchanged; latest reported day remains 2026-10-08. October-9 local task usage is not added to provider daily buckets."
+    "last_checked_at_utc": "2026-10-10T00:52:02.506119+00:00",
+    "refresh_result": "October 8 revised to 416,565,655 tokens; October 9 added with 140,711,289 tokens. Historical September rows preserved."
   }
 }

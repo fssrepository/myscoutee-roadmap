@@ -2,16 +2,16 @@
 
 Four separate Projects preserve distinct work. MyScoutee system repositories share one Project; the legacy archive, e-kozig and math each have their own.
 
-The current summary combines the October 1 reconstruction with the measured MSC-120/121 follow-ups through **2026-10-09T04:01:59.138Z**. The task count comes from the live Project checked October 9. Usage is task allocation, not the account balance.
+The current summary combines the October 1 reconstruction with the measured MSC-120/121 follow-ups through **2026-10-09T15:12:03.126Z**. The initial template/licensing/components turns and this October-10 accounting/publication turn are excluded from MSC-121. The task count comes from the live Project checked October 10. Usage is task allocation, not the account balance.
 
 | Project | Tracked tasks | Tasks with measurements | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 120 | 113 | 36,985.4 | 926.4 | $27,829.84 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 120 | 113 | 37,113.1 | 931.9 | $28,005.06 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 18 | 1,286.0 | 43.5 | $727.68 |
 
-**Current recorded task allocation: 38,732,567,388 tokens.** MyScoutee has 120 tracked tasks, of which 113 have usage measurements. MSC-114–119 and the planned MSC-122 have no isolated usage measurement yet; they are excluded, not counted as zero. Other Projects retain their October 1 measurement boundaries. MSC-113 is counted once; MSC-120/121 include their latest checkpoint rather than both old and new totals. The current aggregate is reproducible from [the measurement ledger](guides/project-history/myscoutee/measurements.json) by task ID.
+**Current recorded task allocation: 38,860,229,159 tokens.** MyScoutee has 120 tracked tasks, of which 113 have usage measurements. MSC-114–119 and the planned MSC-122 have no isolated usage measurement yet; they are excluded, not counted as zero. Other Projects retain their October 1 measurement boundaries. MSC-113 is counted once; MSC-120/121 include their latest checkpoint rather than both old and new totals. The current aggregate is reproducible from [the measurement ledger](guides/project-history/myscoutee/measurements.json) by task ID.
 
 Activity includes tool/network waits and is not human labor. Costs are Standard API equivalents, not invoices. Task allocation and account usage below overlap and must never be added together.
 
@@ -35,7 +35,12 @@ The original reconstruction covered 11 source repositories and 226 consolidated 
 
 ## Current task measurements
 
-The MSC-120 domain comparison and MSC-121 playground qualification are recorded;
+MSC-121 is Closed / Project Done, including the final Helm-123 Mongo StatefulSet,
+change-stream/cache freshness, Kubernetes status/SSE and blocking Redis telemetry
+follow-ups. The final reader passed 28 focused tests and live cursor checks; no
+post-reader CPU improvement or fresh full monolith/browser E2E is claimed.
+
+The MSC-120 domain comparison and original MSC-121 playground qualification are recorded;
 the unchanged historical image replay also shows no later-source regression.
 The local response audit and stability repairs pass 134 Angular service tests. Project fields include the following measured
 checkpoint, with mixed-conversation allocation explicitly estimated:
@@ -43,7 +48,7 @@ checkpoint, with mixed-conversation allocation explicitly estimated:
 | Task | Tokens (M) | Active h | Allocated h | Standard API equivalent |
 | --- | ---: | ---: | ---: | ---: |
 | [MSC-120](https://github.com/fssrepository/myscoutee-roadmap/issues/158) | 193.714624 | 10.634 | 10.588 | $252.63 |
-| [MSC-121](https://github.com/fssrepository/myscoutee-roadmap/issues/159) | 506.711353 | 24.955 | 24.909 | $714.21 |
+| [MSC-121](https://github.com/fssrepository/myscoutee-roadmap/issues/159) | 634.373124 | 30.467 | 30.421 | $889.43 |
 
 Both tasks started October 7; qualification was recorded October 9. Models and
 reasoning are read from the response metadata (GPT-6 Astra and GPT-6.1 Sol;
@@ -51,7 +56,7 @@ high/xhigh as recorded per task). The live Project and aggregate ledger retain
 exact cutoffs, token components and task-interval boundaries. Time includes tool
 waits; overlapping intervals between these two tasks are allocated once. The
 Standard short-context cost normalization matches the existing method, with
-[official rates](https://developers.openai.com/api/docs/pricing) checked October 9.
+[official rates](https://developers.openai.com/api/docs/models/compare) checked October 10.
 It is not a subscription invoice. Later work is excluded until the next refresh.
 These rows are included once in the current project summary above. The historical
 reconstruction and account daily totals remain separate and unchanged.
@@ -71,15 +76,15 @@ counted once; the historical allocation control and heatmap values through Septe
 
 ## Measured token activity
 
-**Latest account `r` lifetime: 39,775,199,956 tokens (39.775B)**, reported October 9, 2026. This replaces 38.488B as the current account reading; that older value remains only in the historical calibration. The combined chart below also includes the two other retained account series and preserves its original September rows.
+**Latest account `r` lifetime: 40,111,683,863 tokens (40.112B)**, reported October 10, 2026. This replaces 38.488B as the current account reading; that older value remains only in the historical calibration. The combined chart below also includes the two other retained account series and preserves its original September rows.
 
-**42,021,772,157 tokens** in the combined daily record, through October 8, 2026. Darker blues indicate higher daily usage.
+**42,358,256,064 tokens** in the combined daily record, through October 9, 2026. Darker blues indicate higher daily usage.
 
 ![Combined daily AI token usage, shown as a blue calendar heatmap](guides/project-history/media/token-activity.png)
 
 [SVG](guides/project-history/media/token-activity.svg) · [PNG](guides/project-history/media/token-activity.png) · [Anonymous daily totals](guides/project-history/account-coverage.json) · [Regenerate the chart](guides/project-history/HEATMAP.md)
 
-This measured usage total is separate from the estimated task allocation above. Additional measurements may already overlap local task evidence, so they are not added again to task budgets, activity hours or API-equivalent costs. The chart preserves every recorded value through September 30 and appends October 1–8 from the available account `r` record; newer records for the other two accounts are unavailable. A fresh account read on October 9 still returns no October 9 daily bucket; that day’s audit and publication usage is included in the task fields through their cutoff but cannot yet appear in the account heatmap. The chart uses combined daily totals. Supporting JSON preserves the input series using account-name initials only; full account identifiers are not published.
+This measured usage total is separate from the estimated task allocation above. Additional measurements may already overlap local task evidence, so they are not added again to task budgets, activity hours or API-equivalent costs. The chart preserves every recorded value through September 30 and appends October 1–9 from the available account `r` record; newer records for the other two accounts are unavailable. The October-10 refresh revises the October-8 account `r` value from 220,793,037 to 416,565,655. October 9 now has a reported bucket of 140,711,289 and is included in the chart. Task usage is never inserted into provider daily buckets. The chart uses combined daily totals. Supporting JSON preserves the input series using account-name initials only; full account identifiers are not published.
 
 ## Restore from Git
 

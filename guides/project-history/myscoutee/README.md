@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Historical Project snapshot: 111 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-10: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -33,3 +33,14 @@ The current README summary uses `current_project_totals`, merging measurements b
 stable task ID. It includes MSC-120/121 once and preserves MSC-113 already present
 in the historical total. The live Project currently tracks 120 tasks; 113 have
 measurements. MSC-114–119 and MSC-122 remain unmeasured, not zero-cost tasks.
+
+## MSC-121 closeout
+
+Closed / Project Done. Final deployment evidence is Helm 123; usage is recorded through 2026-10-09T15:12:03.126Z. The latest task components and intervals are in `measurements.json` under `post_control_task_usage`; these replace earlier checkpoints by task ID. Historical calibration totals remain frozen. The October-10 publication turn is excluded.
+
+The canonical roadmap `commit-map.json` records the October-10 consolidation;
+repository subset maps retain their earlier reconstruction boundary. Runtime
+verification is the recorded October-9 evidence; the October-10 SSH check could
+not reach the KVM and did not restart it.
+
+Consolidated source commits: [backend `0941aac8`](https://github.com/fssrepository/myscoutee-backend/commit/0941aac8a700b7c2c6cc7aef2b4dda61fbd44d99) and [frontend `3601abd4`](https://github.com/fssrepository/myscoutee/commit/3601abd40a05c4746c2d57c62e0d15cc7392bba6). The 15 original commits map to these two in `commit-map.json`; the backend gitlink records the new frontend commit.

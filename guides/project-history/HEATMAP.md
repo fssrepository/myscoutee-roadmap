@@ -1,7 +1,7 @@
 # Combined token activity
 
 The README chart is generated from `account-coverage.json`. It shows combined
-daily tokens, including cached input, from February through October 8, 2026.
+daily tokens, including cached input, from February through October 9, 2026.
 It does not split the presentation by account or allocate usage to projects.
 
 The same JSON preserves the daily input series under the account-name initials
@@ -30,4 +30,9 @@ September 30 byte-for-value, then appends the available account `r` daily rows
 for October 1–8. No fresh rows for `m` or `s` are available; missing coverage is
 not zero usage. A later account report revised September 30, but that revision
 is explicitly recorded as excluded in `coverage_notes` to preserve the requested
-historical baseline. October 9 has no account daily bucket yet.
+historical baseline.
+
+The October-10 refresh corrects only the October-8 account `r` value from
+220,793,037 to 416,565,655. The combined chart is now 42,358,256,064 tokens.
+October 9 is available (140,711,289 tokens) and is included as requested on
+October 10; the latest account lifetime is reported separately.
