@@ -33,3 +33,12 @@ claimed. The historical account control and September-30 heatmap remain frozen.
 October-1 usage is recorded in `post_control_task_usage` and counted once in task
 totals, without consuming the historical unassigned-account allowance. Canonical
 commit mappings are in the roadmap backup to avoid self-referential source SHAs.
+
+
+## MSC-115 measurement boundary (October 15 refresh)
+
+The post-control ledger includes planning/implementation from October 2 through the October 6 MCP handoff, then the October 12–15 MSC-115 QA and closure conversations plus two guide subagents. Three archived segments of the first conversation are deduplicated by response ID. Only records matching their own thread ID count, excluding inherited parent history. Token and time scope excludes later MSC-116/118/119 work, unrelated README editing, separate frontend/cache/watcher investigation and the isolated compilation-optimization documentation response.
+
+Active hours are the union of recorded root task intervals, with unfinished turns clipped at their final measured response and idle gaps excluded. Parallel child tokens count once; child time is not added on top of the parent. The isolated optimization response's elapsed interval is an attribution estimate. Selected intervals do not overlap the already measured MSC-120/121/122 intervals; unknown overlap with unmeasured work is not claimed resolved. The task stops at the accounting request (2026-10-15T11:52:55.467Z); this publication cannot self-count its final writes. The existing October 1 API-equivalent rates remain frozen.
+
+Account lifetime tokens and combined daily series are separate overlapping views of task usage. The account API does not expose lifetime active hours: leave it unavailable, not zero or inferred from tokens. Its longest-turn statistic is not an aggregate duration.

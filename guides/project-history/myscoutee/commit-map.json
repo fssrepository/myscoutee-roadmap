@@ -5856,5 +5856,44 @@
     "original_execution_end": "2026-10-10T14:20:37+02:00",
     "original_commit_count": 1,
     "archive_tag": "archive/msc122-before-consolidation-20261012"
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "b56c76f728bc9833aff1632f74879121eb567852",
+    "task_commit": "799918535e832f3e77eee27cef9fb57f49a93c01",
+    "task_ids": [
+      "MSC-115"
+    ],
+    "original_source_tree": "5070c09b1054acb7955c9c785a675d11863041c0",
+    "original_execution_start": "2026-10-15T10:19:08+02:00",
+    "original_execution_end": "2026-10-15T10:19:08+02:00",
+    "original_commit_count": 1,
+    "note": "October 15 user-requested consolidation. Final source tree and frontend gitlink preserved exactly; separate optimization follow-up documentation retained. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "f0cc793dae0a954dacae2198d2dc2749b04efed7",
+    "task_commit": "799918535e832f3e77eee27cef9fb57f49a93c01",
+    "task_ids": [
+      "MSC-115"
+    ],
+    "original_source_tree": "7e38d78efbce203092b6a95c415a202ff4f9b2f6",
+    "original_execution_start": "2026-10-15T10:19:08+02:00",
+    "original_execution_end": "2026-10-15T10:19:08+02:00",
+    "original_commit_count": 1,
+    "note": "October 15 user-requested consolidation. Final source tree and frontend gitlink preserved exactly; separate optimization follow-up documentation retained. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "75c890fc8bfef3b23afd50fdade6092a035f51f1",
+    "task_commit": "799918535e832f3e77eee27cef9fb57f49a93c01",
+    "task_ids": [
+      "MSC-115"
+    ],
+    "original_source_tree": "1e7c25ca4c4eab36c8e65f8e273f4e320364379d",
+    "original_execution_start": "2026-10-15T12:54:24+02:00",
+    "original_execution_end": "2026-10-15T13:51:59+02:00",
+    "original_commit_count": 1,
+    "note": "October 15 user-requested consolidation. Final source tree and frontend gitlink preserved exactly; separate optimization follow-up documentation retained. No backup branch created."
   }
 ]

@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-12: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-15: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,13 +26,12 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task restoration snapshot and its calibration totals remain historical;
-they do not claim to include the later task bodies or statuses. Mixed-session
+The 111-task calibration remains historical; the complete 120-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-120/121/122 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 114 have
-measurements. MSC-114–119 remain unmeasured, not zero-cost tasks.
+stable task ID. It includes MSC-115/120/121/122 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 115 have
+measurements. MSC-114 and MSC-116–119 remain unmeasured, not zero-cost tasks.
 
 ## MSC-121 closeout
 
@@ -48,3 +47,9 @@ Consolidated source commits: [backend `0941aac8`](https://github.com/fssreposito
 ## MSC-122 closeout
 
 Closed / Project Done. Template and shared components 1.4.0 are published. The exact published template DEB was verified on VMware. Usage through 2026-10-12T18:56:15.981Z is recorded in `post_control_task_usage`: 1,134,112,133 tokens, 43.898 active/allocated hours and $1,557.73 Standard API equivalent. Earlier template planning excluded from MSC-121 is included here once.
+
+## MSC-115 closeout
+
+Closed / Project Done through QA step 119. Usage through 2026-10-15T11:52:55.467000+00:00: **1,328,857,714 tokens**, **48.248381 active/allocated hours**, **$1,749.59 Standard API equivalent**. Exact response components, interval union, scope exclusions and attribution limits are in `post_control_task_usage`. Separate template/live qualification and compilation optimization do not reopen this closed scope.
+
+The three final backend commits were consolidated into [`799918535`](https://github.com/fssrepository/myscoutee-backend/commit/799918535e832f3e77eee27cef9fb57f49a93c01) at the user’s request. The final tree and frontend gitlink are identical; the original-to-consolidated mapping is in `commit-map.json`. The optimization follow-up note remains separate in scope.

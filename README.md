@@ -12,6 +12,10 @@ Project boards, delivery history and AI usage across the portfolio.
 
 ## AI activity
 
+MSC-115: **1,328,857,714 tokens · 48.248 active/allocated h**; closed through QA step 119. MyScoutee: **39.576B tokens · 1,024.067 allocated h** across 115 measured tasks.
+
+Latest account reading: **42.115B tokens**. Combined retained daily series: **44.362B**, through **14 October 2026**, refreshed October 15. Account lifetime active hours are unavailable; task time is recorded separately. These totals overlap and must not be added.
+
 ![Daily AI token usage](guides/project-history/media/token-activity.png)
 
 [Measurements](guides/project-history/myscoutee/measurements.json) · [Method](guides/project-history/myscoutee/METHOD.md) · [Daily totals](guides/project-history/account-coverage.json)
