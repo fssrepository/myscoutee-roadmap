@@ -1668,15 +1668,15 @@
   {
     "task_id": "MSC-122",
     "title": "Extract reusable UI components and a generic MyScoutee template",
-    "workstream": null,
-    "started": null,
-    "finished": null,
-    "tokens_million": null,
-    "api_equivalent_usd_estimate": null,
-    "active_hours": null,
-    "allocated_hours": null,
-    "models": null,
-    "reasoning": null,
-    "evidence": "No isolated usage measurement; excluded from totals, not zero."
+    "workstream": "Tooling",
+    "started": "2026-10-09",
+    "finished": "2026-10-12",
+    "tokens_million": 1134.112133,
+    "api_equivalent_usd_estimate": 1557.73,
+    "active_hours": 43.897584444681804,
+    "allocated_hours": 43.897584444681804,
+    "models": "gpt-6-astra; gpt-6.1-sol",
+    "reasoning": "high; xhigh",
+    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1–31 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
   }
 ]

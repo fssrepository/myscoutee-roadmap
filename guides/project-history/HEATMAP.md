@@ -1,7 +1,7 @@
 # Combined token activity
 
 The README chart is generated from `account-coverage.json`. It shows combined
-daily tokens, including cached input, from February through October 9, 2026.
+daily tokens, including cached input, from February through October 12, 2026 (current day partial).
 It does not split the presentation by account or allocate usage to projects.
 
 The same JSON preserves the daily input series under the account-name initials
@@ -36,3 +36,5 @@ The October-10 refresh corrects only the October-8 account `r` value from
 220,793,037 to 416,565,655. The combined chart is now 42,358,256,064 tokens.
 October 9 is available (140,711,289 tokens) and is included as requested on
 October 10; the latest account lifetime is reported separately.
+
+The October-12 refresh updates available October account `r` records through October 12. Combined total: 43,348,498,790; account `r` lifetime: 41,101,926,589. Every September row remains unchanged.

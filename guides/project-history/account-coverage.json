@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "source": "Combined recorded daily token usage",
-  "usage_through": "2026-10-09",
-  "combined_measured_tokens": 42358256064,
+  "usage_through": "2026-10-12",
+  "combined_measured_tokens": 43348498790,
   "combinedDailyUsageBuckets": [
     {
       "startDate": "2026-02-04",
@@ -778,14 +778,26 @@
     },
     {
       "startDate": "2026-10-09",
-      "tokens": 140711289
+      "tokens": 224462554
+    },
+    {
+      "startDate": "2026-10-10",
+      "tokens": 215763327
+    },
+    {
+      "startDate": "2026-10-11",
+      "tokens": 511484702
+    },
+    {
+      "startDate": "2026-10-12",
+      "tokens": 179243432
     }
   ],
   "allocation_policy": "Independent measured aggregate; do not add on top of existing task allocations. Missing dates do not establish zero usage.",
   "accounts": [
     {
       "label": "r",
-      "total_tokens": 40065031961,
+      "total_tokens": 41055274687,
       "dailyUsageBuckets": [
         {
           "startDate": "2026-02-04",
@@ -1489,7 +1501,19 @@
         },
         {
           "startDate": "2026-10-09",
-          "tokens": 140711289
+          "tokens": 224462554
+        },
+        {
+          "startDate": "2026-10-10",
+          "tokens": 215763327
+        },
+        {
+          "startDate": "2026-10-11",
+          "tokens": 511484702
+        },
+        {
+          "startDate": "2026-10-12",
+          "tokens": 179243432
         }
       ]
     },
@@ -1672,7 +1696,7 @@
   ],
   "coverage_notes": {
     "historical_cutoff_preserved": "2026-09-30",
-    "extension": "2026-10-01 through 2026-10-09: newly available account r daily records only; no fresh m/s records are available. Missing data is not zero usage.",
+    "extension": "October 1\u201312: available account r daily records refreshed October 12; no fresh m/s records. The current day is partial; missing data is not zero.",
     "late_revision_excluded": {
       "date": "2026-09-30",
       "account": "r",
@@ -1688,11 +1712,12 @@
   },
   "latest_reported_account": {
     "label": "r",
-    "reported_lifetime_tokens": 40111683863,
-    "retrieved_date": "2026-10-10",
-    "daily_usage_through": "2026-10-09",
+    "reported_lifetime_tokens": 41101926589,
+    "retrieved_date": "2026-10-12",
+    "daily_usage_through": "2026-10-12",
     "note": "Latest account-reported lifetime, separate from the historical task allocation and combined multi-account chart. Includes the later September-30 revision excluded from the preserved chart baseline.",
-    "last_checked_at_utc": "2026-10-10T00:52:02.506119+00:00",
-    "refresh_result": "October 8 revised to 416,565,655 tokens; October 9 added with 140,711,289 tokens. Historical September rows preserved."
+    "last_checked_at_utc": "2026-10-12T19:01:08.918828+00:00",
+    "refresh_result": "Refreshed available October r records through October 12; historical September rows and m/s records preserved.",
+    "current_streak_days": 45
   }
 }

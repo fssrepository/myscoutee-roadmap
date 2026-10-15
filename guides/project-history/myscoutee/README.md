@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-10: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-12: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -30,9 +30,9 @@ The 111-task restoration snapshot and its calibration totals remain historical;
 they do not claim to include the later task bodies or statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-120/121 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 113 have
-measurements. MSC-114–119 and MSC-122 remain unmeasured, not zero-cost tasks.
+stable task ID. It includes MSC-120/121/122 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 114 have
+measurements. MSC-114–119 remain unmeasured, not zero-cost tasks.
 
 ## MSC-121 closeout
 
@@ -44,3 +44,7 @@ verification is the recorded October-9 evidence; the October-10 SSH check could
 not reach the KVM and did not restart it.
 
 Consolidated source commits: [backend `0941aac8`](https://github.com/fssrepository/myscoutee-backend/commit/0941aac8a700b7c2c6cc7aef2b4dda61fbd44d99) and [frontend `3601abd4`](https://github.com/fssrepository/myscoutee/commit/3601abd40a05c4746c2d57c62e0d15cc7392bba6). The 15 original commits map to these two in `commit-map.json`; the backend gitlink records the new frontend commit.
+
+## MSC-122 closeout
+
+Closed / Project Done. Template and shared components 1.4.0 are published. The exact published template DEB was verified on VMware. Usage through 2026-10-12T18:56:15.981Z is recorded in `post_control_task_usage`: 1,134,112,133 tokens, 43.898 active/allocated hours and $1,557.73 Standard API equivalent. Earlier template planning excluded from MSC-121 is included here once.

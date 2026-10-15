@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "scope": "myscoutee-template",
+  "project": {
+    "repositories": [
+      "fssrepository/myscoutee-template",
+      "fssrepository/myscoutee-template-frontend"
+    ],
+    "owner": "fssrepository",
+    "title": "MyScoutee Template",
+    "url": "https://github.com/users/fssrepository/projects/6",
+    "public": true,
+    "shortDescription": "Reusable full-stack foundation \u00b7 v1.4.0 \u00b7 delivery and AI usage",
+    "readme": "# MyScoutee Template\n\nTemplate backend and frontend delivery, using the portfolio\u2019s standard task, status, effort and usage fields.\n\n[Backend and releases](https://github.com/fssrepository/myscoutee-template) \u00b7 [Frontend](https://github.com/fssrepository/myscoutee-template-frontend) \u00b7 [Live demo](https://fssrepository.github.io/myscoutee-template-frontend/) \u00b7 [Roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n\n**MSC-122: Done \u2014 1.4.0 published and verified on VMware.**\n\nThe MSC-122 issue is shared with MyScoutee. Its 1,134,112,133 tokens / 43.898 h / $1,557.73 Standard API equivalent are already counted in the MyScoutee total; this Project is another view of the same work, not additional usage. The snapshot and measurement references are saved in the roadmap repository."
+  },
+  "fields": [
+    {
+      "name": "Title",
+      "dataType": "TITLE",
+      "options": []
+    },
+    {
+      "name": "Status",
+      "dataType": "SINGLE_SELECT",
+      "options": [
+        {
+          "name": "Todo",
+          "color": "GRAY",
+          "description": ""
+        },
+        {
+          "name": "In Progress",
+          "color": "GRAY",
+          "description": ""
+        },
+        {
+          "name": "Done",
+          "color": "GRAY",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Task ID",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Workstream",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Started",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Finished",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Tokens M",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "API equiv USD",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Active h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Allocated h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Models",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Reasoning",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Evidence",
+      "dataType": "TEXT",
+      "options": []
+    }
+  ],
+  "views": [
+    {
+      "name": "Delivery history",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Workstream",
+        "Status",
+        "Started",
+        "Finished",
+        "Evidence"
+      ]
+    },
+    {
+      "name": "AI usage and effort",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Tokens M",
+        "API equiv USD",
+        "Active h",
+        "Allocated h",
+        "Models",
+        "Reasoning",
+        "Evidence"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "task_id": "MSC-122",
+      "title": "MSC-122: Extract reusable UI components and a generic MyScoutee template",
+      "body": "Delivered **MyScoutee Template 1.4.0** and **MyScoutee Components 1.4.0** on October 12, 2026.\n\n- [x] Separate reusable components and generic application foundations from product-specific domains.\n- [x] Keep MyScoutee consuming the same component owners and preserve its qualified behavior.\n- [x] Qualify local/HTTP login, consent, profiles, SmartList, chat and retained operator/admin capabilities.\n- [x] Qualify monolith/KVM, packaging, signed updates, recovery and publication.\n- [x] Install the exact published template DEB on VMware and complete the two-member login/SmartList/chat/logout smoke.\n- [x] Publish branded PDF manuals, GitHub Pages and the components npm package.\n\n[Template and documentation](https://github.com/fssrepository/myscoutee-template) \u00b7 [Live demo](https://fssrepository.github.io/myscoutee-template-frontend/) \u00b7 [Template 1.4.0](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.4.0) \u00b7 [Components 1.4.0](https://github.com/fssrepository/myscoutee-components/releases/tag/v1.4.0)\n\n**Checklist: 33/33 tasks and 118/118 subtasks DONE.** Git history, roadmap/account usage and heatmap are updated. The [Template Project](https://github.com/users/fssrepository/projects/6) connects both template repositories. The LinkedIn article, short sharing post and branded cover are committed in the private backend guides. General MyScoutee feature-QA campaigns remain separate.\n",
+      "state": "CLOSED",
+      "state_reason": "COMPLETED",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 160,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/160",
+        "node_id": "I_kwDOU1_9-s8AAAABWAZMWg"
+      },
+      "values": {
+        "Task ID": "MSC-122",
+        "Status": "Done",
+        "Workstream": "Tooling",
+        "Started": "2026-10-09",
+        "Finished": "2026-10-12",
+        "Tokens M": 1134.112133,
+        "API equiv USD": 1557.73,
+        "Active h": 43.897584,
+        "Allocated h": 43.897584,
+        "Models": "gpt-6-astra; gpt-6.1-sol",
+        "Reasoning": "high; xhigh",
+        "Evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1\u201331 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
+      }
+    }
+  ]
+}
