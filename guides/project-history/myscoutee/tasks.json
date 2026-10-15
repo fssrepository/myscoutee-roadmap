@@ -1586,14 +1586,14 @@
     "title": "Expand API and MCP access controls and authenticated capabilities",
     "workstream": "Product",
     "started": "2026-10-06",
-    "finished": null,
-    "tokens_million": null,
-    "api_equivalent_usd_estimate": null,
-    "active_hours": null,
-    "allocated_hours": null,
-    "models": null,
-    "reasoning": null,
-    "evidence": "No isolated usage measurement; excluded from totals, not zero."
+    "finished": "2026-10-15",
+    "tokens_million": 279.256518,
+    "api_equivalent_usd_estimate": 365.14,
+    "active_hours": 10.300796111292309,
+    "allocated_hours": 9.985303055842717,
+    "models": "gpt-6-astra",
+    "reasoning": "xhigh, high",
+    "evidence": "2021 unique responses; measured tokens/time, estimated task attribution; consolidated development QA closed; cutoff 2026-10-15T20:52:03.159Z"
   },
   {
     "task_id": "MSC-117",
@@ -1626,16 +1626,16 @@
   {
     "task_id": "MSC-119",
     "title": "Separate MCP Read and Events access, add role statistics and guidance",
-    "workstream": null,
-    "started": null,
-    "finished": null,
-    "tokens_million": null,
-    "api_equivalent_usd_estimate": null,
-    "active_hours": null,
-    "allocated_hours": null,
-    "models": null,
-    "reasoning": null,
-    "evidence": "No isolated usage measurement; excluded from totals, not zero."
+    "workstream": "Product",
+    "started": "2026-10-07",
+    "finished": "2026-10-15",
+    "tokens_million": 47.314132,
+    "api_equivalent_usd_estimate": 72.06,
+    "active_hours": 2.125719444354375,
+    "allocated_hours": 2.114473055468665,
+    "models": "gpt-6-astra",
+    "reasoning": "xhigh, high",
+    "evidence": "330 unique responses; measured tokens/time, estimated task attribution; QA transferred to MSC-116; cutoff 2026-10-15T19:28:57.277Z"
   },
   {
     "task_id": "MSC-120",
@@ -1677,6 +1677,6 @@
     "allocated_hours": 43.897584444681804,
     "models": "gpt-6-astra; gpt-6.1-sol",
     "reasoning": "high; xhigh",
-    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1–31 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
+    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1\u201331 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
   }
 ]

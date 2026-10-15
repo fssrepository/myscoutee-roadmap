@@ -29,9 +29,9 @@ The October 9 MSC-120/121 token update is retained in the existing
 The 111-task calibration remains historical; the complete 120-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-115/120/121/122 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 115 have
-measurements. MSC-114 and MSC-116–119 remain unmeasured, not zero-cost tasks.
+stable task ID. It includes MSC-115/116/119/120/121/122 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 117 have
+measurements. MSC-114, MSC-117 and MSC-118 remain unmeasured, not zero-cost tasks.
 
 ## MSC-121 closeout
 
@@ -53,3 +53,7 @@ Closed / Project Done. Template and shared components 1.4.0 are published. The e
 Closed / Project Done through QA step 119. Usage through 2026-10-15T11:52:55.467000+00:00: **1,328,857,714 tokens**, **48.248381 active/allocated hours**, **$1,749.59 Standard API equivalent**. Exact response components, interval union, scope exclusions and attribution limits are in `post_control_task_usage`. Separate template/live qualification and compilation optimization do not reopen this closed scope.
 
 The three final backend commits were consolidated into [`799918535`](https://github.com/fssrepository/myscoutee-backend/commit/799918535e832f3e77eee27cef9fb57f49a93c01) at the user’s request. The final tree and frontend gitlink are identical; the original-to-consolidated mapping is in `commit-map.json`. The optimization follow-up note remains separate in scope.
+
+## MSC-116 closeout
+
+Closed / Project Done for consolidated development QA through step85, including the remaining MSC-119 introduction. Exact usage, selected windows, exclusions and overlap allocation are in `measurements.json`; reproduce the recorded cutoff with `measure-msc116.py --cutoff 2026-10-15T20:52:03.159Z`. Template runtime and external-host/publication qualification remain separate. No duplicate MSC-119 measurement was added.

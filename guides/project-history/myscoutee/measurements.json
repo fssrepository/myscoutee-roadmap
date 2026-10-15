@@ -6204,12 +6204,350 @@
         "Later API/MCP/role-guide work (MSC-116/118/119)": 81340751
       },
       "note": "Measured unique response_id records matching their own thread_id across three root conversations (including three archived segments of the planning/implementation conversation) and two guide subagents. Primary-task attribution of mixed QA repairs is estimated. Later MSC-116/118/119 implementation, separate optimization/README/file-watcher turns and accounting publication after cutoff are excluded. Cached input is within input; reasoning is within output. Active time is the union of recorded root task intervals, including tools/waits and excluding gaps between turns. Unfinished turns end at their last measured response; the isolated optimization-documentation response interval is excluded. Subagent tokens are included once; their time overlaps the parent and is not added. No interval overlaps existing measured MSC-120/121/122 boundaries; other unmeasured portfolio overlap remains unaudited. Historical calibration is preserved."
+    },
+    {
+      "task_id": "MSC-119",
+      "tokens": 47314132,
+      "cutoff_utc": "2026-10-15T19:28:57.277Z",
+      "unique_response_ids": 330,
+      "token_components": {
+        "input_tokens": 47083880,
+        "cached_input_tokens": 45588352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 230252,
+        "reasoning_output_tokens": 47282,
+        "total_tokens": 47314132
+      },
+      "models": {
+        "gpt-6-astra|xhigh": {
+          "input_tokens": 39918736,
+          "cached_input_tokens": 38641920,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 187498,
+          "reasoning_output_tokens": 42456,
+          "total_tokens": 40106234
+        },
+        "gpt-6-astra|high": {
+          "input_tokens": 7165144,
+          "cached_input_tokens": 6946432,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 42754,
+          "reasoning_output_tokens": 4826,
+          "total_tokens": 7207898
+        }
+      },
+      "started": "2026-10-07",
+      "finished": "2026-10-15",
+      "active_hours": 2.125719444354375,
+      "allocated_hours": 2.114473055468665,
+      "previously_allocated_overlap_hours": 0.011246388885709974,
+      "active_intervals_utc": [
+        [
+          "2026-10-07T02:34:54.652000+00:00",
+          "2026-10-07T03:36:05.021000+00:00"
+        ],
+        [
+          "2026-10-07T03:36:52.080000+00:00",
+          "2026-10-07T03:37:50.911000+00:00"
+        ],
+        [
+          "2026-10-07T03:38:49.022000+00:00",
+          "2026-10-07T03:40:13.778000+00:00"
+        ],
+        [
+          "2026-10-07T03:41:14.331000+00:00",
+          "2026-10-07T03:48:52.204000+00:00"
+        ],
+        [
+          "2026-10-07T04:11:36.342000+00:00",
+          "2026-10-07T04:11:52.779000+00:00"
+        ],
+        [
+          "2026-10-07T04:12:35.427000+00:00",
+          "2026-10-07T04:15:35.409000+00:00"
+        ],
+        [
+          "2026-10-07T04:17:48.393000+00:00",
+          "2026-10-07T04:18:33.173000+00:00"
+        ],
+        [
+          "2026-10-07T04:19:15.427000+00:00",
+          "2026-10-07T04:44:06.085000+00:00"
+        ],
+        [
+          "2026-10-07T04:58:35.873000+00:00",
+          "2026-10-07T04:59:16.360000+00:00"
+        ],
+        [
+          "2026-10-15T16:52:54.087000+00:00",
+          "2026-10-15T17:05:45.976000+00:00"
+        ],
+        [
+          "2026-10-15T17:06:12.855000+00:00",
+          "2026-10-15T17:06:22.639000+00:00"
+        ],
+        [
+          "2026-10-15T17:06:52.417000+00:00",
+          "2026-10-15T17:07:48.252000+00:00"
+        ],
+        [
+          "2026-10-15T17:08:37.897000+00:00",
+          "2026-10-15T17:09:06.474000+00:00"
+        ],
+        [
+          "2026-10-15T17:10:00.751000+00:00",
+          "2026-10-15T17:11:11.024000+00:00"
+        ],
+        [
+          "2026-10-15T17:11:37.242000+00:00",
+          "2026-10-15T17:11:54.031000+00:00"
+        ],
+        [
+          "2026-10-15T17:12:37.696000+00:00",
+          "2026-10-15T17:15:40.324000+00:00"
+        ],
+        [
+          "2026-10-15T19:21:04.635000+00:00",
+          "2026-10-15T19:28:57.277000+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": 72.06,
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {
+        "gpt-6-astra": [
+          10,
+          1,
+          50,
+          12.5
+        ]
+      },
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-07": 40106234,
+        "2026-10-15": 7207898
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "e7d1bd77234eaf16",
+          "selection_windows_utc": [
+            [
+              "2026-10-07T02:34:54.652Z",
+              "2026-10-07T04:44:06.085Z"
+            ],
+            [
+              "2026-10-07T04:58:35.873Z",
+              "2026-10-07T04:59:16.360Z"
+            ]
+          ],
+          "tokens": 40106234,
+          "unique_responses": 254,
+          "first_usage_utc": "2026-10-07T02:35:11.295000+00:00",
+          "last_usage_utc": "2026-10-07T04:59:16.347000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "568bb4b5cf154165",
+          "selection_windows_utc": [
+            [
+              "2026-10-15T19:21:04.635Z",
+              "2026-10-15T19:28:57.277Z"
+            ]
+          ],
+          "tokens": 2129955,
+          "unique_responses": 27,
+          "first_usage_utc": "2026-10-15T19:21:19.590000+00:00",
+          "last_usage_utc": "2026-10-15T19:28:57.274000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "2b4ca382ca3cc11e",
+          "selection_windows_utc": [
+            [
+              "2026-10-15T16:52:54.087Z",
+              "2026-10-15T17:15:40.324Z"
+            ]
+          ],
+          "tokens": 5077943,
+          "unique_responses": 49,
+          "first_usage_utc": "2026-10-15T16:53:33.612000+00:00",
+          "last_usage_utc": "2026-10-15T17:15:40.324000+00:00"
+        }
+      ],
+      "note": "Measured response usage, estimated task attribution by explicit request boundaries. Includes October 7 implementation/guides/publication preparation/consolidation and closing handoff, October 15 dedicated MSC-119 checklist reconciliation and closure preparation through the final accounting scope clarification. Excludes earlier MSC-115/116 work, the abandoned domain-architecture request, earlier MSC-117/118 checklist work, MSC-116 execution QA and final measurement/publication writes after the cutoff. Unique response IDs matching the source thread; cached input is inside input and reasoning output inside output. Root active-interval union includes tool waits, excludes idle gaps and clips mixed turns at selected request boundaries. Already recorded other-task intervals retain their allocation; intersecting time is removed from this incremental allocation. No claim of complete overlap recovery against unmeasured tasks. MSC-116 measurement fields remain unchanged."
+    },
+    {
+      "task_id": "MSC-116",
+      "tokens": 279256518,
+      "cutoff_utc": "2026-10-15T20:52:03.159Z",
+      "unique_response_ids": 2021,
+      "token_components": {
+        "input_tokens": 278305826,
+        "cached_input_tokens": 273938816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 950692,
+        "reasoning_output_tokens": 227796,
+        "total_tokens": 279256518
+      },
+      "models": {
+        "gpt-6-astra|xhigh": {
+          "input_tokens": 39578349,
+          "cached_input_tokens": 38701056,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 206874,
+          "reasoning_output_tokens": 58562,
+          "total_tokens": 39785223
+        },
+        "gpt-6-astra|high": {
+          "input_tokens": 238727477,
+          "cached_input_tokens": 235237760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 743818,
+          "reasoning_output_tokens": 169234,
+          "total_tokens": 239471295
+        }
+      },
+      "started": "2026-10-06",
+      "finished": "2026-10-15",
+      "active_hours": 10.300796111292309,
+      "allocated_hours": 9.985303055842717,
+      "previously_allocated_overlap_hours": 0.3154930554495917,
+      "active_intervals_utc": [
+        [
+          "2026-10-06T09:08:26.315000+00:00",
+          "2026-10-06T10:22:49.410000+00:00"
+        ],
+        [
+          "2026-10-06T10:29:00.794000+00:00",
+          "2026-10-06T10:29:35.721000+00:00"
+        ],
+        [
+          "2026-10-06T10:30:35.314000+00:00",
+          "2026-10-06T11:12:48.291000+00:00"
+        ],
+        [
+          "2026-10-15T12:12:45.315000+00:00",
+          "2026-10-15T12:15:06.907000+00:00"
+        ],
+        [
+          "2026-10-15T12:15:34.699000+00:00",
+          "2026-10-15T12:18:06.770000+00:00"
+        ],
+        [
+          "2026-10-15T12:18:20.054000+00:00",
+          "2026-10-15T13:57:47.743000+00:00"
+        ],
+        [
+          "2026-10-15T14:01:31.675000+00:00",
+          "2026-10-15T14:11:31.387000+00:00"
+        ],
+        [
+          "2026-10-15T14:11:37.389000+00:00",
+          "2026-10-15T17:23:01.463000+00:00"
+        ],
+        [
+          "2026-10-15T17:23:21.375000+00:00",
+          "2026-10-15T17:23:26.904000+00:00"
+        ],
+        [
+          "2026-10-15T17:23:46.586000+00:00",
+          "2026-10-15T17:24:05.519000+00:00"
+        ],
+        [
+          "2026-10-15T17:24:20.403000+00:00",
+          "2026-10-15T17:24:30.137000+00:00"
+        ],
+        [
+          "2026-10-15T17:25:07.527000+00:00",
+          "2026-10-15T17:25:14.991000+00:00"
+        ],
+        [
+          "2026-10-15T17:25:24.694000+00:00",
+          "2026-10-15T18:10:05.884000+00:00"
+        ],
+        [
+          "2026-10-15T18:11:39.980000+00:00",
+          "2026-10-15T18:12:29.136000+00:00"
+        ],
+        [
+          "2026-10-15T18:13:00.050000+00:00",
+          "2026-10-15T18:14:26.922000+00:00"
+        ],
+        [
+          "2026-10-15T18:14:48.245000+00:00",
+          "2026-10-15T19:08:14.670000+00:00"
+        ],
+        [
+          "2026-10-15T19:08:48.239000+00:00",
+          "2026-10-15T19:21:04.634000+00:00"
+        ],
+        [
+          "2026-10-15T19:28:57.278000+00:00",
+          "2026-10-15T19:35:46.289000+00:00"
+        ],
+        [
+          "2026-10-15T19:37:07.139000+00:00",
+          "2026-10-15T20:52:03.159000+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": 365.14,
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {
+        "gpt-6-astra": [
+          10,
+          1,
+          50,
+          12.5
+        ]
+      },
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-06": 39785223,
+        "2026-10-15": 239471295
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "e7d1bd77234eaf16",
+          "selection_windows_utc": [
+            [
+              "2026-10-06T09:08:26.315Z",
+              "2026-10-07T02:34:54.651Z"
+            ]
+          ],
+          "tokens": 39785223,
+          "unique_responses": 246,
+          "first_usage_utc": "2026-10-06T09:08:38.410000+00:00",
+          "last_usage_utc": "2026-10-06T11:12:48.241000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "568bb4b5cf154165",
+          "selection_windows_utc": [
+            [
+              "2026-10-15T12:12:45.315Z",
+              "2026-10-15T19:21:04.634Z"
+            ],
+            [
+              "2026-10-15T19:28:57.278Z",
+              "2026-10-15T20:52:03.159Z"
+            ]
+          ],
+          "tokens": 239471295,
+          "unique_responses": 1775,
+          "first_usage_utc": "2026-10-15T12:12:55.825000+00:00",
+          "last_usage_utc": "2026-10-15T20:52:03.095000+00:00"
+        }
+      ],
+      "note": "Measured response usage; task attribution follows explicit request boundaries. Includes October 6 API/MCP and Events implementation, incidental Feedback UI corrections in that implementation turn, and October 15 delegated MSC-116 QA, central Feedback repair, consolidated guide introduction, serial KVM sample and closure preparation through the stated cutoff. Excludes the MSC-115 pre-MCP work, MSC-119 implementation and its separately accounted closure window, and other threads. Unique response IDs matching the source thread; cached input is included in input, reasoning output in output. Active time is the root turn-interval union, including tool waits and excluding idle gaps; unfinished turns are clipped at their last observed usage record. Existing other-task intervals retain their allocation; overlap is subtracted here. No claim of overlap recovery against unmeasured tasks. Publication and final responses after the cutoff are excluded. Frozen API-equivalent valuation is an estimate, not an invoice."
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-15T11:52:55.467000+00:00",
+    "updated_at_utc": "2026-10-15T20:52:03.159Z",
     "tracked_tasks": 120,
-    "measured_tasks": 115,
+    "measured_tasks": 117,
     "tracked_task_ids": [
       "MSC-1",
       "MSC-2",
@@ -6334,14 +6672,12 @@
     ],
     "unmeasured_task_ids": [
       "MSC-114",
-      "MSC-116",
       "MSC-117",
-      "MSC-118",
-      "MSC-119"
+      "MSC-118"
     ],
-    "tokens_estimate": 39576044353,
-    "api_standard_usd_estimate": 31312.38,
-    "allocated_hours_estimate": 1024.0670059368258,
-    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 is already in the historical total. Latest MSC-115/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Time retains recorded interval/overlap boundaries; no new portfolio-wide timing audit."
+    "tokens_estimate": 39902615003,
+    "api_standard_usd_estimate": 31749.58,
+    "allocated_hours_estimate": 1036.1667820481375,
+    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit."
   }
 }

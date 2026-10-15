@@ -47,11 +47,11 @@
         "hours": 0.03538472228580051
       }
     },
-    "snapshot_note": "Original reconstruction/workstream values retained. Use current_project_totals for the October-10 refresh; missing task measurements are excluded, not zero.",
+    "snapshot_note": "Original reconstruction/workstream values retained. Use current_project_totals for the October 15 refresh; missing task measurements are excluded, not zero.",
     "current_project_totals": {
-      "updated_at_utc": "2026-10-10T00:52:02.506119+00:00",
+      "updated_at_utc": "2026-10-15T20:52:03.159Z",
       "tracked_tasks": 120,
-      "measured_tasks": 113,
+      "measured_tasks": 117,
       "tracked_task_ids": [
         "MSC-1",
         "MSC-2",
@@ -176,17 +176,13 @@
       ],
       "unmeasured_task_ids": [
         "MSC-114",
-        "MSC-115",
-        "MSC-116",
         "MSC-117",
-        "MSC-118",
-        "MSC-119",
-        "MSC-122"
+        "MSC-118"
       ],
-      "tokens_estimate": 37113074506,
-      "api_standard_usd_estimate": 28005.06,
-      "allocated_hours_estimate": 931.9210409370971,
-      "method": "Historical tasks merged with post_control_task_usage by task_id, never appended twice. MSC-113 is already in the historical total. MSC-120/121 replace their previous checkpoint. Missing task measurements are excluded, not zero. Time allocation retains each measurement boundary; not a new portfolio-wide overlap audit."
+      "tokens_estimate": 39902615003,
+      "api_standard_usd_estimate": 31749.58,
+      "allocated_hours_estimate": 1036.1667820481375,
+      "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit."
     }
   },
   "myscoutee-old": {

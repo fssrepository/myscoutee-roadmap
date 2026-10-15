@@ -6,12 +6,12 @@ The current summary merges the October 1 reconstruction with the latest measured
 
 | Project | Tracked tasks | Tasks with measurements | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 120 | 115 | 39,576.0 | 1,024.067 | $31,312.38 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 120 | 117 | 39,902.6 | 1,036.167 | $31,749.58 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 18 | 1,286.0 | 43.5 | $727.68 |
 
-**Current recorded task allocation: 41,323,199,006 tokens.** MyScoutee has 120 tracked tasks, of which 115 have usage measurements. MSC-114 and MSC-116–119 remain unmeasured; they are excluded, not zero. Other Projects retain their October 1 measurement boundaries. MSC-113 is counted once; MSC-115/120/121/122 use their latest checkpoint. Totals are reproducible from [the measurement ledger](myscoutee/measurements.json) by task ID.
+**Current recorded task allocation: 41,649,769,656 tokens.** MyScoutee has 120 tracked tasks, of which 117 have usage measurements. MSC-114, MSC-117 and MSC-118 remain unmeasured; they are excluded, not zero. Other Projects retain their October 1 measurement boundaries. MSC-113 is counted once; MSC-115/116/119/120/121/122 use their latest checkpoint. Totals are reproducible from [the measurement ledger](myscoutee/measurements.json) by task ID.
 
 Activity includes tool/network waits and is not human labor. Recorded overlap is removed within each measurement boundary; this refresh does not claim a new portfolio-wide overlap audit. Costs are Standard API equivalents, not invoices. Task allocation and account usage below overlap and must never be added together.
 

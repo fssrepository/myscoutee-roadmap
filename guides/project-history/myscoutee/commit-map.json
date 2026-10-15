@@ -5895,5 +5895,278 @@
     "original_execution_end": "2026-10-15T13:51:59+02:00",
     "original_commit_count": 1,
     "note": "October 15 user-requested consolidation. Final source tree and frontend gitlink preserved exactly; separate optimization follow-up documentation retained. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "1119159878088f9b4f2534063972c9400007e143",
+    "task_commit": "257ff297423a98c600081def03d32ea636e461bb",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "259a5b6da4b58044652a7c5cd2da5f2a0bcb64fc",
+    "original_execution_start": "2026-10-15T19:38:55+02:00",
+    "original_execution_end": "2026-10-15T19:38:55+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "650066f24a2a31496de1470007c7e36cd944dc78",
+    "task_commit": "257ff297423a98c600081def03d32ea636e461bb",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "dd0ff63a1db3cfdd82e534a9736e66e37d22f6f4",
+    "original_execution_start": "2026-10-15T19:29:06+02:00",
+    "original_execution_end": "2026-10-15T19:29:06+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "14e71c22a685dcd854f43511bf54477858676f4b",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "f4b85f71a19f32b7a6ba32eff9a23e87886832df",
+    "original_execution_start": "2026-10-15T22:00:37+02:00",
+    "original_execution_end": "2026-10-15T22:00:37+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "4e20bbc2f9a0bd4c8e7baed0f157ae015c5faa52",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "fcb98bf31991624fc4f3518edcfbc6423920a54e",
+    "original_execution_start": "2026-10-15T21:23:42+02:00",
+    "original_execution_end": "2026-10-15T21:23:42+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "de3a0db7c0ffe452225358fe88874731b30a8976",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "cc51e88fd9c8c669cb37bb05e4d69d23a5db49ac",
+    "original_execution_start": "2026-10-15T21:17:32+02:00",
+    "original_execution_end": "2026-10-15T21:17:32+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "b3bd66a007af3dfab6018a200664e04eb0d42ce0",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "e526ad2cb7bd7508c6d2d262a8ce56599d80a4e2",
+    "original_execution_start": "2026-10-15T21:02:16+02:00",
+    "original_execution_end": "2026-10-15T21:02:16+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "b20f77163f9f5f6370a6d8c89cfc21b42a46c9d3",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "d6d0d37b0d0e4642d964eb2b0b6f10745a79c2a8",
+    "original_execution_start": "2026-10-15T20:50:58+02:00",
+    "original_execution_end": "2026-10-15T20:50:58+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "1a541f210c8daaadb21c1520c8d0dcb6fdb2c085",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "b959313636c784bad0c274069eb841a3fc76b5fa",
+    "original_execution_start": "2026-10-15T19:44:14+02:00",
+    "original_execution_end": "2026-10-15T19:44:14+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "0aa0db8d496a252fb71e6ee315cc361e63449f8d",
+    "task_commit": "6ebe6fb8d4f45606e7b420c61bcba0efa057306e",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "d6e2f4bd69f5eb84a01274f880ac58dca59441fa",
+    "original_execution_start": "2026-10-15T16:02:59+02:00",
+    "original_execution_end": "2026-10-15T16:02:59+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "3bedb77bb9063ace7ff6bb811e75043c003e0cb2",
+    "task_commit": "2157c203a9553f0fd6e015da3d84235e28899c2b",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "0c57f0a0fd14aa6a1038e6e6e69d7db1c598b1d4",
+    "original_execution_start": "2026-10-15T19:44:04+02:00",
+    "original_execution_end": "2026-10-15T19:44:04+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "1e0894e7f443d5f995887d771c3ac456783a483c",
+    "task_commit": "8cc16d90500e00fbc39391db1cf59a15ccd3f2ba",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "dfc950f5e1a6b41e20a6f7ec440c7d763f8d9475",
+    "original_execution_start": "2026-10-15T22:01:10+02:00",
+    "original_execution_end": "2026-10-15T22:01:10+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "3bc3305225fac5beec6ae01d5177c1f97709abae",
+    "task_commit": "8cc16d90500e00fbc39391db1cf59a15ccd3f2ba",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "fd0b3d1940717d32a06b0e1aee59b8b827c174e0",
+    "original_execution_start": "2026-10-15T20:01:13+02:00",
+    "original_execution_end": "2026-10-15T20:01:13+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "38790dfaffc97f876c4fae7585d4c9b9ec17e5c7",
+    "task_commit": "8cc16d90500e00fbc39391db1cf59a15ccd3f2ba",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "d938422715d4eb44caa2f12393dcf6ae0857e9a7",
+    "original_execution_start": "2026-10-15T19:44:09+02:00",
+    "original_execution_end": "2026-10-15T19:44:09+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "498a47b9ec51b77d14b2f8fe85a710472b2222e4",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "9af0c5ffbade7e64209610f9e573b8c091f006a0",
+    "original_execution_start": "2026-10-15T22:00:45+02:00",
+    "original_execution_end": "2026-10-15T22:00:45+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "9a48448027e681741bfeac316ce59942e5bebbd0",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "c3492a71944cbd6f356f4a94483f26865341dafe",
+    "original_execution_start": "2026-10-15T21:23:46+02:00",
+    "original_execution_end": "2026-10-15T21:23:46+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "b08648dec3391a0e8d3f5f03402eb57e710024e1",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "1bf688a6bd9f27ae4a2b62d985f4dc4e00e188a3",
+    "original_execution_start": "2026-10-15T21:17:36+02:00",
+    "original_execution_end": "2026-10-15T21:17:36+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "16e6378e659ead2918cc88c878a6ec45587219a5",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "604720b0416bb0bf47a7a6ceb7061e702ae45fe6",
+    "original_execution_start": "2026-10-15T21:02:20+02:00",
+    "original_execution_end": "2026-10-15T21:02:20+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "b09b578303c2c6553b7dc9e5954393e12533d7ac",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "1152d8dcc5625a8345215fc1156c913de64e970f",
+    "original_execution_start": "2026-10-15T20:51:03+02:00",
+    "original_execution_end": "2026-10-15T20:51:03+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "7b8f4fcf8d20bf1f6f9f9183c4bc047f7727532d",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "e1484c9db4f1f4d83df56f6c89e22347216a54ae",
+    "original_execution_start": "2026-10-15T20:01:09+02:00",
+    "original_execution_end": "2026-10-15T20:01:09+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "55ab402d1b107a3ac6090e247c836e766d8cd23c",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "a8c55460ca978b42f90635792da41aaf7bd503ab",
+    "original_execution_start": "2026-10-15T19:44:19+02:00",
+    "original_execution_end": "2026-10-15T19:44:19+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "21786569491e6758e50fea5cf3f47f3f22cf339e",
+    "task_commit": "3ec4c8a7379b288f992bd51259091c4d3db9f056",
+    "task_ids": [
+      "MSC-116"
+    ],
+    "original_source_tree": "600c636590cc47d8c31108dda256cbaf45168205",
+    "original_execution_start": "2026-10-15T16:03:04+02:00",
+    "original_execution_end": "2026-10-15T16:03:04+02:00",
+    "original_commit_count": 1,
+    "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
   }
 ]

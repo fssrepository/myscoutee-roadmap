@@ -42,3 +42,27 @@ The post-control ledger includes planning/implementation from October 2 through 
 Active hours are the union of recorded root task intervals, with unfinished turns clipped at their final measured response and idle gaps excluded. Parallel child tokens count once; child time is not added on top of the parent. The isolated optimization response's elapsed interval is an attribution estimate. Selected intervals do not overlap the already measured MSC-120/121/122 intervals; unknown overlap with unmeasured work is not claimed resolved. The task stops at the accounting request (2026-10-15T11:52:55.467Z); this publication cannot self-count its final writes. The existing October 1 API-equivalent rates remain frozen.
 
 Account lifetime tokens and combined daily series are separate overlapping views of task usage. The account API does not expose lifetime active hours: leave it unavailable, not zero or inferred from tokens. Its longest-turn statistic is not an aggregate duration.
+
+## MSC-119 final measurement and consolidation
+
+MSC-119 is closed; its remaining QA is owned by MSC-116. 47,314,132 tokens
+from 330 unique responses, 2.125719 active hours,
+2.114473 allocated hours and $72.06 API equivalent,
+through 2026-10-15T19:28:57.277Z. The October 1 rates remain frozen.
+
+`measure-msc119.py` reproduces the aggregate from retained local Codex histories
+and the existing ledger, without network access or mutation. It uses explicit
+request-boundary windows: October 7 implementation, publication preparation and
+consolidation (excluding the abandoned architecture request), October 15 dedicated
+MSC-119 checklist work and closure preparation. Source hashes identify threads
+without publishing conversation IDs or text. Only each source's own response IDs
+count. Mixed-task attribution remains an estimate; no full-session totals are
+copied into both tasks. Recorded root intervals are clipped at these boundaries
+and united, excluding idle gaps. Previously recorded other-task intervals retain
+their allocation; the 0.011246 overlapping hours are
+removed from MSC-119's incremental allocated time. Unmeasured-task overlap is not
+claimed resolved. Final accounting writes after the cutoff are excluded.
+
+MSC-116 stays open and its measurements are unchanged. Its execution QA is excluded
+from this closed MSC-119 allocation. No future accounting revisit is required for
+the transferred QA.
