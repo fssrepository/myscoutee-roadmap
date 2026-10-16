@@ -6240,5 +6240,230 @@
       "MSC-117"
     ],
     "note": "Final targeted follow-up: 42/42 connections and two-line mobile error ellipsis PASS; owned runtime cleaned."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "1a0ce8b50eee7358feb5fc0ebb5f91afff3a5125",
+    "task_commit": "03cc620c58b4964795e8e186cce1eaa4e0c8e2e0",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "89ade04633a9322352e5a6d417b41e2894fa8458",
+    "task_commit": "03cc620c58b4964795e8e186cce1eaa4e0c8e2e0",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "d335aa76c6f6b9d5a3570e553aaac4f0a42341a3",
+    "task_commit": "03cc620c58b4964795e8e186cce1eaa4e0c8e2e0",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "61c6ce84a8c2201da76a7ef9babb82f05dc94d26",
+    "task_commit": "1740ee9f0054ae2da8eff37aeadd48fdb22f16e7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "12c7b23c0cd93c0c84b56c73fc26e65b3812e57b",
+    "task_commit": "1740ee9f0054ae2da8eff37aeadd48fdb22f16e7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "89f148b3df6aba4c0f6fc639843031b25af087dd",
+    "task_commit": "1740ee9f0054ae2da8eff37aeadd48fdb22f16e7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "3782712a5efbf9613eec1135800f20ea0e515aaf",
+    "task_commit": "1740ee9f0054ae2da8eff37aeadd48fdb22f16e7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "ea3460e7f5aee7b0aeecd7622e2e10a356cc9706",
+    "task_commit": "a29650277de23dd8c5ebb2910b8e6111b071ada7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "071bfc899147f426c030bf10feadc1281fc46bdf",
+    "task_commit": "a29650277de23dd8c5ebb2910b8e6111b071ada7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "6416dd192ca836c7ac2971d5025a357dc21e8332",
+    "task_commit": "a29650277de23dd8c5ebb2910b8e6111b071ada7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "d1900c7b37a08e16edb29eb63994dd017da7cc89",
+    "task_commit": "a29650277de23dd8c5ebb2910b8e6111b071ada7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "f5c4a1f2767e91bfd7c95210589db1852081d086",
+    "task_commit": "bcb231403ed8d7be8de7ebe170413663aa59b444",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "db93245cc7bceba962c91b1dd5ba35481f1c4be1",
+    "task_commit": "bcb231403ed8d7be8de7ebe170413663aa59b444",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "7a818c20bcbc7dd6e416ffa5aa5d01b489d6885c",
+    "task_commit": "bcb231403ed8d7be8de7ebe170413663aa59b444",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "05fdb8bf119ba1cb032d074a84223e24265486ae",
+    "task_commit": "bcb231403ed8d7be8de7ebe170413663aa59b444",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "fa4103ea08700ed2b7a0dad998ef0b9164dbed02",
+    "task_commit": "c4e5c94e70f2d9829c8fea22bc868a8f0e681172",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "fe7e49efd9c022ee3f971da479997adf05a668bf",
+    "task_commit": "c4e5c94e70f2d9829c8fea22bc868a8f0e681172",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "5da75d4ad5f65331fb924ca5a60b73aedbc4bed6",
+    "task_commit": "c4e5c94e70f2d9829c8fea22bc868a8f0e681172",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "04d19e50a92edc69f93baa7c5ba636690b2da24c",
+    "task_commit": "c4e5c94e70f2d9829c8fea22bc868a8f0e681172",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested backup consolidation with explicit remote-head --force-with-lease. Source content preserved; submodule pointers aligned and backend README usage added. QA limits remain recorded."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "3d86a34334fc0b787a26f5b217b7bb08d4c6004c",
+    "task_commit": "03cc620c58b4964795e8e186cce1eaa4e0c8e2e0",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "Include sticky-header history in MSC-118; preserve application source and refresh dependent gitlinks/README usage. Published with explicit --force-with-lease."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "c56327049a491a89bc70e44257ad6868d91e44fd",
+    "task_commit": "1740ee9f0054ae2da8eff37aeadd48fdb22f16e7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "Include sticky-header history in MSC-118; preserve application source and refresh dependent gitlinks/README usage. Published with explicit --force-with-lease."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "8fb1bae9055466a436674f8f98aa72fabed9bcb2",
+    "task_commit": "a29650277de23dd8c5ebb2910b8e6111b071ada7",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "Include sticky-header history in MSC-118; preserve application source and refresh dependent gitlinks/README usage. Published with explicit --force-with-lease."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "4147848bc068a06cf46b91e545d58c043d9c45b5",
+    "task_commit": "bcb231403ed8d7be8de7ebe170413663aa59b444",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "Include sticky-header history in MSC-118; preserve application source and refresh dependent gitlinks/README usage. Published with explicit --force-with-lease."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "37121a0fa96c3bae4b263703233dfa2383903aae",
+    "task_commit": "c4e5c94e70f2d9829c8fea22bc868a8f0e681172",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "Include sticky-header history in MSC-118; preserve application source and refresh dependent gitlinks/README usage. Published with explicit --force-with-lease."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "848be63acab52026b5b1594ca04bd8a537af7cd0",
+    "task_commit": "03cc620c58b4964795e8e186cce1eaa4e0c8e2e0",
+    "task_ids": [
+      "MSC-118"
+    ],
+    "note": "User-requested inclusion of sticky header removal on non-scroll. Final component tree is identical; its session usage was already included, not counted twice."
   }
 ]

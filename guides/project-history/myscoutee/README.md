@@ -29,9 +29,9 @@ The October 9 MSC-120/121 token update is retained in the existing
 The 111-task calibration remains historical; the complete 120-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-115/116/117/119/120/121/122 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 118 have
-measurements. MSC-114 and MSC-118 remain unmeasured, not zero-cost tasks.
+stable task ID. It includes MSC-115/116/117/118/119/120/121/122 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 119 have
+measurements. MSC-114 remains unmeasured, not a zero-cost task.
 
 ## MSC-121 closeout
 
@@ -61,3 +61,7 @@ Closed / Project Done for consolidated development QA through step85, including 
 ## MSC-117 closeout
 
 Closed / Project Done for the accepted development scope. **105,282,015 tokens**, **5.206302 active/allocated hours** through `2026-10-16T09:26:30.000Z`. Reproduce with `measure-msc117.py --cutoff 2026-10-16T09:26:30.000Z`. Full API-equivalent cost is unavailable (missing gpt-6.1-sol rate); $79.41 is a known-rate subtotal only. [QA evidence and limits](https://github.com/fssrepository/myscoutee-backend/blob/7f12b02ec102440d042b923cbd86a28e9573c94d/guides/qa/evidence/general/MSC117-20261016/summary.json); template/live qualification stays separate.
+
+## MSC-118 usage update
+
+**182,287,382 tokens**, **4.680690 active / 4.369485 allocated hours**, **$242.00 frozen Standard API equivalent**, through `2026-10-16T14:49:00Z`. Includes implementation, checklist preparation, QA, shared-list corrections and reverted attempts. Reproduce with `measure-msc118.py --cutoff 2026-10-16T14:49:00Z`. Scoped eight-step guide QA is PASS / CLOSED; template regression remains NOT RUN in template QA.

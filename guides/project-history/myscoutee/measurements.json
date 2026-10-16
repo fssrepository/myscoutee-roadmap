@@ -6753,12 +6753,293 @@
         }
       ],
       "note": "Measured unique response usage; task attribution follows explicit request windows. Includes initial October6 WebRTC implementation, same-thread MCP/dev startup and call-guide follow-up before the general guide-introduction request, October16 delegated QA/corrections/closure preparation, and the separate October16 synthetic-audio explanation. Original and continued archive segments are joined by thread identity and response IDs deduplicated. Excludes later mixed general-guide/role work, template baseline qualification already credited elsewhere, and final publication after cutoff. Root active intervals are unioned across overlapping threads; tool waits count, idle gaps do not. Previously allocated other-task time is subtracted. No claim of complete overlap attribution against unmeasured tasks. Cached input is within input and reasoning within output. Frozen Standard API-equivalent valuation is an estimate, not an invoice."
+    },
+    {
+      "task_id": "MSC-118",
+      "tokens": 182287382,
+      "cutoff_utc": "2026-10-16T14:49:00Z",
+      "unique_response_ids": 1343,
+      "token_components": {
+        "input_tokens": 181728110,
+        "cached_input_tokens": 178137856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 559272,
+        "reasoning_output_tokens": 153753,
+        "total_tokens": 182287382
+      },
+      "models": {
+        "gpt-6-astra|xhigh": {
+          "input_tokens": 56798693,
+          "cached_input_tokens": 55609088,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 198710,
+          "reasoning_output_tokens": 45709,
+          "total_tokens": 56997403
+        },
+        "gpt-6-astra|high": {
+          "input_tokens": 124929417,
+          "cached_input_tokens": 122528768,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 360562,
+          "reasoning_output_tokens": 108044,
+          "total_tokens": 125289979
+        }
+      },
+      "started": "2026-10-07",
+      "finished": "2026-10-16",
+      "active_hours": 4.680689722167121,
+      "allocated_hours": 4.369484722216924,
+      "previously_allocated_overlap_hours": 0.311204999950197,
+      "active_intervals_utc": [
+        [
+          "2026-10-07T01:42:18.387000+00:00",
+          "2026-10-07T01:47:25.999000+00:00"
+        ],
+        [
+          "2026-10-07T01:49:37.731000+00:00",
+          "2026-10-07T02:30:53.268000+00:00"
+        ],
+        [
+          "2026-10-07T04:08:30.992000+00:00",
+          "2026-10-07T04:08:43.561000+00:00"
+        ],
+        [
+          "2026-10-15T16:31:33.571000+00:00",
+          "2026-10-15T16:32:23.892000+00:00"
+        ],
+        [
+          "2026-10-15T16:34:17.684000+00:00",
+          "2026-10-15T16:35:44.617000+00:00"
+        ],
+        [
+          "2026-10-15T16:36:31.002000+00:00",
+          "2026-10-15T16:52:54.086000+00:00"
+        ],
+        [
+          "2026-10-16T09:31:26.128000+00:00",
+          "2026-10-16T09:31:37.049000+00:00"
+        ],
+        [
+          "2026-10-16T10:48:52.482000+00:00",
+          "2026-10-16T11:01:11.402000+00:00"
+        ],
+        [
+          "2026-10-16T11:01:22.676000+00:00",
+          "2026-10-16T11:44:31.484000+00:00"
+        ],
+        [
+          "2026-10-16T11:45:12.016000+00:00",
+          "2026-10-16T11:47:01.785000+00:00"
+        ],
+        [
+          "2026-10-16T11:47:12.144000+00:00",
+          "2026-10-16T11:49:53.812000+00:00"
+        ],
+        [
+          "2026-10-16T11:51:06.092000+00:00",
+          "2026-10-16T11:53:54.680000+00:00"
+        ],
+        [
+          "2026-10-16T11:54:18.295000+00:00",
+          "2026-10-16T12:02:49.774000+00:00"
+        ],
+        [
+          "2026-10-16T12:04:49.255000+00:00",
+          "2026-10-16T12:05:11.700000+00:00"
+        ],
+        [
+          "2026-10-16T12:06:08.084000+00:00",
+          "2026-10-16T12:09:44.888000+00:00"
+        ],
+        [
+          "2026-10-16T12:09:52.589000+00:00",
+          "2026-10-16T12:16:59.858000+00:00"
+        ],
+        [
+          "2026-10-16T12:17:49.098000+00:00",
+          "2026-10-16T12:24:18.920000+00:00"
+        ],
+        [
+          "2026-10-16T12:24:29.899000+00:00",
+          "2026-10-16T12:27:59.491000+00:00"
+        ],
+        [
+          "2026-10-16T12:28:11.481000+00:00",
+          "2026-10-16T12:32:05.365000+00:00"
+        ],
+        [
+          "2026-10-16T12:32:26.904000+00:00",
+          "2026-10-16T12:35:36.716000+00:00"
+        ],
+        [
+          "2026-10-16T12:36:49.012000+00:00",
+          "2026-10-16T13:14:30.056000+00:00"
+        ],
+        [
+          "2026-10-16T13:14:59.318000+00:00",
+          "2026-10-16T13:16:17.316000+00:00"
+        ],
+        [
+          "2026-10-16T13:16:38.463000+00:00",
+          "2026-10-16T13:16:57.461000+00:00"
+        ],
+        [
+          "2026-10-16T13:17:18.909000+00:00",
+          "2026-10-16T13:17:48.868000+00:00"
+        ],
+        [
+          "2026-10-16T13:17:59.245000+00:00",
+          "2026-10-16T13:18:33.515000+00:00"
+        ],
+        [
+          "2026-10-16T13:20:21.615000+00:00",
+          "2026-10-16T13:21:13.673000+00:00"
+        ],
+        [
+          "2026-10-16T13:21:34.393000+00:00",
+          "2026-10-16T13:56:14.240000+00:00"
+        ],
+        [
+          "2026-10-16T13:56:25.145000+00:00",
+          "2026-10-16T13:57:10.031000+00:00"
+        ],
+        [
+          "2026-10-16T14:02:34.528000+00:00",
+          "2026-10-16T14:03:51.993000+00:00"
+        ],
+        [
+          "2026-10-16T14:04:34.160000+00:00",
+          "2026-10-16T14:16:40.038000+00:00"
+        ],
+        [
+          "2026-10-16T14:17:35.667000+00:00",
+          "2026-10-16T14:21:05.861000+00:00"
+        ],
+        [
+          "2026-10-16T14:21:11.932000+00:00",
+          "2026-10-16T14:21:40.887000+00:00"
+        ],
+        [
+          "2026-10-16T14:22:02.998000+00:00",
+          "2026-10-16T14:23:41.313000+00:00"
+        ],
+        [
+          "2026-10-16T14:23:56.031000+00:00",
+          "2026-10-16T14:24:07.722000+00:00"
+        ],
+        [
+          "2026-10-16T14:24:10.309000+00:00",
+          "2026-10-16T14:25:59.967000+00:00"
+        ],
+        [
+          "2026-10-16T14:26:08.602000+00:00",
+          "2026-10-16T14:40:11.445000+00:00"
+        ],
+        [
+          "2026-10-16T14:41:10.207000+00:00",
+          "2026-10-16T14:42:58.608000+00:00"
+        ],
+        [
+          "2026-10-16T14:46:08.215000+00:00",
+          "2026-10-16T14:48:30.401000+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": 242.0,
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {
+        "gpt-6-astra": [
+          10,
+          1,
+          50,
+          12.5
+        ]
+      },
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-07": 26828165,
+        "2026-10-15": 5125909,
+        "2026-10-16": 150333308
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "2048136f3b6db41f",
+          "selection_windows_utc": [
+            [
+              "2026-10-07T01:42:18.387Z",
+              "2026-10-07T04:08:43.561Z"
+            ]
+          ],
+          "tokens": 26828165,
+          "unique_responses": 145,
+          "first_usage_utc": "2026-10-07T01:42:30.471000+00:00",
+          "last_usage_utc": "2026-10-07T04:08:43.523000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "2b4ca382ca3cc11e",
+          "selection_windows_utc": [
+            [
+              "2026-10-15T16:31:33.571Z",
+              "2026-10-15T16:52:54.086Z"
+            ]
+          ],
+          "tokens": 5125909,
+          "unique_responses": 44,
+          "first_usage_utc": "2026-10-15T16:31:43.335000+00:00",
+          "last_usage_utc": "2026-10-15T16:52:54.083000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "49cebe0ca1460a03",
+          "selection_windows_utc": [
+            [
+              "2026-10-16T09:31:26.128Z",
+              "2026-10-16T12:16:59.858Z"
+            ]
+          ],
+          "tokens": 41726745,
+          "unique_responses": 311,
+          "first_usage_utc": "2026-10-16T09:31:34.860000+00:00",
+          "last_usage_utc": "2026-10-16T12:16:59.858000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "eea19e5e65d4ba46",
+          "selection_windows_utc": [
+            [
+              "2026-10-16T12:17:49.098Z",
+              "2026-10-16T13:56:14.240Z"
+            ]
+          ],
+          "tokens": 44117496,
+          "unique_responses": 336,
+          "first_usage_utc": "2026-10-16T12:17:56.808000+00:00",
+          "last_usage_utc": "2026-10-16T13:56:14.225000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "01bff8429919cefc",
+          "selection_windows_utc": [
+            [
+              "2026-10-16T12:37:52.591Z",
+              "2026-10-16T14:49:00Z"
+            ]
+          ],
+          "tokens": 64489067,
+          "unique_responses": 507,
+          "first_usage_utc": "2026-10-16T12:38:01.097000+00:00",
+          "last_usage_utc": "2026-10-16T14:48:30.401000+00:00"
+        }
+      ],
+      "note": "Measured unique response usage; task attribution follows explicit request windows. Includes October7 role-guide/notification implementation and handoff, October15 checklist preparation and related QA reconciliation before the separately measured MSC-119 window, October16 delegated execution, associated shared-list repairs and verification, corrections, and accounting/history preparation through the cutoff. Reverted attempts count as consumed effort. Source segments are joined by thread identity; response IDs are deduplicated. Root active intervals are unioned across concurrent sessions, including tool waits and excluding idle gaps. Existing other-task allocations are subtracted from overlapping active time. Earlier general-guide/call work and later accounting/publication are excluded. Cached input is inside input; reasoning output is inside output. The frozen API-equivalent valuation is an estimate, not an invoice. Usage does not imply that the remaining prerequisite-limited QA is complete."
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-16T09:26:30.000Z",
+    "updated_at_utc": "2026-10-16T14:49:00Z",
     "tracked_tasks": 120,
-    "measured_tasks": 118,
+    "measured_tasks": 119,
     "tracked_task_ids": [
       "MSC-1",
       "MSC-2",
@@ -6882,13 +7163,12 @@
       "MSC-122"
     ],
     "unmeasured_task_ids": [
-      "MSC-114",
-      "MSC-118"
+      "MSC-114"
     ],
-    "tokens_estimate": 40007897018,
-    "api_standard_usd_estimate": 31848.55,
-    "allocated_hours_estimate": 1041.3730837148344,
-    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced.",
+    "tokens_estimate": 40190184400,
+    "api_standard_usd_estimate": 32090.55,
+    "allocated_hours_estimate": 1045.7425684370512,
+    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff.",
     "valuation_incomplete_task_ids": [
       "MSC-117"
     ]
