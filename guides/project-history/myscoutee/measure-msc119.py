@@ -9,6 +9,7 @@ import collections
 import datetime as dt
 import hashlib
 import json
+import itertools
 import pathlib
 import sqlite3
 
@@ -47,7 +48,7 @@ def union(intervals):
     return result
 
 
-def extract(task_id='MSC-119', selections=None, cutoff=CUTOFF, started='2026-10-07', note=None):
+def extract(task_id='MSC-119', selections=None, cutoff=CUTOFF, started='2026-10-07', note=None, include_archived_segments=False, allow_unpriced_models=False):
     selections = SELECTIONS if selections is None else selections
     ledger = json.loads((ROOT / 'measurements.json').read_text())
     db = sqlite3.connect(f'file:{HOME}/state_5.sqlite?mode=ro', uri=True)
@@ -68,7 +69,8 @@ def extract(task_id='MSC-119', selections=None, cutoff=CUTOFF, started='2026-10-
         starts, ends, last_usage = {}, {}, {}
         selected = []
         model, effort = None, None
-        for line in path.open():
+        paths = sorted(set([path, *(HOME / 'archived_sessions').glob(f'*{ident}*.jsonl')])) if include_archived_segments else [path]
+        for line in itertools.chain.from_iterable(segment.open() for segment in paths):
             record = json.loads(line)
             payload = record.get('payload', {})
             stamp = seconds(record['timestamp'])
@@ -123,8 +125,12 @@ def extract(task_id='MSC-119', selections=None, cutoff=CUTOFF, started='2026-10-
     overlap = sum(max(0, min(b, d)-max(a, c)) for a, b in active for c, d in previous)
     rates = ledger['rates_per_million']
     cost = 0
+    unpriced = {}
     for key, usage in models.items():
         model = key.split('|')[0]
+        if model not in rates and allow_unpriced_models:
+            unpriced[key] = dict(usage)
+            continue
         regular, cached, output, write = rates[model]
         cost += ((usage['input_tokens']-usage['cached_input_tokens'])*regular
                  + usage['cached_input_tokens']*cached
@@ -138,9 +144,10 @@ def extract(task_id='MSC-119', selections=None, cutoff=CUTOFF, started='2026-10-
         'allocated_hours': (active_seconds-overlap)/3600,
         'previously_allocated_overlap_hours': overlap/3600,
         'active_intervals_utc': [[iso(a), iso(b)] for a, b in active],
-        'api_standard_usd_estimate': round(cost, 2),
+        'api_standard_usd_estimate': None if unpriced else round(cost, 2),
+        **({'priced_subtotal_usd_estimate': round(cost, 2), 'unpriced_models': unpriced} if unpriced else {}),
         'valuation_date': ledger['valuation_date'],
-        'rates_per_million': {m.split('|')[0]: rates[m.split('|')[0]] for m in models},
+        'rates_per_million': {m.split('|')[0]: rates[m.split('|')[0]] for m in models if m.split('|')[0] in rates},
         'pricing_source': ledger['pricing_source'],
         'rate_basis': 'Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.',
         'daily_tokens': dict(daily), 'sources': evidence,

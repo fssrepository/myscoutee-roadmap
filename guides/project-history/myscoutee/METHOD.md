@@ -66,3 +66,9 @@ claimed resolved. Final accounting writes after the cutoff are excluded.
 MSC-116 stays open and its measurements are unchanged. Its execution QA is excluded
 from this closed MSC-119 allocation. No future accounting revisit is required for
 the transferred QA.
+
+## MSC-117 measurement boundary
+
+Measured unique response usage; task attribution follows explicit request windows. Includes initial October6 WebRTC implementation, same-thread MCP/dev startup and call-guide follow-up before the general guide-introduction request, October16 delegated QA/corrections/closure preparation, and the separate October16 synthetic-audio explanation. Original and continued archive segments are joined by thread identity and response IDs deduplicated. Excludes later mixed general-guide/role work, template baseline qualification already credited elsewhere, and final publication after cutoff. Root active intervals are unioned across overlapping threads; tool waits count, idle gaps do not. Previously allocated other-task time is subtracted. No claim of complete overlap attribution against unmeasured tasks. Cached input is within input and reasoning within output. Frozen Standard API-equivalent valuation is an estimate, not an invoice.
+
+Cutoff `2026-10-16T09:26:30.000Z`: 105,282,015 tokens / 840 unique responses / 5.206302 unioned active and allocated hours. Archived continuation segments are deduplicated by response ID. Full cost is null because gpt-6.1-sol has no frozen ledger rate; known-rate subtotal $79.41 only is added to the current project valuation, explicitly marked incomplete. Existing MSC-119 extraction remains byte-equivalent as JSON under its original defaults.

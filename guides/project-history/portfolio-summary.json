@@ -49,9 +49,9 @@
     },
     "snapshot_note": "Original reconstruction/workstream values retained. Use current_project_totals for the October 15 refresh; missing task measurements are excluded, not zero.",
     "current_project_totals": {
-      "updated_at_utc": "2026-10-15T20:52:03.159Z",
+      "updated_at_utc": "2026-10-16T09:26:30.000Z",
       "tracked_tasks": 120,
-      "measured_tasks": 117,
+      "measured_tasks": 118,
       "tracked_task_ids": [
         "MSC-1",
         "MSC-2",
@@ -176,13 +176,15 @@
       ],
       "unmeasured_task_ids": [
         "MSC-114",
-        "MSC-117",
         "MSC-118"
       ],
-      "tokens_estimate": 39902615003,
-      "api_standard_usd_estimate": 31749.58,
-      "allocated_hours_estimate": 1036.1667820481375,
-      "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit."
+      "tokens_estimate": 40007897018,
+      "api_standard_usd_estimate": 31848.55,
+      "allocated_hours_estimate": 1041.3730837148344,
+      "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced.",
+      "valuation_incomplete_task_ids": [
+        "MSC-117"
+      ]
     }
   },
   "myscoutee-old": {

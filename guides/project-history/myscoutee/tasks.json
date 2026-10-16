@@ -1600,14 +1600,14 @@
     "title": "Add direct WebRTC group calls with own STUN and MLS",
     "workstream": "Product",
     "started": "2026-10-06",
-    "finished": null,
-    "tokens_million": null,
+    "finished": "2026-10-16",
+    "tokens_million": 105.282015,
     "api_equivalent_usd_estimate": null,
-    "active_hours": null,
-    "allocated_hours": null,
-    "models": null,
-    "reasoning": null,
-    "evidence": "7 focused tests PASS + 4 watcher-AOT runtime checks PASS; existing watchers compile; i18n 13438 and all 50 call keys/language live API PASS. Manual CHAT-CALL-001 NOT RUN, real RTP/UI unproven. One MSC-117 commit/repository pushed: backend 2a3a5ed2, frontend 1a09110b6. Chat Tasks direct-board regression: 3 focused AOT checks PASS; no case-list/counter load. Wider community checker stopped later: missing SeedOperatorRegistryBuilder dev export; full pass not claimed. MCP dev startup fixed d6df433: unset/empty/custom URL config PASS; exact up -d --build PASS; /healthz HTTP 200; backend remains stopped."
+    "active_hours": 5.2063016666968664,
+    "allocated_hours": 5.2063016666968664,
+    "models": "gpt-6-astra; gpt-6.1-sol",
+    "reasoning": "high; xhigh",
+    "evidence": "CLOSED. Final focused follow-up PASS: 42/42 browser connections, identical fresh build, real mobile failed-peer two-line ellipsis/red frame/60px avatar; all owned runtime stopped. 840 responses; cutoff 2026-10-16T09:26:30.000Z. Full API cost unavailable."
   },
   {
     "task_id": "MSC-118",
@@ -1677,6 +1677,6 @@
     "allocated_hours": 43.897584444681804,
     "models": "gpt-6-astra; gpt-6.1-sol",
     "reasoning": "high; xhigh",
-    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1\u201331 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
+    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1–31 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
   }
 ]

@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-15: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-16: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -29,9 +29,9 @@ The October 9 MSC-120/121 token update is retained in the existing
 The 111-task calibration remains historical; the complete 120-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-115/116/119/120/121/122 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 117 have
-measurements. MSC-114, MSC-117 and MSC-118 remain unmeasured, not zero-cost tasks.
+stable task ID. It includes MSC-115/116/117/119/120/121/122 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 120 tasks; 118 have
+measurements. MSC-114 and MSC-118 remain unmeasured, not zero-cost tasks.
 
 ## MSC-121 closeout
 
@@ -57,3 +57,7 @@ The three final backend commits were consolidated into [`799918535`](https://git
 ## MSC-116 closeout
 
 Closed / Project Done for consolidated development QA through step85, including the remaining MSC-119 introduction. Exact usage, selected windows, exclusions and overlap allocation are in `measurements.json`; reproduce the recorded cutoff with `measure-msc116.py --cutoff 2026-10-15T20:52:03.159Z`. Template runtime and external-host/publication qualification remain separate. No duplicate MSC-119 measurement was added.
+
+## MSC-117 closeout
+
+Closed / Project Done for the accepted development scope. **105,282,015 tokens**, **5.206302 active/allocated hours** through `2026-10-16T09:26:30.000Z`. Reproduce with `measure-msc117.py --cutoff 2026-10-16T09:26:30.000Z`. Full API-equivalent cost is unavailable (missing gpt-6.1-sol rate); $79.41 is a known-rate subtotal only. [QA evidence and limits](https://github.com/fssrepository/myscoutee-backend/blob/7f12b02ec102440d042b923cbd86a28e9573c94d/guides/qa/evidence/general/MSC117-20261016/summary.json); template/live qualification stays separate.

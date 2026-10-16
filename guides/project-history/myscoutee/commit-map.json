@@ -6168,5 +6168,77 @@
     "original_execution_end": "2026-10-15T16:03:04+02:00",
     "original_commit_count": 1,
     "note": "User-requested October15 QA consolidation. Prepared final index tree preserved exactly, including documented closure edits and updated submodule pointers. No backup branch created."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "7f12b02ec102440d042b923cbd86a28e9573c94d",
+    "task_commit": "7f12b02ec102440d042b923cbd86a28e9573c94d",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "2026-10-16 accepted-scope QA closure; template propagation only, no template runtime claim."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "bab241f25036a8daf9375bbfa0ccdcc586ac7df2",
+    "task_commit": "bab241f25036a8daf9375bbfa0ccdcc586ac7df2",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "2026-10-16 accepted-scope QA closure; template propagation only, no template runtime claim."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "27e5d3a4a0220153a6651c0956d19dfe16c8ea3b",
+    "task_commit": "27e5d3a4a0220153a6651c0956d19dfe16c8ea3b",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "2026-10-16 accepted-scope QA closure; template propagation only, no template runtime claim."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "3553350521a49649e9ba253b80ae7e928455271c",
+    "task_commit": "3553350521a49649e9ba253b80ae7e928455271c",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "2026-10-16 accepted-scope QA closure; template propagation only, no template runtime claim."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "b69e41820ac2154d312ff5274c52df3e8bb047f0",
+    "task_commit": "b69e41820ac2154d312ff5274c52df3e8bb047f0",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "Final targeted follow-up: 42/42 connections and two-line mobile error ellipsis PASS; owned runtime cleaned."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "f73c921de100670b08c6898c4caa12a217d570f5",
+    "task_commit": "f73c921de100670b08c6898c4caa12a217d570f5",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "Final targeted follow-up: 42/42 connections and two-line mobile error ellipsis PASS; owned runtime cleaned."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "18336cbe545d1b26ef38289c0877bc07f5165164",
+    "task_commit": "18336cbe545d1b26ef38289c0877bc07f5165164",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "Final targeted follow-up: 42/42 connections and two-line mobile error ellipsis PASS; owned runtime cleaned."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "2657554601886ecdac2e5e947580a278c298d7a7",
+    "task_commit": "2657554601886ecdac2e5e947580a278c298d7a7",
+    "task_ids": [
+      "MSC-117"
+    ],
+    "note": "Final targeted follow-up: 42/42 connections and two-line mobile error ellipsis PASS; owned runtime cleaned."
   }
 ]
