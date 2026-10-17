@@ -49,9 +49,9 @@
     },
     "snapshot_note": "Original reconstruction/workstream values retained. Use current_project_totals for the October 15 refresh; missing task measurements are excluded, not zero.",
     "current_project_totals": {
-      "updated_at_utc": "2026-10-16T14:49:00Z",
-      "tracked_tasks": 120,
-      "measured_tasks": 119,
+      "updated_at_utc": "2026-10-17T14:40:04.051000+00:00",
+      "tracked_tasks": 121,
+      "measured_tasks": 120,
       "tracked_task_ids": [
         "MSC-1",
         "MSC-2",
@@ -172,17 +172,20 @@
         "MSC-119",
         "MSC-120",
         "MSC-121",
-        "MSC-122"
+        "MSC-122",
+        "MSC-123"
       ],
       "unmeasured_task_ids": [
         "MSC-114"
       ],
-      "tokens_estimate": 40190184400,
-      "api_standard_usd_estimate": 32090.55,
-      "allocated_hours_estimate": 1045.7425684370512,
-      "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff.",
+      "tokens_estimate": 40707758774,
+      "api_standard_usd_estimate": 32109.53,
+      "allocated_hours_estimate": 1054.338302881179,
+      "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation. MSC-123 adds one completed shared deployment/release measurement by task ID, including the requested Netcup 1.4.1 upgrade; full valuation remains unavailable.",
       "valuation_incomplete_task_ids": [
-        "MSC-117"
+        "MSC-122",
+        "MSC-117",
+        "MSC-123"
       ]
     }
   },
