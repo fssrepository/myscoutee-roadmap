@@ -76,3 +76,7 @@ Cutoff `2026-10-16T09:26:30.000Z`: 105,282,015 tokens / 840 unique responses / 5
 ## MSC-118 measurement boundary
 
 182,287,382 tokens from 1343 unique response IDs through 2026-10-16T14:49:00Z. The explicit source windows in `measure-msc118.py` cover October7 implementation, October15 checklist reconciliation before MSC-119, and October16 QA with associated shared-list work and corrections. Reverted work is consumed effort and remains included. The 4.680690 root active hours are a union, not a sum of overlapping agents; 0.311205 hours already allocated elsewhere are removed, leaving 4.369485 allocated hours. The $242.00 estimate uses the existing frozen rate card. Account controls and the account heatmap are not changed by a task-level update. Publication after cutoff is excluded.
+
+## MSC-122 regression increment
+
+Use `measure-msc122-regression.py --cutoff 2026-10-17T07:51:53.465Z` for the two dedicated October 15–17 QA root threads. Deduplicate response IDs, union recorded root intervals and subtract overlaps already allocated to other tasks using the existing extractor. The aggregate replaces MSC-122 by task ID, retaining the October 12 delivery and the new regression as separate components. Include corrections, reverted attempts and failure/recovery; exclude accounting/publication after cutoff. The Template Project is another view of the same task, never a second allocation. Missing model rates remain unpriced; preserve the original frozen delivery valuation separately.

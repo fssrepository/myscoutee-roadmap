@@ -4875,33 +4875,33 @@
     },
     {
       "task_id": "MSC-122",
-      "tokens": 1134112133,
-      "cutoff_utc": "2026-10-12T18:56:15.981000+00:00",
-      "unique_response_ids": 7830,
+      "tokens": 1304324997,
+      "cutoff_utc": "2026-10-17T07:51:53.465Z",
+      "unique_response_ids": 8673,
       "token_components": {
-        "input_tokens": 1129445309,
-        "cached_input_tokens": 1107407360,
+        "input_tokens": 1299206901,
+        "cached_input_tokens": 1274963072,
         "cache_write_input_tokens": 0,
-        "output_tokens": 4666824,
-        "reasoning_output_tokens": 1474455,
-        "total_tokens": 1134112133
+        "output_tokens": 5118096,
+        "reasoning_output_tokens": 1685084,
+        "total_tokens": 1304324997
       },
       "models": {
         "gpt-6.1-sol|high": {
-          "input_tokens": 2245251,
-          "cached_input_tokens": 2150016,
+          "input_tokens": 158154037,
+          "cached_input_tokens": 156237184,
           "cache_write_input_tokens": 0,
-          "output_tokens": 17548,
-          "reasoning_output_tokens": 2993,
-          "total_tokens": 2262799
+          "output_tokens": 435376,
+          "reasoning_output_tokens": 204763,
+          "total_tokens": 158589413
         },
         "gpt-6-astra|high": {
-          "input_tokens": 221363272,
-          "cached_input_tokens": 217263232,
+          "input_tokens": 235216078,
+          "cached_input_tokens": 230731776,
           "cache_write_input_tokens": 0,
-          "output_tokens": 777681,
-          "reasoning_output_tokens": 196096,
-          "total_tokens": 222140953
+          "output_tokens": 811125,
+          "reasoning_output_tokens": 204955,
+          "total_tokens": 236027203
         },
         "gpt-6-astra|xhigh": {
           "input_tokens": 905836786,
@@ -4913,9 +4913,9 @@
         }
       },
       "started": "2026-10-09",
-      "finished": "2026-10-12",
-      "active_hours": 43.897584444681804,
-      "allocated_hours": 43.897584444681804,
+      "finished": "2026-10-17",
+      "active_hours": 46.91761138916016,
+      "allocated_hours": 46.804357777966395,
       "active_intervals_utc": [
         [
           "2026-10-09T02:11:14.909000+00:00",
@@ -5312,9 +5312,97 @@
         [
           "2026-10-12T18:47:49.978000+00:00",
           "2026-10-12T18:56:15.981000+00:00"
+        ],
+        [
+          "2026-10-15T17:50:53.768000+00:00",
+          "2026-10-15T17:55:18.778000+00:00"
+        ],
+        [
+          "2026-10-16T14:11:29.421000+00:00",
+          "2026-10-16T14:13:52.124000+00:00"
+        ],
+        [
+          "2026-10-17T04:47:50.683000+00:00",
+          "2026-10-17T04:55:05.424000+00:00"
+        ],
+        [
+          "2026-10-17T04:55:10.732000+00:00",
+          "2026-10-17T04:55:23.932000+00:00"
+        ],
+        [
+          "2026-10-17T04:55:46.847000+00:00",
+          "2026-10-17T04:57:40.256000+00:00"
+        ],
+        [
+          "2026-10-17T04:58:08.476000+00:00",
+          "2026-10-17T05:00:26.607000+00:00"
+        ],
+        [
+          "2026-10-17T05:00:55.365000+00:00",
+          "2026-10-17T05:05:01.113000+00:00"
+        ],
+        [
+          "2026-10-17T05:05:11.892000+00:00",
+          "2026-10-17T05:05:34.938000+00:00"
+        ],
+        [
+          "2026-10-17T05:05:39.428000+00:00",
+          "2026-10-17T05:32:42.276000+00:00"
+        ],
+        [
+          "2026-10-17T05:32:55.277000+00:00",
+          "2026-10-17T05:50:17.895000+00:00"
+        ],
+        [
+          "2026-10-17T05:50:44.739000+00:00",
+          "2026-10-17T05:53:55.628000+00:00"
+        ],
+        [
+          "2026-10-17T05:54:27.684000+00:00",
+          "2026-10-17T05:57:09.952000+00:00"
+        ],
+        [
+          "2026-10-17T05:57:36.393000+00:00",
+          "2026-10-17T06:01:42.500000+00:00"
+        ],
+        [
+          "2026-10-17T06:01:53.640000+00:00",
+          "2026-10-17T06:02:33.844000+00:00"
+        ],
+        [
+          "2026-10-17T06:03:01.954000+00:00",
+          "2026-10-17T06:34:03.222000+00:00"
+        ],
+        [
+          "2026-10-17T06:34:50.964000+00:00",
+          "2026-10-17T06:38:10.721000+00:00"
+        ],
+        [
+          "2026-10-17T06:38:38.017000+00:00",
+          "2026-10-17T06:44:39.884000+00:00"
+        ],
+        [
+          "2026-10-17T06:47:52.188000+00:00",
+          "2026-10-17T06:49:06.572000+00:00"
+        ],
+        [
+          "2026-10-17T06:49:10.954000+00:00",
+          "2026-10-17T07:18:04.778000+00:00"
+        ],
+        [
+          "2026-10-17T07:18:22.174000+00:00",
+          "2026-10-17T07:18:45.681000+00:00"
+        ],
+        [
+          "2026-10-17T07:19:24.421000+00:00",
+          "2026-10-17T07:19:40.679000+00:00"
+        ],
+        [
+          "2026-10-17T07:19:53.155000+00:00",
+          "2026-10-17T07:51:53.465000+00:00"
         ]
       ],
-      "api_standard_usd_estimate": 1557.73,
+      "api_standard_usd_estimate": null,
       "valuation_date": "2026-10-12",
       "rates_per_million": {
         "gpt-6-astra": [
@@ -5348,7 +5436,10 @@
         "2026-10-09": 6886194,
         "2026-10-10": 210375930,
         "2026-10-11": 462189622,
-        "2026-10-12": 454660387
+        "2026-10-12": 454660387,
+        "2026-10-15": 775743,
+        "2026-10-16": 1177238,
+        "2026-10-17": 168259883
       },
       "sources": [
         {
@@ -5371,9 +5462,738 @@
           "lastUsage": "2026-10-12T18:56:15.981000+00:00",
           "responseCount": 7114,
           "tokens": 1042515986
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "bf74f1c288658ea0",
+          "selection_windows_utc": [
+            [
+              "2026-10-15T17:50:00Z",
+              "2026-10-17T07:51:53.465Z"
+            ]
+          ],
+          "tokens": 13886250,
+          "unique_responses": 93,
+          "first_usage_utc": "2026-10-15T17:51:01.753000+00:00",
+          "last_usage_utc": "2026-10-17T04:59:55.344000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "bcd5993b4416ed72",
+          "selection_windows_utc": [
+            [
+              "2026-10-17T05:00:00Z",
+              "2026-10-17T07:51:53.465Z"
+            ]
+          ],
+          "tokens": 156326614,
+          "unique_responses": 750,
+          "first_usage_utc": "2026-10-17T05:01:00.970000+00:00",
+          "last_usage_utc": "2026-10-17T07:51:53.465000+00:00"
         }
       ],
-      "note": "Unique response_id records matching their own thread_id. Includes template/licensing planning before 2026-10-09T05:50:07.126Z (previously excluded from MSC-121), components and template conversations. Excludes subsequent MSC-121 work, the separate AI-summary conversation and duplicate counters. Mixed template-related fixes are attributed once to the primary MSC-122 conversation; task attribution is estimated. Cached input is within input; reasoning within output. Active time is the union of recorded task intervals including tool waits, with unfinished turns clipped at their final usage record. No human labor estimate. Publication/accounting after cutoff cannot count itself."
+      "note": "Original October 12 delivery plus October 15–17 template regression, counted once by task ID. Component windows, frozen valuation bases and attribution limits retained. Regression includes repairs, failed/reverted attempts and recovery. Full current cost unavailable for unpriced models; priced subtotal preserves the frozen delivery valuation. Accounting/publication after cutoff excluded.",
+      "priced_subtotal_usd_estimate": 1576.71,
+      "unpriced_models": {
+        "gpt-6.1-sol|high": {
+          "input_tokens": 155908786,
+          "cached_input_tokens": 154087168,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 417828,
+          "reasoning_output_tokens": 201770,
+          "total_tokens": 156326614
+        }
+      },
+      "components": {
+        "delivery_20261012": {
+          "task_id": "MSC-122",
+          "tokens": 1134112133,
+          "cutoff_utc": "2026-10-12T18:56:15.981000+00:00",
+          "unique_response_ids": 7830,
+          "token_components": {
+            "input_tokens": 1129445309,
+            "cached_input_tokens": 1107407360,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4666824,
+            "reasoning_output_tokens": 1474455,
+            "total_tokens": 1134112133
+          },
+          "models": {
+            "gpt-6.1-sol|high": {
+              "input_tokens": 2245251,
+              "cached_input_tokens": 2150016,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 17548,
+              "reasoning_output_tokens": 2993,
+              "total_tokens": 2262799
+            },
+            "gpt-6-astra|high": {
+              "input_tokens": 221363272,
+              "cached_input_tokens": 217263232,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 777681,
+              "reasoning_output_tokens": 196096,
+              "total_tokens": 222140953
+            },
+            "gpt-6-astra|xhigh": {
+              "input_tokens": 905836786,
+              "cached_input_tokens": 887994112,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 3871595,
+              "reasoning_output_tokens": 1275366,
+              "total_tokens": 909708381
+            }
+          },
+          "started": "2026-10-09",
+          "finished": "2026-10-12",
+          "active_hours": 43.897584444681804,
+          "allocated_hours": 43.897584444681804,
+          "active_intervals_utc": [
+            [
+              "2026-10-09T02:11:14.909000+00:00",
+              "2026-10-09T02:14:00.250000+00:00"
+            ],
+            [
+              "2026-10-09T02:16:05.928000+00:00",
+              "2026-10-09T02:16:22.326000+00:00"
+            ],
+            [
+              "2026-10-09T02:17:16.639000+00:00",
+              "2026-10-09T02:20:03.729000+00:00"
+            ],
+            [
+              "2026-10-09T02:20:44.740000+00:00",
+              "2026-10-09T02:21:29.140000+00:00"
+            ],
+            [
+              "2026-10-09T02:21:55.614000+00:00",
+              "2026-10-09T02:22:23.506000+00:00"
+            ],
+            [
+              "2026-10-09T02:23:14.860000+00:00",
+              "2026-10-09T02:23:51.877000+00:00"
+            ],
+            [
+              "2026-10-09T02:29:36.031000+00:00",
+              "2026-10-09T02:30:06.870000+00:00"
+            ],
+            [
+              "2026-10-09T04:05:52.416000+00:00",
+              "2026-10-09T04:06:00.762000+00:00"
+            ],
+            [
+              "2026-10-09T04:09:01.271000+00:00",
+              "2026-10-09T04:12:44.986000+00:00"
+            ],
+            [
+              "2026-10-09T04:17:27.152000+00:00",
+              "2026-10-09T04:18:44.747000+00:00"
+            ],
+            [
+              "2026-10-09T04:19:30.604000+00:00",
+              "2026-10-09T04:19:39.692000+00:00"
+            ],
+            [
+              "2026-10-09T04:20:31.742000+00:00",
+              "2026-10-09T04:29:40.923000+00:00"
+            ],
+            [
+              "2026-10-09T04:32:51.487000+00:00",
+              "2026-10-09T04:38:37.297000+00:00"
+            ],
+            [
+              "2026-10-10T07:24:27.868000+00:00",
+              "2026-10-10T07:33:36.772000+00:00"
+            ],
+            [
+              "2026-10-10T07:34:03.610000+00:00",
+              "2026-10-10T08:22:33.404000+00:00"
+            ],
+            [
+              "2026-10-10T08:23:35.939000+00:00",
+              "2026-10-10T08:29:45.705000+00:00"
+            ],
+            [
+              "2026-10-10T08:32:20.270000+00:00",
+              "2026-10-10T08:44:14.745000+00:00"
+            ],
+            [
+              "2026-10-10T08:44:24.676000+00:00",
+              "2026-10-10T08:50:44.665000+00:00"
+            ],
+            [
+              "2026-10-10T08:51:24.286000+00:00",
+              "2026-10-10T08:52:05.960000+00:00"
+            ],
+            [
+              "2026-10-10T08:52:32.386000+00:00",
+              "2026-10-10T08:53:31.631000+00:00"
+            ],
+            [
+              "2026-10-10T08:53:51.194000+00:00",
+              "2026-10-10T08:54:35.069000+00:00"
+            ],
+            [
+              "2026-10-10T08:56:45.897000+00:00",
+              "2026-10-10T09:08:41.604000+00:00"
+            ],
+            [
+              "2026-10-10T09:10:54.827000+00:00",
+              "2026-10-10T09:11:04.252000+00:00"
+            ],
+            [
+              "2026-10-10T09:11:30.975000+00:00",
+              "2026-10-10T09:42:19.195000+00:00"
+            ],
+            [
+              "2026-10-10T09:50:53.652000+00:00",
+              "2026-10-10T10:10:22.251000+00:00"
+            ],
+            [
+              "2026-10-10T10:11:05.584000+00:00",
+              "2026-10-10T10:44:43.864000+00:00"
+            ],
+            [
+              "2026-10-10T10:45:48.784000+00:00",
+              "2026-10-10T10:45:56.317000+00:00"
+            ],
+            [
+              "2026-10-10T10:46:57.284000+00:00",
+              "2026-10-10T11:10:00.748000+00:00"
+            ],
+            [
+              "2026-10-10T11:10:01.736000+00:00",
+              "2026-10-10T11:20:03.721000+00:00"
+            ],
+            [
+              "2026-10-10T11:21:06.381000+00:00",
+              "2026-10-10T11:29:27.397000+00:00"
+            ],
+            [
+              "2026-10-10T11:30:36.345000+00:00",
+              "2026-10-10T11:31:23.772000+00:00"
+            ],
+            [
+              "2026-10-10T11:31:39.446000+00:00",
+              "2026-10-10T11:32:09.389000+00:00"
+            ],
+            [
+              "2026-10-10T11:32:39.571000+00:00",
+              "2026-10-10T11:32:47.845000+00:00"
+            ],
+            [
+              "2026-10-10T11:33:18.459000+00:00",
+              "2026-10-10T11:33:31.432000+00:00"
+            ],
+            [
+              "2026-10-10T11:34:13.071000+00:00",
+              "2026-10-10T11:34:39.421000+00:00"
+            ],
+            [
+              "2026-10-10T11:34:54.365000+00:00",
+              "2026-10-10T12:06:06.976000+00:00"
+            ],
+            [
+              "2026-10-10T12:07:23.628000+00:00",
+              "2026-10-10T12:08:13.331000+00:00"
+            ],
+            [
+              "2026-10-10T12:14:24.069000+00:00",
+              "2026-10-10T12:19:57.791000+00:00"
+            ],
+            [
+              "2026-10-10T12:20:03.832000+00:00",
+              "2026-10-10T12:22:36.729000+00:00"
+            ],
+            [
+              "2026-10-10T12:23:34.475000+00:00",
+              "2026-10-10T12:24:25.989000+00:00"
+            ],
+            [
+              "2026-10-10T12:25:27.107000+00:00",
+              "2026-10-10T12:25:52.909000+00:00"
+            ],
+            [
+              "2026-10-10T12:28:39.349000+00:00",
+              "2026-10-10T12:28:47.921000+00:00"
+            ],
+            [
+              "2026-10-10T12:29:23.081000+00:00",
+              "2026-10-10T12:29:48.822000+00:00"
+            ],
+            [
+              "2026-10-10T12:30:08.377000+00:00",
+              "2026-10-10T12:30:14.632000+00:00"
+            ],
+            [
+              "2026-10-10T12:30:39.041000+00:00",
+              "2026-10-10T12:31:34.510000+00:00"
+            ],
+            [
+              "2026-10-10T12:31:45.321000+00:00",
+              "2026-10-10T12:51:40.296000+00:00"
+            ],
+            [
+              "2026-10-10T12:52:42.173000+00:00",
+              "2026-10-10T13:04:59.184000+00:00"
+            ],
+            [
+              "2026-10-10T13:06:33.666000+00:00",
+              "2026-10-10T13:06:52.674000+00:00"
+            ],
+            [
+              "2026-10-10T13:07:10.031000+00:00",
+              "2026-10-10T13:10:24.386000+00:00"
+            ],
+            [
+              "2026-10-10T13:11:21.064000+00:00",
+              "2026-10-10T13:11:36.677000+00:00"
+            ],
+            [
+              "2026-10-10T13:12:37.706000+00:00",
+              "2026-10-10T13:37:36.516000+00:00"
+            ],
+            [
+              "2026-10-10T13:37:46.506000+00:00",
+              "2026-10-10T13:38:03.800000+00:00"
+            ],
+            [
+              "2026-10-10T13:38:18.662000+00:00",
+              "2026-10-10T13:38:39.225000+00:00"
+            ],
+            [
+              "2026-10-10T13:38:45.926000+00:00",
+              "2026-10-10T13:39:27.055000+00:00"
+            ],
+            [
+              "2026-10-10T13:39:43.045000+00:00",
+              "2026-10-10T13:41:02.257000+00:00"
+            ],
+            [
+              "2026-10-10T13:41:59.517000+00:00",
+              "2026-10-10T13:44:53.843000+00:00"
+            ],
+            [
+              "2026-10-10T13:45:39.868000+00:00",
+              "2026-10-10T14:08:35.409000+00:00"
+            ],
+            [
+              "2026-10-10T14:09:04.185000+00:00",
+              "2026-10-10T14:54:42.163000+00:00"
+            ],
+            [
+              "2026-10-10T14:55:15.567000+00:00",
+              "2026-10-10T14:55:38.672000+00:00"
+            ],
+            [
+              "2026-10-10T14:56:07.964000+00:00",
+              "2026-10-10T14:56:48.106000+00:00"
+            ],
+            [
+              "2026-10-10T14:59:27.284000+00:00",
+              "2026-10-10T15:01:48.041000+00:00"
+            ],
+            [
+              "2026-10-11T05:39:29.601000+00:00",
+              "2026-10-11T06:07:34.775000+00:00"
+            ],
+            [
+              "2026-10-11T06:08:56.830000+00:00",
+              "2026-10-11T14:19:41.887000+00:00"
+            ],
+            [
+              "2026-10-11T14:21:14.152000+00:00",
+              "2026-10-12T08:02:48.215000+00:00"
+            ],
+            [
+              "2026-10-12T08:03:42.861000+00:00",
+              "2026-10-12T08:26:22.792000+00:00"
+            ],
+            [
+              "2026-10-12T08:26:33.305000+00:00",
+              "2026-10-12T11:00:16.129000+00:00"
+            ],
+            [
+              "2026-10-12T11:01:24.773000+00:00",
+              "2026-10-12T12:17:03.096000+00:00"
+            ],
+            [
+              "2026-10-12T12:19:41.816000+00:00",
+              "2026-10-12T12:21:10.604000+00:00"
+            ],
+            [
+              "2026-10-12T12:21:36.177000+00:00",
+              "2026-10-12T13:02:33.280000+00:00"
+            ],
+            [
+              "2026-10-12T13:02:45.017000+00:00",
+              "2026-10-12T15:42:00.932000+00:00"
+            ],
+            [
+              "2026-10-12T15:42:17.363000+00:00",
+              "2026-10-12T15:47:18.158000+00:00"
+            ],
+            [
+              "2026-10-12T15:47:34.910000+00:00",
+              "2026-10-12T16:14:44.427000+00:00"
+            ],
+            [
+              "2026-10-12T16:15:09.711000+00:00",
+              "2026-10-12T16:16:48.744000+00:00"
+            ],
+            [
+              "2026-10-12T16:18:32.413000+00:00",
+              "2026-10-12T16:19:19.208000+00:00"
+            ],
+            [
+              "2026-10-12T16:19:27.626000+00:00",
+              "2026-10-12T16:26:06.738000+00:00"
+            ],
+            [
+              "2026-10-12T16:26:59.250000+00:00",
+              "2026-10-12T16:36:41.644000+00:00"
+            ],
+            [
+              "2026-10-12T16:36:54.513000+00:00",
+              "2026-10-12T16:38:51.242000+00:00"
+            ],
+            [
+              "2026-10-12T16:39:51.435000+00:00",
+              "2026-10-12T17:00:02.511000+00:00"
+            ],
+            [
+              "2026-10-12T17:00:35.811000+00:00",
+              "2026-10-12T17:05:32.414000+00:00"
+            ],
+            [
+              "2026-10-12T17:06:39.547000+00:00",
+              "2026-10-12T17:14:12.641000+00:00"
+            ],
+            [
+              "2026-10-12T17:15:20.539000+00:00",
+              "2026-10-12T17:19:01.668000+00:00"
+            ],
+            [
+              "2026-10-12T17:19:46.257000+00:00",
+              "2026-10-12T17:20:22.199000+00:00"
+            ],
+            [
+              "2026-10-12T17:20:34.807000+00:00",
+              "2026-10-12T17:31:23.400000+00:00"
+            ],
+            [
+              "2026-10-12T17:32:52.168000+00:00",
+              "2026-10-12T17:33:12.079000+00:00"
+            ],
+            [
+              "2026-10-12T17:33:18.573000+00:00",
+              "2026-10-12T17:33:35.168000+00:00"
+            ],
+            [
+              "2026-10-12T17:33:45.264000+00:00",
+              "2026-10-12T17:33:52.706000+00:00"
+            ],
+            [
+              "2026-10-12T17:34:52.745000+00:00",
+              "2026-10-12T17:44:17.895000+00:00"
+            ],
+            [
+              "2026-10-12T17:44:25.868000+00:00",
+              "2026-10-12T17:44:33.045000+00:00"
+            ],
+            [
+              "2026-10-12T17:45:33.347000+00:00",
+              "2026-10-12T17:45:52.927000+00:00"
+            ],
+            [
+              "2026-10-12T17:46:00.345000+00:00",
+              "2026-10-12T17:46:39.639000+00:00"
+            ],
+            [
+              "2026-10-12T17:48:43.344000+00:00",
+              "2026-10-12T17:48:58.094000+00:00"
+            ],
+            [
+              "2026-10-12T17:53:19.208000+00:00",
+              "2026-10-12T17:54:00.562000+00:00"
+            ],
+            [
+              "2026-10-12T17:55:12.106000+00:00",
+              "2026-10-12T17:56:50.016000+00:00"
+            ],
+            [
+              "2026-10-12T17:58:30.237000+00:00",
+              "2026-10-12T18:11:27.656000+00:00"
+            ],
+            [
+              "2026-10-12T18:15:00.631000+00:00",
+              "2026-10-12T18:16:12.107000+00:00"
+            ],
+            [
+              "2026-10-12T18:18:21.455000+00:00",
+              "2026-10-12T18:22:21.917000+00:00"
+            ],
+            [
+              "2026-10-12T18:22:52.356000+00:00",
+              "2026-10-12T18:33:33.576000+00:00"
+            ],
+            [
+              "2026-10-12T18:33:42.855000+00:00",
+              "2026-10-12T18:47:38.691000+00:00"
+            ],
+            [
+              "2026-10-12T18:47:49.978000+00:00",
+              "2026-10-12T18:56:15.981000+00:00"
+            ]
+          ],
+          "api_standard_usd_estimate": 1557.73,
+          "valuation_date": "2026-10-12",
+          "rates_per_million": {
+            "gpt-6-astra": [
+              10,
+              1,
+              50,
+              12.5
+            ],
+            "gpt-6.1-sol": [
+              2,
+              0.1,
+              10,
+              2.5
+            ],
+            "gpt-6-sol": [
+              2,
+              0.2,
+              10,
+              2.5
+            ],
+            "gpt-5.6-sol": [
+              4,
+              0.4,
+              20,
+              5
+            ]
+          },
+          "pricing_source": "https://developers.openai.com/api/docs/pricing",
+          "rate_basis": "Standard short-context API equivalent; not subscription billing. Excludes speed, long-context and regional uplifts and non-token charges.",
+          "daily_tokens": {
+            "2026-10-09": 6886194,
+            "2026-10-10": 210375930,
+            "2026-10-11": 462189622,
+            "2026-10-12": 454660387
+          },
+          "sources": [
+            {
+              "threadHash": "4afcbe19c9e58650bb48be8ac9753e7306d5f54cb8e132499a3d1fe617f1e7f0",
+              "firstUsage": "2026-10-09T02:11:22.485000+00:00",
+              "lastUsage": "2026-10-09T04:38:37.289000+00:00",
+              "responseCount": 60,
+              "tokens": 6886194
+            },
+            {
+              "threadHash": "c12e4eefcc1a6466ff283b2d3e11890f645f20ad789dd5488fda3dacf0876723",
+              "firstUsage": "2026-10-10T07:24:36.113000+00:00",
+              "lastUsage": "2026-10-10T09:42:19.175000+00:00",
+              "responseCount": 656,
+              "tokens": 84709953
+            },
+            {
+              "threadHash": "ce6e3a747c32d127f407c6b1f68e30a0952cdce5fa790e3a52e78e9833838396",
+              "firstUsage": "2026-10-10T09:51:03.452000+00:00",
+              "lastUsage": "2026-10-12T18:56:15.981000+00:00",
+              "responseCount": 7114,
+              "tokens": 1042515986
+            }
+          ],
+          "note": "Unique response_id records matching their own thread_id. Includes template/licensing planning before 2026-10-09T05:50:07.126Z (previously excluded from MSC-121), components and template conversations. Excludes subsequent MSC-121 work, the separate AI-summary conversation and duplicate counters. Mixed template-related fixes are attributed once to the primary MSC-122 conversation; task attribution is estimated. Cached input is within input; reasoning within output. Active time is the union of recorded task intervals including tool waits, with unfinished turns clipped at their final usage record. No human labor estimate. Publication/accounting after cutoff cannot count itself."
+        },
+        "template_regression_20261017": {
+          "task_id": "MSC-122",
+          "tokens": 170212864,
+          "cutoff_utc": "2026-10-17T07:51:53.465Z",
+          "unique_response_ids": 843,
+          "token_components": {
+            "input_tokens": 169761592,
+            "cached_input_tokens": 167555712,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 451272,
+            "reasoning_output_tokens": 210629,
+            "total_tokens": 170212864
+          },
+          "models": {
+            "gpt-6-astra|high": {
+              "input_tokens": 13852806,
+              "cached_input_tokens": 13468544,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 33444,
+              "reasoning_output_tokens": 8859,
+              "total_tokens": 13886250
+            },
+            "gpt-6.1-sol|high": {
+              "input_tokens": 155908786,
+              "cached_input_tokens": 154087168,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 417828,
+              "reasoning_output_tokens": 201770,
+              "total_tokens": 156326614
+            }
+          },
+          "started": "2026-10-15",
+          "finished": "2026-10-17",
+          "active_hours": 3.020026944478353,
+          "allocated_hours": 2.90677333328459,
+          "previously_allocated_overlap_hours": 0.11325361119376288,
+          "active_intervals_utc": [
+            [
+              "2026-10-15T17:50:53.768000+00:00",
+              "2026-10-15T17:55:18.778000+00:00"
+            ],
+            [
+              "2026-10-16T14:11:29.421000+00:00",
+              "2026-10-16T14:13:52.124000+00:00"
+            ],
+            [
+              "2026-10-17T04:47:50.683000+00:00",
+              "2026-10-17T04:55:05.424000+00:00"
+            ],
+            [
+              "2026-10-17T04:55:10.732000+00:00",
+              "2026-10-17T04:55:23.932000+00:00"
+            ],
+            [
+              "2026-10-17T04:55:46.847000+00:00",
+              "2026-10-17T04:57:40.256000+00:00"
+            ],
+            [
+              "2026-10-17T04:58:08.476000+00:00",
+              "2026-10-17T05:00:26.607000+00:00"
+            ],
+            [
+              "2026-10-17T05:00:55.365000+00:00",
+              "2026-10-17T05:05:01.113000+00:00"
+            ],
+            [
+              "2026-10-17T05:05:11.892000+00:00",
+              "2026-10-17T05:05:34.938000+00:00"
+            ],
+            [
+              "2026-10-17T05:05:39.428000+00:00",
+              "2026-10-17T05:32:42.276000+00:00"
+            ],
+            [
+              "2026-10-17T05:32:55.277000+00:00",
+              "2026-10-17T05:50:17.895000+00:00"
+            ],
+            [
+              "2026-10-17T05:50:44.739000+00:00",
+              "2026-10-17T05:53:55.628000+00:00"
+            ],
+            [
+              "2026-10-17T05:54:27.684000+00:00",
+              "2026-10-17T05:57:09.952000+00:00"
+            ],
+            [
+              "2026-10-17T05:57:36.393000+00:00",
+              "2026-10-17T06:01:42.500000+00:00"
+            ],
+            [
+              "2026-10-17T06:01:53.640000+00:00",
+              "2026-10-17T06:02:33.844000+00:00"
+            ],
+            [
+              "2026-10-17T06:03:01.954000+00:00",
+              "2026-10-17T06:34:03.222000+00:00"
+            ],
+            [
+              "2026-10-17T06:34:50.964000+00:00",
+              "2026-10-17T06:38:10.721000+00:00"
+            ],
+            [
+              "2026-10-17T06:38:38.017000+00:00",
+              "2026-10-17T06:44:39.884000+00:00"
+            ],
+            [
+              "2026-10-17T06:47:52.188000+00:00",
+              "2026-10-17T06:49:06.572000+00:00"
+            ],
+            [
+              "2026-10-17T06:49:10.954000+00:00",
+              "2026-10-17T07:18:04.778000+00:00"
+            ],
+            [
+              "2026-10-17T07:18:22.174000+00:00",
+              "2026-10-17T07:18:45.681000+00:00"
+            ],
+            [
+              "2026-10-17T07:19:24.421000+00:00",
+              "2026-10-17T07:19:40.679000+00:00"
+            ],
+            [
+              "2026-10-17T07:19:53.155000+00:00",
+              "2026-10-17T07:51:53.465000+00:00"
+            ]
+          ],
+          "api_standard_usd_estimate": null,
+          "priced_subtotal_usd_estimate": 18.98,
+          "unpriced_models": {
+            "gpt-6.1-sol|high": {
+              "input_tokens": 155908786,
+              "cached_input_tokens": 154087168,
+              "cache_write_input_tokens": 0,
+              "output_tokens": 417828,
+              "reasoning_output_tokens": 201770,
+              "total_tokens": 156326614
+            }
+          },
+          "valuation_date": "2026-10-01",
+          "rates_per_million": {
+            "gpt-6-astra": [
+              10,
+              1,
+              50,
+              12.5
+            ]
+          },
+          "pricing_source": "https://developers.openai.com/api/docs/pricing",
+          "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+          "daily_tokens": {
+            "2026-10-15": 775743,
+            "2026-10-16": 1177238,
+            "2026-10-17": 168259883
+          },
+          "sources": [
+            {
+              "source_kind": "root",
+              "source_sha256": "bf74f1c288658ea0",
+              "selection_windows_utc": [
+                [
+                  "2026-10-15T17:50:00Z",
+                  "2026-10-17T07:51:53.465Z"
+                ]
+              ],
+              "tokens": 13886250,
+              "unique_responses": 93,
+              "first_usage_utc": "2026-10-15T17:51:01.753000+00:00",
+              "last_usage_utc": "2026-10-17T04:59:55.344000+00:00"
+            },
+            {
+              "source_kind": "root",
+              "source_sha256": "bcd5993b4416ed72",
+              "selection_windows_utc": [
+                [
+                  "2026-10-17T05:00:00Z",
+                  "2026-10-17T07:51:53.465Z"
+                ]
+              ],
+              "tokens": 156326614,
+              "unique_responses": 750,
+              "first_usage_utc": "2026-10-17T05:01:00.970000+00:00",
+              "last_usage_utc": "2026-10-17T07:51:53.465000+00:00"
+            }
+          ],
+          "note": "Incremental template regression QA, seed/installer repairs, resource failure/recovery, corrections and closeout. Raw response IDs deduplicated. October 12 MSC-122 delivery is retained separately; this increment replaces its prior measurement rather than being appended twice. Final accounting/publication after cutoff is excluded. Task timing includes tool waits; cached input is within input and reasoning within output. Frozen rates; full cost unavailable for unpriced models."
+        }
+      }
     },
     {
       "task_id": "MSC-115",
@@ -7037,7 +7857,7 @@
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-16T14:49:00Z",
+    "updated_at_utc": "2026-10-17T07:51:53.465Z",
     "tracked_tasks": 120,
     "measured_tasks": 119,
     "tracked_task_ids": [
@@ -7165,12 +7985,13 @@
     "unmeasured_task_ids": [
       "MSC-114"
     ],
-    "tokens_estimate": 40190184400,
-    "api_standard_usd_estimate": 32090.55,
-    "allocated_hours_estimate": 1045.7425684370512,
-    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff.",
+    "tokens_estimate": 40360397264,
+    "api_standard_usd_estimate": 32109.53,
+    "allocated_hours_estimate": 1048.6493417703357,
+    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation.",
     "valuation_incomplete_task_ids": [
-      "MSC-117"
+      "MSC-117",
+      "MSC-122"
     ]
   }
 }

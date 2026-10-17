@@ -1621,7 +1621,7 @@
     "allocated_hours": 4.369484722216924,
     "models": "gpt-6-astra",
     "reasoning": "high; xhigh",
-    "evidence": "182,287,382 measured tokens. MSC-118 scoped eight-step guide QA PASS / CLOSED. Registered Operator conditional guides and Admin warning draft verified; unreachable legacy item-preview N/A. Template regression NOT RUN in its own QA."
+    "evidence": "182,287,382 measured tokens. MSC-118 scoped eight-step guide QA PASS / CLOSED. Registered Operator conditional guides and Admin warning draft verified; unreachable legacy item-preview N/A. Template regression 1–32 PASS / CLOSED on October 17; incremental usage belongs to MSC-122."
   },
   {
     "task_id": "MSC-119",
@@ -1670,13 +1670,13 @@
     "title": "Extract reusable UI components and a generic MyScoutee template",
     "workstream": "Tooling",
     "started": "2026-10-09",
-    "finished": "2026-10-12",
-    "tokens_million": 1134.112133,
-    "api_equivalent_usd_estimate": 1557.73,
-    "active_hours": 43.897584444681804,
-    "allocated_hours": 43.897584444681804,
+    "finished": "2026-10-17",
+    "tokens_million": 1304.324997,
+    "api_equivalent_usd_estimate": null,
+    "active_hours": 46.91761138916016,
+    "allocated_hours": 46.804357777966395,
     "models": "gpt-6-astra; gpt-6.1-sol",
     "reasoning": "high; xhigh",
-    "evidence": "Template v1.4.0 published; exact DEB verified on VMware; checklist 1–31 DONE. Usage: 7,830 unique responses through 2026-10-12T18:56:15.981000+00:00; mixed-task attribution estimated; includes tool waits."
+    "evidence": "Template regression 1–32 PASS / CLOSED, including point 31 call/notification deltas and point 32 fixture/runtime cleanup. Accepted evidence retained; omitted consumers N/A. New DEB build/installation not claimed. MSC-122: 1,304,324,997 tokens, 8,673 responses through 2026-10-17T07:51:53.465Z; includes original delivery, regression, corrections and failed attempts. Full API cost unavailable."
   }
 ]

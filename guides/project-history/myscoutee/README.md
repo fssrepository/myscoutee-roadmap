@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-16: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-17: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -46,7 +46,7 @@ Consolidated source commits: [backend `0941aac8`](https://github.com/fssreposito
 
 ## MSC-122 closeout
 
-Closed / Project Done. Template and shared components 1.4.0 are published. The exact published template DEB was verified on VMware. Usage through 2026-10-12T18:56:15.981Z is recorded in `post_control_task_usage`: 1,134,112,133 tokens, 43.898 active/allocated hours and $1,557.73 Standard API equivalent. Earlier template planning excluded from MSC-121 is included here once.
+Closed / Project Done. Original template/components 1.4.0 publication and exact DEB VMware verification remain accepted. October 17 template regression 1–32 PASS / CLOSED, including point 31 and cleanup; no new DEB installation is claimed. **1,304,324,997 tokens**, **46.917611 active / 46.804358 allocated hours**, through `2026-10-17T07:51:53.465Z`. The original 1,134,112,133-token delivery and 170,212,864-token regression increment are retained as components, counted once. Full API cost unavailable; $1,576.71 frozen known-rate subtotal only. Reproduce the increment with `measure-msc122-regression.py --cutoff 2026-10-17T07:51:53.465Z`. Corrections, reverted attempts and failure/recovery are included; final accounting/publication after cutoff excluded.
 
 ## MSC-115 closeout
 
@@ -64,4 +64,9 @@ Closed / Project Done for the accepted development scope. **105,282,015 tokens**
 
 ## MSC-118 usage update
 
-**182,287,382 tokens**, **4.680690 active / 4.369485 allocated hours**, **$242.00 frozen Standard API equivalent**, through `2026-10-16T14:49:00Z`. Includes implementation, checklist preparation, QA, shared-list corrections and reverted attempts. Reproduce with `measure-msc118.py --cutoff 2026-10-16T14:49:00Z`. Scoped eight-step guide QA is PASS / CLOSED; template regression remains NOT RUN in template QA.
+**182,287,382 tokens**, **4.680690 active / 4.369485 allocated hours**, **$242.00 frozen Standard API equivalent**, through `2026-10-16T14:49:00Z`. Includes implementation, checklist preparation, QA, shared-list corrections and reverted attempts. Reproduce with `measure-msc118.py --cutoff 2026-10-16T14:49:00Z`. Scoped eight-step guide QA is PASS / CLOSED; template regression 1–32 PASS / CLOSED on October 17, accounted under MSC-122.
+
+
+## October 17 history consolidation
+
+Consecutive task commits and the regression backup commits were consolidated; the MSC-120 backend sequence is one commit. `commit-map.json` retains original-to-consolidated identities. Application trees are preserved; the approved changes are concise README/accounting updates, fresh `/docs` artifacts from the existing `npm run build:github` command, plus the installer workflow’s existing supported-tag restriction. Existing release tags are unchanged. The refactor branch is integrated into master; the obsolete backend Pages site and branch are removed after preserving the current frontend demo.
