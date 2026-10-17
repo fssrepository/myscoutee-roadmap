@@ -1,6 +1,6 @@
 # Delivery history and project backups
 
-Four separate Projects preserve distinct work. MyScoutee system repositories share one Project; the legacy archive, e-kozig and math each have their own.
+The current summary merges the October 1 reconstruction with the latest measured task checkpoints. MSC-123 now records VMware/device closure and release preparation through **2026-10-17T13:24:31.611Z**; owner publication and Netcup remain open. The live Project was updated October 17. Usage is task allocation, not the account balance.
 
 The current summary merges the October 1 reconstruction with the latest measured task checkpoints. MSC-115 is closed through QA step 119; its usage includes planning, implementation, repairs and closure through **2026-10-15T11:52:55.467000+00:00**. The live Project was checked October 15. Usage is task allocation, not the account balance.
 
@@ -11,7 +11,7 @@ The current summary merges the October 1 reconstruction with the latest measured
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 18 | 1,286.0 | 43.5 | $727.68 |
 
-**Current recorded task allocation: 41,649,769,656 tokens.** MyScoutee has 120 tracked tasks, of which 117 have usage measurements. MSC-114, MSC-117 and MSC-118 remain unmeasured; they are excluded, not zero. Other Projects retain their October 1 measurement boundaries. MSC-113 is counted once; MSC-115/116/119/120/121/122 use their latest checkpoint. Totals are reproducible from [the measurement ledger](myscoutee/measurements.json) by task ID.
+**Current recorded task allocation: 42,454,913,427 tokens.** MyScoutee has 121 tracked tasks, of which 120 have usage measurements. MSC-114 remains unmeasured, not zero. Other Projects retain their measurement boundaries. Latest task checkpoints are counted once by stable task ID; account usage and the Template view are not additional task allocation.
 
 Activity includes tool/network waits and is not human labor. Recorded overlap is removed within each measurement boundary; this refresh does not claim a new portfolio-wide overlap audit. Costs are Standard API equivalents, not invoices. Task allocation and account usage below overlap and must never be added together.
 
@@ -61,9 +61,9 @@ counted once; the historical allocation control and heatmap values through Septe
 
 ## Measured token activity
 
-**Latest account `r` lifetime: 42,115,128,447 tokens (42.115B)**, read October 15, 2026. The older 38.488B value remains only in the historical calibration.
+**Latest retained account `r` lifetime: 42,842,296,756 tokens**, read October 17, 2026. The older value remains in the historical calibration.
 
-**44,361,700,648 tokens** in the combined daily record, through **October 14, 2026**. October 15 has no account-reported daily bucket yet, so it is not shown as zero. The chart includes the retained `m`/`s` account series and preserves every September baseline value; the later September-30 revision remains separately documented.
+**45,088,868,957 tokens** in the combined retained daily record, through **October 16, 2026**. October 17 has no retained daily bucket here; it is not shown as zero. This task-level update preserves the existing account data and heatmap.
 
 ![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png)
 

@@ -9673,5 +9673,134 @@
     "consolidated_on": "2026-10-17",
     "consolidation_group_size": 1,
     "identical_source_tree": true
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "fc8111a55b44c2cefe0f69be4ea5c85baad1d573",
+    "task_commit": "ce3a0c3e821f63b27a0c3d6408720c0e390b795e",
+    "task_ids": [
+      "MSC-123"
+    ],
+    "original_source_tree": "843fd7eb7cc40f8e3dbb530aa2569019ba496dbf",
+    "consolidated_source_tree": "e36f989060d2d114417347541939c54e6d051fd1",
+    "original_commit_count": 4,
+    "original_commits": [
+      "5b6dccbdf6b418695e786c82733add6b8a547704",
+      "6a68c8a1485006f9ebcac7e7a17a8d5c7ba5edc6",
+      "610c9bd3640e6fed8012d6747a0e2c0c7c74ae1c",
+      "fc8111a55b44c2cefe0f69be4ea5c85baad1d573"
+    ]
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "97c14df32d6fe51407222744f06fde0428f49db6",
+    "task_commit": "889d3281421b4a0a84f66e0866ced3ffd17ba7ac",
+    "task_ids": [
+      "MSC-123"
+    ],
+    "original_source_tree": "bc6626d4c6b4d26a1489f960f72f0f1f0f4f00a9",
+    "consolidated_source_tree": "ee9976a4786be5de6156b67e2c59d23010106130",
+    "original_commit_count": 17,
+    "original_commits": [
+      "d2c61a31e19f27e28a2557da36a5d3068f1456b7",
+      "f55fc743a911d98d06b489ebfb4345623b3f0702",
+      "882d3c8d42538f6abfbcf81da6c80614cce8d3bf",
+      "4eeb05adf4779bdc899279aa4ded9d4370a11134",
+      "515168a74f7ff702987e811822dac561ddd08ca9",
+      "d8176032a1e85aa6c092bcdb197f870ad3752afd",
+      "4dd28f457cbefda8342f8d1d7fa507d773ccfc80",
+      "a67d2548c12f505fe570d49c7a0dd6963a42723f",
+      "f0c89cf3d9031490510e061c137a8d7df488b878",
+      "6d3405df3a995b3d0d87e653cdbafc77bf9912e9",
+      "cf1bde1980a8c0f2b281a66b1bd70a3931b3f323",
+      "13813d4c6904caeebf91c86364f12c8767b07eaa",
+      "fa18d053d12796b3f794aca5407ef08bb7aba962",
+      "8f7f2ec0ca75aeaee3e0842e42d529b2bee477c7",
+      "167d31ec96ee399c2898e7c269d51e8d051b0325",
+      "20f191ebf228f26cbb71763179988f8cbd4daf5e",
+      "97c14df32d6fe51407222744f06fde0428f49db6"
+    ],
+    "previous_task_commits": [
+      "2b1cc0dc5099f9c9728f1e6c0dd85629066826f3",
+      "568166c886508609f01b41b85145b32d4677d332"
+    ],
+    "amendment_scope": "Requested README cleanup, six 1.4.1 manuals with stable version-free filenames and recovered MSC-114 / MSC-121 Project metadata; release tags and packaged artifacts unchanged."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "7352c08918717c5645f2047c442d700552606abc",
+    "task_commit": "756b9faf92edb65d327f1d3a621d01ba62a7bd76",
+    "task_ids": [
+      "MSC-123"
+    ],
+    "original_source_tree": "07476a3811e5a60aa79fc5895c76650e506bda19",
+    "consolidated_source_tree": "d2f06828c364276bc7598055f67bf1ba68b19f66",
+    "original_commit_count": 19,
+    "original_commits": [
+      "ea1a9a19ed99e127f2f52320b36ff7c842e30732",
+      "7f0fbe5e0df449727074f8b1eb7dda73bdedce82",
+      "1da0e6087b62fdf191522318eb271229d93c7aed",
+      "2b712c95e58ab8039c58807e4780a4606e82fe1b",
+      "b29a700da3845f45cbe92d9ce56d8764bbd2ced5",
+      "7b013b09f6bf002b9122be6c53b074c1bc3035e6",
+      "70ce610afe00ba80a0984d83b518ae12c0aea96e",
+      "937ad6486c96ce36fdc9700d87056e269ae929eb",
+      "7d3984e988d3307b8d18e06600663bcbf49d70a3",
+      "42b2f37973b0ab8e9579d82aca8bdf281f4e8531",
+      "39682c7d754e9753b441a648bd1a88c4e13a3cbc",
+      "c0eb8691a3c1a3a7fa27352bbe3dba006f4508c3",
+      "a3cd257b8feae01bf985c4eeb99589249c440a8a",
+      "358993d0f5c9221da0af0917be038ae3051b0ac6",
+      "cba88eac8a76f06d1ad74106f04072cd5db66f0e",
+      "be69fab5eb02ce381d0b79be3c8e1c54d185b37a",
+      "70fe66fe6361a0b346a17fc2f4f7663e4c66df79",
+      "8e58bdd64be1fe169a52d81289c48a75bee04381",
+      "7352c08918717c5645f2047c442d700552606abc"
+    ],
+    "previous_task_commits": [
+      "fa84ed693af11da76503695e6841d048e5c768c0",
+      "fe85ae0b235ae10d2e3a62605928cb2aff02dbd7"
+    ],
+    "amendment_scope": "Requested README cleanup, six 1.4.1 manuals with stable version-free filenames and recovered MSC-114 / MSC-121 Project metadata; release tags and packaged artifacts unchanged."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "fc74acdfd4efb5481b68ca421adc628eec100451",
+    "task_commit": "a28c76a0d73e2efedd570881b5b32291b64c3277",
+    "task_ids": [
+      "MSC-123"
+    ],
+    "original_source_tree": "6ac1bd0bfcda8282a06f4e2a148d36bfdcc484f7",
+    "consolidated_source_tree": "56c9b690e52a9c19decebb4d0d89c9a2db54392d",
+    "original_commit_count": 7,
+    "original_commits": [
+      "a004635ee0da6001152406b61131d474f8931a2f",
+      "7535d27f1ee81dddd4276e1f07ceae251b45fc6a",
+      "918ef0d89968ba0d45974589e38f813f0e5378c1",
+      "c808e21def55996336ebd1ad4ec8ed78482cdcd7",
+      "05a6077c99c40037b76c8044c1249c48fbd1e00d",
+      "522376473ea73ca764ddf622a8319bfbb3e41014",
+      "fc74acdfd4efb5481b68ca421adc628eec100451"
+    ]
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "76b2c3bbc5a768a2e54a4e7fb119ad70ceefb0db",
+    "task_commit": "083316e3feb615aadbd83cfb870bedad1da97cd6",
+    "task_ids": [
+      "MSC-123"
+    ],
+    "original_source_tree": "d7ff6e7f1755984ad3012896f831d1d13de84f3f",
+    "consolidated_source_tree": "a7326a8faa6779f954124c1abca9771d6077cfed",
+    "original_commit_count": 7,
+    "original_commits": [
+      "e9736e2878c92db9e419579739bbe80cd600e7d8",
+      "7536778ceecd1def7a8e3e8c104d3ff5d9f91ddd",
+      "b3cea946d0c28a1a788d60acb54585f0b1f8ec2d",
+      "ed900d5e6674b8ad976d115a9995772665841d89",
+      "4ac4bdb45a0a1fff8fd9df6134228df5fbed4c88",
+      "8fef200d778b45b7321de7ef8a9caf0a3eff254d",
+      "76b2c3bbc5a768a2e54a4e7fb119ad70ceefb0db"
+    ]
   }
 ]

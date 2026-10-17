@@ -1557,15 +1557,15 @@
     "task_id": "MSC-114",
     "title": "Clean up code based on GitHub code-scanning alerts",
     "workstream": "Product",
-    "started": null,
-    "finished": null,
-    "tokens_million": null,
-    "api_equivalent_usd_estimate": null,
-    "active_hours": null,
-    "allocated_hours": null,
-    "models": null,
-    "reasoning": null,
-    "evidence": "No isolated usage measurement; excluded from totals, not zero."
+    "started": "2026-10-01",
+    "finished": "2026-10-01",
+    "tokens_million": 5.615396,
+    "api_equivalent_usd_estimate": 1.7,
+    "active_hours": 0.19989472217029997,
+    "allocated_hours": 0.19989472217029997,
+    "models": "gpt-6-sol",
+    "reasoning": "xhigh",
+    "evidence": "Initial seven CodeQL locations: 5,615,396 measured tokens, 47 responses, 0.199895 active/allocated h; cutoff 2026-10-01T05:13:54.393Z. 13 Node + 58 focused Angular tests and existing watcher build passed. Later alert/dependency work belongs to MSC-123; no duplicate allocation."
   },
   {
     "task_id": "MSC-115",
@@ -1654,7 +1654,7 @@
   {
     "task_id": "MSC-121",
     "title": "Package and qualify the microservices deployment playground",
-    "workstream": null,
+    "workstream": "QA and release",
     "started": "2026-10-07",
     "finished": "2026-10-09",
     "tokens_million": 634.373124,
@@ -1678,5 +1678,19 @@
     "models": "gpt-6-astra; gpt-6.1-sol",
     "reasoning": "high; xhigh",
     "evidence": "Template regression 1–32 PASS / CLOSED, including point 31 call/notification deltas and point 32 fixture/runtime cleanup. Accepted evidence retained; omitted consumers N/A. New DEB build/installation not claimed. MSC-122: 1,304,324,997 tokens, 8,673 responses through 2026-10-17T07:51:53.465Z; includes original delivery, regression, corrections and failed attempts. Full API cost unavailable."
+  },
+  {
+    "task_id": "MSC-123",
+    "title": "Qualify VM and Netcup deployment with required security and dependency fixes",
+    "workstream": "QA and release",
+    "started": "2026-10-17",
+    "finished": "2026-10-17",
+    "tokens_million": 347.36151,
+    "api_equivalent_usd_estimate": null,
+    "active_hours": 5.688961110843552,
+    "allocated_hours": 5.688961110843552,
+    "models": "gpt-6.1-sol",
+    "reasoning": "high",
+    "evidence": "MSC-123 complete: VMware/device scope closed; app/template signed 1.4.1 and Components registry published. Production Netcup upgraded from package 1.3.0 / frontend 1.3.3 to exact signed 1.4.1; host qualification, 13 public checks, Angular render and retained-data checks PASS. 347,361,510 tokens / 5.688961 allocated h through 2026-10-17T14:40:04.051000+00:00; shared allocation counted once. Full API cost unavailable."
   }
 ]

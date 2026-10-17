@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-17: 120 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-17: 121 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,12 +26,12 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task calibration remains historical; the complete 120-task restoration snapshot also retains later task bodies and statuses. Mixed-session
+The 111-task calibration remains historical; the complete 121-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-115/116/117/118/119/120/121/122 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 120 tasks; 119 have
-measurements. MSC-114 remains unmeasured, not a zero-cost task.
+stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 121 tasks; all 121 have
+measurements. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
 
@@ -70,3 +70,13 @@ Closed / Project Done for the accepted development scope. **105,282,015 tokens**
 ## October 17 history consolidation
 
 Consecutive task commits and the regression backup commits were consolidated; the MSC-120 backend sequence is one commit. `commit-map.json` retains original-to-consolidated identities. Application trees are preserved; the approved changes are concise README/accounting updates, fresh `/docs` artifacts from the existing `npm run build:github` command, plus the installer workflow’s existing supported-tag restriction. Existing release tags are unchanged. The refactor branch is integrated into master; the obsolete backend Pages site and branch are removed after preserving the current frontend demo.
+
+## MSC-123 deployment/release update
+
+MSC-123 complete: VMware/device scope closed; app/template signed 1.4.1 and Components registry published. Production Netcup upgraded from package 1.3.0 / frontend 1.3.3 to exact signed 1.4.1; host qualification, 13 public checks, Angular render and retained-data checks PASS. 347,361,510 tokens / 5.688961 allocated h through 2026-10-17T14:40:04.051000+00:00; shared allocation counted once. Full API cost unavailable. **5.688961 active / 5.688961 allocated hours**, 1,662 responses. Status: **Done**.
+
+## Project metadata reconciliation
+
+MSC-114 now retains all nine missing measurement fields for the isolated initial batch: **5,615,396 tokens**, **47 responses**, **0.199895 active/allocated h**, **$1.70 frozen API equivalent**, **gpt-6-sol / xhigh**, executed **1 October 2026**. Later security/dependency work remains allocated to MSC-123. MSC-121 Workstream is **QA and release**. Current totals include the recovered measurement once; historical calibration stays unchanged.
+
+The requested documentation/metadata follow-up is folded into the existing MSC-123 commits: backend `756b9faf92edb65d327f1d3a621d01ba62a7bd76` and frontend `889d3281421b4a0a84f66e0866ced3ffd17ba7ac`. Six manuals now carry 1.4.1 internally and use stable filenames without version suffixes. The source mapping retains the preceding commit identities; signed release artifacts and existing tags retain their original identities.

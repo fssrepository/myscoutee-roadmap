@@ -80,3 +80,11 @@ Cutoff `2026-10-16T09:26:30.000Z`: 105,282,015 tokens / 840 unique responses / 5
 ## MSC-122 regression increment
 
 Use `measure-msc122-regression.py --cutoff 2026-10-17T07:51:53.465Z` for the two dedicated October 15–17 QA root threads. Deduplicate response IDs, union recorded root intervals and subtract overlaps already allocated to other tasks using the existing extractor. The aggregate replaces MSC-122 by task ID, retaining the October 12 delivery and the new regression as separate components. Include corrections, reverted attempts and failure/recovery; exclude accounting/publication after cutoff. The Template Project is another view of the same task, never a second allocation. Missing model rates remain unpriced; preserve the original frozen delivery valuation separately.
+
+## MSC-123 deployment measurement
+
+Reproduce with `measure-msc123.py --cutoff 2026-10-17T14:40:04.051000+00:00`. Explicit source/request windows, archived-segment response deduplication and active-interval union reuse the existing extractor. The cutoff is the last selected measured response before final accounting. Includes app/template release work, Components publication, requested template VMware installation, canonical publication verification and the requested Netcup production upgrade, corrections and failed attempts; excludes preceding template QA/closeout and bookkeeping after the cutoff. One shared allocation across five source repositories. No frozen gpt-6.1-sol rate exists; full valuation remains null. MSC-123 completed on 2026-10-17 after Netcup host, public, render and retention checks passed.
+
+## MSC-114 initial CodeQL measurement
+
+The isolated 1 October root session is selected from 05:00:25.000Z through 05:13:54.393Z. Reproduce with the canonical roadmap `measure-msc114.py`, which reuses `measure-msc119.py` for response-ID deduplication, component accounting, interval union and previous-allocation exclusion. 5,615,396 tokens / 47 responses; 0.199895 active and allocated hours. Frozen gpt-6-sol Standard API rates yield $1.70; no new price lookup or billing claim. Later licence/publication turns and all MSC-123 alert/dependency work are excluded. Full task measurement is stored only as a shared allocation, never added across repository subsets.
