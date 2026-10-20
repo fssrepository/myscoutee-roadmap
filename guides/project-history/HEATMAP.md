@@ -1,7 +1,7 @@
 # Combined token activity
 
 The README chart is generated from `account-coverage.json`. It shows combined
-daily tokens, including cached input, from February through October 16, 2026 (latest returned day).
+daily tokens, including cached input, from February through October 17, 2026 (latest returned day).
 It does not split the presentation by account or allocate usage to projects.
 
 The same JSON preserves the daily input series under the account-name initials
@@ -42,3 +42,15 @@ The October-12 refresh updates available October account `r` records through Oct
 The October-15 refresh updates available October account `r` records through October 14. Combined total: 44,361,700,648; account `r` lifetime: 42,115,128,447. October 15 has no returned daily bucket. Historical September and other-account series remain unchanged.
 
 The October-17 refresh updates available October account `r` records through October 16. Combined total: 45,088,868,957; account `r` lifetime: 42,842,296,756. October 17 has no returned daily bucket. September and other-account series remain unchanged.
+
+The October-18 refresh adds the newly returned October-17 account `r` bucket:
+**286,940,919 tokens**. Combined daily total: **45,375,809,876 tokens**;
+current account lifetime: **43,129,237,675 tokens**. All earlier daily rows,
+including September and the other accounts, remain unchanged. No October-18
+daily bucket was returned. The account reading includes the later September-30
+correction; the combined chart preserves its historical baseline.
+
+The README distinguishes the current account's lifetime usage from the combined
+three-account daily ledger. **B = billion (1,000,000,000); M = million (1,000,000).**
+These overlapping totals include cached input and must not be added together
+or to project/task measurements.

@@ -1692,5 +1692,19 @@
     "models": "gpt-6.1-sol",
     "reasoning": "high",
     "evidence": "MSC-123 complete: VMware/device scope closed; app/template signed 1.4.1 and Components registry published. Production Netcup upgraded from package 1.3.0 / frontend 1.3.3 to exact signed 1.4.1; host qualification, 13 public checks, Angular render and retained-data checks PASS. 347,361,510 tokens / 5.688961 allocated h through 2026-10-17T14:40:04.051000+00:00; shared allocation counted once. Full API cost unavailable."
+  },
+  {
+    "task_id": "MSC-124",
+    "title": "Add four-language content and nonblocking device setup; release 1.4.2",
+    "workstream": "Application and release",
+    "started": "2026-10-18",
+    "finished": "2026-10-20",
+    "tokens_million": 57.483958,
+    "api_equivalent_usd_estimate": null,
+    "active_hours": 1.8646863888369667,
+    "allocated_hours": 1.8646863888369667,
+    "models": "gpt-6-astra; gpt-6.1-sol",
+    "reasoning": "high; xhigh",
+    "evidence": "MSC-124 complete: EN/HU/DE/ES application/admin/backend catalogs, nonblocking setup and Firebase/avatar fixes; VMware handoff and owner mobile checks accepted. Separate v1.4.2 tags/releases and two GHCR images published. Netcup partial update: 9 healthy containers, only API/nginx changed, 13/13 public HTTPS checks, four-language parity and retained users/configuration/947 media objects PASS. Installed DEB stays 1.4.1. 57,483,958 tokens / 1.864686 allocated h through 2026-10-19T22:28:52.036Z; includes the owner-assigned October 18 roadmap commit. Full API valuation unavailable."
   }
 ]

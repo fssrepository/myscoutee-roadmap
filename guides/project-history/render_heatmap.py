@@ -46,10 +46,10 @@ def render():
         svg.append(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" fill="{color}">{escape(str(value))}</text>')
 
     text(28, 36, 'AI token activity', 22, '#0f172a', '700')
-    text(28, 59, 'Combined daily usage', 13)
-    text(28, 100, f'{total / 1e9:.2f}B tokens', 25, '#1d4ed8', '700')
-    text(295, 99, f'{sum(v > 0 for v in daily.values())} active days', 16, '#334155', '600')
-    text(535, 99, f'{first:%d %b %Y} – {last:%d %b %Y}', 13)
+    text(28, 59, f'Combined daily usage · {len(ledger["accounts"])} accounts', 13)
+    text(28, 100, f'{total / 1e9:.2f} billion tokens', 25, '#1d4ed8', '700')
+    text(360, 99, f'{sum(v > 0 for v in daily.values())} active days', 16, '#334155', '600')
+    text(620, 99, f'{first:%d %b %Y} – {last:%d %b %Y}', 13)
     for month in range(1, 13):
         for year in range(start.year, end.year + 1):
             date = dt.date(year, month, 1)
@@ -71,7 +71,7 @@ def render():
         x = 28 + i * 130
         svg.append(f'<rect x="{x}" y="345" width="14" height="14" rx="3" fill="{color}"/>')
         text(x + 20, 357, label, 11)
-    text(28, 389, 'Recorded usage · includes cached input · unrecorded dates are not assumed to be zero', 11)
+    text(28, 389, 'M = million · B = billion · includes cached input · missing records do not mean zero usage', 11)
     svg.extend(['</g>', '</svg>'])
     out = HERE / 'media'
     out.mkdir(exist_ok=True)

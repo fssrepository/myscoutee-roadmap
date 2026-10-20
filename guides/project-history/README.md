@@ -61,9 +61,16 @@ counted once; the historical allocation control and heatmap values through Septe
 
 ## Measured token activity
 
-**Latest retained account `r` lifetime: 42,842,296,756 tokens**, read October 17, 2026. The older value remains in the historical calibration.
+Usage through **October 17, 2026**, refreshed **October 18**:
 
-**45,088,868,957 tokens** in the combined retained daily record, through **October 16, 2026**. October 17 has no retained daily bucket here; it is not shown as zero. This task-level update preserves the existing account data and heatmap.
+| Measurement | Tokens |
+| --- | ---: |
+| Current Codex account (`r`) — lifetime usage | **43.129 billion** (43,129,237,675) |
+| Heatmap — combined recorded daily usage across three accounts (`r`, `m`, `s`) | **45.376 billion** (45,375,809,876) |
+
+**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. They overlap and must not be added together. The heatmap includes historical daily records from two other accounts, whose coverage has not been refreshed. It also preserves the September baseline: the current account's later September-30 correction of 46,651,902 tokens is included in its lifetime reading but excluded from the heatmap. Older task calibration values remain frozen.
+
+The October-18 refresh adds **286,940,919 tokens** for October 17. Earlier retained daily records are unchanged. No October-18 daily bucket was returned; missing records do not establish zero usage.
 
 ![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png)
 

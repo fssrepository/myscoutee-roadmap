@@ -8310,12 +8310,153 @@
         }
       ],
       "note": "Initial seven CodeQL code locations, diagnosis, focused fixes/tests and MSC-114 issue/commit creation. Includes active tool waits; excludes subsequent licence/publishing work and later CodeQL/dependency work allocated to MSC-123. Response IDs deduplicated; cached input is within input, reasoning within output. Full observed root turn intervals; task attribution scoped to this initial batch."
+    },
+    {
+      "task_id": "MSC-124",
+      "tokens": 57483958,
+      "cutoff_utc": "2026-10-19T22:28:52.036Z",
+      "unique_response_ids": 444,
+      "token_components": {
+        "input_tokens": 57220620,
+        "cached_input_tokens": 55773952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 263338,
+        "reasoning_output_tokens": 79722,
+        "total_tokens": 57483958
+      },
+      "models": {
+        "gpt-6.1-sol|high": {
+          "input_tokens": 8948672,
+          "cached_input_tokens": 8665600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 46433,
+          "reasoning_output_tokens": 13696,
+          "total_tokens": 8995105
+        },
+        "gpt-6-astra|xhigh": {
+          "input_tokens": 48271948,
+          "cached_input_tokens": 47108352,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 216905,
+          "reasoning_output_tokens": 66026,
+          "total_tokens": 48488853
+        }
+      },
+      "started": "2026-10-18",
+      "finished": "2026-10-20",
+      "active_hours": 1.8646863888369667,
+      "allocated_hours": 1.8646863888369667,
+      "previously_allocated_overlap_hours": 0.0,
+      "active_intervals_utc": [
+        [
+          "2026-10-17T22:11:07.094000+00:00",
+          "2026-10-17T22:13:05.579000+00:00"
+        ],
+        [
+          "2026-10-19T20:32:11.841000+00:00",
+          "2026-10-19T20:44:59.970000+00:00"
+        ],
+        [
+          "2026-10-19T20:45:13.504000+00:00",
+          "2026-10-19T21:04:29.681000+00:00"
+        ],
+        [
+          "2026-10-19T21:04:47.604000+00:00",
+          "2026-10-19T21:06:04.131000+00:00"
+        ],
+        [
+          "2026-10-19T21:06:08.976000+00:00",
+          "2026-10-19T21:08:29.443000+00:00"
+        ],
+        [
+          "2026-10-19T21:08:32.704000+00:00",
+          "2026-10-19T21:41:49.829000+00:00"
+        ],
+        [
+          "2026-10-19T21:44:28.364000+00:00",
+          "2026-10-19T22:00:29.160000+00:00"
+        ],
+        [
+          "2026-10-19T22:00:59.943000+00:00",
+          "2026-10-19T22:03:10.099000+00:00"
+        ],
+        [
+          "2026-10-19T22:03:51.810000+00:00",
+          "2026-10-19T22:10:12.578000+00:00"
+        ],
+        [
+          "2026-10-19T22:10:43.645000+00:00",
+          "2026-10-19T22:12:10.740000+00:00"
+        ],
+        [
+          "2026-10-19T22:13:54.890000+00:00",
+          "2026-10-19T22:28:52.036000+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": null,
+      "priced_subtotal_usd_estimate": 69.59,
+      "unpriced_models": {
+        "gpt-6.1-sol|high": {
+          "input_tokens": 8948672,
+          "cached_input_tokens": 8665600,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 46433,
+          "reasoning_output_tokens": 13696,
+          "total_tokens": 8995105
+        }
+      },
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {
+        "gpt-6-astra": [
+          10,
+          1,
+          50,
+          12.5
+        ]
+      },
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-17": 978906,
+        "2026-10-19": 56505052
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "bcdd81d876863b21",
+          "selection_windows_utc": [
+            [
+              "2026-10-17T22:11:07.094Z",
+              "2026-10-17T22:13:05.579Z"
+            ]
+          ],
+          "tokens": 978906,
+          "unique_responses": 16,
+          "first_usage_utc": "2026-10-17T22:11:12.315000+00:00",
+          "last_usage_utc": "2026-10-17T22:13:05.568000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "f594968caebae84b",
+          "selection_windows_utc": [
+            [
+              "2026-10-19T20:32:10.925Z",
+              "2026-10-19T22:28:52.036Z"
+            ]
+          ],
+          "tokens": 56505052,
+          "unique_responses": 428,
+          "first_usage_utc": "2026-10-19T20:32:18.854000+00:00",
+          "last_usage_utc": "2026-10-19T22:28:39.840000+00:00"
+        }
+      ],
+      "note": "Includes the separate October 18 account-heatmap commit explicitly assigned to MSC-124 by the owner, plus the dedicated four-language seeds/setup/sign-in task: implementation, corrections and reverted attempts, focused tests, VMware partial deployment, device handoff, source consolidation including the prior maybe-breaking commits, image publication, production Netcup partial update and release/accounting preparation through the cutoff. The earlier commits are retained in the source mapping; work before the observed session is not assigned invented usage. User-controlled login/permission interactions are not agent QA. Response IDs deduplicated and active intervals unioned; tool/build/network waits included, idle gaps excluded. Cached input is within input and reasoning within output. Existing frozen rates only; unpriced models remain unpriced. Final bookkeeping after the cutoff is excluded, not estimated."
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-17T14:40:04.051000+00:00",
-    "tracked_tasks": 121,
-    "measured_tasks": 121,
+    "updated_at_utc": "2026-10-19T22:28:52.036Z",
+    "tracked_tasks": 122,
+    "measured_tasks": 122,
     "tracked_task_ids": [
       "MSC-1",
       "MSC-2",
@@ -8437,17 +8578,19 @@
       "MSC-120",
       "MSC-121",
       "MSC-122",
-      "MSC-123"
+      "MSC-123",
+      "MSC-124"
     ],
     "unmeasured_task_ids": [],
-    "tokens_estimate": 40713374170,
-    "api_standard_usd_estimate": 32111.23,
-    "allocated_hours_estimate": 1054.5381976033493,
-    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation. MSC-123 adds one completed shared deployment/release measurement by task ID, including the requested Netcup 1.4.1 upgrade; full valuation remains unavailable. MSC-114 initial CodeQL batch recovered from its isolated 1 October session and counted once; later MSC-123 security work excluded. MSC-121 Workstream restored as QA and release.",
+    "tokens_estimate": 40770858128,
+    "api_standard_usd_estimate": 32180.82,
+    "allocated_hours_estimate": 1056.4028839921864,
+    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation. MSC-123 adds one completed shared deployment/release measurement by task ID, including the requested Netcup 1.4.1 upgrade; full valuation remains unavailable. MSC-114 initial CodeQL batch recovered from its isolated 1 October session and counted once; later MSC-123 security work excluded. MSC-121 Workstream restored as QA and release. MSC-124 includes the dedicated four-language/setup/release session and the owner-assigned October 18 roadmap update once; unobserved earlier commit activity is not estimated. Account lifetime totals are not incremented by task measurements.",
     "valuation_incomplete_task_ids": [
       "MSC-122",
       "MSC-117",
-      "MSC-123"
+      "MSC-123",
+      "MSC-124"
     ],
     "metadata_reconciled_on": "2026-10-17"
   }

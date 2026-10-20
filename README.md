@@ -12,10 +12,23 @@ Project boards, delivery history and AI usage across the portfolio.
 
 ## AI activity
 
-Latest account reading: **42.842B tokens**. Combined retained daily series: **45.089B**, through **16 October 2026**, refreshed October 17. Account and project measurements overlap and must not be added.
+Usage through **17 October 2026**, refreshed **18 October**:
+
+| Measurement | Tokens |
+| --- | ---: |
+| Current Codex account — lifetime usage | **43.129 billion** (43,129,237,675) |
+| Heatmap — combined recorded daily usage across three accounts | **45.376 billion** (45,375,809,876) |
+
+**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. The heatmap combines the current account's retained daily records with historical records from two other accounts. It preserves the September baseline; the current account reading includes a later September correction. The two totals overlap; they are separate measurements and must not be added together or to project/task totals.
 
 ![Daily AI token usage](guides/project-history/media/token-activity.png)
 
 [Measurements](guides/project-history/myscoutee/measurements.json) · [Method](guides/project-history/myscoutee/METHOD.md) · [Daily totals](guides/project-history/account-coverage.json)
 
 [Reconstruction tools](guides/history-tools/README.md) · [License: AGPL-3.0](LICENSE)
+
+## Latest delivery
+
+[MSC-124 — MyScoutee 1.4.2](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.4.2): four languages across app/admin/backend, nonblocking device setup and sign-in fixes. Two Docker images published and partially deployed to Netcup; **13/13 public checks passed**, all nine containers healthy. The installed DEB remains 1.4.1.
+
+Recorded task usage: **57,483,958 tokens**, **1.864686 allocated hours**, through `2026-10-19T22:28:52.036Z`; includes the owner-assigned October 18 roadmap update. [Project and measurement details](guides/project-history/myscoutee/README.md). Current Project: **122 measured tasks**, **40,770,858,128 tokens**, **1,056.403 allocated hours**. These task totals overlap the historical account readings above and are not added to them. Full API valuation is unavailable for unpriced models.

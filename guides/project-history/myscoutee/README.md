@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-17: 121 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-20: 122 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,11 +26,11 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task calibration remains historical; the complete 121-task restoration snapshot also retains later task bodies and statuses. Mixed-session
+The 111-task calibration remains historical; the complete 122-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 121 tasks; all 121 have
+stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 122 tasks; all 122 have
 measurements. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
@@ -80,3 +80,9 @@ MSC-123 complete: VMware/device scope closed; app/template signed 1.4.1 and Comp
 MSC-114 now retains all nine missing measurement fields for the isolated initial batch: **5,615,396 tokens**, **47 responses**, **0.199895 active/allocated h**, **$1.70 frozen API equivalent**, **gpt-6-sol / xhigh**, executed **1 October 2026**. Later security/dependency work remains allocated to MSC-123. MSC-121 Workstream is **QA and release**. Current totals include the recovered measurement once; historical calibration stays unchanged.
 
 The requested documentation/metadata follow-up is folded into the existing MSC-123 commits: backend `756b9faf92edb65d327f1d3a621d01ba62a7bd76` and frontend `889d3281421b4a0a84f66e0866ced3ffd17ba7ac`. Six manuals now carry 1.4.1 internally and use stable filenames without version suffixes. The source mapping retains the preceding commit identities; signed release artifacts and existing tags retain their original identities.
+
+## MSC-124 release and deployment
+
+Closed / Project Done. MSC-124 complete: EN/HU/DE/ES application/admin/backend catalogs, nonblocking setup and Firebase/avatar fixes; VMware handoff and owner mobile checks accepted. Separate v1.4.2 tags/releases and two GHCR images published. Netcup partial update: 9 healthy containers, only API/nginx changed, 13/13 public HTTPS checks, four-language parity and retained users/configuration/947 media objects PASS. Installed DEB stays 1.4.1. 57,483,958 tokens / 1.864686 allocated h through 2026-10-19T22:28:52.036Z; includes the owner-assigned October 18 roadmap commit. Full API valuation unavailable.
+
+**1.864686 active / 1.864686 allocated hours**, **444 responses**. Reproduce with `measure-msc124.py --cutoff 2026-10-19T22:28:52.036Z`. The requested October 18 roadmap/account-heatmap commit is retitled under MSC-124; its isolated measured interval is included once. Earlier maybe-breaking source commits are retained in `commit-map.json`. Separate 1.4.1 and 1.4.2 release entries are preserved. [Release notes](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.4.2). Final bookkeeping after the cutoff is excluded.

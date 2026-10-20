@@ -9802,5 +9802,34 @@
       "8fef200d778b45b7321de7ef8a9caf0a3eff254d",
       "76b2c3bbc5a768a2e54a4e7fb119ad70ceefb0db"
     ]
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "0d659e2d0dbd27a9db3601bed81543553082bb2f",
+    "task_commit": "a7878e64fe18093fcea9412a372f0654bcf094e4",
+    "task_ids": [
+      "MSC-124"
+    ],
+    "amendment_scope": "Owner-requested consolidation of the prior maybe-breaking commit with four-language/setup implementation."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "04c6dcdf3f3212c8d6cbe2aec6d9a3c72fb4e704",
+    "task_commit": "1c12a7d739eed1865080ca99b8a48338a404d2db",
+    "task_ids": [
+      "MSC-124"
+    ],
+    "amendment_scope": "Owner-requested consolidation of the prior maybe-breaking commit with four-language/setup implementation."
+  },
+  {
+    "repository": "myscoutee-roadmap",
+    "original_commit": "9deea0c9a3b321b4290e9766e0819389ef0939aa",
+    "task_commit": "a96d6f014a72eb680063a062495f3df9107c0107",
+    "task_ids": [
+      "MSC-124"
+    ],
+    "original_source_tree": "108cd091207504e896f5819b2490b419af134a7b",
+    "consolidated_source_tree": "108cd091207504e896f5819b2490b419af134a7b",
+    "amendment_scope": "Owner-requested MSC-124 prefix; tree unchanged. Isolated account-heatmap usage included in MSC-124 closeout."
   }
 ]
