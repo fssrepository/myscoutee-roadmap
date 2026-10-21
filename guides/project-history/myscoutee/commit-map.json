@@ -9831,5 +9831,357 @@
     "original_source_tree": "108cd091207504e896f5819b2490b419af134a7b",
     "consolidated_source_tree": "108cd091207504e896f5819b2490b419af134a7b",
     "amendment_scope": "Owner-requested MSC-124 prefix; tree unchanged. Isolated account-heatmap usage included in MSC-124 closeout."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "b9fd64727d1446c8d5f60854ab43db7a3b65b09e",
+    "task_commit": "e34d0f8abb008d5ce5a1a3621ae8a9aaf00c4f33",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "eff7d5ced6afea7e7b08ddddacb2142238d07758",
+    "consolidated_source_tree": "09b12b5673fd3704b7ac1a4602b198d447eccb2a",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "7a565c10e5f81d05fb8e0ac6a1796bf143b27f63",
+    "task_commit": "e34d0f8abb008d5ce5a1a3621ae8a9aaf00c4f33",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "58398cf1bdffe70435eb36fe36308921093cd3ae",
+    "consolidated_source_tree": "09b12b5673fd3704b7ac1a4602b198d447eccb2a",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "3fb624b5c1312510f6d280274d970abf40eea2b3",
+    "task_commit": "e34d0f8abb008d5ce5a1a3621ae8a9aaf00c4f33",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "3b7774c8f6d360760dc93eb62980e2fc87e277f5",
+    "consolidated_source_tree": "09b12b5673fd3704b7ac1a4602b198d447eccb2a",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-components",
+    "original_commit": "f831dce5757620f3a4ee101e680e7c9b7ac7353f",
+    "task_commit": "e34d0f8abb008d5ce5a1a3621ae8a9aaf00c4f33",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "504c078d121682c3af01d44b8d6ee79afc72ce78",
+    "consolidated_source_tree": "09b12b5673fd3704b7ac1a4602b198d447eccb2a",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "a2de9a235592e4edd077d1bd13c87bf10514cc8e",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "7af33dd7cc56cd12088b1b33776747ea0e801f2b",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "84eef928afecccbf193a76f5806d34e135dacea2",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "35ae03b94b088f0f393746290db3d466ff036e43",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "aabaad7eaef2b37d8509ae597af5e3d90109e46c",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "3e1b5378a798d91d21b40e6b8571e75979e3a45c",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "a00085518521bfe876297667925abf8360f522ef",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "1bbf0c9ebcec54171a9f383bf8a8dfd51514fa7e",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "54ec22a9ef7deb947d2f9ff5b6b4aae643208fc7",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "943beb704d0c4990ef9ca2ec0dd269eba6cc4d6d",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "c8b4a558dcbe9655817660574085cae58f725778",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "ae785f4112b216c95a36361ed2f2b1ab8686cb3d",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "ea73244307fcf8b526d8555f8ca5c03207098a99",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "a3d57e56ebf455bed28e5fd18a4dba5d75c1ceca",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "14ec958e08b7f926431dfd847154931c691750be",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "1e4e2c50c27b0ab1931fb2c63ddb44566319e1a9",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee",
+    "original_commit": "fbe8fd44a98308dc748741a9118aeecae0d9d7b9",
+    "task_commit": "d9e2a1c84934d25d922331e7aea73ceb8c120fc4",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "43949ce3cfe0c1dc2a6941cd5c193062e2bddfcf",
+    "consolidated_source_tree": "9e9e25942bdef4b9e810f64606d1bda5e69971f1",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "8d31413099dd6859ab5d1f5b45045719757b123d",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "df871c78021e84696d158c6a6a9b29a9a1f71e03",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "691dae6b518f9a845215efccc0072fcc891e7e5f",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "ed8eab7464d40e06c3f601b633f2c4969cb4debf",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "9b2c03b049b099533482faae0a22646778ca4ddd",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "87e976bf32cdc6a4fed5978b434ded2e588db355",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "2bacde2bcb6be293426a92a47906768d720d688c",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "06f829156409fce1afa6d5c3fe149c114fbf909e",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "46239d14d132425eb362d714a723ff8a201467d5",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "7365472d79668cec6f7f79d10fb0de04da98d19d",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "ce5de4f23881c31a5661f95fa083c1b3f1b5bb45",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "6fdd6b72cce3f14274037fad609c78a2c71f5cc1",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "4f9b2dddca8054bfeca328df2c9cf7736a168dfc",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "c3cd1f186f1897ec003708a3e7139a6545ec965a",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "661e5438a6da633c063d89610def33716cbb9574",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "802843678a40c6df6007a21d9c24a0bed70ce7a2",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "7c6b6151155f5fcba6ce53c947e2aba539f00f8d",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "71ecae8127e64eec6492b2843a19836f87a218a9",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-backend",
+    "original_commit": "76520779579c1a7f127a1259c06aa8b85a370ebb",
+    "task_commit": "6bf68facc270a267738845b3b0b60165ad8ad390",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "1371154e6a70d3e745b53313fe3b145b296727e9",
+    "consolidated_source_tree": "8ba158521529a41ccf8239bd52505f40fa077cc6",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "8637bb3fe75f5622599538e7cd5cf9b08d3467ab",
+    "task_commit": "4246fafa92ff3f2d9f66faf76dfa4a3e135849ce",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "a1f4edcfa32ab5c51f1a2c99d2e5b9bf4ebde3c0",
+    "consolidated_source_tree": "53b472829974067ceed85073648ec86b1e89a5bb",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "247ce090c826bb822c98fc0ee7f7f817b312c1d8",
+    "task_commit": "4246fafa92ff3f2d9f66faf76dfa4a3e135849ce",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "30344210a46eb7d261a4df52ced6cf9f4e685e2a",
+    "consolidated_source_tree": "53b472829974067ceed85073648ec86b1e89a5bb",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "a675c82aef2c862cb822de6b85d61b07941bca61",
+    "task_commit": "4246fafa92ff3f2d9f66faf76dfa4a3e135849ce",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "ac9e3311f79c34f486e24f642edb45d7ecfb2508",
+    "consolidated_source_tree": "53b472829974067ceed85073648ec86b1e89a5bb",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template-frontend",
+    "original_commit": "64ab746db108fe5602b4a3a272a7ecd27ebcb47c",
+    "task_commit": "4246fafa92ff3f2d9f66faf76dfa4a3e135849ce",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "1bfcdc611169db751bc2ad3b39a9b0cb52018160",
+    "consolidated_source_tree": "53b472829974067ceed85073648ec86b1e89a5bb",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "3b8685d50c63fa90eb2c3d058bcbcbbede6ab738",
+    "task_commit": "29f08cee9c7b2955cf2bcded79294cb782421da0",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "8e2711e9d3be7b362c9236b9bddf88e45cdbbeed",
+    "consolidated_source_tree": "77e1b201be8f7f676b9da3f245abce71e3586477",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "d123609cefd5693f9c59fa9e69b116e0ada0725a",
+    "task_commit": "29f08cee9c7b2955cf2bcded79294cb782421da0",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "975fccd094d7c9db09f677b3e1ef191af63c0ab0",
+    "consolidated_source_tree": "77e1b201be8f7f676b9da3f245abce71e3586477",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "9af8db0adff2a5de55b2d49038d456d56ff8a84b",
+    "task_commit": "29f08cee9c7b2955cf2bcded79294cb782421da0",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "8b892e478a38f453612438ef42a9da27a9411987",
+    "consolidated_source_tree": "77e1b201be8f7f676b9da3f245abce71e3586477",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "a60922e4b2d5abc13b4e331916a0cc71c5ad226f",
+    "task_commit": "29f08cee9c7b2955cf2bcded79294cb782421da0",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "0a613f80ae937c73dbd674b822ba2ce911bf6938",
+    "consolidated_source_tree": "77e1b201be8f7f676b9da3f245abce71e3586477",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
+  },
+  {
+    "repository": "myscoutee-template",
+    "original_commit": "f0322ed0a416d557c1850c60f50672b89fb77834",
+    "task_commit": "29f08cee9c7b2955cf2bcded79294cb782421da0",
+    "task_ids": [
+      "MSC-126"
+    ],
+    "original_source_tree": "2da4e2446bf34fe5d3d55469425deae68d37bbe1",
+    "consolidated_source_tree": "77e1b201be8f7f676b9da3f245abce71e3586477",
+    "amendment_scope": "MSC-126 consolidation with final reviewed fixes, 1.4.5 metadata, applicable compiled standalone output and closing documentation/evidence. Original histories retained by local backup refs. Runtime root to final root differs only in documentation/evidence."
   }
 ]

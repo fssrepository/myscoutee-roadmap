@@ -1706,5 +1706,33 @@
     "models": "gpt-6-astra; gpt-6.1-sol",
     "reasoning": "high; xhigh",
     "evidence": "MSC-124 complete: EN/HU/DE/ES application/admin/backend catalogs, nonblocking setup and Firebase/avatar fixes; VMware handoff and owner mobile checks accepted. Separate v1.4.2 tags/releases and two GHCR images published. Netcup partial update: 9 healthy containers, only API/nginx changed, 13/13 public HTTPS checks, four-language parity and retained users/configuration/947 media objects PASS. Installed DEB stays 1.4.1. 57,483,958 tokens / 1.864686 allocated h through 2026-10-19T22:28:52.036Z; includes the owner-assigned October 18 roadmap commit. Full API valuation unavailable."
+  },
+  {
+    "task_id": "MSC-125",
+    "title": "Add bounded nginx-only landing diagnostics and release 1.4.4",
+    "workstream": "Operations",
+    "started": "2026-10-20",
+    "finished": "2026-10-20",
+    "tokens_million": null,
+    "api_equivalent_usd_estimate": null,
+    "active_hours": null,
+    "allocated_hours": null,
+    "models": "",
+    "reasoning": "",
+    "evidence": "Delivered 1.4.4; usage remains unreconciled. See the existing issue/release evidence; no token or hour estimate added by MSC-126."
+  },
+  {
+    "task_id": "MSC-126",
+    "title": "Reduce initial loading and release MyScoutee 1.4.5",
+    "workstream": "Product",
+    "started": "2026-10-21",
+    "finished": "2026-10-22",
+    "tokens_million": 288.442597,
+    "api_equivalent_usd_estimate": null,
+    "active_hours": 9.919969444274903,
+    "allocated_hours": 9.919969444274903,
+    "models": "gpt-6.1-sol",
+    "reasoning": "high; xhigh",
+    "evidence": "MSC-126 release batch complete: main/template loading groups and semantic captions, preferred-language/cache startup, guarded WebP/catalog/demo-lifecycle migrations, fullscreen mobile setup. Five v1.4.5 source releases/tags, five GHCR images and Components 1.4.5 published. Netcup 13/13 public checks; nine healthy containers; seven production users and original media retained. VMware verified. Installed DEBs remain 1.4.1. No matched Lighthouse gain or new template host qualification claimed. 288,442,597 tokens / 9.919969 allocated h through 2026-10-21T23:51:01Z; shared template/component effort counted once. Full API valuation unavailable."
   }
 ]

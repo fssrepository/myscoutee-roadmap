@@ -88,3 +88,8 @@ Reproduce with `measure-msc123.py --cutoff 2026-10-17T14:40:04.051000+00:00`. Ex
 ## MSC-114 initial CodeQL measurement
 
 The isolated 1 October root session is selected from 05:00:25.000Z through 05:13:54.393Z. Reproduce with the canonical roadmap `measure-msc114.py`, which reuses `measure-msc119.py` for response-ID deduplication, component accounting, interval union and previous-allocation exclusion. 5,615,396 tokens / 47 responses; 0.199895 active and allocated hours. Frozen gpt-6-sol Standard API rates yield $1.70; no new price lookup or billing claim. Later licence/publication turns and all MSC-123 alert/dependency work are excluded. Full task measurement is stored only as a shared allocation, never added across repository subsets.
+
+
+## MSC-126 measurement boundary
+
+Reproduce with `measure-msc126.py --cutoff 2026-10-21T23:51:01Z`. Two dedicated root histories and their archived segments use the existing response-ID extractor. 288,442,597 tokens / 1,513 responses / 9.919969 active and 9.919969 allocated hours. Includes consumed implementation, corrections and reverted attempts, focused checks, applicable template/components work, migration, VMware, consolidation/publication and Netcup deployment through cutoff. Root intervals are unioned; prior allocations are subtracted. Tool/build/network waits count, idle gaps and final accounting writes do not. No child sessions were found for the selected roots. Cached input remains inside input and reasoning inside output. Full cost is null because the frozen rate card lacks the observed models; no new rates or billing inference. Template Project is a second view of this same allocation. MSC-125 remains unmeasured. Historical calibration, account controls and account heatmap are unchanged.

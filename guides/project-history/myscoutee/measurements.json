@@ -8451,12 +8451,285 @@
         }
       ],
       "note": "Includes the separate October 18 account-heatmap commit explicitly assigned to MSC-124 by the owner, plus the dedicated four-language seeds/setup/sign-in task: implementation, corrections and reverted attempts, focused tests, VMware partial deployment, device handoff, source consolidation including the prior maybe-breaking commits, image publication, production Netcup partial update and release/accounting preparation through the cutoff. The earlier commits are retained in the source mapping; work before the observed session is not assigned invented usage. User-controlled login/permission interactions are not agent QA. Response IDs deduplicated and active intervals unioned; tool/build/network waits included, idle gaps excluded. Cached input is within input and reasoning within output. Existing frozen rates only; unpriced models remain unpriced. Final bookkeeping after the cutoff is excluded, not estimated."
+    },
+    {
+      "task_id": "MSC-126",
+      "tokens": 288442597,
+      "cutoff_utc": "2026-10-21T23:51:01Z",
+      "unique_response_ids": 1513,
+      "token_components": {
+        "input_tokens": 287201974,
+        "cached_input_tokens": 281907712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1240623,
+        "reasoning_output_tokens": 656891,
+        "total_tokens": 288442597
+      },
+      "models": {
+        "gpt-6.1-sol|high": {
+          "input_tokens": 226177803,
+          "cached_input_tokens": 221701760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 948535,
+          "reasoning_output_tokens": 510840,
+          "total_tokens": 227126338
+        },
+        "gpt-6.1-sol|xhigh": {
+          "input_tokens": 61024171,
+          "cached_input_tokens": 60205952,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292088,
+          "reasoning_output_tokens": 146051,
+          "total_tokens": 61316259
+        }
+      },
+      "started": "2026-10-21",
+      "finished": "2026-10-22",
+      "active_hours": 9.919969444274903,
+      "allocated_hours": 9.919969444274903,
+      "previously_allocated_overlap_hours": 0.0,
+      "active_intervals_utc": [
+        [
+          "2026-10-21T12:16:38.569000+00:00",
+          "2026-10-21T12:17:50.171000+00:00"
+        ],
+        [
+          "2026-10-21T12:18:29.574000+00:00",
+          "2026-10-21T12:18:34.342000+00:00"
+        ],
+        [
+          "2026-10-21T12:20:29.238000+00:00",
+          "2026-10-21T12:30:35.253000+00:00"
+        ],
+        [
+          "2026-10-21T12:31:08.344000+00:00",
+          "2026-10-21T12:31:13.333000+00:00"
+        ],
+        [
+          "2026-10-21T12:33:07.786000+00:00",
+          "2026-10-21T12:33:59.860000+00:00"
+        ],
+        [
+          "2026-10-21T12:34:36.925000+00:00",
+          "2026-10-21T12:34:49.832000+00:00"
+        ],
+        [
+          "2026-10-21T12:35:20.976000+00:00",
+          "2026-10-21T12:35:31.822000+00:00"
+        ],
+        [
+          "2026-10-21T12:36:14.421000+00:00",
+          "2026-10-21T12:46:34.927000+00:00"
+        ],
+        [
+          "2026-10-21T12:47:57.922000+00:00",
+          "2026-10-21T12:49:55.864000+00:00"
+        ],
+        [
+          "2026-10-21T12:50:00.827000+00:00",
+          "2026-10-21T12:53:51.838000+00:00"
+        ],
+        [
+          "2026-10-21T12:54:16.889000+00:00",
+          "2026-10-21T12:56:49.180000+00:00"
+        ],
+        [
+          "2026-10-21T12:57:19.947000+00:00",
+          "2026-10-21T12:57:27.273000+00:00"
+        ],
+        [
+          "2026-10-21T12:58:15.426000+00:00",
+          "2026-10-21T12:58:36.908000+00:00"
+        ],
+        [
+          "2026-10-21T12:58:52.460000+00:00",
+          "2026-10-21T12:59:54.940000+00:00"
+        ],
+        [
+          "2026-10-21T13:00:36.132000+00:00",
+          "2026-10-21T13:01:29.088000+00:00"
+        ],
+        [
+          "2026-10-21T13:01:50.569000+00:00",
+          "2026-10-21T13:03:12.984000+00:00"
+        ],
+        [
+          "2026-10-21T13:04:59.143000+00:00",
+          "2026-10-21T13:32:27.924000+00:00"
+        ],
+        [
+          "2026-10-21T13:32:41.582000+00:00",
+          "2026-10-21T14:35:34.177000+00:00"
+        ],
+        [
+          "2026-10-21T14:37:32.586000+00:00",
+          "2026-10-21T14:52:07.896000+00:00"
+        ],
+        [
+          "2026-10-21T14:54:12.823000+00:00",
+          "2026-10-21T15:10:05.333000+00:00"
+        ],
+        [
+          "2026-10-21T15:10:13.648000+00:00",
+          "2026-10-21T15:11:38.990000+00:00"
+        ],
+        [
+          "2026-10-21T15:13:42.710000+00:00",
+          "2026-10-21T15:20:27.754000+00:00"
+        ],
+        [
+          "2026-10-21T15:21:43.660000+00:00",
+          "2026-10-21T15:22:56.071000+00:00"
+        ],
+        [
+          "2026-10-21T15:26:11.776000+00:00",
+          "2026-10-21T15:27:10.248000+00:00"
+        ],
+        [
+          "2026-10-21T15:28:29.219000+00:00",
+          "2026-10-21T15:28:45.257000+00:00"
+        ],
+        [
+          "2026-10-21T15:29:39.684000+00:00",
+          "2026-10-21T15:30:24.817000+00:00"
+        ],
+        [
+          "2026-10-21T15:31:18.213000+00:00",
+          "2026-10-21T15:31:51.021000+00:00"
+        ],
+        [
+          "2026-10-21T15:33:00.322000+00:00",
+          "2026-10-21T15:33:11.600000+00:00"
+        ],
+        [
+          "2026-10-21T15:33:59.048000+00:00",
+          "2026-10-21T15:34:27.423000+00:00"
+        ],
+        [
+          "2026-10-21T15:36:44.170000+00:00",
+          "2026-10-21T15:37:49.209000+00:00"
+        ],
+        [
+          "2026-10-21T15:37:55.607000+00:00",
+          "2026-10-21T15:44:00.574000+00:00"
+        ],
+        [
+          "2026-10-21T15:46:10.327000+00:00",
+          "2026-10-21T15:50:21.805000+00:00"
+        ],
+        [
+          "2026-10-21T15:52:30.968000+00:00",
+          "2026-10-21T15:56:00.589000+00:00"
+        ],
+        [
+          "2026-10-21T15:58:37.085000+00:00",
+          "2026-10-21T16:30:42.327000+00:00"
+        ],
+        [
+          "2026-10-21T16:31:35.134000+00:00",
+          "2026-10-21T16:32:47.272000+00:00"
+        ],
+        [
+          "2026-10-21T16:34:07.300000+00:00",
+          "2026-10-21T16:48:56.154000+00:00"
+        ],
+        [
+          "2026-10-21T16:49:43.587000+00:00",
+          "2026-10-21T16:50:13.587000+00:00"
+        ],
+        [
+          "2026-10-21T16:50:37.832000+00:00",
+          "2026-10-21T17:35:46.409000+00:00"
+        ],
+        [
+          "2026-10-21T17:35:57.113000+00:00",
+          "2026-10-21T17:43:49.518000+00:00"
+        ],
+        [
+          "2026-10-21T17:44:26.499000+00:00",
+          "2026-10-21T18:40:46.639000+00:00"
+        ],
+        [
+          "2026-10-21T18:41:23.863000+00:00",
+          "2026-10-21T18:51:44.411000+00:00"
+        ],
+        [
+          "2026-10-21T18:51:56.881000+00:00",
+          "2026-10-21T18:56:01.319000+00:00"
+        ],
+        [
+          "2026-10-21T18:56:18.255000+00:00",
+          "2026-10-21T21:02:37.250000+00:00"
+        ],
+        [
+          "2026-10-21T21:57:57.259000+00:00",
+          "2026-10-21T23:51:01+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": null,
+      "priced_subtotal_usd_estimate": 0,
+      "unpriced_models": {
+        "gpt-6.1-sol|high": {
+          "input_tokens": 226177803,
+          "cached_input_tokens": 221701760,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 948535,
+          "reasoning_output_tokens": 510840,
+          "total_tokens": 227126338
+        },
+        "gpt-6.1-sol|xhigh": {
+          "input_tokens": 61024171,
+          "cached_input_tokens": 60205952,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 292088,
+          "reasoning_output_tokens": 146051,
+          "total_tokens": 61316259
+        }
+      },
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {},
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-21": 288442597
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "42894755145e8692",
+          "selection_windows_utc": [
+            [
+              "2026-10-21T12:16:33Z",
+              "2026-10-21T12:18:27.999Z"
+            ]
+          ],
+          "tokens": 301184,
+          "unique_responses": 8,
+          "first_usage_utc": "2026-10-21T12:16:46.441000+00:00",
+          "last_usage_utc": "2026-10-21T12:17:47.233000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "f63318a2f5045701",
+          "selection_windows_utc": [
+            [
+              "2026-10-21T12:18:28Z",
+              "2026-10-21T23:51:01Z"
+            ]
+          ],
+          "tokens": 288141413,
+          "unique_responses": 1505,
+          "first_usage_utc": "2026-10-21T12:18:34.329000+00:00",
+          "last_usage_utc": "2026-10-21T23:51:00.063000+00:00"
+        }
+      ],
+      "note": "Two dedicated MSC-126 root sessions: initial request and continued implementation/review, corrections, reverted attempts, focused tests, template applicability, migrations, VMware verification, source consolidation and requested 1.4.5 publication/Netcup release through the cutoff. Reuses unique response-ID accounting, union of observed root active intervals and subtraction of prior task allocations. Tool/build/network waits are included; idle gaps and bookkeeping after cutoff are excluded. Cached input is within input and reasoning within output. Template/shared-component work is one allocation, not counted per repository. Frozen known rates only; unpriced models remain unpriced. Timing is observed agent activity, not invented human working hours or an invoice."
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-19T22:28:52.036Z",
-    "tracked_tasks": 122,
-    "measured_tasks": 122,
+    "updated_at_utc": "2026-10-21T23:51:01Z",
+    "tracked_tasks": 124,
+    "measured_tasks": 123,
     "tracked_task_ids": [
       "MSC-1",
       "MSC-2",
@@ -8579,18 +8852,23 @@
       "MSC-121",
       "MSC-122",
       "MSC-123",
-      "MSC-124"
+      "MSC-124",
+      "MSC-125",
+      "MSC-126"
     ],
-    "unmeasured_task_ids": [],
-    "tokens_estimate": 40770858128,
+    "unmeasured_task_ids": [
+      "MSC-125"
+    ],
+    "tokens_estimate": 41059300725,
     "api_standard_usd_estimate": 32180.82,
-    "allocated_hours_estimate": 1056.4028839921864,
-    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation. MSC-123 adds one completed shared deployment/release measurement by task ID, including the requested Netcup 1.4.1 upgrade; full valuation remains unavailable. MSC-114 initial CodeQL batch recovered from its isolated 1 October session and counted once; later MSC-123 security work excluded. MSC-121 Workstream restored as QA and release. MSC-124 includes the dedicated four-language/setup/release session and the owner-assigned October 18 roadmap update once; unobserved earlier commit activity is not estimated. Account lifetime totals are not incremented by task measurements.",
+    "allocated_hours_estimate": 1066.3228534364614,
+    "method": "Historical and post-control measurements merged by stable task_id, never appended twice. MSC-113 remains in the historical total. Latest MSC-115/116/119/120/121/122 checkpoints counted once. Missing measurements are excluded, not zero. Recorded interval/overlap boundaries retained; no new portfolio-wide timing audit. MSC-117 counted once; its full valuation is unavailable, known-rate subtotal only is included; gpt-6.1-sol is unpriced. MSC-118 includes its measured implementation, checklist reconciliation, delegated QA and related corrections once through the recorded cutoff. MSC-122 October 15–17 regression replaces its earlier aggregate by task ID, retaining October 12 delivery as a component; the Template Project is an overlapping view, never an additional allocation. MSC-123 adds one completed shared deployment/release measurement by task ID, including the requested Netcup 1.4.1 upgrade; full valuation remains unavailable. MSC-114 initial CodeQL batch recovered from its isolated 1 October session and counted once; later MSC-123 security work excluded. MSC-121 Workstream restored as QA and release. MSC-124 includes the dedicated four-language/setup/release session and the owner-assigned October 18 roadmap update once; unobserved earlier commit activity is not estimated. Account lifetime totals are not incremented by task measurements. MSC-126 adds one measured shared implementation/release/Netcup allocation. Template and components are overlapping views. MSC-125 is tracked but remains unmeasured; no usage inferred. Account controls/heatmap stay frozen.",
     "valuation_incomplete_task_ids": [
-      "MSC-122",
       "MSC-117",
+      "MSC-122",
       "MSC-123",
-      "MSC-124"
+      "MSC-124",
+      "MSC-126"
     ],
     "metadata_reconciled_on": "2026-10-17"
   }

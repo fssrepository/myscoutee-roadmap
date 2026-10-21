@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-20: 122 tasks. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
+Project snapshot checked 2026-10-22: 124 tracked tasks / 123 measured; MSC-125 unmeasured. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/project-history/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,12 +26,12 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task calibration remains historical; the complete 122-task restoration snapshot also retains later task bodies and statuses. Mixed-session
+The 111-task calibration remains historical; the complete 124-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 122 tasks; all 122 have
-measurements. The recovered MSC-114 initial batch is separate from later MSC-123 work.
+stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/126 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 124 tasks; 123 have
+measurements. MSC-125 is tracked with unavailable usage fields. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
 
@@ -86,3 +86,9 @@ The requested documentation/metadata follow-up is folded into the existing MSC-1
 Closed / Project Done. MSC-124 complete: EN/HU/DE/ES application/admin/backend catalogs, nonblocking setup and Firebase/avatar fixes; VMware handoff and owner mobile checks accepted. Separate v1.4.2 tags/releases and two GHCR images published. Netcup partial update: 9 healthy containers, only API/nginx changed, 13/13 public HTTPS checks, four-language parity and retained users/configuration/947 media objects PASS. Installed DEB stays 1.4.1. 57,483,958 tokens / 1.864686 allocated h through 2026-10-19T22:28:52.036Z; includes the owner-assigned October 18 roadmap commit. Full API valuation unavailable.
 
 **1.864686 active / 1.864686 allocated hours**, **444 responses**. Reproduce with `measure-msc124.py --cutoff 2026-10-19T22:28:52.036Z`. The requested October 18 roadmap/account-heatmap commit is retitled under MSC-124; its isolated measured interval is included once. Earlier maybe-breaking source commits are retained in `commit-map.json`. Separate 1.4.1 and 1.4.2 release entries are preserved. [Release notes](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.4.2). Final bookkeeping after the cutoff is excluded.
+
+## MSC-126 release and deployment
+
+Closed / Project Done for the delivered 1.4.5 batch. MSC-126 release batch complete: main/template loading groups and semantic captions, preferred-language/cache startup, guarded WebP/catalog/demo-lifecycle migrations, fullscreen mobile setup. Five v1.4.5 source releases/tags, five GHCR images and Components 1.4.5 published. Netcup 13/13 public checks; nine healthy containers; seven production users and original media retained. VMware verified. Installed DEBs remain 1.4.1. No matched Lighthouse gain or new template host qualification claimed. 288,442,597 tokens / 9.919969 allocated h through 2026-10-21T23:51:01Z; shared template/component effort counted once. Full API valuation unavailable.
+
+**9.919969 active / 9.919969 allocated hours**, **1,513 responses**. Reproduce with `measure-msc126.py --cutoff 2026-10-21T23:51:01Z`. Detailed token components, source windows and interval union are retained in `measurements.json`. [Release](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.4.5) · [Task](https://github.com/fssrepository/myscoutee-roadmap/issues/164). Remaining Lighthouse priorities await a new matched report. Historical account totals remain frozen; final accounting after cutoff is excluded.
