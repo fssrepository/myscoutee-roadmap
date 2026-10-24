@@ -6,8 +6,8 @@ def inspect(repo):
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:leases=dict(pool.map(inspect,repos))
 (P/'final-push-leases.json').write_text(json.dumps(leases,indent=2)+'\n')
 for repo in repos:
- changed=git(repo,'diff','--name-only').splitlines();assert all(x.startswith('guides/project-history/') or (repo=='myscoutee-backend' and x=='frontend') or (repo=='myscoutee-roadmap' and x=='README.md') for x in changed),(repo,changed)
- git(repo,'add','--','guides/project-history')
+ changed=git(repo,'diff','--name-only').splitlines();assert all(x.startswith('guides/statistics/') or (repo=='myscoutee-backend' and x=='frontend') or (repo=='myscoutee-roadmap' and x=='README.md') for x in changed),(repo,changed)
+ git(repo,'add','--','guides/statistics')
  if repo=='myscoutee-backend':git(repo,'add','--','frontend')
  if repo=='myscoutee-roadmap':git(repo,'add','--','README.md')
  git(repo,'diff','--cached','--check');git(repo,'commit','--amend','--no-edit');head=git(repo,'rev-parse','HEAD');assert not git(repo,'status','--porcelain');assert git(repo,'show','-s','--format=%s').startswith(('[MSC-110]','[MSC-OLD-5]','[EKO-15]','[MATH-17]'))

@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "scope": "myscoutee-template",
+  "project": {
+    "repositories": [
+      "fssrepository/myscoutee-template",
+      "fssrepository/myscoutee-template-frontend"
+    ],
+    "owner": "fssrepository",
+    "title": "MyScoutee Template",
+    "url": "https://github.com/users/fssrepository/projects/6",
+    "public": true,
+    "shortDescription": "Template 1.4.5 · MSC-122/123/126 shared tasks · usage counted once in MyScoutee",
+    "readme": "# MyScoutee Template\n\nTemplate backend and frontend delivery, using the portfolio’s standard task, status, effort and usage fields.\n\n[Backend and releases](https://github.com/fssrepository/myscoutee-template) · [Frontend](https://github.com/fssrepository/myscoutee-template-frontend) · [Live demo](https://fssrepository.github.io/myscoutee-template-frontend/) · [Roadmap](https://github.com/fssrepository/myscoutee-roadmap)\n\n**MSC-122: Done — 1.4.0 published and verified on VMware.**\n\nThe MSC-122 issue is shared with MyScoutee. Its 1,304,324,997 tokens / 46.804358 allocated h / partial API valuation are already counted in the MyScoutee total; this Project is another view of the same work, not additional usage. The snapshot and measurement references are saved in the roadmap repository.\n\nOctober 17 regression: **1–32 PASS / CLOSED**, including point 31 call/notification deltas and fixture/runtime cleanup. Usage includes the original delivery and 170,212,864 regression tokens through 2026-10-17T07:51:53.465Z. Full API cost unavailable; $1,662.71 frozen known-rate subtotal only. [Evidence](https://github.com/fssrepository/myscoutee-template/blob/master/guides/qa/evidence/general/MSC115-TEMPLATE-REGRESSION.json). No new DEB build/installation was claimed at that MSC-122 regression checkpoint.\n\n## MSC-123 — 1.4.1 release\n\nAll shared MSC-123 fixes applicable to retained template functions are ported. Exact signed template 1.4.1 installed on VMware: seven services healthy, 13 external checks and two-member login/SmartList/chat/reload/logout smoke PASS. 137 focused tests; actual DEB and signatures verified; five Docker images published. [Template 1.4.1](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.4.1) is published; all nine asset identities, signatures and canonical public discovery are verified. [Components 1.4.1](https://github.com/fssrepository/myscoutee-components/releases/tag/v1.4.1) is published to GitHub Packages; registry download matches the release tarball.\n\nShared [MSC-123](https://github.com/fssrepository/myscoutee-roadmap/issues/161): **347,361,510 tokens**, **5.688961 allocated h**, **1,662 responses** through `2026-10-17T14:40:04.051000+00:00`. Full API valuation unavailable. This is the same allocation shown in MyScoutee, counted once. Main [1.4.1 release](https://github.com/fssrepository/myscoutee/releases/tag/v1.4.1) and canonical discovery are verified. Status: **Done**. Production Netcup 1.4.1 host, public HTTPS, Angular render and retained-data checks PASS. No KVM/monolith campaign replay.\n\n\n## MSC-126 release 1.4.5\n\nApplicable own-source/catalog/migration/loading changes, two verified GHCR images and standalone build published. No new template-host installation claimed. Shared task: **288,442,597 tokens / 9.919969 allocated h** through `2026-10-21T23:51:01Z`. Counted once in the [canonical MyScoutee ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).\n"
+  },
+  "fields": [
+    {
+      "name": "Title",
+      "dataType": "TITLE",
+      "options": []
+    },
+    {
+      "name": "Status",
+      "dataType": "SINGLE_SELECT",
+      "options": [
+        {
+          "name": "Todo",
+          "color": "GRAY",
+          "description": ""
+        },
+        {
+          "name": "In Progress",
+          "color": "GRAY",
+          "description": ""
+        },
+        {
+          "name": "Done",
+          "color": "GRAY",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Task ID",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Workstream",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Started",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Finished",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Tokens M",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "API equiv USD",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Active h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Allocated h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Models",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Reasoning",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Evidence",
+      "dataType": "TEXT",
+      "options": []
+    }
+  ],
+  "views": [
+    {
+      "name": "Delivery history",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Workstream",
+        "Status",
+        "Started",
+        "Finished",
+        "Evidence"
+      ]
+    },
+    {
+      "name": "AI usage and effort",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Tokens M",
+        "API equiv USD",
+        "Active h",
+        "Allocated h",
+        "Models",
+        "Reasoning",
+        "Evidence"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "task_id": "MSC-122",
+      "title": "MSC-122: Extract reusable UI components and a generic MyScoutee template",
+      "body": "Delivered **MyScoutee Template 1.4.0** and **MyScoutee Components 1.4.0** on October 12, 2026.\n\n- [x] Separate reusable components and generic application foundations from product-specific domains.\n- [x] Keep MyScoutee consuming the same component owners and preserve its qualified behavior.\n- [x] Qualify local/HTTP login, consent, profiles, SmartList, chat and retained operator/admin capabilities.\n- [x] Qualify monolith/KVM, packaging, signed updates, recovery and publication.\n- [x] Install the exact published template DEB on VMware and complete the two-member login/SmartList/chat/logout smoke.\n- [x] Publish branded PDF manuals, GitHub Pages and the components npm package.\n\n[Template and documentation](https://github.com/fssrepository/myscoutee-template) · [Live demo](https://fssrepository.github.io/myscoutee-template-frontend/) · [Template 1.4.0](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.4.0) · [Components 1.4.0](https://github.com/fssrepository/myscoutee-components/releases/tag/v1.4.0)\n\n**Checklist: 33/33 tasks and 118/118 subtasks DONE.** Git history, roadmap/account usage and heatmap are updated. The [Template Project](https://github.com/users/fssrepository/projects/6) connects both template repositories. The LinkedIn article, short sharing post and branded cover are committed in the private backend guides. General MyScoutee feature-QA campaigns remain separate.\n\n## Template regression closeout — 2026-10-17\n\nTemplate regression 1–32 PASS / CLOSED, including point 31 call/notification deltas and point 32 fixture/runtime cleanup. Accepted evidence retained; omitted consumers N/A. New DEB build/installation not claimed.\n\nThe HTTP operator OAuth/login return now uses the existing common entry completion flow. Normal media/job configuration persists in canonical seeds and upgrade migration; test actors/faults were removed. Browser evidence, focused native checks and local/HTTP/KVM variants apply only to the scopes recorded in the existing [regression evidence](https://github.com/fssrepository/myscoutee-template/blob/master/guides/qa/evidence/general/MSC115-TEMPLATE-REGRESSION.json). The checklist was retained. Owned browser sessions and test processes are closed; original support services restored.\n\nMSC-122 measured usage: **1,304,324,997 tokens**, **46.917611 active / 46.804358 allocated hours**, through **2026-10-17T07:51:53.465Z**. Original October 12 delivery: 1,134,112,133; regression increment: 170,212,864. Corrections, reverted attempts and failure/recovery are included. Full API equivalent is unavailable; $1,576.71 is a frozen known-rate subtotal only. Both Projects show the same shared task; usage is counted once. [Measurement components and reproduction](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee). Final accounting/publication after cutoff is excluded.\n",
+      "state": "CLOSED",
+      "state_reason": "COMPLETED",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 160,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/160",
+        "node_id": "I_kwDOU1_9-s8AAAABWAZMWg"
+      },
+      "values": {
+        "Task ID": "MSC-122",
+        "Status": "Done",
+        "Workstream": "Tooling",
+        "Started": "2026-10-09",
+        "Finished": "2026-10-17",
+        "Tokens M": 1304.324997,
+        "Active h": 46.917611,
+        "Allocated h": 46.804358,
+        "Models": "gpt-6-astra; gpt-6.1-sol",
+        "Reasoning": "high; xhigh",
+        "Evidence": "Template regression 1–32 PASS / CLOSED, including point 31 call/notification deltas and point 32 fixture/runtime cleanup. Accepted evidence retained; omitted consumers N/A. New DEB build/installation not claimed. MSC-122: 1,304,324,997 tokens, 8,673 responses through 2026-10-17T07:51:53.465Z; includes original delivery, regression, corrections and failed attempts. Full API cost unavailable."
+      }
+    },
+    {
+      "task_id": "MSC-123",
+      "title": "MSC-123: Qualify VM and Netcup deployment with required security and dependency fixes",
+      "body": "Prepare and qualify the deployment on VMware and Netcup, including verified security/dependency fixes.\n\nExecution order and observed status (2026-10-17):\n1. [x] Resolve the 15 reported frontend CodeQL alerts (#36–50). [Verification run](https://github.com/fssrepository/myscoutee/actions/runs/39018412934): success; no open alerts in the recorded scan. Focused regressions retained.\n2. [x] Assess and apply verified dependency updates, including Firebase and Playwright, in the main application and template.\n3. [x] Complete the agreed VMware/device five-point scope: registration/login and Work/Community invitations accepted by the user; actual Firebase/Android push, warmed cache/offline/reconnect and native PWA Back/guide/menu/background/reopen passed. Repair verified installer data, invitation, profile-ID, session/cache and worker-update defects. [Evidence](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.1/guides/qa/checklists/group/MSC-115_LIVE_DEPLOYMENT_QA.md).\n4. [x] Upgrade production Netcup to the exact signed 1.4.1 Debian release. Complete data/configuration backup verified. Package-owned migrations and host qualification PASS; all nine containers healthy, 13/13 public HTTPS checks and isolated read-only Angular render PASS. Retained production document IDs, media and existing secrets/TLS keys verified. [Deployment evidence](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.1/guides/qualification/evidence/NETCUP_1.4.1_20261017.json).\n5. [x] Publish [MyScoutee 1.4.1](https://github.com/fssrepository/myscoutee/releases/tag/v1.4.1). The owner uploaded the exact signed DEB; all nine asset identities agree. Canonical public release discovery, downloaded signed catalog/manifest/key and the actual DEB URL passed. Seven images and all six artifact preflight gates PASS. The temporary untagged label was removed after binding the release to v1.4.1. The main candidate retains its prior VMware scope; no new VMware main-candidate reinstall or rollback drill is claimed.\n6. [x] Port every shared MSC-123 fix applicable to retained template functions: Firebase network/session preservation, real-profile cache identity, PWA activation, consent identity, editor/badge layout and selected worker index bootstrap. Template 137/137 focused tests, 68-index parity, full actual-DEB audit, signatures, five-image publication and exact signed candidate VMware install passed. Seven healthy services, 13 TLS-enabled external checks and the two-member login/SmartList/chat/reload/logout UI smoke passed. [Template 1.4.1](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.4.1) is published with all nine matching assets. Owner DEB upload verified; public signed metadata, artifact signatures, catalog signature, canonical discovery and the actual DEB URL PASS. No KVM/monolith replay.\n7. [x] Publish [Components 1.4.1](https://github.com/fssrepository/myscoutee-components/releases/tag/v1.4.1) to GitHub Packages. 9/9 focused tests and library build passed; registry download is byte-identical to the released tarball. Consolidated source commits and v1.4.1 tags are pushed.\n\n## Measured effort\n\n**347,361,510 tokens**, **5.688961 active / 5.688961 allocated hours**, **1,662 unique responses**, through `2026-10-17T14:40:04.051000+00:00`. Reproduce with `measure-msc123.py --cutoff 2026-10-17T14:40:04.051000+00:00` in the [measurement ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).\n\nIncludes implementation, VMware repairs, failed/reverted attempts, corrections, real-device QA, consolidation, app/template signed release preparation, Components registry publication and requested template VMware install/UI smoke, canonical app/template publication verification and the requested production Netcup 1.4.1 upgrade/verification through the cutoff. Explicit windows exclude preceding template QA/accounting and its separate closeout. Response IDs are deduplicated and concurrent root intervals unioned; tool waits count, idle gaps do not. Shared repository work is counted once. Later accounting/publication writes are excluded. Cached input is within input and reasoning within output. Full API valuation is unavailable because the existing frozen ledger has no gpt-6.1-sol rate; no rate is invented.\n\nMSC-123 is Done; all seven ordered steps are complete. The upgrade does not claim an independent rollback, power-loss or sustained-load drill. Commits use the `[MSC-123]` prefix and the consolidated `v1.4.1` source tags. [Release artifacts and limits](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.1/guides/releases/v1.4.1.md).\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 161,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/161",
+        "node_id": "I_kwDOU1_9-s8AAAABX3SpKg"
+      },
+      "values": {
+        "Task ID": "MSC-123",
+        "Status": "Done",
+        "Workstream": "QA and release",
+        "Started": "2026-10-17",
+        "Tokens M": 347.36151,
+        "Active h": 5.688961,
+        "Allocated h": 5.688961,
+        "Models": "gpt-6.1-sol",
+        "Reasoning": "high",
+        "Evidence": "MSC-123 complete: VMware/device scope closed; app/template signed 1.4.1 and Components registry published. Production Netcup upgraded from package 1.3.0 / frontend 1.3.3 to exact signed 1.4.1; host qualification, 13 public checks, Angular render and retained-data checks PASS. 347,361,510 tokens / 5.688961 allocated h through 2026-10-17T14:40:04.051000+00:00; shared allocation counted once. Full API cost unavailable.",
+        "Finished": "2026-10-17"
+      }
+    },
+    {
+      "task_id": "MSC-126",
+      "title": "MSC-126: Reduce initial loading and release MyScoutee 1.4.5",
+      "body": "The prioritized MSC-126 delivery batch is complete and released as **1.4.5**.\n\n- HTTP/local constructor cache and feature loading groups preserve the existing mode selector. HTTP startup excludes local services/seeds; standalone startup excludes HTTP services. Main has 82 application chunks plus the worker, with two startup files; template HTTP has 31 chunks.\n- Preferred browser language starts directly. HTTP startup requests no local EN/HU catalog and uses backend/cache data. Full version equality controls catalog refresh. Reviewed UI captions use semantic keys; user content and canonical values keep their identities.\n- Owned article/room media uses direct WebP URLs through the existing numbered migration runner. Main 024/025 handle pinned key renames and the two intentionally blocked/deleted demo profiles; template 019 independently handles its own applicable keys. Normal upload variants and retained originals preserve their prior contract.\n- Both mobile setup popups select the existing fullscreen behavior. Roboto 400/500 remain unchanged at the owner's request.\n- Five repositories have one consolidated MSC-126 source commit each after the prior numbered task, with coordinated `v1.4.5` tags and GitHub releases. Five GHCR images and Components 1.4.5 are published with immutable digests/integrity verified. Standalone artifacts include each project's own base path and profile.\n- Netcup runs 1.4.5: **13/13 public checks**, all nine containers healthy, all 82 served JS hashes and four 9,174-message catalogs verified. Seven production user documents and all indexes are unchanged. Media 947→971: 25 additions, one exact old room PNG removed, no changes to other existing objects; all 17 originals retained. VMware also verified; its three HTTP-listener checks skip through the custom HTTPS tunnel. Installed DEBs remain 1.4.1.\n- Fresh independent HU mobile profiles on both hosts: one navigation per cold/warm run, no local EN/HU requests, no EN→HU heading switch and no JS errors. Focused frontend/backend/grouping/input/migration checks passed. No full frontend suite rerun, matched Lighthouse score claim, new template-host install, full new DEB qualification or rollback/power-loss drill.\n\n[Main release](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.4.5) · [Frontend release](https://github.com/fssrepository/myscoutee/releases/tag/v1.4.5) · [Template](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.4.5) · [Components](https://github.com/fssrepository/myscoutee-components/releases/tag/v1.4.5)\n\n[Priorities and remaining Lighthouse items](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.5/guides/plans/MSC-126_LIGHTHOUSE_GAINS.md) · [Full chunk inventory](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.5/guides/plans/MSC-126_BUNDLE_INVENTORY.md) · [Deployment receipt](https://github.com/fssrepository/myscoutee-backend/blob/v1.4.5/guides/qualification/evidence/RELEASE_1.4.5_20261021.json)\n\n## Measured effort\n\n**288,442,597 tokens**, **9.919969 active / 9.919969 allocated hours**, **1,513 unique responses**, through `2026-10-21T23:51:01Z`. Models: gpt-6.1-sol; reasoning: high; xhigh. Reproduce with `measure-msc126.py --cutoff 2026-10-21T23:51:01Z` in the [canonical ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).\n\nIncludes implementation, corrections, reverted attempts, focused tests, template/shared-component applicability, migration, VMware, source consolidation, GitHub/GHCR/npm publication and Netcup deployment/verification through the cutoff. Response IDs are deduplicated; observed root active intervals are unioned, including tool/build/network waits and excluding idle gaps. Cached input is inside input and reasoning inside output. This is one shared allocation across the projects, not a per-repository sum. Final accounting after cutoff is excluded. No frozen rate exists for the measured models, so full API cost is unavailable. Historical account controls and account heatmap remain unchanged. MSC-125 remains unmeasured; its usage is not invented here.\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 164,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/164",
+        "node_id": "I_kwDOU1_9-s8AAAABY9dQOw"
+      },
+      "values": {
+        "Task ID": "MSC-126",
+        "Status": "Done",
+        "Workstream": "Product",
+        "Started": "2026-10-21",
+        "Finished": "2026-10-22",
+        "Tokens M": 288.442597,
+        "Active h": 9.919969,
+        "Allocated h": 9.919969,
+        "Models": "gpt-6.1-sol",
+        "Reasoning": "high; xhigh",
+        "Evidence": "MSC-126 release batch complete: main/template loading groups and semantic captions, preferred-language/cache startup, guarded WebP/catalog/demo-lifecycle migrations, fullscreen mobile setup. Five v1.4.5 source releases/tags, five GHCR images and Components 1.4.5 published. Netcup 13/13 public checks; nine healthy containers; seven production users and original media retained. VMware verified. Installed DEBs remain 1.4.1. No matched Lighthouse gain or new template host qualification claimed. 288,442,597 tokens / 9.919969 allocated h through 2026-10-21T23:51:01Z; shared template/component effort counted once. Full API valuation unavailable."
+      }
+    }
+  ]
+}

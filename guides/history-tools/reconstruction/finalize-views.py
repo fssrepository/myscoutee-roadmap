@@ -1,6 +1,6 @@
 import json,pathlib
 from github_api import P,graphql,request
-S=json.loads((P/'portfolio-state.json').read_text());D=json.loads((P/'portfolio-project-definitions.json').read_text());V=json.loads((P.parent/'myscoutee-roadmap/guides/project-history/views.json').read_text());T=json.loads((P/'portfolio-tasks.json').read_text());results={}
+S=json.loads((P/'portfolio-state.json').read_text());D=json.loads((P/'portfolio-project-definitions.json').read_text());V=json.loads((P.parent/'myscoutee-roadmap/guides/statistics/views.json').read_text());T=json.loads((P/'portfolio-tasks.json').read_text());results={}
 for scope,pr in S['projects'].items():
  pid=pr['project']['id'];d=D[scope]
  graphql('mutation($i:UpdateProjectV2Input!){updateProjectV2(input:$i){projectV2{id public}}}',{'i':{'projectId':pid,'public':True,'shortDescription':d['shortDescription'],'readme':d['readme']}})
