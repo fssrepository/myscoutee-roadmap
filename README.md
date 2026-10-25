@@ -23,7 +23,7 @@ Measured period: **4 February – 25 October 2026 (October 25 partial)**.
 
 The available report measures Codex account usage. A separate ChatGPT conversation-token total is unavailable and has not been added. Other-account history remains included with its original coverage.
 
-![Daily AI token usage](guides/statistics/media/token-activity.png)
+![Daily AI token usage](guides/statistics/media/token-activity.png?v=a18b150f9b59)
 
 [Measurements](guides/statistics/myscoutee/measurements.json) · [Method](guides/statistics/myscoutee/METHOD.md) · [Daily totals](guides/statistics/account-coverage.json)
 

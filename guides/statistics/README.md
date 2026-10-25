@@ -70,9 +70,9 @@ Returned daily records through **October 25, 2026 (partial day)**, refreshed **O
 
 **B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input and overlap. September rows and the other accounts' historical coverage are preserved. The current lifetime includes the September-30 correction of 46,651,902 tokens excluded from the chart. October 25 is partial; missing records do not establish zero usage. A separate ChatGPT conversation-token total is unavailable and has not been inferred or added.
 
-![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png)
+![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png?v=a18b150f9b59)
 
-[SVG](media/token-activity.svg) · [PNG](media/token-activity.png) · [Anonymous daily totals](account-coverage.json) · [Regenerate the chart](HEATMAP.md)
+[SVG](media/token-activity.svg) · [PNG](media/token-activity.png?v=a18b150f9b59) · [Anonymous daily totals](account-coverage.json) · [Regenerate the chart](HEATMAP.md)
 
 Account totals are never added to task budgets. Full account identifiers and private chat histories are not published. The account API reports a longest single turn of **63,694 seconds**, not lifetime active hours. Task active and allocated hours are recorded separately above.
 
