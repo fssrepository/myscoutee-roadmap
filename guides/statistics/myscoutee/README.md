@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-24: 126 tracked tasks / 125 measured; active MSC-128 remains unmeasured until completion. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
+Project snapshot checked 2026-10-25: 126 tracked tasks / 126 measured; MSC-128 is closed. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -29,9 +29,9 @@ The October 9 MSC-120/121 token update is retained in the existing
 The 111-task calibration remains historical; the complete 126-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/125/126/127 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 126 tasks; 125 have
-measurements. Active MSC-128 remains unmeasured until completion. The recovered MSC-114 initial batch is separate from later MSC-123 work.
+stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/125/126/127/128 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 126 tasks; 126 have
+measurements. MSC-128 is closed. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
 
@@ -99,10 +99,36 @@ MSC-127 closed by owner request; remaining fixes and qualification transferred t
 
 **30.687602 active / 30.291569 allocated hours**. Reproduce with `python3 guides/statistics/myscoutee/measure-msc127.py`. The 17 selected root histories use the existing response-ID deduplication and active-interval union. Previously allocated overlap is subtracted; shared work counts once. MSC-128 starts at `2026-10-24T13:18:13.614Z` and is excluded. This closure does not assert completion of the transferred checks.
 
-126 tracked tasks; 125 measured; active MSC-128 is unmeasured until completion. **42,563,945,809 tokens**, **1,104.673 allocated h**, **$32,618.60 Standard API equivalent**. Costs are estimates, not invoices.
+126 tracked tasks; all 126 measured. **43,227,640,078 tokens**, **1,121.982 allocated h**, **$32,841.01 Standard API equivalent**. Costs are estimates, not invoices.
 
 ## Missing-field reconciliation
 
 MSC-125: **266,804,531 tokens**, **8.059066 active/allocated hours**, **1,526 responses**, **$85.13 Standard API equivalent**, measured **20 October 2026, 08:41:34.758–22:53:55.173 UTC**. Reproduce with `measure-msc125.py`. The dedicated implementation/release session includes corrections and reverted attempts.
 
-Missing API-equivalent cells for MSC-117/122/123/124/126/127 are filled using the October 24 pricing supplement. Previously priced components retain their valuation. Current totals are recomputed from one merged record per task, preserving earlier fields when a later checkpoint is partial. Historical calibration and account readings are unchanged. MSC-128 stays unmeasured until completion.
+Missing API-equivalent cells for MSC-117/122/123/124/126/127 are filled using the October 24 pricing supplement. Previously priced components retain their valuation. Current totals are recomputed from one merged record per task, preserving earlier fields when a later checkpoint is partial. Historical calibration and account readings are unchanged. MSC-128 is now closed and measured in the closeout below.
+
+## MSC-128 closeout
+
+Completed **24–25 October 2026**, closed on the owner's confirmation. Main and template **1.5.0** releases are published, with consolidated MSC-128 source commits and matching tags. The release task is complete.
+
+### Delivered
+
+- Restored granular Components loading and consolidated shared sources; corrected startup, selected-language content, loading indicators, Guide/Setup behavior, profile/location handling, icon/font caching and gateway IP-ban behavior. Applicable fixes are included in both applications.
+- Corrected encrypted account persistence, account/demo boundaries, login/logout and obsolete Base class mappings. CodeQL alerts 54 and 55 are fixed. Main backend standard suite: **2009/2009**; template: **440/440**; session regressions: **33/33 in each frontend**. Published Packaging verifier regressions: **11/11 with each application's configuration**.
+- Published main/template production images, signed full DEBs, client tools, standalone archives and GitHub Pages. The template release has **14 verified assets**, including the corrected embedded client-tools archive. Shared packages remain at **1.5.0**.
+- Netcup runs the exact final main DEB: host qualification passed, **9 healthy containers**, **7 matching managed-image fingerprints**, **13/13 public checks**. The template's earlier signed candidate passed VMware host qualification; the final packaging-only replacement was published with verified signatures and payload identities. The owner explicitly did not require another VMware installation of the final rebuild.
+
+[Main backend release](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.5.0) · [Main downloads](https://github.com/fssrepository/myscoutee/releases/tag/v1.5.0) · [Template release](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.5.0) · [Template frontend](https://github.com/fssrepository/myscoutee-template-frontend/releases/tag/v1.5.0)
+
+Final DEB SHA-256: main `c5b6bb046b7276267112333e68d4a297e24f12d61eebe1cab86f4f8fcf0c62f3`; template `5498fa131f8728ce81db5163f456bdb0c0b9ab893a0cb607b0337fcddeb05fb1`.
+
+### Measured effort
+
+Measured period: **2026-10-24T13:18:13.614Z–2026-10-25T15:53:20.632Z (UTC)**. **663,694,269 tokens**, **17.308352 active / 17.308352 allocated hours**, **3,764 unique responses**, **$222.41 Standard API equivalent**.
+
+The measurement combines **ten retained Codex sessions**, including continuations, separate frontend fixes, template delivery, corrections, failed and reverted attempts. Response IDs are deduplicated globally and active intervals are unioned; parallel activity is not added twice. Identifiable prior-task bookkeeping blocks are excluded; attribution of mixed operations is estimated. Tool/build/network waits count; idle gaps and this final accounting session are excluded. Cached input is included in input, reasoning in output. Shared main/template work is counted once. Models: gpt-6-astra and gpt-6.1-sol; high/xhigh reasoning.
+
+[Reproduce the measurement](https://github.com/fssrepository/myscoutee-roadmap/blob/master/guides/statistics/myscoutee/measure-msc128.py) · [Ledger and method](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee). Existing frozen rates and the October 24 supplement are reused. API equivalent is an estimate, not an invoice. Account usage and task usage overlap and must not be added.
+
+
+126 tracked tasks; all 126 measured. **43,227,640,078 tokens**, **1,121.982 allocated h**, **$32,841.01 Standard API equivalent**. Costs are estimates, not invoices.

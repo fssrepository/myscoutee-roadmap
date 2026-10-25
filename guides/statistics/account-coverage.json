@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "source": "Combined recorded daily token usage",
-  "usage_through": "2026-10-23",
-  "combined_measured_tokens": 47302979678,
+  "usage_through": "2026-10-25",
+  "combined_measured_tokens": 48136489900,
   "combinedDailyUsageBuckets": [
     {
       "startDate": "2026-02-04",
@@ -834,14 +834,22 @@
     },
     {
       "startDate": "2026-10-23",
-      "tokens": 286960981
+      "tokens": 334153630
+    },
+    {
+      "startDate": "2026-10-24",
+      "tokens": 697033147
+    },
+    {
+      "startDate": "2026-10-25",
+      "tokens": 89284426
     }
   ],
   "allocation_policy": "Independent measured aggregate; do not add on top of existing task allocations. Missing dates do not establish zero usage.",
   "accounts": [
     {
       "label": "r",
-      "total_tokens": 45009755575,
+      "total_tokens": 45843265797,
       "dailyUsageBuckets": [
         {
           "startDate": "2026-02-04",
@@ -1601,7 +1609,15 @@
         },
         {
           "startDate": "2026-10-23",
-          "tokens": 286960981
+          "tokens": 334153630
+        },
+        {
+          "startDate": "2026-10-24",
+          "tokens": 697033147
+        },
+        {
+          "startDate": "2026-10-25",
+          "tokens": 89284426
         }
       ]
     },
@@ -1784,7 +1800,7 @@
   ],
   "coverage_notes": {
     "historical_cutoff_preserved": "2026-09-30",
-    "extension": "October 1–23: available account r daily records refreshed October 24; no new m/s records or October 24 bucket returned. Missing data is not zero.",
+    "extension": "October 1–25: available account r daily records refreshed October 25; no new m/s records. October 25 is a partial returned day. Missing data is not zero.",
     "late_revision_excluded": {
       "date": "2026-09-30",
       "account": "r",
@@ -1886,17 +1902,39 @@
       ],
       "historical_rows_preserved_through": "2026-09-30"
     },
-    "chatgpt_scope": "This ledger contains the available Codex account-usage readings. No independent ChatGPT conversation-token total was returned; none is inferred or added. Additional account history remains included under m/s with its original coverage."
+    "chatgpt_scope": "This ledger contains the available Codex account-usage readings. No independent ChatGPT conversation-token total was returned; none is inferred or added. Additional account history remains included under m/s with its original coverage.",
+    "october_25_refresh": {
+      "retrieved_date": "2026-10-25",
+      "updated_days": [
+        {
+          "date": "2026-10-23",
+          "previous_tokens": 286960981,
+          "reported_tokens": 334153630
+        },
+        {
+          "date": "2026-10-24",
+          "previous_tokens": null,
+          "reported_tokens": 697033147
+        },
+        {
+          "date": "2026-10-25",
+          "previous_tokens": null,
+          "reported_tokens": 89284426
+        }
+      ],
+      "historical_rows_preserved_through": "2026-09-30",
+      "latest_day_partial": true
+    }
   },
   "latest_reported_account": {
     "label": "r",
-    "reported_lifetime_tokens": 45056407477,
-    "retrieved_date": "2026-10-24",
-    "daily_usage_through": "2026-10-23",
+    "reported_lifetime_tokens": 45889917699,
+    "retrieved_date": "2026-10-25",
+    "daily_usage_through": "2026-10-25",
     "note": "Latest account-reported lifetime, separate from the historical task allocation and combined multi-account chart. Includes the later September-30 revision excluded from the preserved chart baseline.",
-    "last_checked_at_utc": "2026-10-24T13:31:02.098799+00:00",
-    "refresh_result": "October buckets refreshed through October 23; September and m/s preserved. October 24 unavailable.",
-    "current_streak_days": 56,
+    "last_checked_at_utc": "2026-10-25T15:55:59.667509+00:00",
+    "refresh_result": "Returned October records refreshed through October 25 (partial day); September and m/s preserved.",
+    "current_streak_days": 58,
     "longest_running_turn_seconds": 63694,
     "total_active_hours": null,
     "time_coverage": "Account usage API supplies longest single turn, not lifetime active hours. Total account time is unavailable; do not infer it from tokens or sum overlapping project intervals."

@@ -12,12 +12,12 @@ Project boards, delivery history and AI usage across the portfolio.
 
 ## AI activity
 
-Measured period: **4 February – 23 October 2026**.
+Measured period: **4 February – 25 October 2026 (October 25 partial)**.
 
 | Measurement | Tokens |
 | --- | ---: |
-| Current Codex account — lifetime usage | **45.056 billion** (45,056,407,477) |
-| Heatmap — combined recorded daily usage across three accounts | **47.303 billion** (47,302,979,678) |
+| Current Codex account — lifetime usage | **45.890 billion** (45,889,917,699) |
+| Heatmap — combined recorded daily usage across three accounts | **48.136 billion** (48,136,489,900) |
 
 **B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. The heatmap combines the current account's retained daily records with historical records from two other accounts. It preserves the September baseline; the current account reading includes a later September correction. The two totals overlap; they are separate measurements and must not be added together or to project/task totals.
 
@@ -31,11 +31,11 @@ The available report measures Codex account usage. A separate ChatGPT conversati
 
 ## Latest delivery
 
-[MSC-127](https://github.com/fssrepository/myscoutee-roadmap/issues/166) is closed: shared **1.5.0** modules, generic dialogs, packaging/runtime scripts, Sonar corrections and QA/documentation organization. Remaining bundle corrections and backend/template KVM/monolith qualification continue in [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165). Version **1.5.0** is retained; closure does not claim the remaining checks passed.
+[MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) is **Done**: shared loading/session/localization fixes, main/template **1.5.0** releases, GitHub Pages and signed full installers are published. Netcup runs the final main DEB: **9 healthy containers, 13/13 public checks**. The template release contains **14 verified assets**, including its corrected embedded client tools. [Main release](https://github.com/fssrepository/myscoutee/releases/tag/v1.5.0) · [Template release](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.5.0).
 
-MSC-127: **1,237,840,553 tokens**, **30.687602 active hours**, **30.291569 allocated hours**, **6,744 unique responses**, through `2026-10-24T13:18:13.613Z`. Corrections and reverted work are included; parallel intervals are counted once.
+Measured **24–25 October 2026**, through `2026-10-25T15:53:20.632Z`: **663,694,269 tokens**, **17.308352 active / 17.308352 allocated hours**, **3,764 unique responses**, **$222.41 Standard API equivalent**, across **ten Codex sessions**. Corrections and reverted work are included; repeated response IDs and parallel time count once.
 
-126 tracked tasks; 125 measured; active MSC-128 is unmeasured until completion. **42,563,945,809 tokens**, **1,104.673 allocated h**, **$32,618.60 Standard API equivalent**. Costs are estimates, not invoices. These task measurements overlap account readings and are not added to them. [Measurement details](guides/statistics/myscoutee/README.md).
+126 tracked tasks; all 126 measured. **43,227,640,078 tokens**, **1,121.982 allocated h**, **$32,841.01 Standard API equivalent**. Costs are estimates, not invoices. These task measurements overlap account readings and are not added to them. [Measurement details](guides/statistics/myscoutee/README.md).
 
 ## Previous delivery
 

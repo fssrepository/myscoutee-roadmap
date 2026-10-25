@@ -1,19 +1,15 @@
 # Delivery history and project backups
 
-The current summary merges the October 1 reconstruction with the latest measured task checkpoints. MSC-123 now records VMware/device closure and release preparation through **2026-10-17T13:24:31.611Z**; owner publication and Netcup remain open. The live Project was updated October 17. Usage is task allocation, not the account balance.
-
-The current summary merges the October 1 reconstruction with the latest measured task checkpoints. MSC-115 is closed through QA step 119; its usage includes planning, implementation, repairs and closure through **2026-10-15T11:52:55.467000+00:00**. The live Project was checked October 15. Usage is task allocation, not the account balance.
+MSC-128 is closed: main/template **1.5.0** releases and Netcup deployment are complete. Current task measurements include all ten related Codex sessions through **2026-10-25T15:53:20.632Z**. Usage is task allocation, not an account balance.
 
 | Project | Tracked tasks | Tasks with measurements | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 120 | 117 | 39,902.6 | 1,036.167 | $31,749.58 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 126 | 126 | 43,227.640078 | 1,121.982 | $32,841.01 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 18 | 18 | 1,286.0 | 43.5 | $727.68 |
 
-**Current recorded task allocation: 42,454,913,427 tokens.** MyScoutee has 121 tracked tasks, of which 120 have usage measurements. MSC-114 remains unmeasured, not zero. Other Projects retain their measurement boundaries. Latest task checkpoints are counted once by stable task ID; account usage and the Template view are not additional task allocation.
-
-Activity includes tool/network waits and is not human labor. Recorded overlap is removed within each measurement boundary; this refresh does not claim a new portfolio-wide overlap audit. Costs are Standard API equivalents, not invoices. Task allocation and account usage below overlap and must never be added together.
+**Current recorded task allocation: 44,974,794,731 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
 
 <details>
 <summary>Preserved October 1 reconstruction</summary>
@@ -40,11 +36,15 @@ The original reconstruction covered 11 source repositories and 226 consolidated 
 | [MSC-115](https://github.com/fssrepository/myscoutee-roadmap/issues/153) | 1,328.857714 | 48.248 | 48.248 | $1,749.59 |
 | [MSC-120](https://github.com/fssrepository/myscoutee-roadmap/issues/158) | 193.714624 | 10.634 | 10.588 | $252.63 |
 | [MSC-121](https://github.com/fssrepository/myscoutee-roadmap/issues/159) | 634.373124 | 30.467 | 30.421 | $889.43 |
-| [MSC-122](https://github.com/fssrepository/myscoutee-roadmap/issues/160) | 1,134.112133 | 43.898 | 43.898 | $1,557.73 |
+| [MSC-122](https://github.com/fssrepository/myscoutee-roadmap/issues/160) | 1,304.324997 | 46.918 | 46.804 | $1,599.94 |
+| [MSC-123](https://github.com/fssrepository/myscoutee-roadmap/issues/161) | 347.361510 | 5.689 | 5.689 | $49.04 |
+| [MSC-124](https://github.com/fssrepository/myscoutee-roadmap/issues/162) | 57.483958 | 1.865 | 1.865 | $71.49 |
+| [MSC-125](https://github.com/fssrepository/myscoutee-roadmap/issues/163) | 266.804531 | 8.059 | 8.059 | $85.13 |
+| [MSC-126](https://github.com/fssrepository/myscoutee-roadmap/issues/164) | 288.442597 | 9.920 | 9.920 | $51.19 |
+| [MSC-127](https://github.com/fssrepository/myscoutee-roadmap/issues/166) | 1,237.840553 | 30.688 | 30.292 | $218.94 |
+| [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) | 663.694269 | 17.308 | 17.308 | $222.41 |
 
-MSC-115 ran October 2–15. Its **9,457 unique response records** include the three planning/implementation archive segments, two QA conversations and two guide subagents. Later MSC-116/118/119 work and the separate optimization/README/watcher work are excluded. Time is the union of recorded root task intervals; parallel guide time is not summed again. Mixed-task attribution remains estimated. The current accounting publication after the stated cutoff is excluded.
-
-MSC-120/121/122 retain their existing measurement boundaries and recorded evidence; no application test was rerun for this accounting update. Exact model/effort components, intervals, exclusions and costs are in `myscoutee/measurements.json`. Existing Standard API rate cards are retained, not repriced; the comparison is not a subscription invoice. Each task appears once in the project summary.
+Exact cutoffs, source windows, token components, models, intervals and frozen pricing are in [the canonical ledger](myscoutee/measurements.json) and [method](myscoutee/METHOD.md). Shared work is counted once. Historical calibration remains unchanged.
 
 ## Earlier release checkpoint
 
@@ -61,22 +61,20 @@ counted once; the historical allocation control and heatmap values through Septe
 
 ## Measured token activity
 
-Usage through **October 17, 2026**, refreshed **October 18**:
+Returned daily records through **October 25, 2026 (partial day)**, refreshed **October 25**:
 
 | Measurement | Tokens |
 | --- | ---: |
-| Current Codex account (`r`) — lifetime usage | **43.129 billion** (43,129,237,675) |
-| Heatmap — combined recorded daily usage across three accounts (`r`, `m`, `s`) | **45.376 billion** (45,375,809,876) |
+| Current Codex account (`r`) — lifetime usage | **45.890 billion** (45,889,917,699) |
+| Heatmap — combined recorded daily usage across three accounts (`r`, `m`, `s`) | **48.136 billion** (48,136,489,900) |
 
-**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. They overlap and must not be added together. The heatmap includes historical daily records from two other accounts, whose coverage has not been refreshed. It also preserves the September baseline: the current account's later September-30 correction of 46,651,902 tokens is included in its lifetime reading but excluded from the heatmap. Older task calibration values remain frozen.
-
-The October-18 refresh adds **286,940,919 tokens** for October 17. Earlier retained daily records are unchanged. No October-18 daily bucket was returned; missing records do not establish zero usage.
+**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input and overlap. September rows and the other accounts' historical coverage are preserved. The current lifetime includes the September-30 correction of 46,651,902 tokens excluded from the chart. October 25 is partial; missing records do not establish zero usage. A separate ChatGPT conversation-token total is unavailable and has not been inferred or added.
 
 ![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png)
 
 [SVG](media/token-activity.svg) · [PNG](media/token-activity.png) · [Anonymous daily totals](account-coverage.json) · [Regenerate the chart](HEATMAP.md)
 
-Account totals overlap task measurements and are never added to task budgets. Full account identifiers and chat histories are not published. The account API reports a longest single turn of **63,694 seconds**, but **does not provide lifetime active hours**. That maximum is not total time; project/task active and allocated hours are shown separately above.
+Account totals are never added to task budgets. Full account identifiers and private chat histories are not published. The account API reports a longest single turn of **63,694 seconds**, not lifetime active hours. Task active and allocated hours are recorded separately above.
 
 ## Restore from Git
 

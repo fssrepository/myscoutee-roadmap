@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="970" height="412" viewBox="0 0 970 412" role="img" aria-labelledby="title description">
 <title id="title">Combined daily AI token usage</title>
-<desc id="description">47,302,979,678 tokens across 208 active dates. 2026-02-04 to 2026-10-23. Darker blue means more tokens. Gray means no recorded usage; it does not establish zero usage. Calendar weeks start on Monday.</desc>
+<desc id="description">48,136,489,900 tokens across 210 active dates. 2026-02-04 to 2026-10-25. Darker blue means more tokens. Gray means no recorded usage; it does not establish zero usage. Calendar weeks start on Monday.</desc>
 <rect width="970" height="412" rx="16" fill="#ffffff"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#0f172a">
 <text x="28" y="36" font-size="22" font-weight="700" fill="#0f172a">AI token activity</text>
 <text x="28" y="59" font-size="13" font-weight="400" fill="#64748b">Combined daily usage · 3 accounts</text>
-<text x="28" y="100" font-size="25" font-weight="700" fill="#1d4ed8">47.30 billion tokens</text>
-<text x="360" y="99" font-size="16" font-weight="600" fill="#334155">208 active days</text>
-<text x="620" y="99" font-size="13" font-weight="400" fill="#64748b">04 Feb 2026 – 23 Oct 2026</text>
+<text x="28" y="100" font-size="25" font-weight="700" fill="#1d4ed8">48.14 billion tokens</text>
+<text x="360" y="99" font-size="16" font-weight="600" fill="#334155">210 active days</text>
+<text x="620" y="99" font-size="13" font-weight="400" fill="#64748b">04 Feb 2026 – 25 Oct 2026</text>
 <text x="60" y="138" font-size="12" font-weight="400" fill="#64748b">Feb</text>
 <text x="148" y="138" font-size="12" font-weight="400" fill="#64748b">Mar</text>
 <text x="258" y="138" font-size="12" font-weight="400" fill="#64748b">Apr</text>
@@ -284,9 +284,9 @@
 <rect x="896" y="172" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-20" data-tokens="339247946"><title>2026-10-20: 339,247,946 tokens</title></rect>
 <rect x="896" y="194" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-21" data-tokens="338571186"><title>2026-10-21: 338,571,186 tokens</title></rect>
 <rect x="896" y="216" width="17" height="17" rx="4" fill="#1d4ed8" data-date="2026-10-22" data-tokens="600125064"><title>2026-10-22: 600,125,064 tokens</title></rect>
-<rect x="896" y="238" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-23" data-tokens="286960981"><title>2026-10-23: 286,960,981 tokens</title></rect>
-<rect x="896" y="260" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-24" data-tokens=""><title>2026-10-24: no recorded usage</title></rect>
-<rect x="896" y="282" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-25" data-tokens=""><title>2026-10-25: no recorded usage</title></rect>
+<rect x="896" y="238" width="17" height="17" rx="4" fill="#3b82f6" data-date="2026-10-23" data-tokens="334153630"><title>2026-10-23: 334,153,630 tokens</title></rect>
+<rect x="896" y="260" width="17" height="17" rx="4" fill="#1d4ed8" data-date="2026-10-24" data-tokens="697033147"><title>2026-10-24: 697,033,147 tokens</title></rect>
+<rect x="896" y="282" width="17" height="17" rx="4" fill="#93c5fd" data-date="2026-10-25" data-tokens="89284426"><title>2026-10-25: 89,284,426 tokens</title></rect>
 <rect x="918" y="150" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-26" data-tokens=""><title>2026-10-26: no recorded usage</title></rect>
 <rect x="918" y="172" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-27" data-tokens=""><title>2026-10-27: no recorded usage</title></rect>
 <rect x="918" y="194" width="17" height="17" rx="4" fill="#f1f5f9" data-date="2026-10-28" data-tokens=""><title>2026-10-28: no recorded usage</title></rect>

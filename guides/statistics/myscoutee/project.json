@@ -17,8 +17,8 @@
     "title": "MyScoutee",
     "url": "https://github.com/users/fssrepository/projects/2",
     "public": true,
-    "shortDescription": "126 tracked / 125 measured · 42,563.9M tokens · 1,104.7h · $32,618.60 API equiv",
-    "readme": "# MyScoutee\n\n126 tracked tasks; 125 measured; active MSC-128 is unmeasured until completion. **42,563,945,809 tokens**, **1,104.673 allocated h**, **$32,618.60 Standard API equivalent**. Costs are estimates, not invoices.\n\n[MSC-127](https://github.com/fssrepository/myscoutee-roadmap/issues/166) is closed. Remaining fixes and backend/template qualification continue in [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165), keeping version **1.5.0**.\n\n[Measurement ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee) · [Account heatmap](https://github.com/fssrepository/myscoutee-roadmap#ai-activity). Task and account totals overlap; never add them together.\n"
+    "shortDescription": "126 tracked / 126 measured · 43,227.6M tokens · 1,122.0h · $32,841.01 API equiv",
+    "readme": "# MyScoutee\n\n126 tracked tasks; all 126 measured. **43,227,640,078 tokens**, **1,121.982 allocated h**, **$32,841.01 Standard API equivalent**. Costs are estimates, not invoices.\n\n[MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) is **Done**: main/template **1.5.0** releases, Pages, signed installers and Netcup deployment completed. Netcup: **9 healthy containers, 13/13 public checks**.\n\nMSC-128: **663,694,269 tokens**, **17.308352 active / 17.308352 allocated hours**, **3,764 unique responses**, **$222.41 Standard API equivalent**, across ten Codex sessions through `2026-10-25T15:53:20.632Z`.\n\n[Measurement ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee) · [Account heatmap](https://github.com/fssrepository/myscoutee-roadmap#ai-activity). Task and account totals overlap; never add them together.\n"
   },
   "fields": [
     {
@@ -3512,10 +3512,10 @@
     },
     {
       "task_id": "MSC-128",
-      "title": "MSC-128: Reorganize components and restore granular loading for 1.5.0",
-      "body": "Continue the remaining MSC-127 corrections under MSC-128, keeping all release versions at **1.5.0**.\n\nRequested order:\n\n- Consolidate the components library's duplicate component and pipe directories and group foundation files by responsibility. Preserve public exports, behavior and existing lazy-loading boundaries.\n- Restart the bundle investigation from the obvious causes: production/development configuration, installed released artifact identity, package exports and eager imports. Compare with the existing pre-cleanup Lighthouse optimization and reuse that implementation.\n- Verify backend and template with the released 1.5.0 packages on KVM and monolith, including the authorized confirmation/tour/explanation dialog spot checks.\n- Reissue affected shared packages/releases at the same 1.5.0 when needed. Do not increase the version or work around dependency conflicts in application behavior.\n\nVMware and physical-phone checks follow when the owner starts/connects them. Lighthouse measurements remain a later step.\n\nWork is in progress; this task does not claim completed qualification.",
-      "state": "OPEN",
-      "state_reason": null,
+      "title": "MSC-128: Deliver shared 1.5.0 fixes, signed releases and Netcup deployment",
+      "body": "Completed **24–25 October 2026**, closed on the owner's confirmation. Main and template **1.5.0** releases are published, with consolidated MSC-128 source commits and matching tags. The release task is complete.\n\n## Delivered\n\n- Restored granular Components loading and consolidated shared sources; corrected startup, selected-language content, loading indicators, Guide/Setup behavior, profile/location handling, icon/font caching and gateway IP-ban behavior. Applicable fixes are included in both applications.\n- Corrected encrypted account persistence, account/demo boundaries, login/logout and obsolete Base class mappings. CodeQL alerts 54 and 55 are fixed. Main backend standard suite: **2009/2009**; template: **440/440**; session regressions: **33/33 in each frontend**. Published Packaging verifier regressions: **11/11 with each application's configuration**.\n- Published main/template production images, signed full DEBs, client tools, standalone archives and GitHub Pages. The template release has **14 verified assets**, including the corrected embedded client-tools archive. Shared packages remain at **1.5.0**.\n- Netcup runs the exact final main DEB: host qualification passed, **9 healthy containers**, **7 matching managed-image fingerprints**, **13/13 public checks**. The template's earlier signed candidate passed VMware host qualification; the final packaging-only replacement was published with verified signatures and payload identities. The owner explicitly did not require another VMware installation of the final rebuild.\n\n[Main backend release](https://github.com/fssrepository/myscoutee-backend/releases/tag/v1.5.0) · [Main downloads](https://github.com/fssrepository/myscoutee/releases/tag/v1.5.0) · [Template release](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.5.0) · [Template frontend](https://github.com/fssrepository/myscoutee-template-frontend/releases/tag/v1.5.0)\n\nFinal DEB SHA-256: main `c5b6bb046b7276267112333e68d4a297e24f12d61eebe1cab86f4f8fcf0c62f3`; template `5498fa131f8728ce81db5163f456bdb0c0b9ab893a0cb607b0337fcddeb05fb1`.\n\n## Measured effort\n\nMeasured period: **2026-10-24T13:18:13.614Z–2026-10-25T15:53:20.632Z (UTC)**. **663,694,269 tokens**, **17.308352 active / 17.308352 allocated hours**, **3,764 unique responses**, **$222.41 Standard API equivalent**.\n\nThe measurement combines **ten retained Codex sessions**, including continuations, separate frontend fixes, template delivery, corrections, failed and reverted attempts. Response IDs are deduplicated globally and active intervals are unioned; parallel activity is not added twice. Identifiable prior-task bookkeeping blocks are excluded; attribution of mixed operations is estimated. Tool/build/network waits count; idle gaps and this final accounting session are excluded. Cached input is included in input, reasoning in output. Shared main/template work is counted once. Models: gpt-6-astra and gpt-6.1-sol; high/xhigh reasoning.\n\n[Reproduce the measurement](https://github.com/fssrepository/myscoutee-roadmap/blob/master/guides/statistics/myscoutee/measure-msc128.py) · [Ledger and method](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee). Existing frozen rates and the October 24 supplement are reused. API equivalent is an estimate, not an invoice. Account usage and task usage overlap and must not be added.\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
       "issue": {
         "repository": "fssrepository/myscoutee-roadmap",
         "number": 165,
@@ -3524,9 +3524,17 @@
       },
       "values": {
         "Task ID": "MSC-128",
-        "Status": "In Progress",
+        "Status": "Done",
         "Workstream": "Product",
-        "Started": "2026-10-24"
+        "Started": "2026-10-24",
+        "Finished": "2026-10-25",
+        "Tokens M": 663.694269,
+        "API equiv USD": 222.41,
+        "Active h": 17.308352,
+        "Allocated h": 17.308352,
+        "Models": "gpt-6-astra; gpt-6.1-sol",
+        "Reasoning": "high; xhigh",
+        "Evidence": "Done: main/template 1.5.0 signed releases and Pages published; Netcup 9 healthy containers, 13/13 public checks. Ten Codex sessions; 663,694,269 tokens / 17.308352 allocated h / $222.41 API equivalent through 2026-10-25T15:53:20.632Z. Shared work counted once."
       }
     }
   ]
