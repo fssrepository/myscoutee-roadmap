@@ -29,7 +29,13 @@ The available report measures Codex account usage. A separate ChatGPT conversati
 
 [Reconstruction tools](guides/history-tools/README.md) · [License: AGPL-3.0](LICENSE)
 
-## Latest delivery
+## Latest mathematical delivery
+
+[MATH-19](https://github.com/fssrepository/myscoutee-roadmap/issues/167) is **Done**: Lean verifies the unrestricted PNT-2/7/8/12/14 counterexamples, Cauchy identities and finite Gram-Schur inequality. **75 theorems, 259 audited declarations**, four expected proof rejections and C++ comparisons pass.
+
+Full task: **14,834,641 tokens**, **0.823521 active / 0.798249 allocated h**, **$21.07 estimated Standard API equivalent**, **gpt-6-astra / high**, through `2026-10-25T16:43:58.451Z`. The previous 18-minute figure covered only the continuation. [Complete task and Project snapshot](guides/statistics/math/README.md).
+
+## Latest product delivery
 
 [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) is **Done**: shared loading/session/localization fixes, main/template **1.5.0** releases, GitHub Pages and signed full installers are published. Netcup runs the final main DEB: **9 healthy containers, 13/13 public checks**. The template release contains **14 verified assets**, including its corrected embedded client tools. [Main release](https://github.com/fssrepository/myscoutee/releases/tag/v1.5.0) · [Template release](https://github.com/fssrepository/myscoutee-template/releases/tag/v1.5.0).
 
