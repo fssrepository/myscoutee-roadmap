@@ -1,15 +1,15 @@
 # Delivery history and project backups
 
-MSC-128 is closed: main/template **1.5.0** releases and Netcup deployment are complete. Current task measurements include all ten related Codex sessions through **2026-10-25T15:53:20.632Z**. Usage is task allocation, not an account balance.
+MSC-129 is closed: reproducible CI/CD, accepted template monolith/KVM/VMware, three manuals, permanent Pages branches and centered document loading. **337,935,588 tokens**, **15.062277 active / 15.062277 allocated hours**, **2,774 unique responses**, **$426.03 frozen Standard API equivalent**, through `2026-10-26T15:05:40Z`. Usage is task allocation, not an account balance.
 
 | Project | Tracked tasks | Tasks with measurements | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 126 | 126 | 43,227.640078 | 1,121.982 | $32,841.01 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 127 | 127 | 43,565.575666 | 1,137.044 | $33,267.04 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 19 | 19 | 1,300.786118 | 44.254 | $748.75 |
 
-**Current recorded task allocation: 44,989,629,372 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
+**Current recorded task allocation: 45,327,564,960 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
 
 <details>
 <summary>Preserved October 1 reconstruction</summary>
@@ -64,18 +64,18 @@ counted once; the historical allocation control and heatmap values through Septe
 
 ## Measured token activity
 
-Returned daily records through **October 25, 2026 (partial day)**, refreshed **October 25**:
+Returned daily records through **October 26, 2026 (partial day)**, refreshed **October 26**:
 
 | Measurement | Tokens |
 | --- | ---: |
-| Current Codex account (`r`) — lifetime usage | **45.890 billion** (45,889,917,699) |
-| Heatmap — combined recorded daily usage across three accounts (`r`, `m`, `s`) | **48.136 billion** (48,136,489,900) |
+| Current Codex account (`r`) — lifetime usage | **46.370 billion** (46,370,446,562) |
+| Heatmap — combined recorded daily usage across three accounts (`r`, `m`, `s`) | **48.617 billion** (48,617,018,763) |
 
-**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input and overlap. September rows and the other accounts' historical coverage are preserved. The current lifetime includes the September-30 correction of 46,651,902 tokens excluded from the chart. October 25 is partial; missing records do not establish zero usage. A separate ChatGPT conversation-token total is unavailable and has not been inferred or added.
+**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input and overlap. September rows and the other accounts' historical coverage are preserved. The current lifetime includes the September-30 correction of 46,651,902 tokens excluded from the chart. October 26 is partial; missing records do not establish zero usage. A fresh account API check returned the same exact daily and lifetime counters, so the regenerated heatmap SVG/PNG are byte-identical. A separate ChatGPT conversation-token total is unavailable and has not been inferred or added.
 
-![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png?v=a18b150f9b59)
+![Combined daily AI token usage, shown as a blue calendar heatmap](media/token-activity.png?v=bfb982604d50)
 
-[SVG](media/token-activity.svg) · [PNG](media/token-activity.png?v=a18b150f9b59) · [Anonymous daily totals](account-coverage.json) · [Regenerate the chart](HEATMAP.md)
+[SVG](media/token-activity.svg) · [PNG](media/token-activity.png?v=bfb982604d50) · [Anonymous daily totals](account-coverage.json) · [Regenerate the chart](HEATMAP.md)
 
 Account totals are never added to task budgets. Full account identifiers and private chat histories are not published. The account API reports a longest single turn of **63,694 seconds**, not lifetime active hours. Task active and allocated hours are recorded separately above.
 

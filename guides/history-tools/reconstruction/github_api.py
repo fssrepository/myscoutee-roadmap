@@ -2,7 +2,7 @@ import json,pathlib,subprocess,urllib.request,urllib.error,time,os
 P=pathlib.Path(__file__).parent
 os.umask(0o077)
 def credential(project=False):
- if project:return pathlib.Path('/home/USER/.config/myscoutee-projects/token').read_text().strip()
+ if project:return pathlib.Path(os.environ.get('MYSCOUTEE_PROJECTS_TOKEN_FILE', str(P.parents[2]/'.local/private/projects/token'))).read_text().strip()
  r=subprocess.run(['git','credential','fill'],input='protocol=https\nhost=github.com\n\n',capture_output=True,text=True,check=True)
  return dict(l.split('=',1) for l in r.stdout.splitlines() if '=' in l)['password']
 def request(path,data=None,method=None,project=False):

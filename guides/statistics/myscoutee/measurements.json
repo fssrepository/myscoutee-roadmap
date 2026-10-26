@@ -10735,12 +10735,354 @@
         }
       ],
       "note": "Ten retained root sessions and their archived segments, including continuations, shared component/backend/frontend fixes, investigations, failed and reverted attempts, tests, packaging, VMware, Pages, source consolidation, both signed 1.5.0 releases and Netcup deployment. Identifiable prior-task accounting blocks in the mixed first session are excluded; mixed-operation attribution is estimated. Earlier MSC-127 work ends before the explicit MSC-128 boundary. Unique response IDs are deduplicated globally; root active intervals are unioned and prior allocated overlap subtracted. Tool/build/network waits count; idle gaps do not. Cached input is inside input and reasoning inside output. Shared/template work is allocated once. The failed continuation with no token records receives no invented usage. This final accounting session and unrelated mathematical work are excluded. Existing frozen rates and the October 24 supplement are reused; API equivalent is not billing. Account usage is a separate overlapping measurement, never added."
+    },
+    {
+      "task_id": "MSC-129",
+      "tokens": 337935588,
+      "cutoff_utc": "2026-10-26T15:05:40Z",
+      "unique_response_ids": 2774,
+      "token_components": {
+        "input_tokens": 336498422,
+        "cached_input_tokens": 331916672,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1437166,
+        "reasoning_output_tokens": 520394,
+        "total_tokens": 337935588
+      },
+      "models": {
+        "gpt-6-astra|high": {
+          "input_tokens": 314657806,
+          "cached_input_tokens": 310398976,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1343155,
+          "reasoning_output_tokens": 483823,
+          "total_tokens": 316000961
+        },
+        "gpt-6-sol|high": {
+          "input_tokens": 21840616,
+          "cached_input_tokens": 21517696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 94011,
+          "reasoning_output_tokens": 36571,
+          "total_tokens": 21934627
+        }
+      },
+      "started": "2026-10-25",
+      "finished": "2026-10-26",
+      "active_hours": 15.06227694451809,
+      "allocated_hours": 15.06227694451809,
+      "previously_allocated_overlap_hours": 0.0,
+      "active_intervals_utc": [
+        [
+          "2026-10-25T16:21:25.922000+00:00",
+          "2026-10-25T17:53:59.618000+00:00"
+        ],
+        [
+          "2026-10-25T17:57:19.626000+00:00",
+          "2026-10-25T17:58:21.037000+00:00"
+        ],
+        [
+          "2026-10-25T17:58:51.062000+00:00",
+          "2026-10-25T18:04:52.609000+00:00"
+        ],
+        [
+          "2026-10-25T18:07:22.425000+00:00",
+          "2026-10-25T18:10:16.411000+00:00"
+        ],
+        [
+          "2026-10-25T18:11:28.861000+00:00",
+          "2026-10-25T18:11:40.487000+00:00"
+        ],
+        [
+          "2026-10-25T18:12:06.630000+00:00",
+          "2026-10-25T20:00:38.163000+00:00"
+        ],
+        [
+          "2026-10-25T20:00:56.609000+00:00",
+          "2026-10-25T20:03:03.783000+00:00"
+        ],
+        [
+          "2026-10-25T20:04:09.540000+00:00",
+          "2026-10-25T20:04:57.763000+00:00"
+        ],
+        [
+          "2026-10-25T20:05:01.506000+00:00",
+          "2026-10-25T20:09:46.707000+00:00"
+        ],
+        [
+          "2026-10-25T20:11:12.731000+00:00",
+          "2026-10-25T22:04:34.587000+00:00"
+        ],
+        [
+          "2026-10-25T22:43:39.058000+00:00",
+          "2026-10-25T23:50:24.604000+00:00"
+        ],
+        [
+          "2026-10-25T23:51:06.784000+00:00",
+          "2026-10-25T23:51:43.255000+00:00"
+        ],
+        [
+          "2026-10-25T23:52:16.845000+00:00",
+          "2026-10-25T23:52:34.455000+00:00"
+        ],
+        [
+          "2026-10-25T23:53:28.796000+00:00",
+          "2026-10-25T23:53:41.420000+00:00"
+        ],
+        [
+          "2026-10-25T23:54:08.087000+00:00",
+          "2026-10-25T23:54:14.815000+00:00"
+        ],
+        [
+          "2026-10-25T23:54:59.590000+00:00",
+          "2026-10-25T23:55:18.095000+00:00"
+        ],
+        [
+          "2026-10-25T23:55:49.846000+00:00",
+          "2026-10-26T00:18:54.462000+00:00"
+        ],
+        [
+          "2026-10-26T00:20:00.612000+00:00",
+          "2026-10-26T00:20:44.469000+00:00"
+        ],
+        [
+          "2026-10-26T00:21:15.414000+00:00",
+          "2026-10-26T00:21:24.899000+00:00"
+        ],
+        [
+          "2026-10-26T00:21:35.506000+00:00",
+          "2026-10-26T00:21:42.224000+00:00"
+        ],
+        [
+          "2026-10-26T00:22:12.180000+00:00",
+          "2026-10-26T00:22:17.454000+00:00"
+        ],
+        [
+          "2026-10-26T00:23:54.064000+00:00",
+          "2026-10-26T00:25:02.818000+00:00"
+        ],
+        [
+          "2026-10-26T00:29:42.588000+00:00",
+          "2026-10-26T00:29:57.002000+00:00"
+        ],
+        [
+          "2026-10-26T00:30:20.935000+00:00",
+          "2026-10-26T00:30:28.135000+00:00"
+        ],
+        [
+          "2026-10-26T00:30:46.772000+00:00",
+          "2026-10-26T01:39:47.851000+00:00"
+        ],
+        [
+          "2026-10-26T01:39:55.186000+00:00",
+          "2026-10-26T01:47:10.656000+00:00"
+        ],
+        [
+          "2026-10-26T01:47:15.337000+00:00",
+          "2026-10-26T02:03:51.995000+00:00"
+        ],
+        [
+          "2026-10-26T02:04:03.573000+00:00",
+          "2026-10-26T02:04:42.130000+00:00"
+        ],
+        [
+          "2026-10-26T02:05:07.644000+00:00",
+          "2026-10-26T02:05:53.254000+00:00"
+        ],
+        [
+          "2026-10-26T02:06:06.731000+00:00",
+          "2026-10-26T02:06:15.117000+00:00"
+        ],
+        [
+          "2026-10-26T02:08:44.419000+00:00",
+          "2026-10-26T02:12:23.162000+00:00"
+        ],
+        [
+          "2026-10-26T02:13:22.983000+00:00",
+          "2026-10-26T02:14:40.592000+00:00"
+        ],
+        [
+          "2026-10-26T02:15:38.584000+00:00",
+          "2026-10-26T03:19:03.850000+00:00"
+        ],
+        [
+          "2026-10-26T03:20:14.110000+00:00",
+          "2026-10-26T03:21:06.318000+00:00"
+        ],
+        [
+          "2026-10-26T03:21:47.932000+00:00",
+          "2026-10-26T03:21:54.870000+00:00"
+        ],
+        [
+          "2026-10-26T03:22:31.327000+00:00",
+          "2026-10-26T03:23:04.455000+00:00"
+        ],
+        [
+          "2026-10-26T03:23:15.230000+00:00",
+          "2026-10-26T03:38:45.408000+00:00"
+        ],
+        [
+          "2026-10-26T03:39:01.040000+00:00",
+          "2026-10-26T04:06:17.689000+00:00"
+        ],
+        [
+          "2026-10-26T10:28:19.400000+00:00",
+          "2026-10-26T11:07:16.487000+00:00"
+        ],
+        [
+          "2026-10-26T11:07:43.744000+00:00",
+          "2026-10-26T11:21:28.495000+00:00"
+        ],
+        [
+          "2026-10-26T11:21:36.414000+00:00",
+          "2026-10-26T11:24:18.486000+00:00"
+        ],
+        [
+          "2026-10-26T11:25:34.001000+00:00",
+          "2026-10-26T11:26:34.866000+00:00"
+        ],
+        [
+          "2026-10-26T11:26:45.341000+00:00",
+          "2026-10-26T11:26:58.625000+00:00"
+        ],
+        [
+          "2026-10-26T11:28:02.032000+00:00",
+          "2026-10-26T11:28:46.154000+00:00"
+        ],
+        [
+          "2026-10-26T11:29:06.830000+00:00",
+          "2026-10-26T12:27:23.865000+00:00"
+        ],
+        [
+          "2026-10-26T12:27:37.468000+00:00",
+          "2026-10-26T12:31:44.664000+00:00"
+        ],
+        [
+          "2026-10-26T12:32:02.161000+00:00",
+          "2026-10-26T12:32:25.395000+00:00"
+        ],
+        [
+          "2026-10-26T12:32:45.432000+00:00",
+          "2026-10-26T13:20:14.111000+00:00"
+        ],
+        [
+          "2026-10-26T13:20:47.884000+00:00",
+          "2026-10-26T13:24:02.849000+00:00"
+        ],
+        [
+          "2026-10-26T13:24:30.817000+00:00",
+          "2026-10-26T14:11:59.221000+00:00"
+        ],
+        [
+          "2026-10-26T14:12:16.851000+00:00",
+          "2026-10-26T14:19:18.820000+00:00"
+        ],
+        [
+          "2026-10-26T14:20:40+00:00",
+          "2026-10-26T15:05:40+00:00"
+        ]
+      ],
+      "api_standard_usd_estimate": 426.03,
+      "valuation_date": "2026-10-01",
+      "rates_per_million": {
+        "gpt-6-astra": [
+          10,
+          1,
+          50,
+          12.5
+        ],
+        "gpt-6-sol": [
+          2,
+          0.2,
+          10,
+          2.5
+        ]
+      },
+      "pricing_source": "https://developers.openai.com/api/docs/pricing",
+      "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
+      "daily_tokens": {
+        "2026-10-25": 142032068,
+        "2026-10-26": 195903520
+      },
+      "sources": [
+        {
+          "source_kind": "root",
+          "source_sha256": "6c9c555fa3936331",
+          "selection_windows_utc": [
+            [
+              "2026-10-25T16:21:25.922Z",
+              "2026-10-26T14:19:19Z"
+            ]
+          ],
+          "tokens": 312218888,
+          "unique_responses": 2473,
+          "first_usage_utc": "2026-10-25T16:21:33.278000+00:00",
+          "last_usage_utc": "2026-10-26T14:19:18.626000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "8eb8fc5d3c82977c",
+          "selection_windows_utc": [
+            [
+              "2026-10-25T18:33:59.419Z",
+              "2026-10-26T15:05:40Z"
+            ]
+          ],
+          "tokens": 2969760,
+          "unique_responses": 36,
+          "first_usage_utc": "2026-10-25T18:34:04.510000+00:00",
+          "last_usage_utc": "2026-10-25T18:59:37.559000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "e20c0f8a89fc098c",
+          "selection_windows_utc": [
+            [
+              "2026-10-26T01:21:36.848Z",
+              "2026-10-26T15:05:40Z"
+            ]
+          ],
+          "tokens": 568151,
+          "unique_responses": 15,
+          "first_usage_utc": "2026-10-26T01:21:41.592000+00:00",
+          "last_usage_utc": "2026-10-26T01:23:34.336000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "43a7e978d3500e43",
+          "selection_windows_utc": [
+            [
+              "2026-10-26T02:57:27.082Z",
+              "2026-10-26T15:05:40Z"
+            ]
+          ],
+          "tokens": 244162,
+          "unique_responses": 10,
+          "first_usage_utc": "2026-10-26T02:57:38.538000+00:00",
+          "last_usage_utc": "2026-10-26T02:59:34.766000+00:00"
+        },
+        {
+          "source_kind": "root",
+          "source_sha256": "071e3b7a4aab9410",
+          "selection_windows_utc": [
+            [
+              "2026-10-26T14:20:40Z",
+              "2026-10-26T15:05:40Z"
+            ]
+          ],
+          "tokens": 21934627,
+          "unique_responses": 240,
+          "first_usage_utc": "2026-10-26T14:20:41.642000+00:00",
+          "last_usage_utc": "2026-10-26T15:05:39.982000+00:00"
+        }
+      ],
+      "note": "Five retained root sessions: the CI/CD implementation and qualification, the related Git/runner learning guide, two GitLab access/terminal support sessions, and the Pages/viewer closeout continuation. Includes failed/reverted attempts, repeated corrections, registry and release exercises, backend/template target work, accepted template monolith/KVM/VMware reviews, Git consolidation, the three PDF manuals, permanent gh-pages/docs publication for both frontends and e-kozig, and shared document-viewer loading alignment through the cutoff. Separate GitHub budget advice and mathematical work are excluded. Unique response IDs are deduplicated globally; root active intervals are unioned and earlier task allocations subtracted. Tool/build/network waits count; idle gaps do not. Shared repository/template effort is counted once. Cached input is inside input and reasoning inside output. Final accounting and publication after cutoff are excluded. Existing frozen rates are reused; API equivalent is not billing. Account usage is a separate overlapping measurement, never added to task usage."
     }
   ],
   "current_project_totals": {
-    "updated_at_utc": "2026-10-25T15:53:20.632Z",
-    "tracked_tasks": 126,
-    "measured_tasks": 126,
+    "updated_at_utc": "2026-10-26T15:05:40Z",
+    "tracked_tasks": 127,
+    "measured_tasks": 127,
     "tracked_task_ids": [
       "MSC-1",
       "MSC-2",
@@ -10867,15 +11209,16 @@
       "MSC-125",
       "MSC-126",
       "MSC-127",
-      "MSC-128"
+      "MSC-128",
+      "MSC-129"
     ],
     "unmeasured_task_ids": [],
-    "tokens_estimate": 43227640078,
-    "api_standard_usd_estimate": 32841.01,
-    "allocated_hours_estimate": 1121.9818398256348,
-    "method": "Historical and post-control measurements merged once by stable task_id. MSC-125 dedicated session recovered; existing token/time boundaries retained. Missing gpt-6.1-sol costs completed using the official October 24 Standard short-context rate supplement, without changing previously priced usage. Historical calibration remains frozen. Partial checkpoints preserve earlier measured fields, including MSC-113; no task is added twice. MSC-128 is closed and measured across ten retained sessions through 2026-10-25T15:53:20.632Z, counted once across main/template. Account and task totals overlap and are never added.",
+    "tokens_estimate": 43565575666,
+    "api_standard_usd_estimate": 33267.04,
+    "allocated_hours_estimate": 1137.0441167701529,
+    "method": "Historical and post-control measurements merged once by stable task_id. MSC-125 dedicated session recovered; existing token/time boundaries retained. Missing gpt-6.1-sol costs completed using the official October 24 Standard short-context rate supplement, without changing previously priced usage. Historical calibration remains frozen. Partial checkpoints preserve earlier measured fields, including MSC-113; no task is added twice. MSC-128 is closed and measured across ten retained sessions through 2026-10-25T15:53:20.632Z, counted once across main/template. Account and task totals overlap and are never added. MSC-129 is closed after the accepted three-target template qualification and three PDF manuals; five retained root sessions counted once, including the Pages and shared viewer closeout.",
     "valuation_incomplete_task_ids": [],
-    "metadata_reconciled_on": "2026-10-25",
+    "metadata_reconciled_on": "2026-10-26",
     "reconciliation_20261024": {
       "previous_current_totals": {
         "tokens_estimate": 42297141278,

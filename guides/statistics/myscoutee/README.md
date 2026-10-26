@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-25: 126 tracked tasks / 126 measured; MSC-128 is closed. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
+Project snapshot checked 2026-10-26: 127 tracked tasks / 127 measured; MSC-129 is closed. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,12 +26,12 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task calibration remains historical; the complete 126-task restoration snapshot also retains later task bodies and statuses. Mixed-session
+The 111-task calibration remains historical; the complete 127-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
 stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/125/126/127/128 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 126 tasks; 126 have
-measurements. MSC-128 is closed. The recovered MSC-114 initial batch is separate from later MSC-123 work.
+in the historical total. The live Project currently tracks 127 tasks; 127 have
+measurements. MSC-129 is closed. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
 
@@ -132,3 +132,44 @@ The measurement combines **ten retained Codex sessions**, including continuation
 
 
 126 tracked tasks; all 126 measured. **43,227,640,078 tokens**, **1,121.982 allocated h**, **$32,841.01 Standard API equivalent**. Costs are estimates, not invoices.
+
+## MSC-129 closeout
+
+**337,935,588 tokens**, **15.062277 active / 15.062277 allocated hours**, **2,774 unique responses**, **$426.03 frozen Standard API equivalent**, through `2026-10-26T15:05:40Z`.
+
+Completed 25–26 October 2026; the owner accepted the final template VMware result and requested documentation and closure.
+
+## Delivered
+
+- Reproducible Docker GitLab CE, myscoutee group, 22 project declarations, isolated validation and native build runners with four parallel build slots. Public defaults and project config/ci mappings are versioned; credentials remain in ignored files owned by the appropriate repository.
+- Feature → master branching and manual integrated release branch/tag/publication/MR/PR flow. Normal builds and released-dependency consumer builds are automatic; tests, heavy packaging, infrastructure, deployment, release and Pages retain their explicit manual controls.
+- Registry-first infrastructure preparation, reusable Terraform module with independent product state/configuration, separate domain images and unchanged-image reuse, GitLab Kubernetes agent/environment integration, scoped host setup and retention maintenance.
+- GitHub Actions conversion is included but inactive under config/ci/github-actions.yml and was not separately executed. The two frontend Pages workflows were removed when publication switched to the permanent branch source.
+- Automatic frontend builds prepare production and Pages output. Manual `deploy:github` commits ignored `docs/` to permanent `gh-pages/docs` from the existing checkout and requests a Pages build. MyScoutee, Template and e-kozig served content was verified against those branch outputs; master contains no generated docs.
+- Shared document-viewer loading is centered for consent/help/terms in both frontends; the Template lazy consent indicator is centered too. Both frontend Pages builds passed.
+- Source/package baseline remains 1.5.0; corrected shared dependency packages and locks are aligned. Trial release publications were withdrawn. One consolidated [MSC-129] commit per participating repository is synchronized to GitHub and GitLab.
+
+## Accepted template qualification
+
+| Target | Pipeline / jobs | Result |
+| --- | --- | --- |
+| Monolith | 563; deploy 2210, verify 2215 | 14 passed, 0 failed, 0 skipped; operator accepted |
+| KVM | 567; package 2228, infra 2231, deploy 2232, verify 2237, agent retry 2241 | 10 public checks passed; all four domain images reused; operator accepted |
+| VMware | 571; deploy 2253, verify 2258 | 11 passed, 0 failed, 3 HTTP checks skipped for the custom HTTPS tunnel; operator accepted |
+
+Targets ran sequentially. Template VMware is left available at https://localhost:18445; monolith and KVM guests are stopped with data retained. SonarQube pipeline 488 / release job 2159 exercised the integrated release path; backend pipeline 489 / job 2165 exercised DEB packaging. No new backend/DEB rerun, Netcup deployment, full optional-test sweep or GitHub Actions runtime qualification is claimed.
+
+## Documentation and repository closure
+
+- [Backend access manual](https://github.com/fssrepository/myscoutee-backend/blob/master/guides/publication/manuals/MyScoutee_Laboratory_Access_Manual_EN.pdf)
+- [Template access manual](https://github.com/fssrepository/myscoutee-template/blob/master/guides/publication/manuals/MyScoutee_Laboratory_Access_Manual_EN.pdf)
+- [CI/CD branching and configuration manual](https://github.com/fssrepository/myscoutee-ci/blob/master/guides/publication/manuals/MyScoutee_CICD_Manual_EN.pdf)
+
+All include the inactive Actions conversion. Editable sources/generators and logos are versioned; PDFs were visually checked. No PDF is copied to a frontend. CI references use guides/development/ci, not a parallel docs directory.
+
+Full workspace audit includes the 25 owned repositories and their frontend checkouts; external Lean dependency checkouts are read-only. Owned source repositories have synchronized master branches and no unmerged feature/backup branches or local-only source commits; the three published frontend sites retain permanent gh-pages branches. At the owner's explicit request, the obsolete backend/frontend v1.4.2 tags and matching GitHub releases were removed; no untagged release remains. Existing application data and other releases are retained.
+
+[Detailed qualification](https://github.com/fssrepository/myscoutee-ci/blob/master/guides/development/ci/verification.md) · [Completed plan](https://github.com/fssrepository/myscoutee-ci/blob/master/guides/development/ci/MSC-129-plan.md)
+
+
+Reproduce with `python3 guides/statistics/myscoutee/measure-msc129.py`. Five root sessions, globally deduplicated responses and unioned active intervals; shared effort counted once.

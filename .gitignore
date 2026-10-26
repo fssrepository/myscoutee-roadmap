@@ -1,0 +1,3 @@
+
+# Local credentials, private evidence and runtime state; never publish.
+/.local/
