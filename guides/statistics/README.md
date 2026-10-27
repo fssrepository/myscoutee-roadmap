@@ -6,11 +6,11 @@ MSC-129 is closed: reproducible CI/CD, accepted template monolith/KVM/VMware, th
 | --- | ---: | ---: | ---: | ---: | ---: |
 | [MyScoutee](https://github.com/users/fssrepository/projects/2) | 127 | 127 | 43,565.575666 | 1,137.044 | $33,267.04 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
-| [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
+| [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 464.348015 | 9.602 | $262.23 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 19 | 19 | 1,300.786118 | 44.254 | $748.75 |
 | [AI Pilot](https://github.com/users/fssrepository/projects/7) | 1 | 1 | 55.517627 | 0.223 incremental | $78.50 |
 
-**Current recorded task allocation: 45,383,082,587 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. AI Pilot tokens come from separate response IDs. Its concurrent MSC-122 time retains the earlier allocation, leaving 0.223150 incremental hours for AIP-1. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
+**Current recorded task allocation: 45,389,655,529 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. AI Pilot and the EKO-16 follow-up tokens come from separate response IDs. Their concurrent 25.22-second interval stays allocated to AIP-1. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
 
 <details>
 <summary>Preserved October 1 reconstruction</summary>
@@ -46,6 +46,7 @@ The original reconstruction covered 11 source repositories and 226 consolidated 
 | [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) | 663.694269 | 17.308 | 17.308 | $222.41 |
 | [MATH-19](https://github.com/fssrepository/myscoutee-roadmap/issues/167) | 14.834641 | 0.823521 | 0.798249 | $21.07 |
 | [AIP-1](https://github.com/fssrepository/myscoutee-roadmap/issues/169) | 55.517627 | 3.297411 | 0.223150 | $78.50 |
+| [EKO-16](https://github.com/fssrepository/myscoutee-roadmap/issues/146), cumulative | 8.097985 | 0.247052 | 0.240047 | $4.61 |
 
 MATH-19 closes the Lean PNT verification with 75 theorems and 259 audited declarations. Its complete task measurement and method are in [the Math ledger](math/measurements.json) and [method](math/METHOD.md).
 
