@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "repository": "fssrepository/ai-pilot",
+  "task_id": "AIP-1",
+  "consolidated_commit": "1734b8373561b1a8a4d9d480349e48047ce1edc6",
+  "prior_commits": [
+    "648ac3660137b7cd4ed8b7904014c17b124e2558",
+    "d8c80e88d1316f3010d8098b995b7b8a957263e7",
+    "ed7b7f7c1b6cca986273649b4f081f96ee75bcdd",
+    "c1b79e60d337b45ae793097ef0e7e8d08693001b",
+    "9b74908f4b6b745170fe8baa871740a42ddfd481"
+  ],
+  "method": "Amended the original root after staging the full final tree; verified the resulting tree ID matched the pre-squash tip, then pushed with an exact force-with-lease."
+}

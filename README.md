@@ -9,6 +9,7 @@ Project boards, delivery history and AI usage across the portfolio.
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | [Snapshot](guides/statistics/myscoutee-old/README.md) |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | [Snapshot](guides/statistics/e-kozig/README.md) |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | [Snapshot](guides/statistics/math/README.md) |
+| [AI Pilot](https://github.com/users/fssrepository/projects/7) | [AIP-1 and measurement](guides/statistics/ai-pilot/README.md) |
 
 ## AI activity
 
@@ -26,6 +27,12 @@ The available report measures Codex account usage. A separate ChatGPT conversati
 ![Daily AI token usage](guides/statistics/media/token-activity.png?v=bfb982604d50)
 
 [Measurements](guides/statistics/myscoutee/measurements.json) · [Method](guides/statistics/myscoutee/METHOD.md) · [Daily totals](guides/statistics/account-coverage.json)
+
+## AI Pilot delivery
+
+[AIP-1](https://github.com/fssrepository/myscoutee-roadmap/issues/169) connects the [AI Pilot repository](https://github.com/fssrepository/ai-pilot) to its [Project board](https://github.com/users/fssrepository/projects/7). It records the Qwen inspection playground, Adaptive Llama and Repair Graph experiments, and the contextual `guides/` documentation. The repository history is consolidated into the single [`[AIP-1]` commit](https://github.com/fssrepository/ai-pilot/commit/1734b8373561b1a8a4d9d480349e48047ce1edc6).
+
+Measured through `2026-10-27T18:51:50.018Z`: **53,114,285 tokens**, **3.223623 active / 0.149362 incremental allocated hours**, **421 unique responses**, **$77.83 estimated Standard API equivalent**. Concurrent MSC-122 time keeps its prior allocation. The [AI Pilot snapshot](guides/statistics/ai-pilot/README.md) explains the boundary and evidence.
 
 [Reconstruction tools](guides/history-tools/README.md) · [License: AGPL-3.0](LICENSE)
 

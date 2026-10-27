@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "scope": "complete-project",
+  "project": {
+    "repositories": [
+      "fssrepository/ai-pilot",
+      "fssrepository/myscoutee-roadmap"
+    ],
+    "owner": "fssrepository",
+    "title": "AI Pilot",
+    "url": "https://github.com/users/fssrepository/projects/7",
+    "public": true,
+    "shortDescription": "AIP-1 · 53.114285M measured tokens · 3.223623 active h · 0.149362 incremental allocated h",
+    "readme": "# AI Pilot\n\nIndependent model-inspection and learning-system research. [Source repository](https://github.com/fssrepository/ai-pilot) · [AIP-1 task](https://github.com/fssrepository/myscoutee-roadmap/issues/169) · [Roadmap snapshot](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/ai-pilot).\n\nMeasured through 2026-10-27T18:51:50.018Z: 53,114,285 tokens, 3.223623 active hours, 0.149362 incremental allocated hours, $77.83 estimated Standard API equivalent. Parallel MSC-122 time retains its earlier allocation. Account totals overlap these measurements.\n"
+  },
+  "fields": [
+    {
+      "name": "Title",
+      "dataType": "TITLE",
+      "options": []
+    },
+    {
+      "name": "Status",
+      "dataType": "SINGLE_SELECT",
+      "options": [
+        {
+          "name": "Todo",
+          "color": "GREEN",
+          "description": "This item hasn't been started"
+        },
+        {
+          "name": "In Progress",
+          "color": "YELLOW",
+          "description": "This is actively being worked on"
+        },
+        {
+          "name": "Done",
+          "color": "PURPLE",
+          "description": "This has been completed"
+        }
+      ]
+    },
+    {
+      "name": "Task ID",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Workstream",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Started",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Finished",
+      "dataType": "DATE",
+      "options": []
+    },
+    {
+      "name": "Tokens M",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "API equiv USD",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Active h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Allocated h",
+      "dataType": "NUMBER",
+      "options": []
+    },
+    {
+      "name": "Models",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Reasoning",
+      "dataType": "TEXT",
+      "options": []
+    },
+    {
+      "name": "Evidence",
+      "dataType": "TEXT",
+      "options": []
+    }
+  ],
+  "views": [
+    {
+      "name": "Delivery history",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Workstream",
+        "Status",
+        "Started",
+        "Finished",
+        "Evidence"
+      ]
+    },
+    {
+      "name": "AI usage and effort",
+      "layout": "TABLE_LAYOUT",
+      "visibleFields": [
+        "Task ID",
+        "Title",
+        "Tokens M",
+        "API equiv USD",
+        "Active h",
+        "Allocated h",
+        "Models",
+        "Reasoning",
+        "Evidence"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "task_id": "AIP-1",
+      "title": "AIP-1: AI Pilot kutatás, kísérletek és dokumentáció",
+      "body": "# AIP-1: AI Pilot kutatás, kísérletek és dokumentáció\n\nAz önálló [AI Pilot repó](https://github.com/fssrepository/ai-pilot) első projektfeladata. A korábbi öt commit egyetlen, publikált [`[AIP-1]` commitba](https://github.com/fssrepository/ai-pilot/commit/1734b8373561b1a8a4d9d480349e48047ce1edc6) került. A munkafa tartalma a squash előttivel megegyezik.\n\n## Szállítás\n\n- Qwen 0.8B helyi modellfuttató és vizsgálati playground, token- és attention-ábrákkal.\n- Adaptív Llama C++ demonstrátor, reprodukálható kampány és validált eredményriport.\n- Repair Graph v1–v3 kísérletek, protokollok, összehasonlító riportok és ellenőrzési nyomok.\n- Kontextus szerint rendezett `guides/development`, `guides/learning` és `guides/publication` dokumentáció, kapcsolódó PDF-ekkel és működő relatív hivatkozásokkal.\n\n## Mérés\n\n| Mutató | Érték |\n| --- | ---: |\n| Token, gyorsítótárazott bemenettel | **53,114,285** |\n| Egyedi válasz | **421** |\n| Aktív feladatidő | **3.223623 óra** |\n| Újonnan allokált portfólióidő | **0.149362 óra** |\n| Standard API listaár-egyenérték | **$77.83 becslés** |\n\nIdőszak: 2026-10-11 – 2026-10-27, lezárási mérési pont: `2026-10-27T18:51:50.018Z`. A forrás három gyökérbeszélgetés elkülönített munkaszakasza; a válaszazonosítók egyszer számítanak. A mért modellhasználat `gpt-6-astra / high` és `gpt-6-sol / high`. A feladat órájába az eszköz- és hálózati várakozás is belekerül; ez nem emberi munkaidő-nyilvántartás. Az október 11-i AI Pilot időszakkal párhuzamos MSC-122 idő **3.074261 órája** a korábbi feladathoz marad allokálva, ezért az új portfólióallokáció kisebb az aktív időnél. A tokenek elkülönített válaszokból származnak. Az ár becsült Standard API-egyenérték, nem számla. A mérési pont után végzett adminisztráció nincs benne ebben a rögzített mérésben.\n\n## Ellenőrzés és kapcsolatok\n\nA megváltozott Markdown fájlok 20-as relatívhivatkozás-ellenőrzése és a Python források szintaktikai fordítása sikeres; `git diff --check` tiszta. A korábban rögzített kísérleti ellenőrzési manifestek történeti pillanatképek, régi `docs/` útvonalakkal.\n\n[AI Pilot Project](https://github.com/users/fssrepository/projects/7) · [Roadmap és teljes mérési módszer](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/ai-pilot) · [Forráscommit](https://github.com/fssrepository/ai-pilot/commit/1734b8373561b1a8a4d9d480349e48047ce1edc6)\n",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 169,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/169",
+        "node_id": "I_kwDOU1_9-s8AAAABaYrCXQ"
+      },
+      "values": {
+        "Task ID": "AIP-1",
+        "Status": "Done",
+        "Workstream": "AI research and documentation",
+        "Started": "2026-10-11",
+        "Finished": "2026-10-27",
+        "Tokens M": 53.114285,
+        "API equiv USD": 77.83,
+        "Active h": 3.223623,
+        "Allocated h": 0.149362,
+        "Models": "gpt-6-astra; gpt-6-sol",
+        "Reasoning": "high",
+        "Evidence": "fssrepository/ai-pilot commit 1734b83; roadmap AI Pilot snapshot"
+      }
+    }
+  ]
+}

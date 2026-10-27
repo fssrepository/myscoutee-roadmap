@@ -8,8 +8,9 @@ MSC-129 is closed: reproducible CI/CD, accepted template monolith/KVM/VMware, th
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 457.8 | 9.5 | $260.28 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 19 | 19 | 1,300.786118 | 44.254 | $748.75 |
+| [AI Pilot](https://github.com/users/fssrepository/projects/7) | 1 | 1 | 53.114285 | 0.149 incremental | $77.83 |
 
-**Current recorded task allocation: 45,327,564,960 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
+**Current recorded task allocation: 45,380,679,245 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. AI Pilot tokens come from separate response IDs. Its concurrent MSC-122 time retains the earlier allocation, leaving 0.149362 incremental hours for AIP-1. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
 
 <details>
 <summary>Preserved October 1 reconstruction</summary>
@@ -44,6 +45,7 @@ The original reconstruction covered 11 source repositories and 226 consolidated 
 | [MSC-127](https://github.com/fssrepository/myscoutee-roadmap/issues/166) | 1,237.840553 | 30.688 | 30.292 | $218.94 |
 | [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) | 663.694269 | 17.308 | 17.308 | $222.41 |
 | [MATH-19](https://github.com/fssrepository/myscoutee-roadmap/issues/167) | 14.834641 | 0.823521 | 0.798249 | $21.07 |
+| [AIP-1](https://github.com/fssrepository/myscoutee-roadmap/issues/169) | 53.114285 | 3.223623 | 0.149362 | $77.83 |
 
 MATH-19 closes the Lean PNT verification with 75 theorems and 259 audited declarations. Its complete task measurement and method are in [the Math ledger](math/measurements.json) and [method](math/METHOD.md).
 
@@ -85,6 +87,7 @@ Account totals are never added to task budgets. Full account identifiers and pri
 - [myscoutee-old backup](myscoutee-old/README.md)
 - [e-kozig backup](e-kozig/README.md)
 - [math backup](math/README.md)
+- [ai-pilot backup](ai-pilot/README.md)
 
 Each source repository also has a `guides/statistics/` snapshot. Complete per-Project snapshots here and compact repository-specific copies preserve issue bodies, fields, values, view definitions, token/model/time ledgers, attribution assumptions and commit mappings. No chat history is needed. Git records versions; no date-named folder is used.
 
@@ -103,7 +106,7 @@ Each source repository also has a `guides/statistics/` snapshot. Complete per-Pr
 Model date sources: [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex/), [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/), [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/), [GPT-5.6](https://openai.com/index/gpt-5-6/), [GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra/).
 
 
-- Four independent Projects separate MyScoutee, the manually developed legacy archive, e-kozig and mathematical research. Shared account tokens are allocated once across all four; a Project total is never an additional account total. Historical legacy AI usage is unverified and left blank. The current AI-assisted Project-administration task is measured separately. A final shared maintenance-run measurement is apportioned by snapshot ownership; its overlap with MSC-108 is removed and its net allocation uses the unassigned account allowance, without exact daily billing reconciliation.
+- Five independent Projects separate MyScoutee, the manually developed legacy archive, e-kozig, mathematical research and AI Pilot. Shared account tokens are allocated once across all five; a Project total is never an additional account total. Historical legacy AI usage is unverified and left blank. The current AI-assisted Project-administration task is measured separately. A final shared maintenance-run measurement is apportioned by snapshot ownership; its overlap with MSC-108 is removed and its net allocation uses the unassigned account allowance, without exact daily billing reconciliation.
 - Mathematical experiments and videos do not establish a solution of the continuous Navier–Stokes problem. The claim withdrawal is a first-class task.
 
 - Combined daily usage is published as anonymous totals only. The original task calibration remains separate: additional measurements may overlap existing task evidence and are not automatically added to task tokens, hours or costs.
@@ -114,4 +117,4 @@ The [history helper archive](../history-tools/README.md) preserves the source sc
 
 ## Task identifiers
 
-MSC, OLD, EKO and MATH IDs are stable task identifiers. Commit bodies link their actual issue numbers; task ID numbers need not equal GitHub issue numbers. Mixed commits retain their contents and can refer to several tasks. Release/archive tags retain their original targets.
+MSC, OLD, EKO, MATH and AIP IDs are stable task identifiers. Commit bodies link their actual issue numbers; task ID numbers need not equal GitHub issue numbers. AI Pilot's original five local commits are consolidated into one published `[AIP-1]` root commit. Mixed commits retain their contents and can refer to several tasks. Release/archive tags retain their original targets.
