@@ -32,7 +32,7 @@ The available report measures Codex account usage. A separate ChatGPT conversati
 
 [AIP-1](https://github.com/fssrepository/myscoutee-roadmap/issues/169) connects the [AI Pilot repository](https://github.com/fssrepository/ai-pilot) to its [Project board](https://github.com/users/fssrepository/projects/7). It records the Qwen inspection playground, Adaptive Llama and Repair Graph experiments, and the contextual `guides/` documentation. The repository history is consolidated into the single [`[AIP-1]` commit](https://github.com/fssrepository/ai-pilot/commit/1734b8373561b1a8a4d9d480349e48047ce1edc6).
 
-Measured through `2026-10-27T18:51:50.018Z`: **53,114,285 tokens**, **3.223623 active / 0.149362 incremental allocated hours**, **421 unique responses**, **$77.83 estimated Standard API equivalent**. Concurrent MSC-122 time keeps its prior allocation. The [AI Pilot snapshot](guides/statistics/ai-pilot/README.md) explains the boundary and evidence.
+Measured through `2026-10-27T18:56:15.654Z`: **55,517,627 tokens**, **3.297411 active / 0.223150 incremental allocated hours**, **449 unique responses**, **$78.50 estimated Standard API equivalent**. Concurrent MSC-122 time keeps its prior allocation. The [AI Pilot snapshot](guides/statistics/ai-pilot/README.md) explains the boundary and evidence.
 
 [Reconstruction tools](guides/history-tools/README.md) · [License: AGPL-3.0](LICENSE)
 

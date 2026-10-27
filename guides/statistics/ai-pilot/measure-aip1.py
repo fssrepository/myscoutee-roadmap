@@ -11,7 +11,7 @@ spec = importlib.util.spec_from_file_location('portfolio_usage', source)
 usage = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(usage)
 
-cutoff = '2026-10-27T18:51:50.018Z'
+cutoff = '2026-10-27T18:56:15.654Z'
 selections = {
     '0b68624c92a692ad': [('2026-10-11T06:06:08.244Z', '2026-10-11T10:50:56.662Z')],
     'e97711cd90ab9401': [('2026-10-27T18:27:02.443Z', '2026-10-27T18:31:41.904Z')],
@@ -23,12 +23,13 @@ result = usage.extract(
     include_archived_segments=True, allow_unpriced_models=True,
     note='AI Pilot research and experiments from the October 11 dedicated source '
          'thread, October 27 guides reorganization from its dedicated thread, and '
-         'the current AIP-1 portfolio task through the stated cutoff. Source '
-         'response IDs are deduplicated; active time is the union of recorded '
-         'root turns. Current accounting and publication after cutoff are '
-         'excluded. Cached input is included in input; reasoning output is '
-         'included in output. Shared account totals are not additive.',
+         'the AIP-1 Project, source-history squash, roadmap publication and '
+         'verification work through the stated cutoff. Source response IDs are '
+         'deduplicated; active time is the union of recorded root turns. Final '
+         'accounting updates after cutoff are excluded. Cached input is included '
+         'in input; reasoning output is included in output. Shared account '
+         'totals are not additive.',
 )
-assert result['tokens'] == 53114285
-assert result['unique_response_ids'] == 421
+assert result['tokens'] == 55517627
+assert result['unique_response_ids'] == 449
 print(json.dumps(result, indent=2))

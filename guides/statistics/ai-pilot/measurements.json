@@ -1,15 +1,15 @@
 {
   "task_id": "AIP-1",
-  "tokens": 53114285,
-  "cutoff_utc": "2026-10-27T18:51:50.018Z",
-  "unique_response_ids": 421,
+  "tokens": 55517627,
+  "cutoff_utc": "2026-10-27T18:56:15.654Z",
+  "unique_response_ids": 449,
   "token_components": {
-    "input_tokens": 52726821,
-    "cached_input_tokens": 51413504,
+    "input_tokens": 55113563,
+    "cached_input_tokens": 53785472,
     "cache_write_input_tokens": 0,
-    "output_tokens": 387464,
-    "reasoning_output_tokens": 89919,
-    "total_tokens": 53114285
+    "output_tokens": 404064,
+    "reasoning_output_tokens": 94148,
+    "total_tokens": 55517627
   },
   "models": {
     "gpt-6-astra|high": {
@@ -21,18 +21,18 @@
       "total_tokens": 48353702
     },
     "gpt-6-sol|high": {
-      "input_tokens": 4731649,
-      "cached_input_tokens": 4571904,
+      "input_tokens": 7118391,
+      "cached_input_tokens": 6943872,
       "cache_write_input_tokens": 0,
-      "output_tokens": 28934,
-      "reasoning_output_tokens": 9676,
-      "total_tokens": 4760583
+      "output_tokens": 45534,
+      "reasoning_output_tokens": 13905,
+      "total_tokens": 7163925
     }
   },
   "started": "2026-10-11",
   "finished": "2026-10-27",
-  "active_hours": 3.2236227779918245,
-  "allocated_hours": 0.1493622221549352,
+  "active_hours": 3.2974105558130478,
+  "allocated_hours": 0.22314999997615814,
   "previously_allocated_overlap_hours": 3.0742605558368896,
   "active_intervals_utc": [
     [
@@ -209,10 +209,10 @@
     ],
     [
       "2026-10-27T18:48:37.509000+00:00",
-      "2026-10-27T18:51:50.018000+00:00"
+      "2026-10-27T18:56:15.654000+00:00"
     ]
   ],
-  "api_standard_usd_estimate": 77.83,
+  "api_standard_usd_estimate": 78.5,
   "valuation_date": "2026-10-01",
   "rates_per_million": {
     "gpt-6-astra": [
@@ -232,7 +232,7 @@
   "rate_basis": "Frozen existing Standard API-equivalent rates; not an invoice or new price lookup.",
   "daily_tokens": {
     "2026-10-11": 48353702,
-    "2026-10-27": 4760583
+    "2026-10-27": 7163925
   },
   "sources": [
     {
@@ -269,14 +269,14 @@
       "selection_windows_utc": [
         [
           "2026-10-27T18:46:49.246Z",
-          "2026-10-27T18:51:50.018Z"
+          "2026-10-27T18:56:15.654Z"
         ]
       ],
-      "tokens": 3134096,
-      "unique_responses": 30,
+      "tokens": 5537438,
+      "unique_responses": 58,
       "first_usage_utc": "2026-10-27T18:46:58.374000+00:00",
-      "last_usage_utc": "2026-10-27T18:51:50.018000+00:00"
+      "last_usage_utc": "2026-10-27T18:56:15.654000+00:00"
     }
   ],
-  "note": "AI Pilot research and experiments from the October 11 dedicated source thread, October 27 guides reorganization from its dedicated thread, and the current AIP-1 portfolio task through the stated cutoff. Source response IDs are deduplicated; active time is the union of recorded root turns. Current accounting and publication after cutoff are excluded. Cached input is included in input; reasoning output is included in output. Shared account totals are not additive."
+  "note": "AI Pilot research and experiments from the October 11 dedicated source thread, October 27 guides reorganization from its dedicated thread, and the AIP-1 Project, source-history squash, roadmap publication and verification work through the stated cutoff. Source response IDs are deduplicated; active time is the union of recorded root turns. Final accounting updates after cutoff are excluded. Cached input is included in input; reasoning output is included in output. Shared account totals are not additive."
 }

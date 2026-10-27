@@ -13,13 +13,13 @@ Az önálló [AI Pilot repó](https://github.com/fssrepository/ai-pilot) első p
 
 | Mutató | Érték |
 | --- | ---: |
-| Token, gyorsítótárazott bemenettel | **53,114,285** |
-| Egyedi válasz | **421** |
-| Aktív feladatidő | **3.223623 óra** |
-| Újonnan allokált portfólióidő | **0.149362 óra** |
-| Standard API listaár-egyenérték | **$77.83 becslés** |
+| Token, gyorsítótárazott bemenettel | **55,517,627** |
+| Egyedi válasz | **449** |
+| Aktív feladatidő | **3.297411 óra** |
+| Újonnan allokált portfólióidő | **0.223150 óra** |
+| Standard API listaár-egyenérték | **$78.50 becslés** |
 
-Időszak: 2026-10-11 – 2026-10-27, lezárási mérési pont: `2026-10-27T18:51:50.018Z`. A forrás három gyökérbeszélgetés elkülönített munkaszakasza; a válaszazonosítók egyszer számítanak. A mért modellhasználat `gpt-6-astra / high` és `gpt-6-sol / high`. A feladat órájába az eszköz- és hálózati várakozás is belekerül; ez nem emberi munkaidő-nyilvántartás. Az október 11-i AI Pilot időszakkal párhuzamos MSC-122 idő **3.074261 órája** a korábbi feladathoz marad allokálva, ezért az új portfólióallokáció kisebb az aktív időnél. A tokenek elkülönített válaszokból származnak. Az ár becsült Standard API-egyenérték, nem számla. A mérési pont után végzett adminisztráció nincs benne ebben a rögzített mérésben.
+Időszak: 2026-10-11 – 2026-10-27, lezárási mérési pont: `2026-10-27T18:56:15.654Z`. A forrás három gyökérbeszélgetés elkülönített munkaszakasza; a válaszazonosítók egyszer számítanak. A mért modellhasználat `gpt-6-astra / high` és `gpt-6-sol / high`. A feladat órájába az eszköz- és hálózati várakozás is belekerül; ez nem emberi munkaidő-nyilvántartás. Az október 11-i AI Pilot időszakkal párhuzamos MSC-122 idő **3.074261 órája** a korábbi feladathoz marad allokálva, ezért az új portfólióallokáció kisebb az aktív időnél. A tokenek elkülönített válaszokból származnak. Az ár becsült Standard API-egyenérték, nem számla. A mérési pont utáni végső elszámolási frissítés nincs benne ebben a rögzített mérésben.
 
 ## Ellenőrzés és kapcsolatok
 
