@@ -1776,5 +1776,19 @@
     "models": "gpt-6-astra; gpt-6-sol",
     "reasoning": "high",
     "evidence": "Done: versioned GitLab lab, inactive Actions conversion, accepted template monolith/KVM/VMware, three PDF manuals, permanent gh-pages/docs for MyScoutee/Template/e-kozig, and centered shared document-viewer loading. 337,935,588 tokens / 15.062277 allocated h / $426.03 API equivalent; shared effort counted once."
+  },
+  {
+    "task_id": "MSC-130",
+    "title": "MyScoutee technology laboratories and integration guides",
+    "workstream": "Tooling",
+    "started": "2026-10-27",
+    "finished": "2026-10-28",
+    "tokens_million": 506.533141,
+    "api_equivalent_usd_estimate": 136.26,
+    "active_hours": 8.113535833093856,
+    "allocated_hours": 8.113535833093856,
+    "models": "gpt-6-sol",
+    "reasoning": "high",
+    "evidence": "Done: 2FA, Elastic, Big Data, infrastructure and security laboratories, architecture guides, and related CI/nginx updates; 14 retained Codex sessions, 506,533,141 tokens / 8.113536 h through 2026-10-28T04:07:42Z. Account heatmap is separate."
   }
 ]

@@ -1,6 +1,6 @@
 # Restorable Project history
 
-Project snapshot checked 2026-10-26: 127 tracked tasks / 127 measured; MSC-129 is closed. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
+Project snapshot checked 2026-10-28: 128 tracked tasks / 128 measured; MSC-130 is closed. [Live Project](https://github.com/users/fssrepository/projects/2) · [Canonical complete backup](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee).
 
 `project.json` preserves full issue bodies, statuses, typed field values and views. `measurements.json` preserves model/token/cost/time components and assumptions. `commit-map.json` links original and task-prefixed commit IDs. CSV/JSON provide convenient presentation exports. Recorded root intervals are retained in compressed JSON for timing reconstruction; there are no private chat texts.
 
@@ -26,12 +26,12 @@ Repository associations are included in `project.json`. Set `GITHUB_REPOSITORY_T
 
 The October 9 MSC-120/121 token update is retained in the existing
 `measurements.json` `post_control_task_usage` ledger and in the live Project.
-The 111-task calibration remains historical; the complete 127-task restoration snapshot also retains later task bodies and statuses. Mixed-session
+The 111-task calibration remains historical; the complete 128-task restoration snapshot also retains later task bodies and statuses. Mixed-session
 attribution and exact measurement cutoffs are recorded beside each total.
 The current README summary uses `current_project_totals`, merging measurements by
-stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/125/126/127/128 once and preserves MSC-113 already present
-in the historical total. The live Project currently tracks 127 tasks; 127 have
-measurements. MSC-129 is closed. The recovered MSC-114 initial batch is separate from later MSC-123 work.
+stable task ID. It includes MSC-114/115/116/117/118/119/120/121/122/123/124/125/126/127/128/129/130 once and preserves MSC-113 already present
+in the historical total. The live Project currently tracks 128 tasks; 128 have
+measurements. MSC-130 is closed. The recovered MSC-114 initial batch is separate from later MSC-123 work.
 
 ## MSC-121 closeout
 
@@ -173,3 +173,11 @@ Full workspace audit includes the 25 owned repositories and their frontend check
 
 
 Reproduce with `python3 guides/statistics/myscoutee/measure-msc129.py`. Five root sessions, globally deduplicated responses and unioned active intervals; shared effort counted once.
+
+## MSC-130 closeout
+
+[MSC-130](https://github.com/fssrepository/myscoutee-roadmap/issues/170) is closed and Project Done. The 2FA laboratory covers authenticator codes, passkeys, recovery codes and local OIDC/SAML sign-in. Supporting technology labs and English integration guides are published with one consolidated `[MSC-130]` commit per participating source repository. The 2FA repository uses a single root commit.
+
+The task ledger records **506,533,141 tokens**, **4,624 unique responses**, **8.113536 active / allocated hours** and **$136.26 estimated Standard API equivalent** through `2026-10-28T04:07:42Z`. Reproduce it with `python3 guides/statistics/myscoutee/measure-msc130.py`. Fourteen retained root sessions are deduplicated by response ID and active intervals are unioned. Independent AI Pilot, e-kozig and prior task work are excluded. Git synchronization and this roadmap closeout occurred after the cutoff. This task allocation is separate from account usage; no ChatGPT conversation-token total is inferred.
+
+Current MyScoutee totals: **128 tracked / 128 measured**, **44,072,108,807 tokens**, **1,145.158 allocated hours** and **$33,403.30 estimated Standard API equivalent**.

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "source": "Combined recorded daily token usage",
-  "usage_through": "2026-10-26",
-  "combined_measured_tokens": 48617018763,
+  "usage_through": "2026-10-27",
+  "combined_measured_tokens": 48861563996,
   "combinedDailyUsageBuckets": [
     {
       "startDate": "2026-02-04",
@@ -846,14 +846,18 @@
     },
     {
       "startDate": "2026-10-26",
-      "tokens": 92026823
+      "tokens": 215280704
+    },
+    {
+      "startDate": "2026-10-27",
+      "tokens": 121291352
     }
   ],
   "allocation_policy": "Independent measured aggregate; do not add on top of existing task allocations. Missing dates do not establish zero usage.",
   "accounts": [
     {
       "label": "r",
-      "total_tokens": 46323794660,
+      "total_tokens": 46568339893,
       "dailyUsageBuckets": [
         {
           "startDate": "2026-02-04",
@@ -1625,7 +1629,11 @@
         },
         {
           "startDate": "2026-10-26",
-          "tokens": 92026823
+          "tokens": 215280704
+        },
+        {
+          "startDate": "2026-10-27",
+          "tokens": 121291352
         }
       ]
     },
@@ -1950,17 +1958,35 @@
       "historical_rows_preserved_through": "2026-09-30",
       "latest_day_partial": true
     },
-    "october_26_recheck": "Account usage rechecked after the MSC-129 Pages/viewer closeout: identical 46,370,446,562 lifetime and 92,026,823 October-26 daily tokens. No task tokens were added to the account chart."
+    "october_26_recheck": "Account usage rechecked after the MSC-129 Pages/viewer closeout: identical 46,370,446,562 lifetime and 92,026,823 October-26 daily tokens. No task tokens were added to the account chart.",
+    "october_28_refresh": {
+      "retrieved_date": "2026-10-28",
+      "updated_days": [
+        {
+          "date": "2026-10-26",
+          "previous_tokens": 92026823,
+          "reported_tokens": 215280704
+        },
+        {
+          "date": "2026-10-27",
+          "previous_tokens": null,
+          "reported_tokens": 121291352
+        }
+      ],
+      "historical_rows_preserved_through": "2026-09-30",
+      "latest_returned_day": "2026-10-27",
+      "note": "The account API returned no October 28 daily bucket. No value is inferred for that date; task-session measurements are separate and not added to this ledger."
+    }
   },
   "latest_reported_account": {
     "label": "r",
-    "reported_lifetime_tokens": 46370446562,
-    "retrieved_date": "2026-10-26",
-    "daily_usage_through": "2026-10-26",
+    "reported_lifetime_tokens": 46614991795,
+    "retrieved_date": "2026-10-28",
+    "daily_usage_through": "2026-10-27",
     "note": "Latest account-reported lifetime, separate from the historical task allocation and combined multi-account chart. Includes the later September-30 revision excluded from the preserved chart baseline.",
-    "last_checked_at_utc": "2026-10-26T15:13:46.855742+00:00",
-    "refresh_result": "Account API returned the same lifetime and October 26 partial-day bucket; the regenerated SVG/PNG are byte-identical.",
-    "current_streak_days": 59,
+    "last_checked_at_utc": "2026-10-28T04:10:09.463732+00:00",
+    "refresh_result": "October 26 revised and October 27 added; September 30 historical chart baseline preserved. No October 28 daily bucket returned.",
+    "current_streak_days": 60,
     "longest_running_turn_seconds": 63694,
     "total_active_hours": null,
     "time_coverage": "Account usage API supplies longest single turn, not lifetime active hours. Total account time is unavailable; do not infer it from tokens or sum overlapping project intervals."

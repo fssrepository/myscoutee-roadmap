@@ -13,18 +13,18 @@ Project boards, delivery history and AI usage across the portfolio.
 
 ## AI activity
 
-Measured period: **4 February – 26 October 2026 (October 26 partial)**.
+Measured period: **4 February – 27 October 2026** (latest returned daily bucket; October 28 is not yet reported).
 
 | Measurement | Tokens |
 | --- | ---: |
-| Current Codex account — lifetime usage | **46.370 billion** (46,370,446,562) |
-| Heatmap — combined recorded daily usage across three accounts | **48.617 billion** (48,617,018,763) |
+| Current Codex account — lifetime usage | **46.615 billion** (46,614,991,795) |
+| Heatmap — combined recorded daily usage across three accounts | **48.862 billion** (48,861,563,996) |
 
-**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. The heatmap combines the current account's retained daily records with historical records from two other accounts. It preserves the September baseline; the current account reading includes a later September correction. The two totals overlap; they are separate measurements and must not be added together or to project/task totals. The account API was rechecked after the Pages/viewer closeout and returned the same exact lifetime and October 26 daily values, so the regenerated heatmap image is byte-identical.
+**B means billion (1,000,000,000 tokens); M means million.** Both totals include cached input. The heatmap combines the current account's retained daily records with historical records from two other accounts. It preserves the September baseline; the current account reading includes a later September correction. The two totals overlap; they are separate measurements and must not be added together or to project/task totals. The October 28 account check revised October 26 and added October 27; no October 28 daily bucket was returned. The latest account reading is separate from the task measurement below.
 
 The available report measures Codex account usage. A separate ChatGPT conversation-token total is unavailable and has not been added. Other-account history remains included with its original coverage.
 
-![Daily AI token usage](guides/statistics/media/token-activity.png?v=bfb982604d50)
+![Daily AI token usage](guides/statistics/media/token-activity.png?v=c9d4aa233dec)
 
 [Measurements](guides/statistics/myscoutee/measurements.json) · [Method](guides/statistics/myscoutee/METHOD.md) · [Daily totals](guides/statistics/account-coverage.json)
 
@@ -42,13 +42,19 @@ Measured through `2026-10-27T18:56:15.654Z`: **55,517,627 tokens**, **3.297411 a
 
 Full task: **14,834,641 tokens**, **0.823521 active / 0.798249 allocated h**, **$21.07 estimated Standard API equivalent**, **gpt-6-astra / high**, through `2026-10-25T16:43:58.451Z`. The previous 18-minute figure covered only the continuation. [Complete task and Project snapshot](guides/statistics/math/README.md).
 
+## Latest laboratory delivery
+
+[MSC-130](https://github.com/fssrepository/myscoutee-roadmap/issues/170) is **Done**: standalone Go 2FA and identity lab, Elastic Stack, Big Data, infrastructure and security labs, architecture guidance, and related source/document updates. Participating repositories have one consolidated `[MSC-130]` commit each; the 2FA repository has a single root commit. The 29-repository workspace audit found clean, synchronized current branches.
+
+Measured across **14 retained Codex sessions** through `2026-10-28T04:07:42Z`: **506,533,141 tokens**, **8.113536 active / allocated hours**, **4,624 unique responses**, **$136.26 estimated Standard API equivalent**. Later Git/roadmap closeout is outside this cutoff. [2FA guide](https://github.com/fssrepository/myscoutee-2fa/blob/master/guides/publication/manuals/MyScoutee_2FA_Technical_Guide_EN.pdf) · [Measurement](guides/statistics/myscoutee/measure-msc130.py).
+
 ## Latest CI/CD delivery
 
 [MSC-129](https://github.com/fssrepository/myscoutee-roadmap/issues/168) is **Done**: CI/CD lab, integrated release/dependency flow, accepted template monolith/KVM/VMware, three branded manuals, permanent Pages branches and centered document loading. The GitHub Actions conversion is included and inactive. Sources remain **1.5.0**; no Netcup deployment.
 
 **337,935,588 tokens**, **15.062277 active / 15.062277 allocated hours**, **2,774 unique responses**, **$426.03 frozen Standard API equivalent**, through `2026-10-26T15:05:40Z`. Five retained sessions; shared effort counted once.
 
-127 tracked tasks; all 127 measured. **43,565,575,666 tokens**, **1,137.044 allocated h**, **$33,267.04 Standard API equivalent**. [Ledger and method](guides/statistics/myscoutee/README.md).
+128 tracked tasks; all 128 measured. **44,072,108,807 tokens**, **1,145.158 allocated h**, **$33,403.30 Standard API equivalent**. [Ledger and method](guides/statistics/myscoutee/README.md).
 
 ## Previous product delivery
 

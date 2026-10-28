@@ -17,8 +17,8 @@
     "title": "MyScoutee",
     "url": "https://github.com/users/fssrepository/projects/2",
     "public": true,
-    "shortDescription": "127 tracked / 127 measured · 43,565.6M tokens · 1,137.0h · $33,267.04 API equiv",
-    "readme": "# MyScoutee\n\n127 tracked tasks; all 127 measured. **43,565,575,666 tokens**, **1,137.044 allocated h**, **$33,267.04 Standard API equivalent**.\n\n[MSC-129](https://github.com/fssrepository/myscoutee-roadmap/issues/168) is **Done**: CI/CD lab, accepted template monolith/KVM/VMware, three manuals, permanent Pages branches and centered document loading.\n\n**337,935,588 tokens**, **15.062277 active / 15.062277 allocated hours**, **2,774 unique responses**, **$426.03 frozen Standard API equivalent**, through `2026-10-26T15:05:40Z`.\n\n[Ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee) · [Heatmap](https://github.com/fssrepository/myscoutee-roadmap#ai-activity). Shared template effort counts once; task and account totals overlap.\n"
+    "shortDescription": "128 tracked / 128 measured · 44,072.1M tokens · 1,145.2h · $33,403.30 API equiv",
+    "readme": "# MyScoutee\n\n128 tracked tasks; all 128 measured. **44,072,108,807 tokens**, **1,145.158 allocated h**, **$33,403.30 Standard API equivalent**.\n\n[MSC-130](https://github.com/fssrepository/myscoutee-roadmap/issues/170) is **Done**: technology laboratories, 2FA and identity sandbox, security/architecture guides, and consolidated source commits.\n\n**506,533,141 tokens**, **8.113536 active / 8.113536 allocated hours**, **4,624 unique responses**, **$136.26 estimated Standard API equivalent**, through `2026-10-28T04:07:42Z`.\n\n[Ledger](https://github.com/fssrepository/myscoutee-roadmap/tree/master/guides/statistics/myscoutee) · [Heatmap](https://github.com/fssrepository/myscoutee-roadmap#ai-activity). Shared work counts once; task and account totals overlap.\n"
   },
   "fields": [
     {
@@ -3562,6 +3562,33 @@
         "Models": "gpt-6-astra; gpt-6-sol",
         "Reasoning": "high",
         "Evidence": "Done: versioned GitLab lab, inactive Actions conversion, accepted template monolith/KVM/VMware, three PDF manuals, permanent gh-pages/docs for MyScoutee/Template/e-kozig, and centered shared document-viewer loading. 337,935,588 tokens / 15.062277 allocated h / $426.03 API equivalent; shared effort counted once."
+      }
+    },
+    {
+      "task_id": "MSC-130",
+      "title": "MSC-130: MyScoutee technology laboratories and integration guides",
+      "body": "Completed on 28 October 2026 at the owner's request.\n\n## Delivered\n\n- Standalone Go 2FA laboratory with TOTP, HOTP, one-use recovery codes, WebAuthn/passkeys, local Keycloak OIDC and SAML trials, Docker setup, English UI and a branded English 1.5.0 technical guide.\n- Elastic Stack, Big Data, infrastructure configuration and security laboratories with contextual guides and branded manuals; architecture and engineering documentation.\n- Related CI, SonarQube, nginx, backend and template guide/security updates. Source versions were not raised.\n- Each participating repository's master branch is synchronized to GitHub with one consolidated [MSC-130] commit. The 2FA repository has one root commit, including its initial content. A 29-repository workspace audit found no dirty working trees or unpushed current branches.\n\n## Evidence and limits\n\nThe 2FA Go tests and vet checks passed; the running Go service responded healthy and the English PDF was rendered and inspected. The owner exercised authenticator, recovery and passkey flows. OIDC/SAML are local identity demonstrations; they do not create a MyScoutee session or make a 2FA decision. External Entra ID and Duo tenants, a physical FIDO2 key and live MyScoutee integration were not qualified.\n\n[2FA](https://github.com/fssrepository/myscoutee-2fa/commit/310b40d3da4a59831cfc3ab51144afa1b4b25e0c) · [Elastic](https://github.com/fssrepository/myscoutee-elastic/commit/cd60888445f318777dee4693276538475d174ea6) · [Big Data](https://github.com/fssrepository/myscoutee-bigdata/commit/7c4be0f) · [Architecture](https://github.com/fssrepository/myscoutee-architecture/commit/a9f9dfe) · [Infrastructure](https://github.com/fssrepository/myscoutee-infra/commit/c7e8874) · [Security](https://github.com/fssrepository/myscoutee-security/commit/cfbfd6e)\n\n## Measured effort\n\n**506,533,141 tokens**, **8.113536 active / 8.113536 allocated hours**, **4,624 unique responses**, **$136.26 estimated Standard API equivalent**, across 14 retained Codex root sessions through `2026-10-28T04:07:42Z`. Response IDs are deduplicated and overlapping active intervals unioned. Later Git/roadmap closeout is outside this cutoff. Account heatmap usage overlaps this task measurement and is never added to it. No separate ChatGPT conversation-token total is available. [Measurement script](https://github.com/fssrepository/myscoutee-roadmap/blob/master/guides/statistics/myscoutee/measure-msc130.py).",
+      "state": "CLOSED",
+      "state_reason": "completed",
+      "issue": {
+        "repository": "fssrepository/myscoutee-roadmap",
+        "number": 170,
+        "url": "https://github.com/fssrepository/myscoutee-roadmap/issues/170",
+        "node_id": "I_kwDOU1_9-s8AAAABafIxXQ"
+      },
+      "values": {
+        "Task ID": "MSC-130",
+        "Status": "Done",
+        "Workstream": "Tooling",
+        "Started": "2026-10-27",
+        "Finished": "2026-10-28",
+        "Tokens M": 506.533141,
+        "API equiv USD": 136.26,
+        "Active h": 8.113536,
+        "Allocated h": 8.113536,
+        "Models": "gpt-6-sol",
+        "Reasoning": "high",
+        "Evidence": "Done: 2FA, Elastic, Big Data, infrastructure and security laboratories, architecture guides, and related CI/nginx updates; 14 retained Codex sessions, 506,533,141 tokens / 8.113536 h through 2026-10-28T04:07:42Z. Account heatmap is separate."
       }
     }
   ]

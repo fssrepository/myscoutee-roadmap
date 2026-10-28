@@ -1,7 +1,7 @@
 # Combined token activity
 
 The README chart is generated from `account-coverage.json`. It shows combined
-daily tokens, including cached input, from February through October 26, 2026 (latest returned day, partial).
+daily tokens, including cached input, from February through October 27, 2026 (latest returned day).
 It does not split the presentation by account or allocate usage to projects.
 
 The same JSON preserves the daily input series under the account-name initials
@@ -62,3 +62,5 @@ The October-25 refresh updates returned October account `r` buckets through Octo
 The October-26 refresh updates returned October account r records through October 26 (partial). Combined daily total: **48,617,018,763 tokens**; current account lifetime: **46,370,446,562 tokens**. September and other-account rows are unchanged. Task usage is not added.
 
 The October-26 follow-up rechecked the Codex account usage API after the Pages/viewer closeout. It returned the same exact current-account lifetime (**46,370,446,562**) and October-26 partial bucket (**92,026,823**) as the preceding report. The chart was regenerated and visually inspected; SVG and PNG hashes are unchanged because their measured input is unchanged. The separate MSC-129 task ledger was extended from retained session records; those task tokens are not added to the account chart.
+
+The October-28 check revised the October-26 current-account bucket to **215,280,704** and added October 27 at **121,291,352**. The combined recorded daily total is now **48,861,563,996** and the current account lifetime is **46,614,991,795**. The September 30 chart baseline and the two other account series remain unchanged. The API returned no October 28 daily bucket, so the chart has no value for that date. The PNG and SVG were regenerated and visually checked. The 14-session MSC-130 task measurement is separate and is not added to the heatmap.

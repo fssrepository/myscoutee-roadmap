@@ -1,16 +1,16 @@
 # Delivery history and project backups
 
-MSC-129 is closed: reproducible CI/CD, accepted template monolith/KVM/VMware, three manuals, permanent Pages branches and centered document loading. **337,935,588 tokens**, **15.062277 active / 15.062277 allocated hours**, **2,774 unique responses**, **$426.03 frozen Standard API equivalent**, through `2026-10-26T15:05:40Z`. Usage is task allocation, not an account balance.
+MSC-130 is closed: the 2FA and identity laboratory, supporting technology labs, integration guides and repository cleanup. **506,533,141 tokens**, **8.113536 active / allocated hours**, **4,624 unique responses**, **$136.26 estimated Standard API equivalent**, through `2026-10-28T04:07:42Z`. This is task allocation, separate from account usage. The subsequent Git and roadmap closeout is outside the measurement cutoff.
 
 | Project | Tracked tasks | Tasks with measurements | Tokens (M), estimated | Allocated activity (h) | API equivalent (USD), estimated |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 127 | 127 | 43,565.575666 | 1,137.044 | $33,267.04 |
+| [MyScoutee](https://github.com/users/fssrepository/projects/2) | 128 | 128 | 44,072.108807 | 1,145.158 | $33,403.30 |
 | [MyScoutee Old](https://github.com/users/fssrepository/projects/3) | 6 | 6 | 3.4 | 0.2 AI; manual unknown | $5.43 |
 | [E-Kozig](https://github.com/users/fssrepository/projects/4) | 16 | 16 | 464.348015 | 9.602 | $262.23 |
 | [Millennium Math Problems](https://github.com/users/fssrepository/projects/5) | 19 | 19 | 1,300.786118 | 44.254 | $748.75 |
 | [AI Pilot](https://github.com/users/fssrepository/projects/7) | 1 | 1 | 55.517627 | 0.223 incremental | $78.50 |
 
-**Current recorded task allocation: 45,389,655,529 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. AI Pilot and the EKO-16 follow-up tokens come from separate response IDs. Their concurrent 25.22-second interval stays allocated to AIP-1. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
+**Current recorded task allocation: 45,896,188,670 tokens.** Other Projects retain their existing measurement boundaries. Latest checkpoints are counted once by stable task ID; the Template Project is another view of shared tasks, not additional allocation. AI Pilot and the EKO-16 follow-up tokens come from separate response IDs. Their concurrent 25.22-second interval stays allocated to AIP-1. Activity includes tool/network waits and is not human labor. Account and task usage overlap; API equivalents are estimates, not invoices.
 
 <details>
 <summary>Preserved October 1 reconstruction</summary>
@@ -44,6 +44,7 @@ The original reconstruction covered 11 source repositories and 226 consolidated 
 | [MSC-126](https://github.com/fssrepository/myscoutee-roadmap/issues/164) | 288.442597 | 9.920 | 9.920 | $51.19 |
 | [MSC-127](https://github.com/fssrepository/myscoutee-roadmap/issues/166) | 1,237.840553 | 30.688 | 30.292 | $218.94 |
 | [MSC-128](https://github.com/fssrepository/myscoutee-roadmap/issues/165) | 663.694269 | 17.308 | 17.308 | $222.41 |
+| [MSC-130](https://github.com/fssrepository/myscoutee-roadmap/issues/170) | 506.533141 | 8.114 | 8.114 | $136.26 |
 | [MATH-19](https://github.com/fssrepository/myscoutee-roadmap/issues/167) | 14.834641 | 0.823521 | 0.798249 | $21.07 |
 | [AIP-1](https://github.com/fssrepository/myscoutee-roadmap/issues/169) | 55.517627 | 3.297411 | 0.223150 | $78.50 |
 | [EKO-16](https://github.com/fssrepository/myscoutee-roadmap/issues/146), cumulative | 8.097985 | 0.247052 | 0.240047 | $4.61 |
